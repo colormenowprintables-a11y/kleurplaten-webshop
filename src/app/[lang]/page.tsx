@@ -100,31 +100,28 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const difficultyCards = [
     {
       slug:'kids',
-      name: isEn ?'Easy':'Makkelijk',
-      badge: isEn ?'Level 1':'Niveau 1',
-      desc: isEn ?'Simple shapes & fun designs for preschoolers and toddlers':'Eenvoudige vormen & leuke designs voor peuters en kleuters',
+      name: isEn ? 'Easy (Level 1)' : 'Makkelijk (Niveau 1)',
+      badge: isEn ? 'Level 1' : 'Niveau 1',
+      desc: isEn ? 'Simple shapes & fun designs for toddlers & preschoolers' : 'Eenvoudige vormen & vrolijke designs voor peuters en kleuters',
       className: styles.ageKids,
-      hubSlug:'kids-tv-shows',
-      themeSlug:'paw-patrol',
-      ageSlug:'kids'},
+      href: `/${lang}/kids-adventures/monster-trucks/all-ages`
+    },
     {
       slug:'teens',
-      name: isEn ?'Medium':'Gemiddeld',
-      badge: isEn ?'Level 2':'Niveau 2',
-      desc: isEn ?'Creative scenes with rich details and vibrant characters':'Creatieve scènes met leuke details en populaire karakters',
+      name: isEn ? 'Medium (Level 2)' : 'Gemiddeld (Niveau 2)',
+      badge: isEn ? 'Level 2' : 'Niveau 2',
+      desc: isEn ? 'Creative scenes with rich details & vibrant characters' : 'Creatieve scènes met leuke details & vrolijke dieren',
       className: styles.ageTeens,
-      hubSlug:'gaming-virtual-worlds',
-      themeSlug:'pokemon',
-      ageSlug:'teens'},
+      href: `/${lang}/cute-animals-fantasy/cute-animals/all-ages`
+    },
     {
       slug:'adults',
-      name: isEn ?'Hard':'Moeilijk',
-      badge: isEn ?'Level 3':'Niveau 3',
-      desc: isEn ?'Intricate floral mandalas and relaxing complex line art':'Ingewikkelde bloemenmandala\'s en ontspannende lijntekeningen',
+      name: isEn ? 'Hard (Level 3)' : 'Moeilijk (Niveau 3)',
+      badge: isEn ? 'Level 3' : 'Niveau 3',
+      desc: isEn ? 'Intricate floral mandalas & relaxing complex line art' : 'Ingewikkelde bloemenmandalas & ontspannende lijntekeningen',
       className: styles.ageAdults,
-      hubSlug:'art-aesthetic',
-      themeSlug:'mandalas-sacred-geometry',
-      ageSlug:'adults'}
+      href: `/${lang}/mindful-mandalas-patterns/mandalas/all-ages`
+    }
   ];
 
   const quickShortcuts = [
@@ -480,7 +477,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             {difficultyCards.map((age, i) => (
               <ScrollReveal key={age.name} delay={(i % 4) as 0 | 1 | 2 | 3 | 4}>
                 <Link
-                  href={`/${lang}/${age.hubSlug}/${age.themeSlug}/${age.ageSlug}`}
+                  href={age.href}
                   className={`${styles.ageCard} ${age.className}`}
                 >
                   <div className={styles.ageEmoji}>{age.badge}</div>
