@@ -92,40 +92,40 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
       <h3>Ontdek ook gerelateerde categorieën</h3>
       <p>Bekijk ook deze ontspannende patroon- en kunstcategorieën:</p>
       RELATED_LINKS`,
-  },'disney-princesses': {
-    enIntro:`Immerse yourself in a magical world with free printable Disney Princesses coloring pages! Print iconic heroines like Cinderella, Belle, Ariel, Jasmine, Snow White, and Rapunzel. High-resolution templates perfect for fairytale lovers, birthday activities, and creative family fun.`,
-    nlIntro:`Stap binnen in een betoverende wereld met exclusieve Disney Prinsessen kleurplaten om uit te printen! Kleur je favoriete prinsessen zoals Assepoester, Belle, Ariël, Jasmine, Sneeuwwitje en Rapunzel. Hoge resolutie kleurplaten ideaal voor kindfeestjes, knutselmiddagen en sprookjesliefhebbers.`,
-    relatedSlugs: ['disney-frozen','disney-ariel','disney-belle','princesses-castles','fairies'],
-    enBottomHtml:`<h2>Magical Disney Princess Coloring Pages for Every Fan</h2>
-      <p>From classic royal ballgowns to magical kingdom adventures, our Disney Princess collection brings magical fairytales to life right on your paper.</p>
+  },'promo-packs': {
+    enIntro:`Immerse yourself in a magical world with free printable Coloring Book Princesses coloring pages! Print iconic heroines like Cinderella, Belle, Ariel, Jasmine, Snow White, and Rapunzel. High-resolution templates perfect for fairytale lovers, birthday activities, and creative family fun.`,
+    nlIntro:`Stap binnen in een betoverende wereld met exclusieve Coloring Book Prinsessen kleurplaten om uit te printen! Kleur je favoriete prinsessen zoals Assepoester, Belle, Ariël, Jasmine, Sneeuwwitje en Rapunzel. Hoge resolutie kleurplaten ideaal voor kindfeestjes, knutselmiddagen en sprookjesliefhebbers.`,
+    relatedSlugs: ['promo-packs','promo-packs','promo-packs','princesses-castles','fairies'],
+    enBottomHtml:`<h2>Magical Coloring Book Princess Coloring Pages for Every Fan</h2>
+      <p>From classic royal ballgowns to magical kingdom adventures, our Coloring Book Princess collection brings magical fairytales to life right on your paper.</p>
 
       <h3>Age Groups & Difficulty Levels</h3>
       <p>Explore royalty tailored to every age:</p>
       <ul>
         <li><a href="URL_KIDS"><strong>Easy / Kids</strong></a>: Large outlines of princesses with cute animals, perfect for toddlers and young fairytale lovers.</li>
         <li><a href="URL_TEENS"><strong>Medium / Teens</strong></a>: Detailed ballgown dresses, royal castle backgrounds, and romantic scenes for kids and teens.</li>
-        <li><a href="URL_ADULTS"><strong>Hard / Adults</strong></a>: Artistic fairytale portrait art and intricate dress patterns for adult Disney fans.</li>
+        <li><a href="URL_ADULTS"><strong>Hard / Adults</strong></a>: Artistic fairytale portrait art and intricate dress patterns for adult Coloring Book fans.</li>
       </ul>
 
       <h3>Free High Quality Printables</h3>
-      <p>Whether searching for <em>easy Disney princess coloring sheet PDF</em> or <em>printable princess castle coloring page</em>, download instantly and color your royal story today.</p>
+      <p>Whether searching for <em>easy Coloring Book princess coloring sheet PDF</em> or <em>printable princess castle coloring page</em>, download instantly and color your royal story today.</p>
 
       <h3>Explore Related Categories</h3>
       <p>Check out more fairytale magic:</p>
       RELATED_LINKS`,
-    nlBottomHtml:`<h2>Betoverende Disney Prinsessen Kleurplaten voor Jong en Oud</h2>
-      <p>Van klassieke baljurken tot magische kasteelavonturen: onze verzameling Disney prinsessen brengt de mooiste sprookjes tot leven op papier.</p>
+    nlBottomHtml:`<h2>Betoverende Coloring Book Prinsessen Kleurplaten voor Jong en Oud</h2>
+      <p>Van klassieke baljurken tot magische kasteelavonturen: onze verzameling Coloring Book prinsessen brengt de mooiste sprookjes tot leven op papier.</p>
 
       <h3>Leeftijdsgroepen & Moeilijkheidsgraden</h3>
       <p>Vind de mooiste kleurplaat afgestemd op leeftijd:</p>
       <ul>
         <li><a href="URL_KIDS"><strong>Makkelijk / Kinderen (Easy)</strong></a>: Duidelijke lijnen van prinsessen met hun schattige dierenvriendjes, perfect voor peuters en kleuters.</li>
         <li><a href="URL_TEENS"><strong>Gemiddeld / Tieners (Medium)</strong></a>: Gedetailleerde baljurken, koninklijke kasteelachtergronden en bekende sprookjesscènes voor tieners.</li>
-        <li><a href="URL_ADULTS"><strong>Moeilijk / Volwassenen (Hard)</strong></a>: Artistieke prinsessenportretten en complexe patronen voor volwassen Disney-liefhebbers.</li>
+        <li><a href="URL_ADULTS"><strong>Moeilijk / Volwassenen (Hard)</strong></a>: Artistieke prinsessenportretten en complexe patronen voor volwassen Coloring Book-liefhebbers.</li>
       </ul>
 
-      <h3>Gratis Printbare Disney Sjablonen</h3>
-      <p>Zoek je naar <em>exclusieve Disney prinsessen kleurplaat printen pdf</em> of <em>Assepoester en Belle kleurplaten voor kinderen</em>? Bij ColorMeNow download je alles exclusieve.</p>
+      <h3>Gratis Printbare Coloring Book Sjablonen</h3>
+      <p>Zoek je naar <em>exclusieve Coloring Book prinsessen kleurplaat printen pdf</em> of <em>Assepoester en Belle kleurplaten voor kinderen</em>? Bij ColorMeNow download je alles exclusieve.</p>
 
       <h3>Ontdek ook gerelateerde categorieën</h3>
       <p>Laat je betoveren door deze gerelateerde categorieën:</p>
@@ -157,9 +157,9 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
       RELATED_LINKS`,
   },
   'lilo-stitch': {
-    enIntro: `Say Aloha to our delightful collection of free printable Stitch coloring pages! Featuring Disney's mischievous yet lovable Experiment 626, Lilo, Angel, and Hawaiian island adventures. Download and print crisp, high-resolution A4 and Letter PDF coloring sheets for kids, teens, and Disney fans of all ages.`,
-    nlIntro: `Zeg Aloha tegen onze vrolijke verzameling exclusieve Stitch kleurplaten om uit te printen! Met het ondeugende blauwe ruimtewezen Experiment 626, Lilo, Angel en tropische Hawaïaanse avonturen. Download direct haarscherpe A4-printables voor kinderen, tieners en Disney-liefhebbers.`,
-    relatedSlugs: ['frozen', 'disney-princesses', 'cute-puppies-dogs', 'unicorns-pegasus'],
+    enIntro: `Say Aloha to our delightful collection of free printable Stitch coloring pages! Featuring Coloring Book's mischievous yet lovable Experiment 626, Lilo, Angel, and Hawaiian island adventures. Download and print crisp, high-resolution A4 and Letter PDF coloring sheets for kids, teens, and Coloring Book fans of all ages.`,
+    nlIntro: `Zeg Aloha tegen onze vrolijke verzameling exclusieve Stitch kleurplaten om uit te printen! Met het ondeugende blauwe ruimtewezen Experiment 626, Lilo, Angel en tropische Hawaïaanse avonturen. Download direct haarscherpe A4-printables voor kinderen, tieners en Coloring Book-liefhebbers.`,
+    relatedSlugs: ['frozen', 'promo-packs', 'cute-puppies-dogs', 'unicorns-pegasus'],
     enBottomHtml: `<h2>High-Resolution Free Printable Stitch Coloring Sheets</h2>
       <p>Stitch has captured hearts across the globe with his hilarious antics and deep love for family (Ohana). Our printable sheets capture Stitch playing guitar, eating ice cream, riding surfboards, and dressing up in cute costumes.</p>
       <h3>Difficulty Levels</h3>
@@ -198,15 +198,15 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
   'frozen': {
     enIntro: `Enter the winter wonderland of Arendelle with free printable Frozen coloring pages! Print enchanting designs of Queen Elsa, Princess Anna, Olaf the Snowman, Kristoff, and Sven. High-definition A4/Letter PDF templates ready for royal coloring fun.`,
     nlIntro: `Stap in de betoverende winterwereld van Arendelle met exclusieve Frozen kleurplaten om uit te printen! Kleur koningin Elsa, prinses Anna, sneeuwpop Olaf, Kristoff en rendier Sven in hoge resolutie A4-formaat. 100% exclusieve zonder registratie.`,
-    relatedSlugs: ['disney-princesses', 'unicorns-pegasus', 'fairies', 'princesses-castles'],
-    enBottomHtml: `<h2>Magical Elsa & Anna Frozen Coloring Pages for Kids & Disney Fans</h2>
+    relatedSlugs: ['promo-packs', 'unicorns-pegasus', 'fairies', 'princesses-castles'],
+    enBottomHtml: `<h2>Magical Elsa & Anna Frozen Coloring Pages for Kids & Coloring Book Fans</h2>
       <p>From Elsa's glittering ice palace to warm hugs with Olaf, our Frozen sheets transport colorists into a breathtaking snowy kingdom filled with magic and song. Whether recreating scenes from Frozen 1 and Frozen 2 or designing custom royal gowns, our line art brings Arendelle straight to your craft table.</p>
 
       <h3>Age Groups & Difficulty Levels</h3>
       <ul>
         <li><a href="URL_KIDS"><strong>Easy / Kids (Makkelijk)</strong></a>: Big, cheerful outlines of Olaf building snowmen, baby Sven, and young Anna with thick contours for toddlers and preschoolers.</li>
         <li><a href="URL_TEENS"><strong>Medium / Teens (Gemiddeld)</strong></a>: Elegant ice-magic poses of Queen Elsa, Princess Anna in coronation dress, and enchanted forest adventures for school kids.</li>
-        <li><a href="URL_ADULTS"><strong>Hard / Adults (Moeilijk)</strong></a>: Intricate snowflake mandalas, detailed ice crystal fractals, and artistic royal portraits for adult Disney enthusiasts.</li>
+        <li><a href="URL_ADULTS"><strong>Hard / Adults (Moeilijk)</strong></a>: Intricate snowflake mandalas, detailed ice crystal fractals, and artistic royal portraits for adult Coloring Book enthusiasts.</li>
       </ul>
 
       <h3>Creative Coloring Tips for Frozen Pages</h3>
@@ -281,7 +281,7 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
   'unicorns-pegasus': {
     enIntro: `Step into a fairy tale realm with our enchanting free printable unicorn coloring pages! Discover magical winged pegasi, rainbow unicorns, starry night skies, and baby unicorn foals. High-resolution PDF downloads for kids and fantasy lovers.`,
     nlIntro: `Betreed een sprookjeswereld vol magie met onze exclusieve eenhoorn kleurplaten om uit te printen! Met magische regenbogen, sterrenhemels, gevleugelde pegasus-paarden en schattige baby eenhoorns op A4-formaat.`,
-    relatedSlugs: ['frozen', 'disney-princesses', 'cute-kittens-cats', 'cute-puppies-dogs'],
+    relatedSlugs: ['frozen', 'promo-packs', 'cute-kittens-cats', 'cute-puppies-dogs'],
     enBottomHtml: `<h2>Magical Unicorn & Rainbow Coloring Pages</h2>
       <p>Perfect for dreamy afternoons, glitter pens, and pastel colors. Free high-definition printables ready to spark pure imagination.</p>
       <h3>Difficulty Levels</h3>

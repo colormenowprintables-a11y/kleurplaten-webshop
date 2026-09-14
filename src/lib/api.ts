@@ -100,7 +100,7 @@ export function safeJsonLd(data: object): string {
 
 const hubTranslations: Record<string, Record<string, { title: string; description: string }>> = {
   de: {
-    'disney-pixar': { title: 'Disney & Pixar', description: 'Entdecke magische Malvorlagen deiner Disney & Pixar Favoriten wie Frozen, Toy Story und König der Löwen.' },
+    'special-deals-promo-packs': { title: 'Promo Packs', description: 'Exclusive coloring book bundles and promo collections.' },
     'anime-manga': { title: 'Anime & Manga', description: 'Tolle Anime und Manga Ausmalbilder mit Dragon Ball, Naruto, One Piece und Pokémon.' },
     'gaming-virtual-worlds': { title: 'Gaming & Videospiele', description: 'Epische Gaming-Malvorlagen mit Fortnite, Minecraft, Roblox, Super Mario und Sonic.' },
     'superheroes-comic-universes': { title: 'Superhelden & Comics', description: 'Actiongeladene Malvorlagen und Ausmalbücher.' },
@@ -113,7 +113,7 @@ const hubTranslations: Record<string, Record<string, { title: string; descriptio
     'crafts-diy-learning': { title: 'Basteln, DIY & Lernen', description: 'Schöne Bastelvorlagen, Schritt-für-Schritt Zeichenanleitungen, Lern-Arbeitsblätter und Kalender.' },
   },
   fr: {
-    'disney-pixar': { title: 'Disney & Pixar', description: 'Découvrez des coloriages magiques de vos classiques Disney et Pixar comme La Reine des Neiges et Toy Story.' },
+    'special-deals-promo-packs': { title: 'Promo Packs', description: 'Exclusive coloring book bundles and promo collections.' },
     'anime-manga': { title: 'Anime & Manga', description: 'Superbes coloriages d\'anime et manga avec Dragon Ball, Naruto, One Piece et Pokémon.' },
     'gaming-virtual-worlds': { title: 'Jeux Vidéo & Mondes Virtuels', description: 'Coloriages épiques de jeux vidéo avec Fortnite, Minecraft, Roblox, Super Mario et Sonic.' },
     'superheroes-comic-universes': { title: 'Super-héros & Comics', description: 'Coloriages de super-héros pleins d\'action avec Spider-Man, Batman, Avengers et Superman.' },

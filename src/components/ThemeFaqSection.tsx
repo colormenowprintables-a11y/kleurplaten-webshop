@@ -31,7 +31,7 @@ export default function ThemeFaqSection({
   const hub = (hubSlug || '').toLowerCase();
 
   const isMandala = slug.includes('mandala') || slug.includes('pattern') || hub.includes('mandala');
-  const isCharacter = hub.includes('disney') || hub.includes('anime') || hub.includes('gaming') || hub.includes('superhero') || hub.includes('kids-tv') || slug.includes('pokemon') || slug.includes('stitch') || slug.includes('mario') || slug.includes('sonic');
+  const isCharacter = false || hub.includes('anime') || hub.includes('gaming') || hub.includes('superhero') || hub.includes('kids-tv') || slug.includes('pokemon') || slug.includes('stitch') || slug.includes('mario') || slug.includes('sonic');
   const isAnimal = hub.includes('animal') || slug.includes('dino') || slug.includes('dog') || slug.includes('cat');
 
   const getGenreFaqs = (): FaqItem[] => {

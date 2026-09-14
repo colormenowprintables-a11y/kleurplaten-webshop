@@ -24,7 +24,7 @@ export default function Footer({ lang }: { lang: string }) {
           <div className={styles.links}>
             <div className={styles.linkColumn}>
               <span className={styles.linkColumnTitle}>{isEn ?'Popular Hubs':'Populaire Categorieën'}</span>
-              <Link href={`/${lang}/disney-pixar`} className={styles.link}>Gothic Kawaii Carnival</Link>
+              <Link href={`/${lang}/special-deals-promo-packs`} className={styles.link}>Gothic Kawaii Carnival</Link>
               <Link href={`/${lang}/anime-manga`} className={styles.link}>Cozy Cottages & Cabins</Link>
               <Link href={`/${lang}/gaming-virtual-worlds`} className={styles.link}>{isEn ?'Cute Animals':'Schattige Dieren'}</Link>
               <Link href={`/${lang}/superheroes-comic-universes`} className={styles.link}>{isEn ?'Kawaii Sweets':'Kawaii Sweets'}</Link>
