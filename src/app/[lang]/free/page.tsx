@@ -164,19 +164,55 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
                     ⬇️ {isNl ? 'Print Gratis A4 PDF' : 'Print Free A4 PDF'}
                   </Link>
 
-                  <Link
-                    href={`/${lang}/${sample.slug}`}
+                  <div
                     style={{
+                      marginTop: '0.5rem',
+                      background: '#FEF3C7',
+                      border: '1.5px solid #FCD34D',
+                      borderRadius: '12px',
+                      padding: '0.6rem 0.75rem',
                       textAlign: 'center',
-                      fontSize: '0.8rem',
-                      color: '#64748B',
-                      fontWeight: 700,
-                      textDecoration: 'underline',
-                      marginTop: '0.2rem',
                     }}
                   >
-                    {isNl ? 'Bekijk compleet kleurboek (€ 1,99)' : 'View full coloring book (€1.99)'}
-                  </Link>
+                    <p style={{ fontSize: '0.78rem', color: '#92400E', fontWeight: 800, margin: '0 0 0.35rem' }}>
+                      {isNl
+                        ? '💡 Vind je deze pagina leuk?'
+                        : isDe
+                        ? '💡 Gefällt dir diese Seite?'
+                        : isFr
+                        ? '💡 Vous aimez cette page?'
+                        : '💡 Love this page?'}
+                    </p>
+                    <Link
+                      href={`/${lang}/${sample.slug}`}
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.25rem',
+                        fontSize: '0.82rem',
+                        fontWeight: 900,
+                        color: '#B45309',
+                        textDecoration: 'none',
+                        background: '#FFFFFF',
+                        padding: '0.4rem 0.75rem',
+                        borderRadius: '8px',
+                        border: '1px solid #FDE68A',
+                        width: '100%',
+                        boxShadow: '0 2px 6px rgba(180, 83, 9, 0.1)',
+                      }}
+                    >
+                      <span>
+                        {isNl
+                          ? 'Klik hier voor het hele boek (€ 1,99) →'
+                          : isDe
+                          ? 'Klicke hier für das ganze Buch (€ 1,99) →'
+                          : isFr
+                          ? 'Cliquez ici pour le livre complet (1,99 €) →'
+                          : 'Click here for the full book (€1.99) →'}
+                      </span>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

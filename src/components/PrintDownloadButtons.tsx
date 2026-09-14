@@ -275,6 +275,45 @@ export default function PrintDownloadButtons({
             ? 'Download PNG Image'
             : 'Download PNG Afbeelding'}
         </button>
+
+        {/* Full Book Upsell Callout Box */}
+        <div
+          style={{
+            marginTop: '0.85rem',
+            background: 'linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)',
+            border: '1.5px solid #FCD34D',
+            borderRadius: '16px',
+            padding: '0.85rem 1rem',
+            textAlign: 'center',
+            boxShadow: '0 4px 12px rgba(245, 158, 11, 0.12)',
+          }}
+        >
+          <p style={{ fontSize: '0.82rem', color: '#92400E', fontWeight: 800, margin: '0 0 0.4rem' }}>
+            {isEn ? '💡 Love this page?' : lang === 'de' ? '💡 Gefällt dir diese Seite?' : lang === 'fr' ? '💡 Vous aimez cette page?' : '💡 Vind je deze pagina leuk?'}
+          </p>
+          <Link
+            href={`/${lang}`}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '0.35rem',
+              fontSize: '0.88rem',
+              fontWeight: 900,
+              color: '#FFFFFF',
+              textDecoration: 'none',
+              background: 'linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%)',
+              padding: '0.6rem 1.1rem',
+              borderRadius: '9999px',
+              width: '100%',
+              boxShadow: '0 3px 10px rgba(255, 107, 53, 0.35)',
+            }}
+          >
+            <span>
+              {isEn ? 'Click here for the full book (€1.99) →' : lang === 'de' ? 'Klicke hier für das ganze Buch (€ 1,99) →' : lang === 'fr' ? 'Cliquez ici pour le livre complet (1,99 €) →' : 'Klik hier voor het hele boek (€ 1,99) →'}
+            </span>
+          </Link>
+        </div>
       </div>
 
       {/* Download Preparation Interstitial Modal with AdSlot */}
