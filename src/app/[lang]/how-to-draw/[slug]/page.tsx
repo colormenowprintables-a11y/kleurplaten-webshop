@@ -9,7 +9,7 @@ import { HOW_TO_DRAW_LESSONS, getLessonBySlug, getRelatedLessons } from '@/data/
 
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
-  for (const lang of ['en', 'nl']) {
+  for (const lang of ['en', 'nl', 'de', 'fr']) {
     for (const lesson of HOW_TO_DRAW_LESSONS) {
       params.push({ lang, slug: lesson.slug });
     }
@@ -148,7 +148,7 @@ export default async function HowToDrawLessonPage({
               <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
                 {lesson.coloringPageUrl && (
                   <Link
-                    href={lesson.coloringPageUrl}
+                    href={`/${lang}${lesson.coloringPageUrl}`}
                     className="btn-primary"
                     style={{ fontSize: '0.925rem', padding: '0.75rem 1.25rem' }}
                   >

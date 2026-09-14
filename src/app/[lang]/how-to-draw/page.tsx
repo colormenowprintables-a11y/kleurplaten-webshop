@@ -8,7 +8,7 @@ import SafeImage from '@/components/SafeImage';
 import { HOW_TO_DRAW_LESSONS } from'@/data/howToDrawData';
 
 export async function generateStaticParams() {
-  return [{ lang:'en'}, { lang:'nl'}];
+  return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {

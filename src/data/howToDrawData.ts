@@ -37,8 +37,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een T-Rex Dinosaurus",
     "descEn": "Learn how to draw a fun, easy t-rex dinosaur step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke t-rex dinosaurus tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "dinosaur-adventures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -88,8 +88,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/A_Friendly_Spiky_Dinosaur_1788433082694.webp",
-    "coloringPageSlug": "dinosaur-adventures-1",
-    "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/kids/dinosaur-adventures-1"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-triceratops",
@@ -101,8 +101,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Triceratops Dinosaurus",
     "descEn": "Learn how to draw a fun, easy triceratops dinosaur step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke triceratops dinosaurus tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "dinosaur-adventures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -152,8 +152,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Alligator_Dinosaur_1787903491461.webp",
-    "coloringPageSlug": "dinosaur-adventures-2",
-    "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/teens/dinosaur-adventures-2"
+    "coloringPageSlug": "happy-mountain-animals-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/happy-mountain-animals-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-brachiosaurus",
@@ -165,8 +165,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Brachiosaurus Langnek",
     "descEn": "Learn how to draw a fun, easy brachiosaurus longneck step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke brachiosaurus langnek tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "dinosaur-adventures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -216,8 +216,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Character_Rides_Dinosaur_1787914182842.webp",
-    "coloringPageSlug": "dinosaur-adventures-3",
-    "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/toddlers/dinosaur-adventures-3"
+    "coloringPageSlug": "tiny-food-friends-cookie-kingdom-cuties-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-cookie-kingdom-cuties-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-stegosaurus",
@@ -229,8 +229,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Stegosaurus",
     "descEn": "Learn how to draw a fun, easy stegosaurus step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke stegosaurus tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "dinosaur-adventures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -280,8 +280,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_1787912134785.webp",
-    "coloringPageSlug": "dinosaur-adventures-4",
-    "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/kids/dinosaur-adventures-4"
+    "coloringPageSlug": "tiny-food-friends-mushroom-meadow-minis-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-meadow-minis-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pterodactyl",
@@ -293,8 +293,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Pterodactylus Vliegdino",
     "descEn": "Learn how to draw a fun, easy pterodactyl flying dino step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke pterodactylus vliegdino tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "dinosaur-adventures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -344,8 +344,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_Adventure_1787912454417.webp",
-    "coloringPageSlug": "dinosaur-adventures-5",
-    "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/teens/dinosaur-adventures-5"
+    "coloringPageSlug": "tiny-food-friends-mushroom-munchies-mate-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-munchies-mate-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-puppy",
@@ -357,8 +357,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Schattige Puppy Hond",
     "descEn": "Learn how to draw a fun, easy cute puppy dog step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke schattige puppy hond tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "cute-pets-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -408,8 +408,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Ancient%20Mythology/Athena_with_owl_or_Goddess_Athena_holding_a_shield_1788270214760.webp",
-    "coloringPageSlug": "birds-of-the-world-6",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-6"
+    "coloringPageSlug": "tiny-food-friends-peanut-paradise-pal-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-paradise-pal-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-kitten",
@@ -421,8 +421,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Speels Katje",
     "descEn": "Learn how to draw a fun, easy playful kitten step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke speels katje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "cute-pets-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -472,8 +472,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_Flight_1788438810635.webp",
-    "coloringPageSlug": "birds-of-the-world-7",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-7"
+    "coloringPageSlug": "tiny-food-friends-peanut-patch-pals-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-patch-pals-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-bunny",
@@ -485,8 +485,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Pluizig Konijntje",
     "descEn": "Learn how to draw a fun, easy fluffy bunny rabbit step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke pluizig konijntje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "cute-pets-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -536,8 +536,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_Flight.webp",
-    "coloringPageSlug": "birds-of-the-world-8",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-8"
+    "coloringPageSlug": "tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-lion",
@@ -549,8 +549,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Koninklijke Leeuw",
     "descEn": "Learn how to draw a fun, easy majestic lion king step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke koninklijke leeuw tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "safari-jungle",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -600,8 +600,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_flight_1.webp",
-    "coloringPageSlug": "birds-of-the-world-9",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-9"
+    "coloringPageSlug": "tiny-world-celestial-friends-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-celestial-friends-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-elephant",
@@ -613,8 +613,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Baby Olifantje",
     "descEn": "Learn how to draw a fun, easy baby elephant step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke baby olifantje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "safari-jungle",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -664,8 +664,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_in_flight_1788438558681.webp",
-    "coloringPageSlug": "birds-of-the-world-10",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-10"
+    "coloringPageSlug": "tiny-world-coral-reef-explorers-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-coral-reef-explorers-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-giraffe",
@@ -677,8 +677,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Lange Giraf",
     "descEn": "Learn how to draw a fun, easy tall giraffe step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke lange giraf tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "safari-jungle",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -728,8 +728,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bears_Garden_1788559958256.webp",
-    "coloringPageSlug": "birds-of-the-world-11",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-11"
+    "coloringPageSlug": "tiny-world-enchanted-forest-critters-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-enchanted-forest-critters-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-panda",
@@ -741,8 +741,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Reuze Pandabeer",
     "descEn": "Learn how to draw a fun, easy giant panda bear step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke reuze pandabeer tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "cute-pets-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -792,8 +792,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-Like_Creature_Landing_1787900907865.webp",
-    "coloringPageSlug": "birds-of-the-world-12",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-12"
+    "coloringPageSlug": "tiny-world-garden-gnome-hideaway-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-garden-gnome-hideaway-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-dolphin",
@@ -805,8 +805,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Springende Dolfijn",
     "descEn": "Learn how to draw a fun, easy leaping dolphin step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke springende dolfijn tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "ocean-sea-creatures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -856,8 +856,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-headed_Character_Drinks_Tea_With_Female_Artist_1788369193193.webp",
-    "coloringPageSlug": "birds-of-the-world-13",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-13"
+    "coloringPageSlug": "tiny-world-hidden-gnome-village-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-hidden-gnome-village-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-sea-turtle",
@@ -869,8 +869,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Zeeschildpad",
     "descEn": "Learn how to draw a fun, easy sea turtle step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke zeeschildpad tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "ocean-sea-creatures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -920,8 +920,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_Nature_1788441894503.webp",
-    "coloringPageSlug": "birds-of-the-world-14",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-14"
+    "coloringPageSlug": "tiny-world-miniature-garden-tea-gathering-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-miniature-garden-tea-gathering-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-shark",
@@ -933,8 +933,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Witte Haai",
     "descEn": "Learn how to draw a fun, easy great white shark step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke witte haai tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "ocean-sea-creatures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -984,8 +984,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_a_picnic_1788438576629.webp",
-    "coloringPageSlug": "birds-of-the-world-15",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-15"
+    "coloringPageSlug": "tiny-world-starry-sky-companions-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-starry-sky-companions-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-owl",
@@ -997,8 +997,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Wijze Bosuil",
     "descEn": "Learn how to draw a fun, easy wise forest owl step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke wijze bosuil tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "birds-insects",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1048,8 +1048,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_nature_scene_1788434055448.webp",
-    "coloringPageSlug": "birds-of-the-world-16",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-16"
+    "coloringPageSlug": "tiny-world-tea-party-with-insects-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-tea-party-with-insects-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-fox",
@@ -1061,8 +1061,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Slimme Rode Vos",
     "descEn": "Learn how to draw a fun, easy clever red fox step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke slimme rode vos tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "forest-woodland",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1112,8 +1112,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_over_serene_lake_scene_1788438486851.webp",
-    "coloringPageSlug": "birds-of-the-world-17",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-17"
+    "coloringPageSlug": "tiny-world-underwater-adventure-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-underwater-adventure-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-bear",
@@ -1125,8 +1125,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Grizzlybeer",
     "descEn": "Learn how to draw a fun, easy grizzly bear step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke grizzlybeer tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "forest-woodland",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1176,8 +1176,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Blippi_the_Bird_1787912939769.webp",
-    "coloringPageSlug": "birds-of-the-world-18",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-18"
+    "coloringPageSlug": "tiny-world-whispering-woodland-creatures-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-whispering-woodland-creatures-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-frog",
@@ -1189,8 +1189,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Springende Kikker",
     "descEn": "Learn how to draw a fun, easy jumping frog step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke springende kikker tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "forest-woodland",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1240,8 +1240,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_1787902999551.webp",
-    "coloringPageSlug": "birds-of-the-world-19",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-19"
+    "coloringPageSlug": "whimsical-animals-animal-parade-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-animal-parade-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-horse",
@@ -1253,8 +1253,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Galopperend Paard",
     "descEn": "Learn how to draw a fun, easy galloping horse step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke galopperend paard tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "farm-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1304,8 +1304,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Farm%20Animals/Coloring_Sheep_Family_1788440926447.webp",
-    "coloringPageSlug": "farm-animals-20",
-    "coloringPageUrl": "/en/animals-wildlife/farm-animals/toddlers/farm-animals-20"
+    "coloringPageSlug": "whimsical-animals-arctic-adventures-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-arctic-adventures-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-koala",
@@ -1317,8 +1317,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Lieve Koala",
     "descEn": "Learn how to draw a fun, easy sweet koala step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke lieve koala tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "cute-pets-animals",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1368,8 +1368,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_with_Plant_1787926462721.webp",
-    "coloringPageSlug": "birds-of-the-world-21",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-21"
+    "coloringPageSlug": "whimsical-animals-sweet-playful-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-sweet-playful-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-kangaroo",
@@ -1381,8 +1381,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Kangoeroe met Baby",
     "descEn": "Learn how to draw a fun, easy kangaroo with joey step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke kangoeroe met baby tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "safari-jungle",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1432,8 +1432,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celestial_Woman_with_Peacock_Feathers_1788283696862.webp",
-    "coloringPageSlug": "birds-of-the-world-22",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-22"
+    "coloringPageSlug": "whimsical-animals-woodland-retreat-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-woodland-retreat-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-penguin",
@@ -1445,8 +1445,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Keizerspinguïn",
     "descEn": "Learn how to draw a fun, easy emperor penguin step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke keizerspinguïn tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "ocean-sea-creatures",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1496,8 +1496,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celtic_Cross_and_Owl_Coloring_Page_1787899190306.webp",
-    "coloringPageSlug": "birds-of-the-world-23",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-23"
+    "coloringPageSlug": "whimsical-bunny-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-bunny-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-toucan",
@@ -1509,8 +1509,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Tropische Toekan",
     "descEn": "Learn how to draw a fun, easy tropical toucan step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke tropische toekan tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "birds-insects",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1560,8 +1560,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Character_in_nature_with_a_bird_companion_1788368079409.webp",
-    "coloringPageSlug": "birds-of-the-world-24",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-24"
+    "coloringPageSlug": "whimsical-tree-animals-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-tree-animals-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-hedgehog",
@@ -1573,8 +1573,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Schattig Egeltje",
     "descEn": "Learn how to draw a fun, easy cute hedgehog step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke schattig egeltje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "animals-wildlife",
-    "relatedThemeSlug": "forest-woodland",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -1624,8 +1624,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Colorful_birds_by_an_egg-shaped_plant_1788559949249.webp",
-    "coloringPageSlug": "birds-of-the-world-25",
-    "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-25"
+    "coloringPageSlug": "whimsical-water-meadow-animals-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-water-meadow-animals-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-unicorn",
@@ -1637,8 +1637,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Magische Eenhoorn",
     "descEn": "Learn how to draw a fun, easy magical unicorn step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke magische eenhoorn tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "unicorns-pegasus",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -1688,8 +1688,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788447944112.webp",
-    "coloringPageSlug": "unicorns-pegasus-26",
-    "coloringPageUrl": "/en/fantasy-fairytales/unicorns-pegasus/toddlers/unicorns-pegasus-26"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-dragon",
@@ -1701,8 +1701,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vriendelijke Vuurspuwende Draak",
     "descEn": "Learn how to draw a fun, easy friendly fire dragon step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vriendelijke vuurspuwende draak tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "dragons-mythical",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -1752,8 +1752,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447014944.webp",
-    "coloringPageSlug": "dragons-27",
-    "coloringPageUrl": "/en/fantasy-fairytales/dragons/teens/dragons-27"
+    "coloringPageSlug": "aquatic-abode-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-mermaid",
@@ -1765,8 +1765,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Zeemeermin Prinses",
     "descEn": "Learn how to draw a fun, easy mermaid princess step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke zeemeermin prinses tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -1816,8 +1816,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454733282.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-28",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-28"
+    "coloringPageSlug": "burger-buddies-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-fairy",
@@ -1829,8 +1829,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gevleugelde Tuinfee",
     "descEn": "Learn how to draw a fun, easy winged garden fairy step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gevleugelde tuinfee tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -1880,8 +1880,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454742518.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-29",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-29"
+    "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-castle",
@@ -1893,8 +1893,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Middeleeuws Sprookjeskasteel",
     "descEn": "Learn how to draw a fun, easy medieval fairytale castle step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke middeleeuws sprookjeskasteel tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -1944,8 +1944,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454751534.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-30",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-30"
+    "coloringPageSlug": "whispering-woods-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pirate",
@@ -1957,8 +1957,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Stoere Piratenkapitein",
     "descEn": "Learn how to draw a fun, easy pirate captain step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke stoere piratenkapitein tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2008,8 +2008,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454760781.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-31",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-31"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pirate-ship",
@@ -2021,8 +2021,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Piratenschip op Zee",
     "descEn": "Learn how to draw a fun, easy pirate galleon ship step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke piratenschip op zee tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2072,8 +2072,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454770029.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-32",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-32"
+    "coloringPageSlug": "aquatic-abode-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-treasure-chest",
@@ -2085,8 +2085,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gouden Schatkist",
     "descEn": "Learn how to draw a fun, easy treasure chest step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gouden schatkist tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2136,8 +2136,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454779302.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-33",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-33"
+    "coloringPageSlug": "burger-buddies-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-astronaut",
@@ -2149,8 +2149,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Ruimte Astronaut",
     "descEn": "Learn how to draw a fun, easy space astronaut step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke ruimte astronaut tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "space-rockets",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2200,8 +2200,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140629650.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-34",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-34"
+    "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-alien-ufo",
@@ -2213,8 +2213,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Schattige Alien & Vliegende Schotel",
     "descEn": "Learn how to draw a fun, easy cute alien & flying saucer step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke schattige alien & vliegende schotel tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "space-rockets",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2264,8 +2264,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140641722.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-35",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-35"
+    "coloringPageSlug": "whispering-woods-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-wizard",
@@ -2277,8 +2277,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Tovenaar met Toverstaf",
     "descEn": "Learn how to draw a fun, easy wizard with magic staff step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke tovenaar met toverstaf tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "dragons-mythical",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2328,8 +2328,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447095812.webp",
-    "coloringPageSlug": "dragons-36",
-    "coloringPageUrl": "/en/fantasy-fairytales/dragons/teens/dragons-36"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-ghost",
@@ -2341,8 +2341,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vriendelijk Spookje",
     "descEn": "Learn how to draw a fun, easy friendly halloween ghost step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vriendelijk spookje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "halloween-spooky",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2392,8 +2392,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513359545.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-37",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-37"
+    "coloringPageSlug": "aquatic-abode-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-knight",
@@ -2405,8 +2405,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Dappere Ridder in Harnas",
     "descEn": "Learn how to draw a fun, easy brave armored knight step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke dappere ridder in harnas tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2456,8 +2456,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454824752.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-38",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-38"
+    "coloringPageSlug": "burger-buddies-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-princess",
@@ -2469,8 +2469,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Koninklijke Prinses",
     "descEn": "Learn how to draw a fun, easy royal princess step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke koninklijke prinses tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2520,8 +2520,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454833932.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-39",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-39"
+    "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-crown",
@@ -2533,8 +2533,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gouden Koninklijke Kroon",
     "descEn": "Learn how to draw a fun, easy golden royal crown step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gouden koninklijke kroon tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2584,8 +2584,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454842736.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-40",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-40"
+    "coloringPageSlug": "whispering-woods-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-robot",
@@ -2597,8 +2597,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vrolijke Retro Robot",
     "descEn": "Learn how to draw a fun, easy retro smiling robot step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vrolijke retro robot tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "gaming-virtual-worlds",
-    "relatedThemeSlug": "cyberpunk-future",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2648,8 +2648,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Among%20Us/Among_Us__A_clean_printable_coloring_pag_1788416987708.webp",
-    "coloringPageSlug": "among-us-41",
-    "coloringPageUrl": "/en/gaming-virtual-worlds/among-us/toddlers/among-us-41"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-superhero-boy",
@@ -2661,8 +2661,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vliegende Superheld Jongen",
     "descEn": "Learn how to draw a fun, easy flying superhero boy step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vliegende superheld jongen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "superheroes-comic-universes",
-    "relatedThemeSlug": "monster-trucks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2712,8 +2712,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
-    "coloringPageSlug": "monster-trucks-42",
-    "coloringPageUrl": "/en/superheroes-comic-universes/monster-trucks/toddlers/monster-trucks-42"
+    "coloringPageSlug": "aquatic-abode-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-superhero-girl",
@@ -2725,8 +2725,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Sterke Superheldin Meisje",
     "descEn": "Learn how to draw a fun, easy mighty superhero girl step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke sterke superheldin meisje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "superheroes-comic-universes",
-    "relatedThemeSlug": "monster-trucks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2776,8 +2776,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
-    "coloringPageSlug": "monster-trucks-43",
-    "coloringPageUrl": "/en/superheroes-comic-universes/monster-trucks/kids/monster-trucks-43"
+    "coloringPageSlug": "burger-buddies-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-cute-monster",
@@ -2789,8 +2789,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vriendelijk Pluizig Monster",
     "descEn": "Learn how to draw a fun, easy furry cute monster step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vriendelijk pluizig monster tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "kids-tv-shows",
-    "relatedThemeSlug": "cartoons",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2840,8 +2840,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Blippi/Blippi__A_clean_printable_coloring_page__1788424304271.webp",
-    "coloringPageSlug": "blippi-44",
-    "coloringPageUrl": "/en/kids-tv-shows/blippi/teens/blippi-44"
+    "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-airship",
@@ -2853,8 +2853,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Steampunk Luchtschip",
     "descEn": "Learn how to draw a fun, easy steampunk airship step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke steampunk luchtschip tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "airplanes-helicopters",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2904,8 +2904,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Adventure_1786140665859.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-45",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-45"
+    "coloringPageSlug": "whispering-woods-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pumpkin",
@@ -2917,8 +2917,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vrolijke Halloween Pompoen",
     "descEn": "Learn how to draw a fun, easy smiling jack-o-lantern step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vrolijke halloween pompoen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "halloween-spooky",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -2968,8 +2968,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513451514.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-46",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-46"
+    "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-santa-claus",
@@ -2981,8 +2981,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vrolijke Kerstman",
     "descEn": "Learn how to draw a fun, easy jolly santa claus step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vrolijke kerstman tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "christmas-winter",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -3032,8 +3032,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513461030.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-47",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/teens/autumn-harvest-pumpkins-47"
+    "coloringPageSlug": "aquatic-abode-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-easter-basket",
@@ -3045,8 +3045,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Paasmandje vol Eieren",
     "descEn": "Learn how to draw a fun, easy easter egg basket step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke paasmandje vol eieren tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "spring-easter",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -3096,8 +3096,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513470062.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-48",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/toddlers/autumn-harvest-pumpkins-48"
+    "coloringPageSlug": "burger-buddies-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pegasus",
@@ -3109,8 +3109,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gevleugeld Pegasus Paard",
     "descEn": "Learn how to draw a fun, easy winged pegasus horse step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gevleugeld pegasus paard tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "unicorns-pegasus",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -3160,8 +3160,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788448152394.webp",
-    "coloringPageSlug": "unicorns-pegasus-49",
-    "coloringPageUrl": "/en/fantasy-fairytales/unicorns-pegasus/kids/unicorns-pegasus-49"
+    "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-phoenix",
@@ -3173,8 +3173,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Mythische Vuur Feniks",
     "descEn": "Learn how to draw a fun, easy mythical fire phoenix step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke mythische vuur feniks tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "dragons-mythical",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "fantasy-creatures",
     "steps": [
       {
         "stepNumber": 1,
@@ -3224,8 +3224,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447222437.webp",
-    "coloringPageSlug": "dragons-50",
-    "coloringPageUrl": "/en/fantasy-fairytales/dragons/kids/dragons-50"
+    "coloringPageSlug": "whispering-woods-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-race-car",
@@ -3237,8 +3237,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Formule 1 Raceauto",
     "descEn": "Learn how to draw a fun, easy formula 1 race car step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke formule 1 raceauto tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3288,8 +3288,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786116360918.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-51",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-51"
+    "coloringPageSlug": "tropical-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/tropical-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-monster-truck",
@@ -3301,8 +3301,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Grote Monster Truck",
     "descEn": "Learn how to draw a fun, easy big wheel monster truck step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke grote monster truck tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3352,8 +3352,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-52",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-52"
+    "coloringPageSlug": "underwater-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/underwater-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-fire-truck",
@@ -3365,8 +3365,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Brandweerwagen met Ladder",
     "descEn": "Learn how to draw a fun, easy emergency fire truck step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke brandweerwagen met ladder tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3416,8 +3416,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829_1.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-53",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-53"
+    "coloringPageSlug": "wild-west-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/wild-west-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-police-car",
@@ -3429,8 +3429,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Politieauto met Zwaailicht",
     "descEn": "Learn how to draw a fun, easy city police patrol car step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke politieauto met zwaailicht tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3480,8 +3480,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Digging_1787740537779.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-54",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-54"
+    "coloringPageSlug": "arctic-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/arctic-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-train",
@@ -3493,8 +3493,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Klassieke Stoomtrein",
     "descEn": "Learn how to draw a fun, easy steam locomotive train step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke klassieke stoomtrein tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "trains-railways",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3544,8 +3544,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Moon_1785056022726.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-55",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-55"
+    "coloringPageSlug": "desert-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/desert-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-rocket",
@@ -3557,8 +3557,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Ruimteraket",
     "descEn": "Learn how to draw a fun, easy space rocket step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke ruimteraket tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "space-rockets",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3608,8 +3608,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Surfboard_1786116348833.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-56",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-56"
+    "coloringPageSlug": "dino-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/dino-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-helicopter",
@@ -3621,8 +3621,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Reddingshelikopter",
     "descEn": "Learn how to draw a fun, easy rescue helicopter step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke reddingshelikopter tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "airplanes-helicopters",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3672,8 +3672,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_at_Carnival_1787912353264.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-57",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-57"
+    "coloringPageSlug": "gladiator-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/gladiator-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-airplane",
@@ -3685,8 +3685,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Passagiersvliegtuig",
     "descEn": "Learn how to draw a fun, easy passenger jet airplane step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke passagiersvliegtuig tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "airplanes-helicopters",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3736,8 +3736,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_in_Nature_1786116161340.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-58",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-58"
+    "coloringPageSlug": "haunted-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/haunted-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-school-bus",
@@ -3749,8 +3749,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gele Schoolbus",
     "descEn": "Learn how to draw a fun, easy yellow school bus step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gele schoolbus tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3800,8 +3800,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_in_the_Mountains_1787913279152.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-59",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-59"
+    "coloringPageSlug": "ice-cream-wonderland-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/ice-cream-wonderland-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-excavator",
@@ -3813,8 +3813,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Graafmachine",
     "descEn": "Learn how to draw a fun, easy construction excavator step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke graafmachine tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "construction-vehicles",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3864,8 +3864,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786116360918.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-60",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-60"
+    "coloringPageSlug": "ice-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/ice-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-dump-truck",
@@ -3877,8 +3877,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Kiepwagen",
     "descEn": "Learn how to draw a fun, easy dump truck step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke kiepwagen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "construction-vehicles",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3928,8 +3928,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786140536350.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-61",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-61"
+    "coloringPageSlug": "inked-realms-japanese-koi-ink-designs-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-japanese-koi-ink-designs-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-bulldozer",
@@ -3941,8 +3941,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Sterke Bulldozer",
     "descEn": "Learn how to draw a fun, easy powerful bulldozer step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke sterke bulldozer tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "construction-vehicles",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -3992,8 +3992,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_Arm_1786116221668.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-62",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-62"
+    "coloringPageSlug": "inked-realms-koi-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-koi-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-motorcycle",
@@ -4005,8 +4005,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Snelle Motorfiets",
     "descEn": "Learn how to draw a fun, easy sport motorcycle step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke snelle motorfiets tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4056,8 +4056,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Hard_Hat_1786116318627.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-63",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-63"
+    "coloringPageSlug": "inked-realms-lunar-cosmic-tattoo-art-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-lunar-cosmic-tattoo-art-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-bicycle",
@@ -4069,8 +4069,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Stadsfiets met Mandje",
     "descEn": "Learn how to draw a fun, easy city bicycle with basket step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke stadsfiets met mandje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4120,8 +4120,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_Character_in_Motion_1786106514796.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-64",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-64"
+    "coloringPageSlug": "inked-realms-maritime-anchor-ink-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-maritime-anchor-ink-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-sailboat",
@@ -4133,8 +4133,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Zeilboot op het Water",
     "descEn": "Learn how to draw a fun, easy sailboat on ocean step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke zeilboot op het water tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "boats-ships",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4184,8 +4184,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734166923.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-65",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-65"
+    "coloringPageSlug": "inked-realms-nautical-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-nautical-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-submarine",
@@ -4197,8 +4197,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Gele Onderzeeër",
     "descEn": "Learn how to draw a fun, easy yellow submarine step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke gele onderzeeër tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "boats-ships",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4248,8 +4248,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734522292.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-66",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-66"
+    "coloringPageSlug": "inked-realms-wildlife-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-wildlife-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-tractor",
@@ -4261,8 +4261,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Boerderij Tractor",
     "descEn": "Learn how to draw a fun, easy farm tractor step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke boerderij tractor tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "construction-vehicles",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4312,8 +4312,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_Truck_Coloring_Page_1785055950337.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-67",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-67"
+    "coloringPageSlug": "insect-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/insect-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-hot-air-balloon",
@@ -4325,8 +4325,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Kleurrijke Luchtballon",
     "descEn": "Learn how to draw a fun, easy hot air balloon step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke kleurrijke luchtballon tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "airplanes-helicopters",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4376,8 +4376,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_with_extended_boom_1785055950337.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-68",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-68"
+    "coloringPageSlug": "jungle-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/jungle-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-garbage-truck",
@@ -4389,8 +4389,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vuilniswagen",
     "descEn": "Learn how to draw a fun, easy city garbage truck step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vuilniswagen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4440,8 +4440,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912013247.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-69",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-69"
+    "coloringPageSlug": "magical-forest-creatures-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/magical-forest-creatures-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-ambulance",
@@ -4453,8 +4453,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Ambulance",
     "descEn": "Learn how to draw a fun, easy emergency ambulance step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke ambulance tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4504,8 +4504,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912428131.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-70",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-70"
+    "coloringPageSlug": "magical-mermaid-friends-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/magical-mermaid-friends-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-forklift",
@@ -4517,8 +4517,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Heftruck",
     "descEn": "Learn how to draw a fun, easy warehouse forklift step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke heftruck tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "construction-vehicles",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4568,8 +4568,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912899436.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-71",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-71"
+    "coloringPageSlug": "monster-monster-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-monster-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-speedboat",
@@ -4581,8 +4581,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Snelle Speedboot",
     "descEn": "Learn how to draw a fun, easy fast speedboat step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke snelle speedboot tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "boats-ships",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4632,8 +4632,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_digging_a_hole_1785055944303.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-72",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-72"
+    "coloringPageSlug": "monster-trucks-arctic-snow-rigs-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-arctic-snow-rigs-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-hovercraft",
@@ -4645,8 +4645,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Luchtkussenboot",
     "descEn": "Learn how to draw a fun, easy rescue hovercraft step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke luchtkussenboot tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "boats-ships",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4696,8 +4696,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_under_the_Moon_1785056022726.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-73",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-73"
+    "coloringPageSlug": "monster-trucks-barnyard-beast-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-barnyard-beast-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-skateboard",
@@ -4709,8 +4709,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Stoer Skateboard",
     "descEn": "Learn how to draw a fun, easy street skateboard step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke stoer skateboard tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4760,8 +4760,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Friendly_Bulldozer_1787734136652.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-74",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-74"
+    "coloringPageSlug": "monster-trucks-chrono-crusher-trucks-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-chrono-crusher-trucks-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-electric-scooter",
@@ -4773,8 +4773,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Elektrische Step",
     "descEn": "Learn how to draw a fun, easy electric kick scooter step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke elektrische step tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "vehicles-transportation",
-    "relatedThemeSlug": "cars-trucks",
+    "relatedHubSlug": "kids-adventures",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -4824,8 +4824,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Friendly_Bulldozer_1787911962823.webp",
-    "coloringPageSlug": "construction-heavy-vehicles-75",
-    "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-75"
+    "coloringPageSlug": "monster-trucks-construction-site-crushers-coloring-pages",
+    "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-construction-site-crushers-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-sunflower",
@@ -4837,8 +4837,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Bloeiende Zonnebloem",
     "descEn": "Learn how to draw a fun, easy blooming sunflower step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke bloeiende zonnebloem tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "flowers-floral-patterns",
+    "relatedHubSlug": "botanical-floral-art",
+    "relatedThemeSlug": "botanical-gardens",
     "steps": [
       {
         "stepNumber": 1,
@@ -4888,8 +4888,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493330903.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-76",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-76"
+    "coloringPageSlug": "flower-gardens3",
+    "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens3"
   },
   {
     "slug": "how-to-draw-a-rose",
@@ -4901,8 +4901,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Elegante Rode Roos",
     "descEn": "Learn how to draw a fun, easy elegant red rose step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke elegante rode roos tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "flowers-floral-patterns",
+    "relatedHubSlug": "botanical-floral-art",
+    "relatedThemeSlug": "botanical-gardens",
     "steps": [
       {
         "stepNumber": 1,
@@ -4952,8 +4952,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356089_1.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-77",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-77"
+    "coloringPageSlug": "flower-gardens4",
+    "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens4"
   },
   {
     "slug": "how-to-draw-a-tulip",
@@ -4965,8 +4965,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Lentetulp in Pot",
     "descEn": "Learn how to draw a fun, easy spring tulip in pot step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke lentetulp in pot tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "flowers-floral-patterns",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5016,8 +5016,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356116_2.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-78",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-78"
+    "coloringPageSlug": "friendly-animals",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/friendly-animals"
   },
   {
     "slug": "how-to-draw-a-cactus",
@@ -5029,8 +5029,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Woestijncactus",
     "descEn": "Learn how to draw a fun, easy desert cactus step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke woestijncactus tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "flowers-floral-patterns",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5080,8 +5080,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493433305.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-79",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-79"
+    "coloringPageSlug": "fantasy-animals-in-trees-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/fantasy-animals-in-trees-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-mushroom-house",
@@ -5093,8 +5093,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Sprookjes Paddestoelenhuisje",
     "descEn": "Learn how to draw a fun, easy fairytale mushroom house step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke sprookjes paddestoelenhuisje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "fantasy-fairytales",
-    "relatedThemeSlug": "fairytale-kingdoms-castles",
+    "relatedHubSlug": "cozy-life-cottagecore",
+    "relatedThemeSlug": "cozy-cottages",
     "steps": [
       {
         "stepNumber": 1,
@@ -5144,8 +5144,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788455207245.webp",
-    "coloringPageSlug": "fairytale-kingdoms-castles-80",
-    "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-80"
+    "coloringPageSlug": "home-sweet-home-mushroom-meadow-dwellings-coloring-pages",
+    "coloringPageUrl": "/cozy-life-cottagecore/cozy-cottages/all-ages/home-sweet-home-mushroom-meadow-dwellings-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-oak-tree",
@@ -5157,8 +5157,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Grote Eikenboom",
     "descEn": "Learn how to draw a fun, easy majestic oak tree step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke grote eikenboom tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "nature-landscapes",
+    "relatedHubSlug": "botanical-floral-art",
+    "relatedThemeSlug": "botanical-gardens",
     "steps": [
       {
         "stepNumber": 1,
@@ -5208,8 +5208,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493451361.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-81",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-81"
+    "coloringPageSlug": "inked-realms-ornamental-floral-ink-coloring-pages",
+    "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/inked-realms-ornamental-floral-ink-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-palm-tree",
@@ -5221,8 +5221,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Tropische Palmboom",
     "descEn": "Learn how to draw a fun, easy tropical beach palm tree step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke tropische palmboom tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "nature-landscapes",
+    "relatedHubSlug": "botanical-floral-art",
+    "relatedThemeSlug": "botanical-gardens",
     "steps": [
       {
         "stepNumber": 1,
@@ -5272,8 +5272,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493460279.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-82",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-82"
+    "coloringPageSlug": "flower-gardens1",
+    "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens1"
   },
   {
     "slug": "how-to-draw-a-birthday-cake",
@@ -5285,8 +5285,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Verjaardagstaart met Kaarsjes",
     "descEn": "Learn how to draw a fun, easy 3-tier birthday cake step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke verjaardagstaart met kaarsjes tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "birthday-celebrations",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5336,8 +5336,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513792851.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-83",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/teens/autumn-harvest-pumpkins-83"
+    "coloringPageSlug": "tiny-food-friends-mushroom-munchies-mate-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-munchies-mate-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pizza-slice",
@@ -5349,8 +5349,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Punt Pizza met Kaas",
     "descEn": "Learn how to draw a fun, easy cheesy pizza slice step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke punt pizza met kaas tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5400,8 +5400,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493478588.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-84",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-84"
+    "coloringPageSlug": "tiny-food-friends-peanut-paradise-pal-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-paradise-pal-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-cheeseburger",
@@ -5413,8 +5413,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Sappige Hamburger met Frietjes",
     "descEn": "Learn how to draw a fun, easy juicy cheeseburger step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke sappige hamburger met frietjes tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5464,8 +5464,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493487599.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-85",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-85"
+    "coloringPageSlug": "tiny-food-friends-peanut-patch-pals-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-patch-pals-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-ice-cream",
@@ -5477,8 +5477,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een IJsje met Drie Bollen",
     "descEn": "Learn how to draw a fun, easy triple scoop ice cream cone step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke ijsje met drie bollen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5528,8 +5528,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493588054.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-86",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-86"
+    "coloringPageSlug": "tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-donut",
@@ -5541,8 +5541,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Geglazuurde Donut met Spikkels",
     "descEn": "Learn how to draw a fun, easy sweet glazed donut step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke geglazuurde donut met spikkels tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5592,8 +5592,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493596747.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-87",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-87"
+    "coloringPageSlug": "tiny-world-celestial-friends-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-celestial-friends-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-apple",
@@ -5605,8 +5605,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Rode Appel met Blaadje",
     "descEn": "Learn how to draw a fun, easy crisp red apple step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke rode appel met blaadje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5656,8 +5656,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493605890.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-88",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-88"
+    "coloringPageSlug": "tiny-world-coral-reef-explorers-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-coral-reef-explorers-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-pineapple",
@@ -5669,8 +5669,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Tropische Ananas",
     "descEn": "Learn how to draw a fun, easy tropical pineapple step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke tropische ananas tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5720,8 +5720,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493614795.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-89",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-89"
+    "coloringPageSlug": "tiny-world-enchanted-forest-critters-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-enchanted-forest-critters-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-cupcake",
@@ -5733,8 +5733,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Feestelijke Cupcake",
     "descEn": "Learn how to draw a fun, easy party cupcake step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke feestelijke cupcake tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "cute-food-drinks",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5784,8 +5784,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493624076.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-90",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-90"
+    "coloringPageSlug": "tiny-world-garden-gnome-hideaway-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-garden-gnome-hideaway-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-diamond",
@@ -5797,8 +5797,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Fonkelende Diamant",
     "descEn": "Learn how to draw a fun, easy sparkling cut diamond step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke fonkelende diamant tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "geometric-patterns",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5848,8 +5848,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643970_1.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-91",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-91"
+    "coloringPageSlug": "tiny-world-hidden-gnome-village-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-hidden-gnome-village-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-guitar",
@@ -5861,8 +5861,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Elektrische Gitaar",
     "descEn": "Learn how to draw a fun, easy rockstar electric guitar step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke elektrische gitaar tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "music-instruments",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5912,8 +5912,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643997_2.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-92",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-92"
+    "coloringPageSlug": "tiny-world-miniature-garden-tea-gathering-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-miniature-garden-tea-gathering-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-grand-piano",
@@ -5925,8 +5925,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Klassieke Vleugelpiano",
     "descEn": "Learn how to draw a fun, easy grand piano step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke klassieke vleugelpiano tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "music-instruments",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -5976,8 +5976,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493716335.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-93",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-93"
+    "coloringPageSlug": "tiny-world-starry-sky-companions-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-starry-sky-companions-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-art-palette",
@@ -5989,8 +5989,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Schilderspalet en Penseel",
     "descEn": "Learn how to draw a fun, easy artist palette & paintbrush step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke schilderspalet en penseel tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "art-studios",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6040,8 +6040,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493725235.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-94",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-94"
+    "coloringPageSlug": "tiny-world-tea-party-with-insects-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-tea-party-with-insects-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-camera",
@@ -6053,8 +6053,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Fotocamera",
     "descEn": "Learn how to draw a fun, easy vintage photo camera step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke fotocamera tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "retro-vintage",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6104,8 +6104,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493734522.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-95",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-95"
+    "coloringPageSlug": "tiny-world-underwater-adventure-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-underwater-adventure-coloring-pages"
   },
   {
     "slug": "how-to-draw-an-hourglass",
@@ -6117,8 +6117,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Zandloper",
     "descEn": "Learn how to draw a fun, easy hourglass of time step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke zandloper tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "geometric-patterns",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6168,8 +6168,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493744231.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-96",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-96"
+    "coloringPageSlug": "tiny-world-whispering-woodland-creatures-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-whispering-woodland-creatures-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-lighthouse",
@@ -6181,8 +6181,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Vuurtoren aan Zee",
     "descEn": "Learn how to draw a fun, easy coastal lighthouse step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vuurtoren aan zee tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "nature-landscapes",
+    "relatedHubSlug": "cozy-life-cottagecore",
+    "relatedThemeSlug": "cozy-cottages",
     "steps": [
       {
         "stepNumber": 1,
@@ -6232,8 +6232,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493753360.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-97",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-97"
+    "coloringPageSlug": "cozy-yarn-animals-coloring-pages",
+    "coloringPageUrl": "/cozy-life-cottagecore/cozy-cottages/all-ages/cozy-yarn-animals-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-campfire-tent",
@@ -6245,8 +6245,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Kampeertent en Kampvuur",
     "descEn": "Learn how to draw a fun, easy camping tent & campfire step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke kampeertent en kampvuur tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "art-aesthetic",
-    "relatedThemeSlug": "nature-landscapes",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6296,8 +6296,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493762276.webp",
-    "coloringPageSlug": "art-nouveau-mucha-style-98",
-    "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-98"
+    "coloringPageSlug": "whimsical-animals-arctic-adventures-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-arctic-adventures-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-snowflake",
@@ -6309,8 +6309,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Symmetrische Sneeuwvlok",
     "descEn": "Learn how to draw a fun, easy symmetrical ice snowflake step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke symmetrische sneeuwvlok tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "christmas-winter",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6360,8 +6360,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513940906.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-99",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/toddlers/autumn-harvest-pumpkins-99"
+    "coloringPageSlug": "whimsical-animals-sweet-playful-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-sweet-playful-coloring-pages"
   },
   {
     "slug": "how-to-draw-a-cup-of-cocoa",
@@ -6373,8 +6373,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "titleNl": "Hoe Teken Je een Warme Chocolademelk met Marshmallows",
     "descEn": "Learn how to draw a fun, easy hot chocolate mug with marshmallows step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke warme chocolademelk met marshmallows tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
-    "relatedHubSlug": "holidays-seasons",
-    "relatedThemeSlug": "christmas-winter",
+    "relatedHubSlug": "cute-animals-fantasy",
+    "relatedThemeSlug": "cute-animals",
     "steps": [
       {
         "stepNumber": 1,
@@ -6424,8 +6424,8 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
       }
     ],
     "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513950293.webp",
-    "coloringPageSlug": "autumn-harvest-pumpkins-100",
-    "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-100"
+    "coloringPageSlug": "whimsical-animals-woodland-retreat-coloring-pages",
+    "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-woodland-retreat-coloring-pages"
   }
 ];
 
