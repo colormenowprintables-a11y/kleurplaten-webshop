@@ -32,18 +32,6 @@ export default function PrintDownloadButtons({
     type: 'pdf',
   });
 
-  const checkAndTriggerEmailModal = () => {
-    try {
-      const alreadyJoined = localStorage.getItem('cv_newsletter_joined');
-      const alreadyDismissed = localStorage.getItem('cv_download_modal_dismissed');
-      if (!alreadyJoined && !alreadyDismissed) {
-        setTimeout(() => {
-          setShowEmailModal(true);
-        }, 900);
-      }
-    } catch {}
-  };
-
   const { isPageSelected, toggleSelectPage } = useColoringBook();
   const pageSlug = fileUrl.split('/').pop()?.replace(/\.[^.]+$/, '') || 'page';
   const isSelected = isPageSelected(pageSlug);
@@ -59,79 +47,39 @@ export default function PrintDownloadButtons({
   const handlePrintClick = () => setShowPreview(true);
   const doActualPrint = () => {
     window.print();
-    checkAndTriggerEmailModal();
   };
 
-  // Download High-Res Image with Watermark
+  // Download High-Res Image Direct & Clean
   const performActualDownloadPng = async () => {
     if (downloading) return;
     setDownloading(true);
 
     try {
-      const response = await fetch(previewUrl);
-      if (!response.ok) throw new Error('Proxy fetch failed');
+      const src = previewUrl || fileUrl;
+      const response = await fetch(src);
+      if (!response.ok) throw new Error('Fetch failed');
 
       const blob = await response.blob();
-      const img = new Image();
-      img.src = URL.createObjectURL(blob);
+      const url = URL.createObjectURL(blob);
 
-      await new Promise((resolve, reject) => {
-        img.onload = resolve;
-        img.onerror = reject;
-      });
-
-      const canvas = document.createElement('canvas');
-      canvas.width = img.width;
-      canvas.height = img.height;
-
-      const ctx = canvas.getContext('2d');
-      if (!ctx) throw new Error('No canvas context');
-
-      ctx.drawImage(img, 0, 0);
-
-      // Watermark
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.45)';
-      const fontSize = Math.max(14, img.width * 0.02);
-      ctx.font = `bold ${fontSize}px sans-serif`;
-      ctx.textAlign = 'right';
-      ctx.textBaseline = 'bottom';
-      ctx.shadowColor = 'white';
-      ctx.shadowBlur = 4;
-      ctx.fillText('© ColorMeNow.shop — Printable Coloring Book', canvas.width - 20, canvas.height - 20);
-
-      canvas.toBlob((watermarkedBlob) => {
-        if (!watermarkedBlob) {
-          const a = document.createElement('a');
-          a.href = previewUrl;
-          a.download = `colormenow-${pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.png`;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          setDownloading(false);
-          return;
-        }
-        const url = URL.createObjectURL(watermarkedBlob);
-        const a = document.createElement('a');
-        a.href = url;
-        const cleanSlug = pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        a.download = `colormenow-${cleanSlug}.png`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        setDownloading(false);
-        checkAndTriggerEmailModal();
-      }, 'image/png');
-    } catch (err) {
-      console.error('Failed to add watermark, falling back to direct download', err);
       const a = document.createElement('a');
-      a.href = previewUrl;
+      a.href = url;
+      const cleanSlug = pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      a.download = `colormenow-${cleanSlug}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch (err) {
+      console.error('Failed to download PNG directly', err);
+      const a = document.createElement('a');
+      a.href = fileUrl;
       a.download = `colormenow-${pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.png`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
+    } finally {
       setDownloading(false);
-      checkAndTriggerEmailModal();
     }
   };
 
