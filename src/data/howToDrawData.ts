@@ -87,7 +87,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/A_Friendly_Spiky_Dinosaur_1788433082694.webp",
+    "image": "/covers/dino_roar_trucks_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -151,7 +151,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Alligator_Dinosaur_1787903491461.webp",
+    "image": "/covers/dino_roar_trucks_cover.png",
     "coloringPageSlug": "happy-mountain-animals-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/happy-mountain-animals-coloring-pages"
   },
@@ -215,7 +215,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Character_Rides_Dinosaur_1787914182842.webp",
+    "image": "/covers/dino_roar_trucks_cover.png",
     "coloringPageSlug": "tiny-food-friends-cookie-kingdom-cuties-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-cookie-kingdom-cuties-coloring-pages"
   },
@@ -279,7 +279,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_1787912134785.webp",
+    "image": "/covers/dino_roar_trucks_cover.png",
     "coloringPageSlug": "tiny-food-friends-mushroom-meadow-minis-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-meadow-minis-coloring-pages"
   },
@@ -343,7 +343,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_Adventure_1787912454417.webp",
+    "image": "/covers/dino_roar_trucks_cover.png",
     "coloringPageSlug": "tiny-food-friends-mushroom-munchies-mate-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-munchies-mate-coloring-pages"
   },
@@ -407,7 +407,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Ancient%20Mythology/Athena_with_owl_or_Goddess_Athena_holding_a_shield_1788270214760.webp",
+    "image": "/covers/cuddly_kitty_cottage_cover.png",
     "coloringPageSlug": "tiny-food-friends-peanut-paradise-pal-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-paradise-pal-coloring-pages"
   },
@@ -471,7 +471,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_Flight_1788438810635.webp",
+    "image": "/covers/starry_cat_cover.png",
     "coloringPageSlug": "tiny-food-friends-peanut-patch-pals-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-patch-pals-coloring-pages"
   },
@@ -535,7 +535,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_Flight.webp",
+    "image": "/covers/whimsical_bunny_cover.png",
     "coloringPageSlug": "tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages"
   },
@@ -599,7 +599,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_flight_1.webp",
+    "image": "/covers/50_cute_animals_cover.png",
     "coloringPageSlug": "tiny-world-celestial-friends-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-celestial-friends-coloring-pages"
   },
@@ -663,7 +663,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_in_flight_1788438558681.webp",
+    "image": "/covers/50_cute_animals_cover.png",
     "coloringPageSlug": "tiny-world-coral-reef-explorers-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-coral-reef-explorers-coloring-pages"
   },
@@ -727,7 +727,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bears_Garden_1788559958256.webp",
+    "image": "/covers/50_cute_animals_cover.png",
     "coloringPageSlug": "tiny-world-enchanted-forest-critters-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-enchanted-forest-critters-coloring-pages"
   },
@@ -791,7 +791,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-Like_Creature_Landing_1787900907865.webp",
+    "image": "/covers/50_cute_animals_cover.png",
     "coloringPageSlug": "tiny-world-garden-gnome-hideaway-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-garden-gnome-hideaway-coloring-pages"
   },
@@ -855,7 +855,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-headed_Character_Drinks_Tea_With_Female_Artist_1788369193193.webp",
+    "image": "/covers/underwater_adventure_cover.png",
     "coloringPageSlug": "tiny-world-hidden-gnome-village-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-hidden-gnome-village-coloring-pages"
   },
@@ -919,7 +919,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_Nature_1788441894503.webp",
+    "image": "/covers/underwater_adventure_cover.png",
     "coloringPageSlug": "tiny-world-miniature-garden-tea-gathering-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-miniature-garden-tea-gathering-coloring-pages"
   },
@@ -983,7 +983,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_a_picnic_1788438576629.webp",
+    "image": "/covers/underwater_adventure_cover.png",
     "coloringPageSlug": "tiny-world-starry-sky-companions-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-starry-sky-companions-coloring-pages"
   },
@@ -1047,7 +1047,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_nature_scene_1788434055448.webp",
+    "image": "/covers/whispering_woods_cover.png",
     "coloringPageSlug": "tiny-world-tea-party-with-insects-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-tea-party-with-insects-coloring-pages"
   },
@@ -1111,7 +1111,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_over_serene_lake_scene_1788438486851.webp",
+    "image": "/covers/cuddly_fox_cottage_cover.png",
     "coloringPageSlug": "tiny-world-underwater-adventure-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-underwater-adventure-coloring-pages"
   },
@@ -1175,7 +1175,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Blippi_the_Bird_1787912939769.webp",
+    "image": "/covers/forest_critters_cover.png",
     "coloringPageSlug": "tiny-world-whispering-woodland-creatures-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-whispering-woodland-creatures-coloring-pages"
   },
@@ -1239,7 +1239,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_1787902999551.webp",
+    "image": "/covers/gentle_pond_animals_cover.png",
     "coloringPageSlug": "whimsical-animals-animal-parade-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-animal-parade-coloring-pages"
   },
@@ -1303,7 +1303,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Farm%20Animals/Coloring_Sheep_Family_1788440926447.webp",
+    "image": "/covers/celestial_dreams_cover.png",
     "coloringPageSlug": "whimsical-animals-arctic-adventures-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-arctic-adventures-coloring-pages"
   },
@@ -1367,7 +1367,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_with_Plant_1787926462721.webp",
+    "image": "/covers/animal_parade_cover.png",
     "coloringPageSlug": "whimsical-animals-sweet-playful-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-sweet-playful-coloring-pages"
   },
@@ -1431,7 +1431,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celestial_Woman_with_Peacock_Feathers_1788283696862.webp",
+    "image": "/covers/animal_parade_cover.png",
     "coloringPageSlug": "whimsical-animals-woodland-retreat-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-woodland-retreat-coloring-pages"
   },
@@ -1495,7 +1495,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celtic_Cross_and_Owl_Coloring_Page_1787899190306.webp",
+    "image": "/covers/arctic_adventures_cover.png",
     "coloringPageSlug": "whimsical-bunny-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-bunny-coloring-pages"
   },
@@ -1559,7 +1559,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Character_in_nature_with_a_bird_companion_1788368079409.webp",
+    "image": "/covers/jungle_jumper_cover.png",
     "coloringPageSlug": "whimsical-tree-animals-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-tree-animals-coloring-pages"
   },
@@ -1623,7 +1623,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Colorful_birds_by_an_egg-shaped_plant_1788559949249.webp",
+    "image": "/covers/50_cute_animals_cover.png",
     "coloringPageSlug": "whimsical-water-meadow-animals-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-water-meadow-animals-coloring-pages"
   },
@@ -1687,7 +1687,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788447944112.webp",
+    "image": "/covers/celestial_dreams_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -1751,7 +1751,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447014944.webp",
+    "image": "/covers/celestial_dragon_cover.png",
     "coloringPageSlug": "aquatic-abode-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
@@ -1815,7 +1815,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454733282.webp",
+    "image": "/covers/magical_mermaid_friends_cover.png",
     "coloringPageSlug": "burger-buddies-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
@@ -1879,7 +1879,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454742518.webp",
+    "image": "/covers/floral_fairy_cover.png",
     "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
@@ -1943,7 +1943,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454751534.webp",
+    "image": "/covers/enchanted_realms_cover.png",
     "coloringPageSlug": "whispering-woods-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
@@ -2007,7 +2007,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454760781.webp",
+    "image": "/covers/circus_of_shadows_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -2071,7 +2071,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454770029.webp",
+    "image": "/covers/sunken_treasure_cover.png",
     "coloringPageSlug": "aquatic-abode-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
@@ -2135,7 +2135,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454779302.webp",
+    "image": "/covers/abyssal_treasure_cover.png",
     "coloringPageSlug": "burger-buddies-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
@@ -2199,7 +2199,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140629650.webp",
+    "image": "/covers/astro_adventure_cover.png",
     "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
@@ -2263,7 +2263,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140641722.webp",
+    "image": "/covers/astro_adventure_cover.png",
     "coloringPageSlug": "whispering-woods-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
@@ -2327,7 +2327,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447095812.webp",
+    "image": "/covers/enchanted_realms_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -2391,7 +2391,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513359545.webp",
+    "image": "/covers/50_cute_gothic_cover.png",
     "coloringPageSlug": "aquatic-abode-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
@@ -2455,7 +2455,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454824752.webp",
+    "image": "/covers/enchanted_realms_cover.png",
     "coloringPageSlug": "burger-buddies-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
@@ -2519,7 +2519,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454833932.webp",
+    "image": "/covers/enchanted_realms_cover.png",
     "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
@@ -2583,7 +2583,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454842736.webp",
+    "image": "/covers/enchanted_realms_cover.png",
     "coloringPageSlug": "whispering-woods-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
@@ -2647,7 +2647,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Among%20Us/Among_Us__A_clean_printable_coloring_pag_1788416987708.webp",
+    "image": "/covers/robo_racer_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -2711,7 +2711,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
+    "image": "/covers/superhero_stomper_cover.png",
     "coloringPageSlug": "aquatic-abode-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
@@ -2775,7 +2775,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
+    "image": "/covers/superhero_stomper_cover.png",
     "coloringPageSlug": "burger-buddies-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
@@ -2839,7 +2839,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Blippi/Blippi__A_clean_printable_coloring_page__1788424304271.webp",
+    "image": "/covers/cookie_critter_carnival_cover.png",
     "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
@@ -2903,7 +2903,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Adventure_1786140665859.webp",
+    "image": "/covers/skybound_homes_cover.png",
     "coloringPageSlug": "whispering-woods-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
@@ -2967,7 +2967,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513451514.webp",
+    "image": "/covers/50_cute_gothic_cover.png",
     "coloringPageSlug": "adorable-fantasy-creatures-enchanted-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/adorable-fantasy-creatures-enchanted-realms-coloring-pages"
   },
@@ -3031,7 +3031,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513461030.webp",
+    "image": "/covers/celestial_dreams_cover.png",
     "coloringPageSlug": "aquatic-abode-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/aquatic-abode-coloring-pages"
   },
@@ -3095,7 +3095,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513470062.webp",
+    "image": "/covers/celestial_dreams_cover.png",
     "coloringPageSlug": "burger-buddies-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/burger-buddies-coloring-pages"
   },
@@ -3159,7 +3159,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788448152394.webp",
+    "image": "/covers/creature_realms_cover.png",
     "coloringPageSlug": "enchanted-creature-realms-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/enchanted-creature-realms-coloring-pages"
   },
@@ -3223,7 +3223,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447222437.webp",
+    "image": "/covers/creature_realms_cover.png",
     "coloringPageSlug": "whispering-woods-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/fantasy-creatures/all-ages/whispering-woods-coloring-pages"
   },
@@ -3287,7 +3287,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786116360918.webp",
+    "image": "/covers/retro_road_crusher_cover.png",
     "coloringPageSlug": "tropical-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/tropical-monster-trucks-coloring-pages"
   },
@@ -3351,7 +3351,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "underwater-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/underwater-monster-trucks-coloring-pages"
   },
@@ -3415,7 +3415,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829_1.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "wild-west-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/wild-west-monster-trucks-coloring-pages"
   },
@@ -3479,7 +3479,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Digging_1787740537779.webp",
+    "image": "/covers/retro_road_crusher_cover.png",
     "coloringPageSlug": "arctic-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/arctic-monster-trucks-coloring-pages"
   },
@@ -3543,7 +3543,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Moon_1785056022726.webp",
+    "image": "/covers/chrono_crusher_cover.png",
     "coloringPageSlug": "desert-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/desert-monster-trucks-coloring-pages"
   },
@@ -3607,7 +3607,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Surfboard_1786116348833.webp",
+    "image": "/covers/astro_adventure_cover.png",
     "coloringPageSlug": "dino-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/dino-monster-trucks-coloring-pages"
   },
@@ -3671,7 +3671,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_at_Carnival_1787912353264.webp",
+    "image": "/covers/sky_soarer_cover.png",
     "coloringPageSlug": "gladiator-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/gladiator-monster-trucks-coloring-pages"
   },
@@ -3735,7 +3735,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_in_Nature_1786116161340.webp",
+    "image": "/covers/sky_soarer_cover.png",
     "coloringPageSlug": "haunted-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/haunted-monster-trucks-coloring-pages"
   },
@@ -3799,7 +3799,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_in_the_Mountains_1787913279152.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "ice-cream-wonderland-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/ice-cream-wonderland-coloring-pages"
   },
@@ -3863,7 +3863,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786116360918.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "ice-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/ice-monster-trucks-coloring-pages"
   },
@@ -3927,7 +3927,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786140536350.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "inked-realms-japanese-koi-ink-designs-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-japanese-koi-ink-designs-coloring-pages"
   },
@@ -3991,7 +3991,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_Arm_1786116221668.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "inked-realms-koi-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-koi-coloring-pages"
   },
@@ -4055,7 +4055,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Hard_Hat_1786116318627.webp",
+    "image": "/covers/sporty_sprinter_cover.png",
     "coloringPageSlug": "inked-realms-lunar-cosmic-tattoo-art-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-lunar-cosmic-tattoo-art-coloring-pages"
   },
@@ -4119,7 +4119,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_Character_in_Motion_1786106514796.webp",
+    "image": "/covers/sporty_sprinter_cover.png",
     "coloringPageSlug": "inked-realms-maritime-anchor-ink-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-maritime-anchor-ink-coloring-pages"
   },
@@ -4183,7 +4183,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734166923.webp",
+    "image": "/covers/sunken_treasure_cover.png",
     "coloringPageSlug": "inked-realms-nautical-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-nautical-coloring-pages"
   },
@@ -4247,7 +4247,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734522292.webp",
+    "image": "/covers/sunken_treasure_cover.png",
     "coloringPageSlug": "inked-realms-wildlife-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/inked-realms-wildlife-coloring-pages"
   },
@@ -4311,7 +4311,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_Truck_Coloring_Page_1785055950337.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "insect-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/insect-monster-trucks-coloring-pages"
   },
@@ -4375,7 +4375,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_with_extended_boom_1785055950337.webp",
+    "image": "/covers/skybound_homes_cover.png",
     "coloringPageSlug": "jungle-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/jungle-monster-trucks-coloring-pages"
   },
@@ -4439,7 +4439,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912013247.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "magical-forest-creatures-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/magical-forest-creatures-coloring-pages"
   },
@@ -4503,7 +4503,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912428131.webp",
+    "image": "/covers/construction_trucks_cover.png",
     "coloringPageSlug": "magical-mermaid-friends-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/magical-mermaid-friends-coloring-pages"
   },
@@ -4567,7 +4567,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912899436.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "monster-monster-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-monster-trucks-coloring-pages"
   },
@@ -4631,7 +4631,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_digging_a_hole_1785055944303.webp",
+    "image": "/covers/sunken_treasure_cover.png",
     "coloringPageSlug": "monster-trucks-arctic-snow-rigs-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-arctic-snow-rigs-coloring-pages"
   },
@@ -4695,7 +4695,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_under_the_Moon_1785056022726.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "monster-trucks-barnyard-beast-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-barnyard-beast-trucks-coloring-pages"
   },
@@ -4759,7 +4759,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Friendly_Bulldozer_1787734136652.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "monster-trucks-chrono-crusher-trucks-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-chrono-crusher-trucks-coloring-pages"
   },
@@ -4823,7 +4823,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Friendly_Bulldozer_1787911962823.webp",
+    "image": "/covers/50_monster_trucks_cover.png",
     "coloringPageSlug": "monster-trucks-construction-site-crushers-coloring-pages",
     "coloringPageUrl": "/kids-adventures/monster-trucks/all-ages/monster-trucks-construction-site-crushers-coloring-pages"
   },
@@ -4887,7 +4887,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493330903.webp",
+    "image": "/covers/flower_gardens_cover.png",
     "coloringPageSlug": "flower-gardens3",
     "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens3"
   },
@@ -4951,7 +4951,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356089_1.webp",
+    "image": "/covers/flower_gardens_cover.png",
     "coloringPageSlug": "flower-gardens4",
     "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens4"
   },
@@ -5015,7 +5015,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356116_2.webp",
+    "image": "/covers/flower_gardens_cover.png",
     "coloringPageSlug": "friendly-animals",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/friendly-animals"
   },
@@ -5079,7 +5079,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493433305.webp",
+    "image": "/covers/outdoor_gardens_cover.png",
     "coloringPageSlug": "fantasy-animals-in-trees-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/fantasy-animals-in-trees-coloring-pages"
   },
@@ -5143,7 +5143,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788455207245.webp",
+    "image": "/covers/mushroom_village_cover.png",
     "coloringPageSlug": "home-sweet-home-mushroom-meadow-dwellings-coloring-pages",
     "coloringPageUrl": "/cozy-life-cottagecore/cozy-cottages/all-ages/home-sweet-home-mushroom-meadow-dwellings-coloring-pages"
   },
@@ -5207,7 +5207,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493451361.webp",
+    "image": "/covers/canopy_treehouse_cover.png",
     "coloringPageSlug": "inked-realms-ornamental-floral-ink-coloring-pages",
     "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/inked-realms-ornamental-floral-ink-coloring-pages"
   },
@@ -5271,7 +5271,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493460279.webp",
+    "image": "/covers/canopy_treehouse_cover.png",
     "coloringPageSlug": "flower-gardens1",
     "coloringPageUrl": "/botanical-floral-art/botanical-gardens/all-ages/flower-gardens1"
   },
@@ -5335,7 +5335,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513792851.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-food-friends-mushroom-munchies-mate-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-mushroom-munchies-mate-coloring-pages"
   },
@@ -5399,7 +5399,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493478588.webp",
+    "image": "/covers/pizza_party_cover.png",
     "coloringPageSlug": "tiny-food-friends-peanut-paradise-pal-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-paradise-pal-coloring-pages"
   },
@@ -5463,7 +5463,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493487599.webp",
+    "image": "/covers/burger_buddies_cover.png",
     "coloringPageSlug": "tiny-food-friends-peanut-patch-pals-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-peanut-patch-pals-coloring-pages"
   },
@@ -5527,7 +5527,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493588054.webp",
+    "image": "/covers/ice_cream_wonderland_cover.png",
     "coloringPageSlug": "tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-food-friends-watermelon-wonderland-whimsy-coloring-pages"
   },
@@ -5591,7 +5591,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493596747.webp",
+    "image": "/covers/cupcake_carnival_cover.png",
     "coloringPageSlug": "tiny-world-celestial-friends-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-celestial-friends-coloring-pages"
   },
@@ -5655,7 +5655,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493605890.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-world-coral-reef-explorers-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-coral-reef-explorers-coloring-pages"
   },
@@ -5719,7 +5719,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493614795.webp",
+    "image": "/covers/food_fiesta_cover.png",
     "coloringPageSlug": "tiny-world-enchanted-forest-critters-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-enchanted-forest-critters-coloring-pages"
   },
@@ -5783,7 +5783,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493624076.webp",
+    "image": "/covers/cupcake_carnival_cover.png",
     "coloringPageSlug": "tiny-world-garden-gnome-hideaway-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-garden-gnome-hideaway-coloring-pages"
   },
@@ -5847,7 +5847,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643970_1.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-world-hidden-gnome-village-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-hidden-gnome-village-coloring-pages"
   },
@@ -5911,7 +5911,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643997_2.webp",
+    "image": "/covers/forest_melodies_cover.png",
     "coloringPageSlug": "tiny-world-miniature-garden-tea-gathering-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-miniature-garden-tea-gathering-coloring-pages"
   },
@@ -5975,7 +5975,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493716335.webp",
+    "image": "/covers/forest_melodies_cover.png",
     "coloringPageSlug": "tiny-world-starry-sky-companions-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-starry-sky-companions-coloring-pages"
   },
@@ -6039,7 +6039,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493725235.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-world-tea-party-with-insects-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-tea-party-with-insects-coloring-pages"
   },
@@ -6103,7 +6103,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493734522.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-world-underwater-adventure-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-underwater-adventure-coloring-pages"
   },
@@ -6167,7 +6167,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493744231.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "tiny-world-whispering-woodland-creatures-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/tiny-world-whispering-woodland-creatures-coloring-pages"
   },
@@ -6231,7 +6231,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493753360.webp",
+    "image": "/covers/cozy_cottage_retreat_cover.png",
     "coloringPageSlug": "cozy-yarn-animals-coloring-pages",
     "coloringPageUrl": "/cozy-life-cottagecore/cozy-cottages/all-ages/cozy-yarn-animals-coloring-pages"
   },
@@ -6295,7 +6295,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493762276.webp",
+    "image": "/covers/woodland_retreat_cover.png",
     "coloringPageSlug": "whimsical-animals-arctic-adventures-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-arctic-adventures-coloring-pages"
   },
@@ -6359,7 +6359,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513940906.webp",
+    "image": "/covers/cute_snowy_animals_cover.png",
     "coloringPageSlug": "whimsical-animals-sweet-playful-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-sweet-playful-coloring-pages"
   },
@@ -6423,7 +6423,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513950293.webp",
+    "image": "/covers/50_kawaii_sweets_cover.png",
     "coloringPageSlug": "whimsical-animals-woodland-retreat-coloring-pages",
     "coloringPageUrl": "/cute-animals-fantasy/cute-animals/all-ages/whimsical-animals-woodland-retreat-coloring-pages"
   }
