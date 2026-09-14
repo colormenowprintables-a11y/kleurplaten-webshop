@@ -54,12 +54,8 @@ export default function OnlineColoringTool({
  const ctx = canvas.getContext('2d', { willReadFrequently: true });
  if (!ctx) return;
 
- const isRemote = imageUrl.startsWith('http') && (typeof window !=='undefined'? !imageUrl.includes(window.location.hostname) : true);
- const targetSrc = isRemote ?`/api/proxy-image?url=${encodeURIComponent(imageUrl)}`: imageUrl;
-
- const img = new Image();
- img.crossOrigin ='anonymous';
- img.src = targetSrc;
+ img.crossOrigin = "anonymous";
+    img.src = imageUrl;
 
  img.onload = () => {
  // Calculate responsive canvas size (max 800px width/height maintaining aspect ratio)

@@ -40,6 +40,25 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
     <div className={styles.widescreenHeroMaster}>
       {/* 3D Bank Vault Master Artwork Backdrop */}
       <div className={styles.vaultFrame}>
+        <div style={{
+          position: 'absolute',
+          top: '20px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 10,
+          pointerEvents: 'none'
+        }}>
+          <img
+            src="/colormenow-logo.png"
+            alt="ColorMeNow Center Logo"
+            style={{
+              height: '110px',
+              width: 'auto',
+              objectFit: 'contain',
+              filter: 'drop-shadow(0 4px 15px rgba(0,0,0,0.5))'
+            }}
+          />
+        </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/banner.jpg"
