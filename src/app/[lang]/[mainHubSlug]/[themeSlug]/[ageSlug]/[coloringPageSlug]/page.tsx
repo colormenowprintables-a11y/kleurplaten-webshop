@@ -129,7 +129,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             {"@type":"HowTo","name": isEn ?`How to Print the ${page.title} Coloring Page`:`Hoe Print je de ${page.title} Kleurplaat`,"description": isEn
                 ?`Step-by-step guide to download and print this free high-resolution ${page.title} coloring sheet in A4 or Letter format.`:`Stapsgewijze handleiding om deze gratis hoge resolutie ${page.title} kleurplaat af te drukken op A4-formaat.`,"step": [
                 {"@type":"HowToStep","name": isEn ?"Preview & Open":"Bekijk & Open","text": isEn
-                    ?"Click the'Print Free Coloring Page'button to open the instant print preview modal.":"Klik op'Gratis Kleurplaat Printen'om direct het afdrukvoorbeeld te openen."},
+                    ?"Click the'Download PDF Coloring Page'button to open the instant print preview modal.":"Klik op'Download Hoge Resolutie PDF'om direct het afdrukvoorbeeld te openen."},
                 {"@type":"HowToStep","name": isEn ?"Configure Printer":"Stel Printer In","text": isEn
                     ?"Ensure your printer settings are set to A4 or Letter paper size at 100% scale with no margins.":"Zorg dat de printerinstellingen op A4-formaat en 100% schaal zonder marges staan."},
                 {"@type":"HowToStep","name": isEn ?"Print & Enjoy Coloring":"Print & Kleur In","text": isEn
@@ -246,8 +246,8 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             </h3>
             <p style={{ lineHeight: 1.7 }}>
               {isEn
-                ? 'To print this coloring sheet at full quality without cropped margins: click "Print Free Coloring Page", select A4 or US Letter in portrait mode, and set print scale to "Fit to Printable Area" (100%). You can also download the 300 DPI high-resolution image file directly for digital tablet coloring!'
-                : 'Voor een perfecte afdruk zonder afgesneden randen: klik op "Gratis Kleurplaat Printen", selecteer A4-formaat in staande stand en kies in het printermenu voor "Aanpassen aan pagina" (100% schaal). Liever digitaal kleuren? Download direct het haarscherpe 300 DPI bestand naar je tablet!'}
+                ? 'To print this coloring sheet at full quality without cropped margins: click "Download PDF Coloring Page", select A4 or US Letter in portrait mode, and set print scale to "Fit to Printable Area" (100%). You can also download the 300 DPI high-resolution image file directly for digital tablet coloring!'
+                : 'Voor een perfecte afdruk zonder afgesneden randen: klik op "Download Hoge Resolutie PDF", selecteer A4-formaat in staande stand en kies in het printermenu voor "Aanpassen aan pagina" (100% schaal). Liever digitaal kleuren? Download direct het haarscherpe 300 DPI bestand naar je tablet!'}
             </p>
           </div>
 
@@ -277,10 +277,10 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
 
           <div style={{ background:'var(--primary-light)', borderRadius:'var(--radius-lg)', padding:'1.25rem 1.5rem', marginTop:'1.5rem', border:'1px solid rgba(108,92,231,0.18)'}}>
             <p style={{ fontSize:'0.8rem', fontWeight: 800, color:'var(--primary)', marginBottom:'0.35rem', textTransform:'uppercase', letterSpacing:'0.06em'}}>
-              {isEn ?'100% Free — No Signup Required':'100% Gratis — Geen Account Nodig'}
+              {isEn ? 'INSTANT DIGITAL DOWNLOAD — HIGH RESOLUTION PDF' : 'DIRECT DIGITAAL GELEVERD — HOGE RESOLUTIE PDF'}
             </p>
             <p style={{ fontSize:'0.875rem', color:'var(--gray-600)'}}>
-              {isEn ?'Print directly or download instantly as a high-resolution image file.':'Print direct of download direct als hoge resolutie afbeelding.'}
+              {isEn ? 'Download instantly as a high-resolution PDF coloring book.' : 'Download direct als hoge resolutie PDF-kleurboek.'}
             </p>
           </div>
 
