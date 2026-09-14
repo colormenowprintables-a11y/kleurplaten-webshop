@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AdSlot from '@/components/AdSlot';
 import NewsletterBox from '@/components/NewsletterBox';
 import SafeImage from '@/components/SafeImage';
+import AffiliateSection from '@/components/AffiliateSection';
 
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
@@ -181,6 +182,9 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
             </div>
           ))}
         </div>
+
+        {/* Recommended Affiliate Supplies & Paper */}
+        <AffiliateSection lang={lang} />
 
         {/* Upgrade Banner to €1.99 Books */}
         <div style={{
