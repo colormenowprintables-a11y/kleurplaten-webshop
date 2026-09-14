@@ -326,3 +326,15 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     icon: '🛋️',
   },
 ];
+
+export function getRotatingAffiliateProduct(index = 0): AffiliateProduct {
+  if (!AFFILIATE_PRODUCTS.length) return AFFILIATE_PRODUCTS[0];
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - start.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+
+  const selectedIndex = (dayOfYear + Math.abs(index)) % AFFILIATE_PRODUCTS.length;
+  return AFFILIATE_PRODUCTS[selectedIndex];
+}

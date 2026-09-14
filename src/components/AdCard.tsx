@@ -1,74 +1,153 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useState } from 'react';
+import { getRotatingAffiliateProduct, AffiliateProduct } from '@/data/affiliateData';
 
-/**
- * AdCard — an AdSense display ad styled as a coloring page card.
- * Drop this directly into a grid alongside MotionCard items.
- */
-export default function AdCard() {
-  const adRef = useRef<HTMLModElement>(null);
-  const pushedRef = useRef(false);
+interface AdCardProps {
+  index?: number;
+  lang?: string;
+}
+
+export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
+  const [product, setProduct] = useState<AffiliateProduct | null>(null);
 
   useEffect(() => {
-    if (pushedRef.current) return;
-    try {
-      if (typeof window !== 'undefined') {
-        const ins = adRef.current;
-        if (ins && !ins.getAttribute('data-adsbygoogle-status')) {
-          ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
-          pushedRef.current = true;
-        }
-      }
-    } catch (e) {
-      console.warn('AdCard push notice:', e);
-    }
-  }, []);
+    // Pick daily rotating affiliate product offset by index
+    setProduct(getRotatingAffiliateProduct(index));
+  }, [index]);
+
+  if (!product) {
+    return (
+      <div
+        style={{
+          background: 'var(--surface, #FFFFFF)',
+          borderRadius: 'var(--radius-lg, 20px)',
+          border: '1px solid var(--gray-200, #E2E8F0)',
+          minHeight: '280px',
+        }}
+      />
+    );
+  }
+
+  const isNl = lang === 'nl';
+  const title = product.title[lang as keyof typeof product.title] || product.title.en;
+  const description = product.description[lang as keyof typeof product.description] || product.description.en;
+  const badge = product.badge[lang as keyof typeof product.badge] || product.badge.en;
+  const buyUrl = isNl ? product.urlNl : product.urlEn;
 
   return (
     <div
       style={{
-        background: 'var(--surface)',
-        borderRadius: 'var(--radius-lg)',
-        border: '1px solid var(--gray-200)',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+        background: 'linear-gradient(180deg, #FFFFFF 0%, #FFFBEB 100%)',
+        borderRadius: 'var(--radius-lg, 20px)',
+        border: '1.5px solid #FCD34D',
+        boxShadow: '0 4px 16px rgba(245, 158, 11, 0.08)',
         overflow: 'hidden',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '260px',
-        padding: '0.75rem',
+        justifyContent: 'space-between',
+        padding: '1.25rem',
         position: 'relative',
+        height: '100%',
       }}
-      aria-label="Advertisement"
+      aria-label="Sponsored Recommendation"
       role="complementary"
     >
-      <span
+      <div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            marginBottom: '0.75rem',
+          }}
+        >
+          <span
+            style={{
+              fontSize: '0.68rem',
+              fontWeight: 800,
+              letterSpacing: '0.05em',
+              color: '#B45309',
+              textTransform: 'uppercase',
+              background: '#FEF3C7',
+              padding: '0.2rem 0.6rem',
+              borderRadius: '9999px',
+              border: '1px solid #FDE68A',
+            }}
+          >
+            🛒 {isNl ? 'AANBEVOLEN TIP' : 'RECOMMENDED'}
+          </span>
+          <span style={{ fontSize: '1.8rem' }}>{product.icon}</span>
+        </div>
+
+        <span
+          style={{
+            display: 'inline-block',
+            fontSize: '0.75rem',
+            fontWeight: 800,
+            color: '#D97706',
+            marginBottom: '0.35rem',
+          }}
+        >
+          {badge}
+        </span>
+
+        <h3
+          style={{
+            fontSize: '1.05rem',
+            fontWeight: 900,
+            color: '#0F172A',
+            lineHeight: 1.35,
+            marginBottom: '0.4rem',
+          }}
+        >
+          {title}
+        </h3>
+
+        <p
+          style={{
+            fontSize: '0.82rem',
+            color: '#475569',
+            lineHeight: 1.5,
+            marginBottom: '1rem',
+          }}
+        >
+          {description}
+        </p>
+      </div>
+
+      <a
+        href={buyUrl}
+        target="_blank"
+        rel="noopener noreferrer nofollow"
         style={{
-          fontSize: '0.65rem',
-          fontWeight: 600,
-          letterSpacing: '0.06em',
-          color: 'var(--gray-400)',
-          textTransform: 'uppercase',
-          position: 'absolute',
-          top: '0.5rem',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          whiteSpace: 'nowrap',
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '0.4rem',
+          width: '100%',
+          padding: '0.65rem 0.85rem',
+          borderRadius: '12px',
+          background: 'linear-gradient(135deg, #FF9900 0%, #FF8000 100%)',
+          color: '#111111',
+          fontWeight: 900,
+          fontSize: '0.85rem',
+          textDecoration: 'none',
+          boxShadow: '0 3px 10px rgba(255, 153, 0, 0.35)',
+          transition: 'transform 0.15s ease',
         }}
       >
-        Advertisement
-      </span>
-      <ins
-        ref={adRef}
-        className="adsbygoogle"
-        style={{ display: 'block', width: '100%', minHeight: '200px' }}
-        data-ad-client="ca-pub-1184801748776428"
-        data-ad-slot="6437272564"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+        <span>🛒</span>
+        <span>
+          {isNl
+            ? 'Bekijk op Amazon'
+            : lang === 'de'
+            ? 'Bei Amazon ansehen'
+            : lang === 'fr'
+            ? 'Voir sur Amazon'
+            : 'View on Amazon'}
+        </span>
+      </a>
     </div>
   );
 }
