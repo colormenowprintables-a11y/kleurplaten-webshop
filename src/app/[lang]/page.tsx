@@ -439,9 +439,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         </section>
       )}
 
-      <div className="container"style={{ marginBottom:'2.5rem'}}>
-        <DailyColoringChallenge isEn={isEn} lang={lang} />
-      </div>
+      
 
       {/* ── Section 2: Interactive Category Explorer (Tabbed) ── */}
       <section id="categories" className="section-light" style={{ scrollMarginTop: '80px' }}>
