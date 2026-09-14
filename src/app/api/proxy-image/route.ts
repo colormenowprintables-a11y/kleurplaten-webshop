@@ -42,15 +42,22 @@ export async function GET(request: Request) {
     return new NextResponse('Missing url parameter', { status: 400 });
   }
 
+  let targetUrl = url;
+  if (url.startsWith('/')) {
+    const origin = new URL(request.url).origin;
+    targetUrl = `${origin}${url}`;
+  }
+
   let parsedUrl: URL;
   try {
-    parsedUrl = new URL(url, request.url);
+    parsedUrl = new URL(targetUrl, request.url);
   } catch {
     return new NextResponse('Invalid URL', { status: 400 });
   }
 
   const requestHost = new URL(request.url).hostname;
   const isAllowedHost = 
+    url.startsWith('/') ||
     ALLOWED_HOSTNAMES.has(parsedUrl.hostname) ||
     parsedUrl.hostname === requestHost ||
     parsedUrl.hostname === 'localhost' ||
@@ -64,7 +71,7 @@ export async function GET(request: Request) {
   const timeout = setTimeout(() => controller.abort(), 10_000);
 
   try {
-    const response = await fetch(url, { signal: controller.signal });
+    const response = await fetch(targetUrl, { signal: controller.signal });
     clearTimeout(timeout);
 
     if (!response.ok) {

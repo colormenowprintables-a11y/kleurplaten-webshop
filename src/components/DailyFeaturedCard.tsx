@@ -30,7 +30,9 @@ export default function DailyFeaturedCard({ page, isEn, lang, themeTitle }: Dail
 
   const pageUrl =`/${lang}/${page.parentHub}/${page.parentTheme}/${page.ageGroup}/${page.slug}`;
   const themeUrl =`/${lang}/${page.parentHub}/${page.parentTheme}`;
-  const previewUrl =`/api/proxy-image?url=${encodeURIComponent(page.image)}`;
+  const previewUrl = page.image && page.image.startsWith('/')
+    ? page.image
+    : `/api/proxy-image?url=${encodeURIComponent(page.image)}`;
 
   const doActualPrint = () => {
     window.print();

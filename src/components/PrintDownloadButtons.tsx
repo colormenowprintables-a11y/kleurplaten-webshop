@@ -51,7 +51,10 @@ export default function PrintDownloadButtons({
   const pageTitle =
     fileUrl.split('/').pop()?.replace(/_/g, ' ').replace(/\.[^.]+$/, '') ||
     (isEn ? 'Coloring Page' : 'Kleurplaat');
-  const previewUrl = `/api/proxy-image?url=${encodeURIComponent(fileUrl)}`;
+
+  const previewUrl = fileUrl && fileUrl.startsWith('/')
+    ? fileUrl
+    : `/api/proxy-image?url=${encodeURIComponent(fileUrl)}`;
 
   const handlePrintClick = () => setShowPreview(true);
   const doActualPrint = () => {

@@ -62,6 +62,9 @@ export default function PrintPreviewModal({
             src={imageUrl}
             alt={title}
             className={styles.previewImg}
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = '/covers/50_cozy_cottages_cover.png';
+            }}
           />
         </div>
 
