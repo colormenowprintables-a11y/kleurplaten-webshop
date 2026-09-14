@@ -63,42 +63,31 @@ export default function Navbar({ lang }: { lang: string }) {
     {
       label: isEn ?'Categories':'Categorieën',
       children: [
-        { label:'Disney & Pixar', href:`/${lang}/disney-pixar`},
-        { label:'Anime & Manga', href:`/${lang}/anime-manga`},
-        { label: isEn ?'Gaming & Virtual Worlds':'Games & Gaming', href:`/${lang}/gaming-virtual-worlds`},
-        { label: isEn ?'Superheroes & Comics':'Superhelden & Comics', href:`/${lang}/superheroes-comic-universes`},
-        { label: isEn ?'Kids TV & Cartoons':'Kinderseries & Tekenfilms', href:`/${lang}/kids-tv-shows`},
-        { label: isEn ?'Animals & Wildlife':'Dieren & Natuur', href:`/${lang}/animals-wildlife`},
-        { label: isEn ?'Fantasy & Fairytales':'Sprookjes & Fantasie', href:`/${lang}/fantasy-fairytales`},
-        { label: isEn ?'Vehicles & Space':'Voertuigen & Ruimte', href:`/${lang}/vehicles-transportation`},
-        { label: isEn ?'Art, Mandalas & Aesthetic':'Kunst & Mandala’s', href:`/${lang}/art-aesthetic`},
-        { label: isEn ?'Holidays & Seasons':'Feestdagen & Seizoenen', href:`/${lang}/holidays-seasons`},
+        { label:'Monster Trucks Collection', href:`/${lang}/special-deals-promo-packs`},
+        { label:'Whimsical Animals', href:`/${lang}/cute-animals-fantasy`},
+        { label:'Space Adventures', href:`/${lang}/kids-adventures`},
+        { label:'Adorable Houses', href:`/${lang}/cozy-life-cottagecore`},
+        { label:'Home Sweet Home', href:`/${lang}/cozy-life-cottagecore`},
+        { label:'Tiny World', href:`/${lang}/botanical-floral-art`},
+        { label:'Skull Realms', href:`/${lang}/gothic-spooky-cute`},
+        { label:'Tiny Food Friends', href:`/${lang}/special-deals-promo-packs`},
+        { label:'Cuddly Cottage Collection', href:`/${lang}/cozy-life-cottagecore`},
+        { label:'Inked Realms', href:`/${lang}/mindful-mandalas-patterns`},
+        { label:'Adorable Fantasy Creatures', href:`/${lang}/cute-animals-fantasy`},
+        { label:'Food & Snacks', href:`/${lang}/special-deals-promo-packs`},
       ],
     },
     {
       label: isEn ?'Popular':'Populair',
       children: [
-        // Disney
-        { label:'Frozen (Elsa & Anna)', href:`/${lang}/disney-pixar/frozen`},
-        { label:'The Lion King', href:`/${lang}/disney-pixar/the-lion-king`},
-        { label: isEn ?'The Little Mermaid (Ariel)':'De Kleine Zeemeermin (Ariël)', href:`/${lang}/disney-pixar/the-little-mermaid-ariel`},
-        { label: isEn ?'Beauty & the Beast':'Belle & het Beest', href:`/${lang}/disney-pixar/beauty-and-the-beast-belle`},
-        // Gaming
-        { label:'Pokémon', href:`/${lang}/gaming-virtual-worlds/pokemon`},
-        { label:'Super Mario', href:`/${lang}/gaming-virtual-worlds/super-mario`},
-        { label:'Sonic the Hedgehog', href:`/${lang}/gaming-virtual-worlds/sonic-the-hedgehog`},
-        { label:'Minecraft', href:`/${lang}/gaming-virtual-worlds/minecraft-voxel-worlds`},
-        // Superheroes & Anime
-        { label:'Spider-Man', href:`/${lang}/superheroes-comic-universes/marvel-spider-man`},
-        { label:'Batman', href:`/${lang}/superheroes-comic-universes/dc-batman`},
-        { label:'Dragon Ball', href:`/${lang}/anime-manga/dragonball`},
-        { label:'Naruto', href:`/${lang}/anime-manga/naruto`},
-        // Kids
-        { label:'Paw Patrol', href:`/${lang}/kids-tv-shows/paw-patrol`},
-        { label:'Bluey', href:`/${lang}/kids-tv-shows/bluey`},
-        // Art & Nature
-        { label: isEn ?'Mandalas (Adults)':'Mandala’s (Volwassenen)', href:`/${lang}/art-aesthetic/mandalas-sacred-geometry`},
-        { label: isEn ?'Dinosaurs':'Dinosauriërs', href:`/${lang}/animals-wildlife/dinosaur-adventures`},
+        { label:'Monster Trucks', href:`/${lang}/special-deals-promo-packs`},
+        { label:'Whimsical Animals', href:`/${lang}/cute-animals-fantasy`},
+        { label:'Space Adventures', href:`/${lang}/kids-adventures`},
+        { label:'Cuddly Cottages', href:`/${lang}/cozy-life-cottagecore`},
+        { label:'Tiny Food Friends', href:`/${lang}/special-deals-promo-packs`},
+        { label:'Skull & Gothic Realms', href:`/${lang}/gothic-spooky-cute`},
+        { label:'Mindful Mandalas', href:`/${lang}/mindful-mandalas-patterns`},
+        { label:'Botanical Art', href:`/${lang}/botanical-floral-art`},
       ],
     },
     { label: isEn ?'Search':'Zoeken', icon: '🔍', href:`/${lang}/search`},
@@ -146,18 +135,7 @@ export default function Navbar({ lang }: { lang: string }) {
       <div className={styles.navbarInner} ref={navRef}>
         <div className={styles.logoSection}>
           <Link href={`/${lang}`} className={styles.logo}>
-            <div className={styles.logoBadge} aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C13.66 22 15 20.66 15 19C15 18.23 14.7 17.53 14.21 17.01C13.73 16.5 13.43 15.82 13.43 15.07C13.43 13.41 14.77 12.07 16.43 12.07H18.93C20.59 12.07 21.93 10.73 21.93 9.07C21.93 5.16 17.48 2 12 2Z" fill="white" fillOpacity="0.95"/>
-                <circle cx="6.5" cy="11.5" r="1.5" fill="#FF4B72"/>
-                <circle cx="9.5" cy="7.5" r="1.5" fill="#FF8A00"/>
-                <circle cx="14.5" cy="7.5" r="1.5" fill="#FFD600"/>
-                <circle cx="17.5" cy="11.5" r="1.5" fill="#00D2D3"/>
-              </svg>
-            </div>
-            <span className={`${styles.logoText} notranslate`}>
-              Color<span className={styles.logoAccent}>MeNow</span>
-            </span>
+            <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
           </Link>
 
           <div className={styles.desktopSearchWrapper}>

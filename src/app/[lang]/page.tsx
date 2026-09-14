@@ -140,24 +140,20 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   ];
 
   const quickShortcuts = [
-    { name: 'Paw Patrol', icon: '🐶', href: `/${lang}/kids-tv-shows/paw-patrol` },
-    { name: 'Pokémon', icon: '⚡', href: `/${lang}/gaming-virtual-worlds/pokemon` },
-    { name: 'Frozen (Elsa)', icon: '❄️', href: `/${lang}/disney-pixar/frozen` },
-    { name: 'Spider-Man', icon: '🕷️', href: `/${lang}/superheroes-comic-universes/marvel-spider-man` },
-    { name: isEn ? 'Dinosaurs' : 'Dinosauriërs', icon: '🦖', href: `/${lang}/animals-wildlife/dinosaur-adventures` },
-    { name: isEn ? 'Unicorns' : 'Eenhoorns', icon: '🦄', href: `/${lang}/fantasy-fairytales/unicorns-pegasus` },
-    { name: 'Bluey', icon: '🐾', href: `/${lang}/kids-tv-shows/bluey` },
-    { name: 'Super Mario', icon: '🍄', href: `/${lang}/gaming-virtual-worlds/super-mario` },
-    { name: 'Minecraft', icon: '⛏️', href: `/${lang}/gaming-virtual-worlds/minecraft-voxel-worlds` },
-    { name: 'Sonic', icon: '🦔', href: `/${lang}/gaming-virtual-worlds/sonic-the-hedgehog` },
-    { name: 'Stitch', icon: '🌺', href: `/${lang}/disney-pixar/lilo-stitch` },
-    { name: isEn ? 'Mandalas' : "Mandala's", icon: '🧘', href: `/${lang}/art-aesthetic/mandalas-sacred-geometry` },
-    { name: isEn ? 'Puppies & Dogs' : "Puppy's & Honden", icon: '🐕', href: `/${lang}/animals-wildlife/cute-puppies-dogs` },
-    { name: isEn ? 'Kittens & Cats' : 'Kittens & Katten', icon: '🐱', href: `/${lang}/animals-wildlife/cute-kittens-cats` },
-    { name: 'Dragon Ball', icon: '🥋', href: `/${lang}/anime-manga/dragonball` },
-    { name: isEn ? 'Formula 1 & Racing' : 'Formule 1 & Racers', icon: '🏎️', href: `/${lang}/vehicles-transportation/formula-1-race-cars` },
-    { name: isEn ? '2026 Calendars' : '2026 Kalenders', icon: '📅', href: `/${lang}/calendars` },
-    { name: isEn ? 'How to Draw' : 'Leren Tekenen', icon: '✏️', href: `/${lang}/how-to-draw` },
+    { name: 'Monster Trucks Collection', icon: '🚛', href: `/${lang}/special-deals-promo-packs` },
+    { name: 'Whimsical Animals', icon: '🦊', href: `/${lang}/cute-animals-fantasy` },
+    { name: 'Space Adventures', icon: '🚀', href: `/${lang}/kids-adventures` },
+    { name: 'Adorable Houses', icon: '🏡', href: `/${lang}/cozy-life-cottagecore` },
+    { name: 'Home Sweet Home', icon: '☕', href: `/${lang}/cozy-life-cottagecore` },
+    { name: 'Tiny World', icon: '🔍', href: `/${lang}/botanical-floral-art` },
+    { name: 'Skull Realms', icon: '💀', href: `/${lang}/gothic-spooky-cute` },
+    { name: 'Tiny Food Friends', icon: '🍕', href: `/${lang}/special-deals-promo-packs` },
+    { name: 'Cuddly Cottage Collection', icon: '🐰', href: `/${lang}/cozy-life-cottagecore` },
+    { name: 'Inked Realms', icon: '🎨', href: `/${lang}/mindful-mandalas-patterns` },
+    { name: 'Adorable Fantasy Creatures', icon: '🦄', href: `/${lang}/cute-animals-fantasy` },
+    { name: 'Food & Snacks', icon: '🧁', href: `/${lang}/special-deals-promo-packs` },
+    { name: 'Whimsical Creatures', icon: '✨', href: `/${lang}/cute-animals-fantasy` },
+    { name: 'Cute Gothic', icon: '🎃', href: `/${lang}/gothic-spooky-cute` },
   ];
 
   return (
