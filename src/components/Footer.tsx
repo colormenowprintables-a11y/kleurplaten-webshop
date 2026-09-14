@@ -10,7 +10,7 @@ export default function Footer({ lang }: { lang: string }) {
         <div className={styles.footerTop}>
           <div className={styles.footerBrand}>
             <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-              <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '55px', maxHeight: '65px', width: 'auto', objectFit: 'contain' }} />
+              <img src="/colormenow-logo.png" alt="ColorMeNow Logo" style={{ height: '50px', maxHeight: '60px', width: 'auto', objectFit: 'contain' }} />
             </Link>
             <p className={styles.brandDesc}>
               {isEn 

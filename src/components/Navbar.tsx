@@ -135,7 +135,7 @@ export default function Navbar({ lang }: { lang: string }) {
       <div className={styles.navbarInner} ref={navRef}>
         <div className={styles.logoSection}>
           <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '65px', maxHeight: '75px', width: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.12))' }} />
+            <img src="/colormenow-logo.png" alt="ColorMeNow Logo" style={{ height: '60px', maxHeight: '70px', width: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.08))' }} />
           </Link>
 
           <div className={styles.desktopSearchWrapper}>
