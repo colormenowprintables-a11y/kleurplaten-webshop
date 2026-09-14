@@ -135,11 +135,10 @@ export default function Navbar({ lang }: { lang: string }) {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.navbarInner} ref={navRef}>
         <div className={styles.logoSection}>
-          <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src="/colormenow-logo.png" alt="ColorMeNow Logo" style={{ height: '60px', maxHeight: '70px', width: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.08))' }} />
+          <Link href={`/${lang}`} className={styles.logo}>
+            <div className={styles.logoBadge}>🎨</div>
+            <span className={styles.logoText}>Color<span className={styles.logoAccent}>MeNow</span><span style={{ fontSize: '0.85rem', opacity: 0.65, fontWeight: 700, marginLeft: '2px' }}>.shop</span></span>
           </Link>
-
-          
         </div>
 
         {/* Desktop Navigation Links */}

@@ -9,8 +9,9 @@ export default function Footer({ lang }: { lang: string }) {
       <div className={styles.footerContainer}>
         <div className={styles.footerTop}>
           <div className={styles.footerBrand}>
-            <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-              <img src="/colormenow-logo.png" alt="ColorMeNow Logo" style={{ height: '50px', maxHeight: '60px', width: 'auto', objectFit: 'contain' }} />
+            <Link href={`/${lang}`} className={styles.logo}>
+              <div className={styles.logoBadge}>🎨</div>
+              <span className={styles.logoText}>Color<span className={styles.logoAccent}>MeNow</span><span style={{ fontSize: '0.85rem', opacity: 0.65, fontWeight: 700, marginLeft: '2px' }}>.shop</span></span>
             </Link>
             <p className={styles.brandDesc}>
               {isEn 
