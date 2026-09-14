@@ -65,7 +65,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Education & Teaching',
       readTime:'6 min read',
       date:'August 24, 2026',
-      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
+      image:'/covers/50_mega_pack_cover.png',
       content:`<p>Teachers around the world are rediscovering printable coloring templates as versatile learning aids. Far from being just"filler work,"targeted coloring pages enhance lesson retention and foster classroom community.</p>
 
         <h2>5 Smart Ways to Use Coloring Sheets in School</h2>
@@ -222,7 +222,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Onderwijs & Lesideën',
       readTime:'6 min leestijd',
       date:'24 augustus 2026',
-      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
+      image:'/covers/50_mega_pack_cover.png',
       content:`<p>Leerkrachten en kleuterjuffen wereldwijd gebruiken printbare kleurplaten als veelzijdige ondersteuning in de klas. Kleurplaten verhogen niet alleen de plezier in de klas, maar ondersteunen ook de lesstof.</p>
 
         <h2>5 Slimme Manieren om Kleurplaten in de Klas te Gebruiken</h2>

@@ -9,7 +9,7 @@ interface SafeImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 }
 
 export default function SafeImage({
- fallbackSrc ='/images/banner.jpg',
+ fallbackSrc ='/covers/50_cozy_cottages_cover.png',
  onError,
  src: propSrc,
  alt,
