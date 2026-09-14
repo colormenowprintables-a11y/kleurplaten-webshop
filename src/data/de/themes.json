@@ -1,62 +1,137 @@
 [
   {
-    "title": "Dogs & Puppies",
-    "slug": "honden",
+    "title": "Fantasy Creatures",
+    "slug": "fantasy-creatures",
     "parentHub": "cute-animals-fantasy",
-    "description": "Cute dog and puppy coloring pages.",
-    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "description": "Printable coloring pages for Fantasy Creatures.",
+    "image": "/covers/enchanted_realms_cover.png",
+    "coverImage": "/covers/enchanted_realms_cover.png",
     "availableAges": [
       "toddlers",
       "kids",
       "all-ages"
     ],
-    "pageCount": 2,
-    "language": "en"
+    "pageCount": 5,
+    "language": "de"
   },
   {
-    "title": "Cats & Kittens",
-    "slug": "katten",
+    "title": "Monster Trucks",
+    "slug": "monster-trucks",
+    "parentHub": "kids-adventures",
+    "description": "Printable coloring pages for Monster Trucks.",
+    "image": "/covers/arctic_monster_trucks_cover.png",
+    "coverImage": "/covers/arctic_monster_trucks_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 53,
+    "language": "de"
+  },
+  {
+    "title": "Cozy Cottages",
+    "slug": "cozy-cottages",
+    "parentHub": "cozy-life-cottagecore",
+    "description": "Printable coloring pages for Cozy Cottages.",
+    "image": "/covers/candy_house_cover.png",
+    "coverImage": "/covers/candy_house_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 44,
+    "language": "de"
+  },
+  {
+    "title": "Mandalas",
+    "slug": "mandalas",
+    "parentHub": "mindful-mandalas-patterns",
+    "description": "Printable coloring pages for Mandalas.",
+    "image": "/covers/enchanted_mandalas_cover.png",
+    "coverImage": "/covers/enchanted_mandalas_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 4,
+    "language": "de"
+  },
+  {
+    "title": "Cute Animals",
+    "slug": "cute-animals",
     "parentHub": "cute-animals-fantasy",
-    "description": "Adorable cats and kittens to color.",
-    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "description": "Printable coloring pages for Cute Animals.",
+    "image": "/covers/fantasy_animals_in_trees_cover.png",
+    "coverImage": "/covers/fantasy_animals_in_trees_cover.png",
     "availableAges": [
       "toddlers",
       "kids",
       "all-ages"
     ],
-    "pageCount": 2,
-    "language": "en"
+    "pageCount": 26,
+    "language": "de"
   },
   {
-    "title": "Christmas",
-    "slug": "kerstmis",
-    "parentHub": "special-deals-promo-packs",
-    "description": "Atmospheric Christmas trees and Santa Claus pages.",
-    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "title": "Gothic Skulls",
+    "slug": "gothic-skulls",
+    "parentHub": "gothic-spooky-cute",
+    "description": "Printable coloring pages for Gothic Skulls.",
+    "image": "/covers/gothic_cuties_cover.png",
+    "coverImage": "/covers/gothic_cuties_cover.png",
     "availableAges": [
       "toddlers",
       "kids",
       "all-ages"
     ],
-    "pageCount": 2,
-    "language": "en"
+    "pageCount": 21,
+    "language": "de"
   },
   {
-    "title": "Easter",
-    "slug": "pasen",
-    "parentHub": "special-deals-promo-packs",
-    "description": "Happy Easter bunnies and decorated eggs.",
-    "image": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
+    "title": "General Coloring",
+    "slug": "general-coloring",
+    "parentHub": "cute-animals-fantasy",
+    "description": "Printable coloring pages for General Coloring.",
+    "image": "/covers/happy_honey_buddies_cover.png",
+    "coverImage": "/covers/happy_honey_buddies_cover.png",
     "availableAges": [
       "toddlers",
       "kids",
       "all-ages"
     ],
-    "pageCount": 2,
-    "language": "en"
+    "pageCount": 30,
+    "language": "de"
+  },
+  {
+    "title": "Botanical Gardens",
+    "slug": "botanical-gardens",
+    "parentHub": "botanical-floral-art",
+    "description": "Printable coloring pages for Botanical Gardens.",
+    "image": "/covers/ornamental_floral_ink_cover.png",
+    "coverImage": "/covers/ornamental_floral_ink_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 8,
+    "language": "de"
+  },
+  {
+    "title": "Promo Packs",
+    "slug": "promo-packs",
+    "parentHub": "special-deals-promo-packs",
+    "description": "Printable coloring pages for Promo Packs.",
+    "image": "/covers/50_cozy_cottages_cover.png",
+    "coverImage": "/covers/50_cozy_cottages_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 7,
+    "language": "de"
   }
 ]

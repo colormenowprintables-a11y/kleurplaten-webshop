@@ -1,194 +1,272 @@
 [
   {
-    "title": "Dogs & Puppies (Kleinkinder)",
     "slug": "toddlers",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "honden",
+    "parentTheme": "fantasy-creatures",
     "ageGroup": "toddlers",
-    "introText": "Kleurplaten voor Kleinkinder.",
-    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor Kleinkinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Fantasy Creatures Coloring Pages for Toddlers",
+    "seoText": "High quality printable Fantasy Creatures Coloring Pages for Toddlers.",
+    "pageCount": 5,
     "language": "de"
   },
   {
-    "title": "Dogs & Puppies (Kinder)",
     "slug": "kids",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "honden",
+    "parentTheme": "fantasy-creatures",
     "ageGroup": "kids",
-    "introText": "Kleurplaten voor Kinder.",
-    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor Kinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Fantasy Creatures Coloring Pages for Kids",
+    "seoText": "High quality printable Fantasy Creatures Coloring Pages for Kids.",
+    "pageCount": 5,
     "language": "de"
   },
   {
-    "title": "Dogs & Puppies (Alle Altersgruppen)",
     "slug": "all-ages",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "honden",
+    "parentTheme": "fantasy-creatures",
     "ageGroup": "all-ages",
-    "introText": "Kleurplaten voor Alle Altersgruppen.",
-    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor Alle Altersgruppen.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Fantasy Creatures Coloring Pages for All-Ages",
+    "seoText": "High quality printable Fantasy Creatures Coloring Pages for All-Ages.",
+    "pageCount": 5,
     "language": "de"
   },
   {
-    "title": "Cats & Kittens (Kleinkinder)",
+    "slug": "toddlers",
+    "parentHub": "kids-adventures",
+    "parentTheme": "monster-trucks",
+    "ageGroup": "toddlers",
+    "title": "Monster Trucks Coloring Pages for Toddlers",
+    "seoText": "High quality printable Monster Trucks Coloring Pages for Toddlers.",
+    "pageCount": 53,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "kids-adventures",
+    "parentTheme": "monster-trucks",
+    "ageGroup": "kids",
+    "title": "Monster Trucks Coloring Pages for Kids",
+    "seoText": "High quality printable Monster Trucks Coloring Pages for Kids.",
+    "pageCount": 53,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "kids-adventures",
+    "parentTheme": "monster-trucks",
+    "ageGroup": "all-ages",
+    "title": "Monster Trucks Coloring Pages for All-Ages",
+    "seoText": "High quality printable Monster Trucks Coloring Pages for All-Ages.",
+    "pageCount": 53,
+    "language": "de"
+  },
+  {
+    "slug": "toddlers",
+    "parentHub": "cozy-life-cottagecore",
+    "parentTheme": "cozy-cottages",
+    "ageGroup": "toddlers",
+    "title": "Cozy Cottages Coloring Pages for Toddlers",
+    "seoText": "High quality printable Cozy Cottages Coloring Pages for Toddlers.",
+    "pageCount": 44,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "cozy-life-cottagecore",
+    "parentTheme": "cozy-cottages",
+    "ageGroup": "kids",
+    "title": "Cozy Cottages Coloring Pages for Kids",
+    "seoText": "High quality printable Cozy Cottages Coloring Pages for Kids.",
+    "pageCount": 44,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "cozy-life-cottagecore",
+    "parentTheme": "cozy-cottages",
+    "ageGroup": "all-ages",
+    "title": "Cozy Cottages Coloring Pages for All-Ages",
+    "seoText": "High quality printable Cozy Cottages Coloring Pages for All-Ages.",
+    "pageCount": 44,
+    "language": "de"
+  },
+  {
+    "slug": "toddlers",
+    "parentHub": "mindful-mandalas-patterns",
+    "parentTheme": "mandalas",
+    "ageGroup": "toddlers",
+    "title": "Mandalas Coloring Pages for Toddlers",
+    "seoText": "High quality printable Mandalas Coloring Pages for Toddlers.",
+    "pageCount": 4,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "mindful-mandalas-patterns",
+    "parentTheme": "mandalas",
+    "ageGroup": "kids",
+    "title": "Mandalas Coloring Pages for Kids",
+    "seoText": "High quality printable Mandalas Coloring Pages for Kids.",
+    "pageCount": 4,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "mindful-mandalas-patterns",
+    "parentTheme": "mandalas",
+    "ageGroup": "all-ages",
+    "title": "Mandalas Coloring Pages for All-Ages",
+    "seoText": "High quality printable Mandalas Coloring Pages for All-Ages.",
+    "pageCount": 4,
+    "language": "de"
+  },
+  {
     "slug": "toddlers",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "katten",
+    "parentTheme": "cute-animals",
     "ageGroup": "toddlers",
-    "introText": "Kleurplaten voor Kleinkinder.",
-    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor Kleinkinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Cute Animals Coloring Pages for Toddlers",
+    "seoText": "High quality printable Cute Animals Coloring Pages for Toddlers.",
+    "pageCount": 26,
     "language": "de"
   },
   {
-    "title": "Cats & Kittens (Kinder)",
     "slug": "kids",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "katten",
+    "parentTheme": "cute-animals",
     "ageGroup": "kids",
-    "introText": "Kleurplaten voor Kinder.",
-    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor Kinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Cute Animals Coloring Pages for Kids",
+    "seoText": "High quality printable Cute Animals Coloring Pages for Kids.",
+    "pageCount": 26,
     "language": "de"
   },
   {
-    "title": "Cats & Kittens (Alle Altersgruppen)",
     "slug": "all-ages",
     "parentHub": "cute-animals-fantasy",
-    "parentTheme": "katten",
+    "parentTheme": "cute-animals",
     "ageGroup": "all-ages",
-    "introText": "Kleurplaten voor Alle Altersgruppen.",
-    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor Alle Altersgruppen.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Cute Animals Coloring Pages for All-Ages",
+    "seoText": "High quality printable Cute Animals Coloring Pages for All-Ages.",
+    "pageCount": 26,
     "language": "de"
   },
   {
-    "title": "Christmas (Kleinkinder)",
+    "slug": "toddlers",
+    "parentHub": "gothic-spooky-cute",
+    "parentTheme": "gothic-skulls",
+    "ageGroup": "toddlers",
+    "title": "Gothic Skulls Coloring Pages for Toddlers",
+    "seoText": "High quality printable Gothic Skulls Coloring Pages for Toddlers.",
+    "pageCount": 21,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "gothic-spooky-cute",
+    "parentTheme": "gothic-skulls",
+    "ageGroup": "kids",
+    "title": "Gothic Skulls Coloring Pages for Kids",
+    "seoText": "High quality printable Gothic Skulls Coloring Pages for Kids.",
+    "pageCount": 21,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "gothic-spooky-cute",
+    "parentTheme": "gothic-skulls",
+    "ageGroup": "all-ages",
+    "title": "Gothic Skulls Coloring Pages for All-Ages",
+    "seoText": "High quality printable Gothic Skulls Coloring Pages for All-Ages.",
+    "pageCount": 21,
+    "language": "de"
+  },
+  {
+    "slug": "toddlers",
+    "parentHub": "cute-animals-fantasy",
+    "parentTheme": "general-coloring",
+    "ageGroup": "toddlers",
+    "title": "General Coloring Coloring Pages for Toddlers",
+    "seoText": "High quality printable General Coloring Coloring Pages for Toddlers.",
+    "pageCount": 30,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "cute-animals-fantasy",
+    "parentTheme": "general-coloring",
+    "ageGroup": "kids",
+    "title": "General Coloring Coloring Pages for Kids",
+    "seoText": "High quality printable General Coloring Coloring Pages for Kids.",
+    "pageCount": 30,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "cute-animals-fantasy",
+    "parentTheme": "general-coloring",
+    "ageGroup": "all-ages",
+    "title": "General Coloring Coloring Pages for All-Ages",
+    "seoText": "High quality printable General Coloring Coloring Pages for All-Ages.",
+    "pageCount": 30,
+    "language": "de"
+  },
+  {
+    "slug": "toddlers",
+    "parentHub": "botanical-floral-art",
+    "parentTheme": "botanical-gardens",
+    "ageGroup": "toddlers",
+    "title": "Botanical Gardens Coloring Pages for Toddlers",
+    "seoText": "High quality printable Botanical Gardens Coloring Pages for Toddlers.",
+    "pageCount": 8,
+    "language": "de"
+  },
+  {
+    "slug": "kids",
+    "parentHub": "botanical-floral-art",
+    "parentTheme": "botanical-gardens",
+    "ageGroup": "kids",
+    "title": "Botanical Gardens Coloring Pages for Kids",
+    "seoText": "High quality printable Botanical Gardens Coloring Pages for Kids.",
+    "pageCount": 8,
+    "language": "de"
+  },
+  {
+    "slug": "all-ages",
+    "parentHub": "botanical-floral-art",
+    "parentTheme": "botanical-gardens",
+    "ageGroup": "all-ages",
+    "title": "Botanical Gardens Coloring Pages for All-Ages",
+    "seoText": "High quality printable Botanical Gardens Coloring Pages for All-Ages.",
+    "pageCount": 8,
+    "language": "de"
+  },
+  {
     "slug": "toddlers",
     "parentHub": "special-deals-promo-packs",
-    "parentTheme": "kerstmis",
+    "parentTheme": "promo-packs",
     "ageGroup": "toddlers",
-    "introText": "Kleurplaten voor Kleinkinder.",
-    "seoText": "Gratis printbare Christmas kleurplaten voor Kleinkinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Promo Packs Coloring Pages for Toddlers",
+    "seoText": "High quality printable Promo Packs Coloring Pages for Toddlers.",
+    "pageCount": 7,
     "language": "de"
   },
   {
-    "title": "Christmas (Kinder)",
     "slug": "kids",
     "parentHub": "special-deals-promo-packs",
-    "parentTheme": "kerstmis",
+    "parentTheme": "promo-packs",
     "ageGroup": "kids",
-    "introText": "Kleurplaten voor Kinder.",
-    "seoText": "Gratis printbare Christmas kleurplaten voor Kinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Promo Packs Coloring Pages for Kids",
+    "seoText": "High quality printable Promo Packs Coloring Pages for Kids.",
+    "pageCount": 7,
     "language": "de"
   },
   {
-    "title": "Christmas (Alle Altersgruppen)",
     "slug": "all-ages",
     "parentHub": "special-deals-promo-packs",
-    "parentTheme": "kerstmis",
+    "parentTheme": "promo-packs",
     "ageGroup": "all-ages",
-    "introText": "Kleurplaten voor Alle Altersgruppen.",
-    "seoText": "Gratis printbare Christmas kleurplaten voor Alle Altersgruppen.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
-    "language": "de"
-  },
-  {
-    "title": "Easter (Kleinkinder)",
-    "slug": "toddlers",
-    "parentHub": "special-deals-promo-packs",
-    "parentTheme": "pasen",
-    "ageGroup": "toddlers",
-    "introText": "Kleurplaten voor Kleinkinder.",
-    "seoText": "Gratis printbare Easter kleurplaten voor Kleinkinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
-    "language": "de"
-  },
-  {
-    "title": "Easter (Kinder)",
-    "slug": "kids",
-    "parentHub": "special-deals-promo-packs",
-    "parentTheme": "pasen",
-    "ageGroup": "kids",
-    "introText": "Kleurplaten voor Kinder.",
-    "seoText": "Gratis printbare Easter kleurplaten voor Kinder.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
-    "language": "de"
-  },
-  {
-    "title": "Easter (Alle Altersgruppen)",
-    "slug": "all-ages",
-    "parentHub": "special-deals-promo-packs",
-    "parentTheme": "pasen",
-    "ageGroup": "all-ages",
-    "introText": "Kleurplaten voor Alle Altersgruppen.",
-    "seoText": "Gratis printbare Easter kleurplaten voor Alle Altersgruppen.",
-    "faq": [
-      {
-        "question": "Hoe print ik deze kleurplaten gratis uit?",
-        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
-      }
-    ],
+    "title": "Promo Packs Coloring Pages for All-Ages",
+    "seoText": "High quality printable Promo Packs Coloring Pages for All-Ages.",
+    "pageCount": 7,
     "language": "de"
   }
 ]

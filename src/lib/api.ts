@@ -187,49 +187,53 @@ export function getAgePageBySlug(lang: string, parentHubSlug: string, themeSlug:
   return agePages.find(a => a.parentHub === parentHubSlug && a.parentTheme === themeSlug && a.ageGroup === ageGroupSlug);
 }
 
-export function getColoringPagesForTheme(lang: string, parentHubSlug: string, themeSlug: string): ColoringPage[] {
-  if (!pagesByThemeCache[lang]) {
-    pagesByThemeCache[lang] = new Map<string, ColoringPage[]>();
+export function getColoringPages(lang: string): ColoringPage[] {
+  const all = getCached<ColoringPage>(lang, 'coloringPages', 'coloring-pages.json');
+  if (all && all.length > 0) return all;
+  
+  const themes = getThemes(lang);
+  const fallback: ColoringPage[] = [];
+  for (const t of themes) {
+    fallback.push(...readThemePages(lang, t.slug));
   }
-  const key = `${parentHubSlug}/${themeSlug}`;
-  if (pagesByThemeCache[lang].has(key)) {
-    return pagesByThemeCache[lang].get(key)!;
-  }
-  if (pagesByThemeCache[lang].has(themeSlug)) {
-    return pagesByThemeCache[lang].get(themeSlug)!;
-  }
+  return fallback;
+}
 
-  const pages = readThemePages(lang, themeSlug);
-  pagesByThemeCache[lang].set(key, pages);
-  pagesByThemeCache[lang].set(themeSlug, pages);
-  return pages;
+export function getColoringPagesForTheme(lang: string, parentHubSlug: string, themeSlug: string): ColoringPage[] {
+  const allPages = getColoringPages(lang);
+  const matching = allPages.filter(p => {
+    const pHub = p.parentHub || (p as any).mainHubSlug;
+    return p.parentTheme === themeSlug || (pHub === parentHubSlug && p.parentTheme === themeSlug);
+  });
+  if (matching.length > 0) return matching;
+  return readThemePages(lang, themeSlug);
 }
 
 export function getPagesByAgeGroup(lang: string, parentHubSlug: string, themeSlug: string, ageGroupSlug: string): ColoringPage[] {
   const pages = getColoringPagesForTheme(lang, parentHubSlug, themeSlug);
-  return pages.filter(p => p.ageGroup === ageGroupSlug);
+  const matching = pages.filter(p => p.ageGroup === ageGroupSlug);
+  return matching.length > 0 ? matching : pages;
 }
 
 export function getPageBySlug(lang: string, parentHubSlug: string, themeSlug: string, ageGroupSlug: string, pageSlug: string): ColoringPage | undefined {
+  const allPages = getColoringPages(lang);
+  const page = allPages.find(p => p.slug === pageSlug);
+  if (page) return page;
+  
   const pages = getColoringPagesForTheme(lang, parentHubSlug, themeSlug);
-  return pages.find(p => p.slug === pageSlug && (!ageGroupSlug || p.ageGroup === ageGroupSlug));
+  return pages.find(p => p.slug === pageSlug);
 }
 
 export function getFeaturedPages(lang: string, count = 24): ColoringPage[] {
   if (!featuredPagesCache[lang]) {
     const pages = getCached<ColoringPage>(lang, 'featured', 'featured-pages.json');
-    featuredPagesCache[lang] = pages && pages.length > 0 ? pages : [];
+    if (pages && pages.length > 0) {
+      featuredPagesCache[lang] = pages;
+    } else {
+      featuredPagesCache[lang] = getColoringPages(lang);
+    }
   }
   return featuredPagesCache[lang].slice(0, count);
-}
-
-export function getColoringPages(lang: string): ColoringPage[] {
-  const themes = getThemes(lang);
-  const all: ColoringPage[] = [];
-  for (const t of themes) {
-    all.push(...getColoringPagesForTheme(lang, t.parentHub, t.slug));
-  }
-  return all;
 }
 
 export function getSampleImagesForTheme(lang: string, parentHubSlug: string, themeSlug: string, defaultImage: string, count = 3): string[] {
