@@ -46,7 +46,7 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        padding: '1.25rem',
+        padding: '1.15rem',
         position: 'relative',
         height: '100%',
       }}
@@ -54,12 +54,13 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
       role="complementary"
     >
       <div>
+        {/* Top Tag & Badge */}
         <div
           style={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            marginBottom: '0.75rem',
+            marginBottom: '0.65rem',
           }}
         >
           <span
@@ -77,8 +78,37 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
           >
             🛒 {isNl ? 'AANBEVOLEN TIP' : 'RECOMMENDED'}
           </span>
-          <span style={{ fontSize: '1.8rem' }}>{product.icon}</span>
+          <span style={{ fontSize: '1.4rem' }}>{product.icon}</span>
         </div>
+
+        {/* Product Image Thumbnail */}
+        {product.imageUrl && (
+          <div
+            style={{
+              height: '140px',
+              borderRadius: '12px',
+              overflow: 'hidden',
+              background: '#FFFFFF',
+              border: '1px solid #FDE68A',
+              marginBottom: '0.75rem',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '0.4rem',
+            }}
+          >
+            <img
+              src={product.imageUrl}
+              alt={title}
+              style={{
+                maxHeight: '100%',
+                maxWidth: '100%',
+                objectFit: 'contain',
+              }}
+              loading="lazy"
+            />
+          </div>
+        )}
 
         <span
           style={{
@@ -86,7 +116,7 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
             fontSize: '0.75rem',
             fontWeight: 800,
             color: '#D97706',
-            marginBottom: '0.35rem',
+            marginBottom: '0.3rem',
           }}
         >
           {badge}
@@ -94,11 +124,11 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
 
         <h3
           style={{
-            fontSize: '1.05rem',
+            fontSize: '1rem',
             fontWeight: 900,
             color: '#0F172A',
             lineHeight: 1.35,
-            marginBottom: '0.4rem',
+            marginBottom: '0.35rem',
           }}
         >
           {title}
@@ -106,10 +136,10 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
 
         <p
           style={{
-            fontSize: '0.82rem',
+            fontSize: '0.8rem',
             color: '#475569',
-            lineHeight: 1.5,
-            marginBottom: '1rem',
+            lineHeight: 1.45,
+            marginBottom: '0.85rem',
           }}
         >
           {description}

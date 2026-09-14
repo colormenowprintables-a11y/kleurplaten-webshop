@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import SafeImage from './SafeImage';
 import { AFFILIATE_PRODUCTS, AffiliateProduct } from '@/data/affiliateData';
 
 interface AffiliateSectionProps {
@@ -123,7 +124,7 @@ export default function AffiliateSection({
                 background: 'var(--surface, #FFFFFF)',
                 borderRadius: '20px',
                 border: '1.5px solid var(--gray-200, #E2E8F0)',
-                padding: '1.35rem',
+                padding: '1.25rem',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
@@ -132,12 +133,40 @@ export default function AffiliateSection({
               }}
             >
               <div>
+                {/* Product Image Thumbnail */}
+                {product.imageUrl && (
+                  <div
+                    style={{
+                      height: '160px',
+                      borderRadius: '14px',
+                      overflow: 'hidden',
+                      background: '#F8FAFC',
+                      marginBottom: '1rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '0.5rem',
+                    }}
+                  >
+                    <img
+                      src={product.imageUrl}
+                      alt={title}
+                      style={{
+                        maxHeight: '100%',
+                        maxWidth: '100%',
+                        objectFit: 'contain',
+                      }}
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+
                 <div
                   style={{
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
-                    marginBottom: '0.75rem',
+                    marginBottom: '0.65rem',
                   }}
                 >
                   <span
@@ -152,12 +181,12 @@ export default function AffiliateSection({
                   >
                     {badge}
                   </span>
-                  <span style={{ fontSize: '1.4rem' }}>{product.icon}</span>
+                  <span style={{ fontSize: '1.2rem' }}>{product.icon}</span>
                 </div>
 
                 <h3
                   style={{
-                    fontSize: '1.1rem',
+                    fontSize: '1.05rem',
                     fontWeight: 800,
                     color: '#0F172A',
                     marginBottom: '0.4rem',
@@ -169,7 +198,7 @@ export default function AffiliateSection({
 
                 <p
                   style={{
-                    fontSize: '0.88rem',
+                    fontSize: '0.85rem',
                     color: '#64748B',
                     lineHeight: 1.5,
                     marginBottom: '1.25rem',

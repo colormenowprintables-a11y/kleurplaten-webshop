@@ -51,23 +51,54 @@ export default function AdSlot({
       aria-label={text}
     >
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flex: 1, minWidth: '280px' }}>
-        <div
-          style={{
-            width: '56px',
-            height: '56px',
-            borderRadius: '16px',
-            background: '#FFFFFF',
-            border: '1px solid #FDE68A',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '2rem',
-            flexShrink: 0,
-            boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
-          }}
-        >
-          {product.icon}
-        </div>
+        {/* Thumbnail Image or Icon Box */}
+        {product.imageUrl ? (
+          <div
+            style={{
+              width: '70px',
+              height: '70px',
+              borderRadius: '16px',
+              background: '#FFFFFF',
+              border: '1px solid #FDE68A',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '0.35rem',
+              flexShrink: 0,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+              overflow: 'hidden',
+            }}
+          >
+            <img
+              src={product.imageUrl}
+              alt={title}
+              style={{
+                maxHeight: '100%',
+                maxWidth: '100%',
+                objectFit: 'contain',
+              }}
+              loading="lazy"
+            />
+          </div>
+        ) : (
+          <div
+            style={{
+              width: '56px',
+              height: '56px',
+              borderRadius: '16px',
+              background: '#FFFFFF',
+              border: '1px solid #FDE68A',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              flexShrink: 0,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+            }}
+          >
+            {product.icon}
+          </div>
+        )}
 
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.2rem' }}>
