@@ -186,8 +186,6 @@ export default function MotionCard({ page, lang, isEn }: MotionCardProps) {
           <div style={{
             display:'flex',
             alignItems:'center',
-            justifyContent:'space-between',
-            gap:'0.5rem',
             marginTop:'auto',
             paddingTop:'0.75rem',
             borderTop:'1px solid var(--gray-100)',
@@ -195,48 +193,25 @@ export default function MotionCard({ page, lang, isEn }: MotionCardProps) {
             <Link
               href={url}
               style={{
-                flex: 1,
+                width: '100%',
                 textAlign: 'center',
-                padding: '0.45rem 0.5rem',
-                borderRadius: '10px',
-                background: '#F8FAFC',
-                color: '#0F172A',
-                fontSize: '0.8rem',
-                fontWeight: 700,
+                padding: '0.55rem 0.85rem',
+                borderRadius: '12px',
+                background: 'linear-gradient(135deg, #FF6B35 0%, #FF8A00 100%)',
+                color: '#FFFFFF',
+                fontSize: '0.85rem',
+                fontWeight: 800,
                 textDecoration: 'none',
-                border: '1.5px solid #E2E8F0',
+                boxShadow: '0 4px 12px rgba(255, 107, 53, 0.3)',
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '0.35rem',
+                gap: '0.4rem',
                 transition: 'all 0.15s ease',
               }}
             >
               <span aria-hidden="true">🖨️</span>
-              <span>{isEn ? 'Print / PDF' : 'Print / PDF'}</span>
-            </Link>
-            <Link
-              href={`${url}/color`}
-              style={{
-                flex: 1,
-                textAlign: 'center',
-                padding: '0.45rem 0.5rem',
-                borderRadius: '10px',
-                background: 'linear-gradient(135deg, #FF6B35 0%, #FF8A00 100%)',
-                color: '#FFFFFF',
-                fontSize: '0.8rem',
-                fontWeight: 800,
-                textDecoration: 'none',
-                boxShadow: '0 2px 8px rgba(255, 107, 53, 0.35)',
-                display: 'inline-flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '0.35rem',
-                transition: 'all 0.15s ease',
-              }}
-            >
-              <span aria-hidden="true">🎨</span>
-              <span>{isEn ? 'Color Online' : 'Inkleuren'}</span>
+              <span>{isEn ? 'View & Download PDF' : 'Bekijk & Download PDF'}</span>
             </Link>
           </div>
         </div>

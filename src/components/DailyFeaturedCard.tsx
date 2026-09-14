@@ -80,16 +80,11 @@ export default function DailyFeaturedCard({ page, isEn, lang, themeTitle }: Dail
 
           <div className={styles.actions}>
             <button
-              className={styles.btnColorOnline}
-              onClick={() => setShowColorOnline(true)}
-              type="button">
-              <span>🎨</span> {isEn ?'Color Online Studio':'Online Inkleuren'}
-            </button>
-
-            <button
               className={styles.btnPrint}
               onClick={() => setShowPreview(true)}
-              type="button">
+              type="button"
+              style={{ width: '100%' }}
+            >
               <span>🖨️</span> {isEn ?'Print / Preview':'Afdrukken'}
             </button>
 
