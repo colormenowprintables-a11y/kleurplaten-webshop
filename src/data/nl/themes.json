@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Honden",
+    "slug": "honden",
+    "parentHub": "dieren-en-natuur",
+    "description": "Schattige honden en puppy kleurplaten.",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 2,
+    "language": "nl"
+  },
+  {
+    "title": "Katten",
+    "slug": "katten",
+    "parentHub": "dieren-en-natuur",
+    "description": "Lieve katten en kittens om in te kleuren.",
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 2,
+    "language": "nl"
+  },
+  {
+    "title": "Kerstmis",
+    "slug": "kerstmis",
+    "parentHub": "feestdagen-en-seizoenen",
+    "description": "Sfeervolle kerstbomen en kerstman kleurplaten.",
+    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 2,
+    "language": "nl"
+  },
+  {
+    "title": "Pasen",
+    "slug": "pasen",
+    "parentHub": "feestdagen-en-seizoenen",
+    "description": "Vrolijke paashazen en paaseieren kleurplaten.",
+    "image": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 2,
+    "language": "nl"
+  }
+]

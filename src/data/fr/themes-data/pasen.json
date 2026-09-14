@@ -1,0 +1,46 @@
+[
+  {
+    "id": "easter-1",
+    "title": "Happy Easter Bunny with Basket",
+    "slug": "vrolijke-paashaas-met-mand-vol-eieren",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "pasen",
+    "ageGroup": "toddlers",
+    "image": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=1200&q=90",
+    "shortDescription": "A smiling Easter bunny carrying a basket full of decorated eggs.",
+    "metaTitle": "Happy Easter Bunny Coloring Page",
+    "metaDescription": "Free printable cute Easter bunny with basket coloring page.",
+    "tags": [
+      "easter",
+      "bunny",
+      "eggs"
+    ],
+    "fileSize": "130 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "easter-2",
+    "title": "Intricate Easter Eggs",
+    "slug": "prachtige-versierde-paaseieren",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "pasen",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=1200&q=90",
+    "shortDescription": "Beautiful patterned Easter eggs ready for vibrant colors.",
+    "metaTitle": "Decorated Easter Eggs Coloring Page",
+    "metaDescription": "Free printable intricate patterned Easter eggs coloring page.",
+    "tags": [
+      "easter",
+      "pattern",
+      "spring"
+    ],
+    "fileSize": "145 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  }
+]

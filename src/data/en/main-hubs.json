@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Special Deals & Promo Packs",
+    "slug": "special-deals-promo-packs",
+    "description": "Discover our best-priced deal packs starting at $0.50 and the 100-page Mega Pack!",
+    "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&q=80",
+    "language": "en",
+    "pageCount": 450,
+    "themeCount": 7
+  },
+  {
+    "title": "Gothic & Spooky Cute",
+    "slug": "gothic-spooky-cute",
+    "description": "Cute spooky coloring books including the complete Gothic Kawaii Carnival Series!",
+    "image": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=800&q=80",
+    "language": "en",
+    "pageCount": 500,
+    "themeCount": 6
+  },
+  {
+    "title": "Cozy Life & Cottagecore",
+    "slug": "cozy-life-cottagecore",
+    "description": "Warm, relaxing reading nooks, baking kitchens, and fairytale countryside cottages.",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80",
+    "language": "en",
+    "pageCount": 350,
+    "themeCount": 5
+  },
+  {
+    "title": "Botanical & Floral Art",
+    "slug": "botanical-floral-art",
+    "description": "Beautiful botanical conservatories, gardens, and elegant Art Nouveau floral patterns.",
+    "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=800&q=80",
+    "language": "en",
+    "pageCount": 400,
+    "themeCount": 5
+  },
+  {
+    "title": "Cute Animals & Fantasy",
+    "slug": "cute-animals-fantasy",
+    "description": "Cute pets, forest animals, baby dragons, and magical fantasy creatures.",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "language": "en",
+    "pageCount": 600,
+    "themeCount": 8
+  },
+  {
+    "title": "Mindful Mandalas & Patterns",
+    "slug": "mindful-mandalas-patterns",
+    "description": "Detailed mandalas, relaxing patterns, Steampunk, and Dark Academia artwork.",
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=800&q=80",
+    "language": "en",
+    "pageCount": 800,
+    "themeCount": 10
+  },
+  {
+    "title": "Kids Adventures",
+    "slug": "kids-adventures",
+    "description": "Action-packed Monster Trucks, trains, construction diggers, dinosaurs, and fun kids art.",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=800&q=80",
+    "language": "en",
+    "pageCount": 500,
+    "themeCount": 6
+  }
+]

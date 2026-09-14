@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hond-1",
+    "title": "Vrolijke Puppy in het Gras",
+    "slug": "vrolijke-puppy-in-het-gras",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=90",
+    "shortDescription": "Een schattige puppy die vrolijk in de tuin speelt.",
+    "metaTitle": "Vrolijke Puppy in het Gras Kleurplaat",
+    "metaDescription": "Download en print gratis deze vrolijke puppy kleurplaat.",
+    "tags": [
+      "hond",
+      "puppy",
+      "dieren"
+    ],
+    "fileSize": "140 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  },
+  {
+    "id": "hond-2",
+    "title": "Grote Hond met Bal",
+    "slug": "grote-hond-met-bal",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=90",
+    "shortDescription": "Een speelse hond die met een bal aan het rennen is.",
+    "metaTitle": "Grote Hond met Bal Kleurplaat",
+    "metaDescription": "Download en print gratis deze speelse hond kleurplaat.",
+    "tags": [
+      "hond",
+      "spelen",
+      "bal"
+    ],
+    "fileSize": "165 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  }
+]

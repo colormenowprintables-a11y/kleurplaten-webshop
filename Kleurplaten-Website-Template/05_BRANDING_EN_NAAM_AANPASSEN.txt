@@ -1,0 +1,44 @@
+================================================================================
+✨ STAP 5: WEBSITE NAAM, LOGO & KLEUREN AANPASSEN
+================================================================================
+
+Pas de website eenvoudig aan naar jouw eigen huisstijl en domeinnaam:
+
+--------------------------------------------------------------------------------
+1. WEBSITE NAAM & TITEL AANPASSEN:
+--------------------------------------------------------------------------------
+- Open: 'src/components/Navbar.tsx'
+  Zoek naar de merknaam (bijv. "ColorVaults") en verander dit in jouw eigen naam (bijv. "KleurPlaatjes.nl").
+
+- Open: 'src/components/Footer.tsx'
+  Pas hier de copyright-tekst, e-mailadres en links aan.
+
+- Open: 'src/app/[lang]/layout.tsx'
+  Pas hier de standaard meta-tags, website titel en beschrijving aan voor Google.
+
+--------------------------------------------------------------------------------
+2. HUISSTIJL & KLEUREN AANPASSEN:
+--------------------------------------------------------------------------------
+- Open: 'src/app/globals.css'
+  Bovenaan vind je de CSS-variabelen:
+  --primary: #6C5CE7;      (Hoofdkleur van knoppen en accenten)
+  --primary-hover: #5b4cc4;
+  --accent: #FD79A8;       (Speelse accentkleur)
+  --background: #FAFAFA;   (Achtergrondkleur)
+
+  Verander deze hex-codes naar je eigen favoriete kleuren!
+
+--------------------------------------------------------------------------------
+3. GOOGLE ADSENSE INSTELLEN (VOOR ADVERTENTIE INKOMSTEN):
+--------------------------------------------------------------------------------
+1. Open 'public/ads.txt' en zet je eigen Google AdSense publisher ID erin:
+   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+2. Open 'src/app/[lang]/layout.tsx' en vul je Google AdSense client script in.
+
+--------------------------------------------------------------------------------
+4. PINTEREST VERIFICATIE:
+--------------------------------------------------------------------------------
+Maak je een zakelijk Pinterest account aan?
+Zet de meta-tag die Pinterest geeft in 'src/app/[lang]/layout.tsx' in de `<head>` sectie.
+================================================================================

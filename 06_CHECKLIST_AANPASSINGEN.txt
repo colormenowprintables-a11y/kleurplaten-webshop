@@ -1,0 +1,103 @@
+================================================================================
+📋 CHECKLIST: ALLES WAT AANGEPAST MOET WORDEN VÓÓR LIVEGANG
+================================================================================
+
+Voordat je moeder haar nieuwe website officieel lanceert op haar eigen domeinnaam,
+moeten een aantal vaste pagina's, teksten, e-mailadressen en codes worden aangepast.
+Vink deze checklist stap-voor-stap af!
+
+================================================================================
+0. 🌐 DOMEINNAAM & SERVER SETUP (COLORMENOW.SHOP)
+================================================================================
+
+[x] 0.1 DIGITALOCEAN ACCOUNT ACTIVATIE (Eigen account geactiveerd met Revolut)
+[x] 0.2 DOMEINNAAM REGISTRATIE (colormenow.shop geclaimd voor 100% eigen bezit!)
+[x] 0.3 NAMESERVERS GEKOPPELD AAN DIGITALOCEAN (ns1, ns2, ns3.digitalocean.com)
+[x] 0.4 DIGITALOCEAN DOMAIN CONFIGURATIE (colormenow.shop DNS records actief!)
+
+================================================================================
+1. ⚖️ JURIDISCHE & INFORMATIEVE PAGINA'S (PRIVACY, OVER ONS, CONTACT)
+================================================================================
+
+[x] 1.1 PRIVACY POLICY (Privacybeleid bijgewerkt naar ColorMeNow.shop & colormenowprintables@gmail.com!)
+    📁 Bestand: src/app/[lang]/privacy-policy/page.tsx
+
+[x] 1.2 TERMS OF SERVICE (Algemene Voorwaarden & AI Content Verklaring bijgewerkt voor ColorMeNow.shop!)
+    📁 Bestand: src/app/[lang]/terms-of-service/page.tsx
+
+[x] 1.3 ABOUT US (Over Ons pagina bijgewerkt met 6.200+ kleurplaten & ColorMeNow verhaal!)
+    📁 Bestand: src/app/[lang]/about/page.tsx
+
+[x] 1.4 CONTACT PAGINA (Bijgewerkt naar colormenowprintables@gmail.com & ColorMeNow.shop!)
+    📁 Bestand: src/app/[lang]/contact/page.tsx
+
+[x] 1.5 IP / COPYRIGHT & DISCLAIMER BELEID (Bijgewerkt voor ColorMeNow.shop & colormenowprintables@gmail.com!)
+    📁 Bestand: src/app/[lang]/ip-policy/page.tsx
+    📁 Bestand: src/components/CharacterIpDisclaimer.tsx
+
+================================================================================
+2. 🏷️ BRANDING, LOGO & NAVIGATIE
+================================================================================
+
+[x] 2.1 NAVBAR / BOVENBALK (Logo merknaam bijgewerkt naar ColorMeNow!)
+    📁 Bestand: src/components/Navbar.tsx
+
+[x] 2.2 FOOTER / ONDERKANT VAN DE WEBSITE (Footer bijgewerkt naar ColorMeNow.shop & categorieën!)
+    📁 Bestand: src/components/Footer.tsx
+
+[x] 2.3 WATERMERK OP GEDOWNLOADE AFBEELDINGEN (Watermerk bijgewerkt naar © ColorMeNow.shop!)
+    📁 Bestand: src/components/PrintDownloadButtons.tsx
+
+[x] 2.4 SIGNATURE THEME & KLEURENPALET (Paars, Roze & Nachtzwart geactiveerd in globals.css!)
+    📁 Bestand: src/app/globals.css
+
+[x] 2.5 OVERZICHTELIJKE HOOFDCATEGORIEËN (7 Strakke Hoofdcategorieën ingesteld in JSON data!)
+    📁 Bestand: src/data/nl/main-hubs.json & src/data/en/main-hubs.json
+
+================================================================================
+3. 🌐 SEO, GOOGLE METADATA & SITEMAPS
+================================================================================
+
+[x] 3.1 METADATA & GOOGLE TITELS (Base URL & titels ingesteld op colormenow.shop!)
+    📁 Bestand: src/app/[lang]/layout.tsx
+
+[x] 3.2 SITEMAP & ROBOTS.TXT (Sitemap & Robots overal bijgewerkt naar colormenow.shop!)
+    📁 Bestand: src/app/sitemap.ts
+    📁 Bestand: src/app/robots.ts
+
+[x] 3.3 SOCIAL MEDIA SHARE AFBEELDING (OPENGRAPH) (OpenGraph bijgewerkt voor ColorMeNow.shop met paars/roze gradient!)
+    📁 Bestand: src/app/api/og/route.tsx
+
+================================================================================
+4. 💰 MONETARISATIE & VERIFICATIE (ADSENSE & PINTEREST)
+================================================================================
+
+[ ] 4.1 GOOGLE ADSENSE VERIFICATIE (ADS.TXT)
+    📁 Bestand: public/ads.txt
+    Wat aanpassen:
+    - Zet haar eigen Google AdSense publisher ID in dit bestand:
+      google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+[ ] 4.2 GOOGLE ADSENSE SCRIPT TAG
+    📁 Bestand: src/app/[lang]/layout.tsx
+    Wat aanpassen:
+    - Vul haar eigen AdSense client script in met haar pub-ID (als ze goedgekeurd is voor AdSense).
+
+[ ] 4.3 PINTEREST DOMEIN VERIFICATIE
+    📁 Bestand: src/app/[lang]/layout.tsx
+    Wat aanpassen:
+    - Zoek naar de meta-tag `<meta name="p:domain_verify" ...>` en vul haar eigen Pinterest verificatiecode in.
+
+[x] 4.4 PINTEREST AUTOMATISCHE RSS-FEED (RSS-feed URL's en branding bijgewerkt naar colormenow.shop!)
+    📁 Bestand: src/app/api/pinterest-feed/route.ts
+
+================================================================================
+💡 TIP VOOR ANTIGRAVITY / AI ASSISTENT:
+================================================================================
+Je moeder kan haar AI-assistent (Antigravity) simpelweg de volgende opdracht geven:
+
+"Loop de CHECKLIST_WAT_MOET_AANGEPAST_WORDEN.txt na en pas alle teksten, 
+merknamen en e-mailadressen aan naar [MijnWebsiteNaam] en [mijn-email@domein.nl]."
+
+De AI zal dan automatisch alle bovenstaande bestanden in één keer netjes bijwerken!
+================================================================================

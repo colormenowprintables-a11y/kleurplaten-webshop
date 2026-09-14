@@ -1,0 +1,46 @@
+[
+  {
+    "id": "dog-1",
+    "title": "Happy Puppy in the Grass",
+    "slug": "vrolijke-puppy-in-het-gras",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=90",
+    "shortDescription": "A cute little puppy playing happily in the garden.",
+    "metaTitle": "Happy Puppy Coloring Page",
+    "metaDescription": "Free printable cute puppy in the garden coloring sheet.",
+    "tags": [
+      "dog",
+      "puppy",
+      "animals"
+    ],
+    "fileSize": "140 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "dog-2",
+    "title": "Playful Dog with Ball",
+    "slug": "grote-hond-met-bal",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=90",
+    "shortDescription": "An active dog running playfully with a ball.",
+    "metaTitle": "Playful Dog Coloring Page",
+    "metaDescription": "Free printable playful dog with ball coloring page.",
+    "tags": [
+      "dog",
+      "playing",
+      "ball"
+    ],
+    "fileSize": "165 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  }
+]

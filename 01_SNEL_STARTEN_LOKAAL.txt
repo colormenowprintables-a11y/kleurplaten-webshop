@@ -1,0 +1,63 @@
+================================================================================
+🚀 STAP 1: WEBSITE UITPAKKEN, INSTALLEREN & LOKAAL TESTEN
+================================================================================
+
+Welkom bij je nieuwe moderne Kleurplaten Website! Deze website is gebouwd met 
+Next.js (React & TypeScript). Hij is razendsnel, mobielvriendelijk en geoptimaliseerd
+voor Google SEO en Pinterest.
+
+--------------------------------------------------------------------------------
+👉 STAP 0: HET .ZIP BESTAND UITPAKKEN
+--------------------------------------------------------------------------------
+1. Klik met de rechtermuisknop op 'Kleurplaten-Website-Template.zip'.
+2. Kies "Alles uitpakken..." (Extract All) en kies een map op je computer (bijv. Bureaublad of Documenten).
+3. Open de uitgepakte map.
+
+💡 GOED OM TE WETEN (WAAROM DIT .ZIP BESTAND ZO LEKKER COMPACT IS):
+In moderne websites (zoals Next.js) worden tijdelijke mappen zoals 'node_modules' 
+en '.next' NOOIT in een zip gestopt of naar GitHub gestuurd. Dit voorkomt Windows-
+foutmeldingen zoals "Pad is te lang (Fout 0x80010135)". 
+Met het commando 'npm install' hieronder worden alle benodigde programmabestanden 
+automatisch en perfect passend voor jouw eigen computer gedownload!
+
+--------------------------------------------------------------------------------
+👉 STAP 1: CONTROLEER OF JE NODE.JS OP JE COMPUTER HEBT
+--------------------------------------------------------------------------------
+Om de website te laten draaien heb je 'Node.js' nodig:
+1. Download gratis van: https://nodejs.org
+2. Kies de versie met de knop "LTS" (aanbevolen voor de meeste gebruikers).
+3. Installeer het programma (gewoon een paar keer op 'Next' klikken).
+
+--------------------------------------------------------------------------------
+👉 STAP 2: DE WEBSITE DE EERSTE KEER INSTALLEREN
+--------------------------------------------------------------------------------
+1. Open PowerShell of Terminal in deze projectmap.
+   (Tip: Open de map in Windows Verkenner, klik in de adresbalk bovenaan, 
+    typ 'powershell' of 'cmd' en druk op Enter).
+2. Typ het volgende commando en druk op Enter:
+
+   npm install
+
+   (Dit downloadt automatisch alle nieuwste en schone programmabestanden naar een 
+    mapje 'node_modules' op jouw computer).
+
+--------------------------------------------------------------------------------
+👉 STAP 3: DE WEBSITE STARTEN EN BEKIJKEN
+--------------------------------------------------------------------------------
+1. Typ in de terminal:
+
+   npm run dev
+
+2. Open je internetbrowser (Chrome, Edge, Safari of Firefox) en ga naar:
+
+   http://localhost:3000
+
+🎉 Je ziet nu direct je werkende website live op je eigen computer!
+
+--------------------------------------------------------------------------------
+👉 STAP 4: DE TESTSERVER STOPPEN
+--------------------------------------------------------------------------------
+Wil je de lokale server stoppen als je klaar bent? 
+Druk in je terminal op de toetscombinatie:
+Ctrl + C (en typ 'y' als erom gevraagd wordt).
+================================================================================

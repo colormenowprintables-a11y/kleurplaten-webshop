@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dog-1",
+    "title": "Happy Puppy in the Grass",
+    "slug": "vrolijke-puppy-in-het-gras",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=90",
+    "shortDescription": "A cute little puppy playing happily in the garden.",
+    "metaTitle": "Happy Puppy Coloring Page",
+    "metaDescription": "Free printable cute puppy in the garden coloring sheet.",
+    "tags": [
+      "dog",
+      "puppy",
+      "animals"
+    ],
+    "fileSize": "140 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "dog-2",
+    "title": "Playful Dog with Ball",
+    "slug": "grote-hond-met-bal",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=90",
+    "shortDescription": "An active dog running playfully with a ball.",
+    "metaTitle": "Playful Dog Coloring Page",
+    "metaDescription": "Free printable playful dog with ball coloring page.",
+    "tags": [
+      "dog",
+      "playing",
+      "ball"
+    ],
+    "fileSize": "165 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "cat-1",
+    "title": "Sleeping Kitten on Pillow",
+    "slug": "slapende-kitten",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "toddlers",
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=90",
+    "shortDescription": "A sweet little kitten fast asleep on a cozy pillow.",
+    "metaTitle": "Sleeping Kitten Coloring Page",
+    "metaDescription": "Free printable sweet sleeping kitten coloring page.",
+    "tags": [
+      "cat",
+      "kitten",
+      "sleeping"
+    ],
+    "fileSize": "120 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "cat-2",
+    "title": "Curious Cat on Windowsill",
+    "slug": "nieuwsgierige-kat-op-de-vensterbank",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=1200&q=90",
+    "shortDescription": "A curious cat watching birds through the window.",
+    "metaTitle": "Curious Cat Coloring Page",
+    "metaDescription": "Free printable curious cat on windowsill coloring page.",
+    "tags": [
+      "cat",
+      "window",
+      "nature"
+    ],
+    "fileSize": "155 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  }
+]

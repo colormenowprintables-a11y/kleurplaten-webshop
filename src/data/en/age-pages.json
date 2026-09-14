@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Dogs & Puppies (Toddlers)",
+    "slug": "toddlers",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "toddlers",
+    "introText": "Kleurplaten voor Toddlers.",
+    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor Toddlers.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Dogs & Puppies (Kids)",
+    "slug": "kids",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "kids",
+    "introText": "Kleurplaten voor Kids.",
+    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor Kids.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Dogs & Puppies (All Ages)",
+    "slug": "all-ages",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "honden",
+    "ageGroup": "all-ages",
+    "introText": "Kleurplaten voor All Ages.",
+    "seoText": "Gratis printbare Dogs & Puppies kleurplaten voor All Ages.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Cats & Kittens (Toddlers)",
+    "slug": "toddlers",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "toddlers",
+    "introText": "Kleurplaten voor Toddlers.",
+    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor Toddlers.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Cats & Kittens (Kids)",
+    "slug": "kids",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "kids",
+    "introText": "Kleurplaten voor Kids.",
+    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor Kids.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Cats & Kittens (All Ages)",
+    "slug": "all-ages",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "all-ages",
+    "introText": "Kleurplaten voor All Ages.",
+    "seoText": "Gratis printbare Cats & Kittens kleurplaten voor All Ages.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Christmas (Toddlers)",
+    "slug": "toddlers",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "toddlers",
+    "introText": "Kleurplaten voor Toddlers.",
+    "seoText": "Gratis printbare Christmas kleurplaten voor Toddlers.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Christmas (Kids)",
+    "slug": "kids",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "kids",
+    "introText": "Kleurplaten voor Kids.",
+    "seoText": "Gratis printbare Christmas kleurplaten voor Kids.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Christmas (All Ages)",
+    "slug": "all-ages",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "all-ages",
+    "introText": "Kleurplaten voor All Ages.",
+    "seoText": "Gratis printbare Christmas kleurplaten voor All Ages.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Easter (Toddlers)",
+    "slug": "toddlers",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "pasen",
+    "ageGroup": "toddlers",
+    "introText": "Kleurplaten voor Toddlers.",
+    "seoText": "Gratis printbare Easter kleurplaten voor Toddlers.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Easter (Kids)",
+    "slug": "kids",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "pasen",
+    "ageGroup": "kids",
+    "introText": "Kleurplaten voor Kids.",
+    "seoText": "Gratis printbare Easter kleurplaten voor Kids.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "title": "Easter (All Ages)",
+    "slug": "all-ages",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "pasen",
+    "ageGroup": "all-ages",
+    "introText": "Kleurplaten voor All Ages.",
+    "seoText": "Gratis printbare Easter kleurplaten voor All Ages.",
+    "faq": [
+      {
+        "question": "Hoe print ik deze kleurplaten gratis uit?",
+        "answer": "Klik op een kleurplaat en klik op Gratis Printen."
+      }
+    ],
+    "language": "en"
+  }
+]

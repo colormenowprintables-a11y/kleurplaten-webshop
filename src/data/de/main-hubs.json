@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Animals & Nature",
+    "slug": "dieren-en-natuur",
+    "description": "Discover cute and beautiful coloring pages of all kinds of animals in nature.",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "language": "en",
+    "pageCount": 4,
+    "themeCount": 2
+  },
+  {
+    "title": "Holidays & Seasons",
+    "slug": "feestdagen-en-seizoenen",
+    "description": "Cozy coloring pages for festive holidays like Christmas, Easter and Halloween.",
+    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "language": "en",
+    "pageCount": 4,
+    "themeCount": 2
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "kerst-1",
+    "title": "Versierde Kerstboom met Pakjes",
+    "slug": "versierde-kerstboom-met-pakjes",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=90",
+    "shortDescription": "Een prachtige volle kerstboom met kerstballen, slingers en cadeautjes.",
+    "metaTitle": "Versierde Kerstboom Kleurplaat",
+    "metaDescription": "Download en print gratis deze sfeervolle kerstboom kleurplaat.",
+    "tags": [
+      "kerst",
+      "kerstboom",
+      "cadeaus"
+    ],
+    "fileSize": "180 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  },
+  {
+    "id": "kerst-2",
+    "title": "De Kerstman op zijn Slee",
+    "slug": "de-kerstman-op-zijn-slee",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=1200&q=90",
+    "shortDescription": "De Kerstman die door de sneeuw rijdt met zijn rendieren.",
+    "metaTitle": "De Kerstman op zijn Slee Kleurplaat",
+    "metaDescription": "Download en print gratis deze leuke kerstman kleurplaat.",
+    "tags": [
+      "kerstman",
+      "rendier",
+      "slee"
+    ],
+    "fileSize": "190 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  }
+]

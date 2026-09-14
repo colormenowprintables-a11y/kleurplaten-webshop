@@ -1,0 +1,46 @@
+[
+  {
+    "id": "kat-1",
+    "title": "Slapende Kitten",
+    "slug": "slapende-kitten",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "toddlers",
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=90",
+    "shortDescription": "Een lief klein katje dat heerlijk ligt te slapen op een kussen.",
+    "metaTitle": "Slapende Kitten Kleurplaat",
+    "metaDescription": "Download en print gratis deze lieve kitten kleurplaat.",
+    "tags": [
+      "kat",
+      "kitten",
+      "slapen"
+    ],
+    "fileSize": "120 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  },
+  {
+    "id": "kat-2",
+    "title": "Nieuwsgierige Kat op de Vensterbank",
+    "slug": "nieuwsgierige-kat-op-de-vensterbank",
+    "parentHub": "dieren-en-natuur",
+    "parentTheme": "katten",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=1200&q=90",
+    "shortDescription": "Een nieuwsgierige kat die naar buiten kijkt naar de vogeltjes.",
+    "metaTitle": "Nieuwsgierige Kat Kleurplaat",
+    "metaDescription": "Download en print gratis deze nieuwsgierige kat kleurplaat.",
+    "tags": [
+      "kat",
+      "vensterbank",
+      "buiten"
+    ],
+    "fileSize": "155 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "nl"
+  }
+]

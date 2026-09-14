@@ -1,0 +1,46 @@
+[
+  {
+    "id": "xmas-1",
+    "title": "Decorated Christmas Tree",
+    "slug": "versierde-kerstboom-met-pakjes",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "all-ages",
+    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=90",
+    "shortDescription": "A beautiful Christmas tree surrounded by festive gift boxes.",
+    "metaTitle": "Decorated Christmas Tree Coloring Page",
+    "metaDescription": "Free printable Christmas tree with ornaments coloring page.",
+    "tags": [
+      "christmas",
+      "tree",
+      "gifts"
+    ],
+    "fileSize": "180 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  },
+  {
+    "id": "xmas-2",
+    "title": "Santa Claus in his Sleigh",
+    "slug": "de-kerstman-op-zijn-slee",
+    "parentHub": "feestdagen-en-seizoenen",
+    "parentTheme": "kerstmis",
+    "ageGroup": "kids",
+    "image": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=800&q=80",
+    "preview": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=800&q=80",
+    "downloadableFile": "https://images.unsplash.com/photo-1543258103-a62bdc069871?w=1200&q=90",
+    "shortDescription": "Santa Claus flying through snowy night skies.",
+    "metaTitle": "Santa Claus Coloring Page",
+    "metaDescription": "Free printable Santa Claus flying in sleigh coloring page.",
+    "tags": [
+      "santa",
+      "reindeer",
+      "sleigh"
+    ],
+    "fileSize": "190 KB",
+    "dimensions": "A4 (2480 x 3508 px)",
+    "language": "en"
+  }
+]
