@@ -9,8 +9,11 @@ export default function Footer({ lang }: { lang: string }) {
       <div className={styles.footerContainer}>
         <div className={styles.footerTop}>
           <div className={styles.footerBrand}>
-            <Link href={`/${lang}`} className={styles.logo}>
-              <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '36px', width: 'auto', objectFit: 'contain' }} />
+            <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center' }}>
+              <div style={{ background: 'linear-gradient(135deg, #0F172A 0%, #1E1B4B 100%)', padding: '6px 14px', borderRadius: '12px', display: 'flex', alignItems: 'center', gap: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '28px', width: 'auto', objectFit: 'contain' }} />
+                <span style={{ color: '#FFFFFF', fontWeight: 800, fontSize: '1rem' }}>Color<span style={{ color: '#FF4B72' }}>MeNow</span></span>
+              </div>
             </Link>
             <p className={styles.brandDesc}>
               {isEn 

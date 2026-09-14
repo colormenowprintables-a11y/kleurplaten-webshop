@@ -134,8 +134,11 @@ export default function Navbar({ lang }: { lang: string }) {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.navbarInner} ref={navRef}>
         <div className={styles.logoSection}>
-          <Link href={`/${lang}`} className={styles.logo}>
-            <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
+          <Link href={`/${lang}`} className={styles.logo} style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ background: 'linear-gradient(135deg, #0F172A 0%, #1E1B4B 100%)', padding: '6px 14px', borderRadius: '12px', display: 'flex', alignItems: 'center', gap: '8px', boxShadow: '0 4px 12px rgba(15, 23, 42, 0.25)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <img src="/logowit.png" alt="ColorMeNow Logo" style={{ height: '32px', width: 'auto', objectFit: 'contain' }} />
+              <span style={{ color: '#FFFFFF', fontWeight: 800, fontSize: '1.1rem', letterSpacing: '-0.02em' }}>Color<span style={{ color: '#FF4B72' }}>MeNow</span></span>
+            </div>
           </Link>
 
           <div className={styles.desktopSearchWrapper}>

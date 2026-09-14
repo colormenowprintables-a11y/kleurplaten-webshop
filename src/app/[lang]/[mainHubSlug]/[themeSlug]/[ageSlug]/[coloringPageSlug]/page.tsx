@@ -20,10 +20,10 @@ import React from 'react';
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const pagesEn = getFeaturedPages('en', 30).map(p => ({ lang: 'en', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
-  const pagesNl = getFeaturedPages('nl', 30).map(p => ({ lang: 'nl', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
-  const pagesDe = getFeaturedPages('de', 30).map(p => ({ lang: 'de', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
-  const pagesFr = getFeaturedPages('fr', 30).map(p => ({ lang: 'fr', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
+  const pagesEn = getFeaturedPages('en', 30).map(p => ({ lang: 'en', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
+  const pagesNl = getFeaturedPages('nl', 30).map(p => ({ lang: 'nl', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
+  const pagesDe = getFeaturedPages('de', 30).map(p => ({ lang: 'de', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
+  const pagesFr = getFeaturedPages('fr', 30).map(p => ({ lang: 'fr', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
   return [...pagesEn, ...pagesNl, ...pagesDe, ...pagesFr];
 }
 

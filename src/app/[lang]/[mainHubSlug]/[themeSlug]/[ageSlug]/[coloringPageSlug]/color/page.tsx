@@ -11,8 +11,8 @@ import React from 'react';
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const pagesEn = getFeaturedPages('en', 20).map(p => ({ lang: 'en', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
-  const pagesNl = getFeaturedPages('nl', 20).map(p => ({ lang: 'nl', mainHubSlug: p.parentHub, themeSlug: p.parentTheme, ageSlug: p.ageGroup, coloringPageSlug: p.slug }));
+  const pagesEn = getFeaturedPages('en', 20).map(p => ({ lang: 'en', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
+  const pagesNl = getFeaturedPages('nl', 20).map(p => ({ lang: 'nl', mainHubSlug: p.parentHub || p.mainHubSlug || 'cute-animals-fantasy', themeSlug: p.parentTheme || 'fantasy-creatures', ageSlug: p.ageGroup || 'all-ages', coloringPageSlug: p.slug }));
   return [...pagesEn, ...pagesNl];
 }
 
