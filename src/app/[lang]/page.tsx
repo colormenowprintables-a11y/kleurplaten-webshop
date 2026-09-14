@@ -632,17 +632,19 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </h2>
               <p className={styles.whyLead}>
                 {isEn
-                  ?'ColorMeNow is your premier destination for high-quality, free printable coloring pages. We believe creativity should be accessible to everyone — which is why our entire collection is premium high-resolution with no signups required.':'ColorMeNow is jouw bestemming voor gratis printbare kleurplaten van topkwaliteit. Wij geloven dat creativiteit voor iedereen toegankelijk moet zijn — daarom is onze hele collectie hoge resolutie zonder registratie.'}
+                  ? 'ColorMeNow is your premier destination for high-quality printable coloring books and 3D covers. Designed for all ages, every collection is formatted in crystal-clear vector line art ready for instant digital download.'
+                  : 'ColorMeNow is de plek voor hoogwaardige digitale kleurboeken en 3D covers. Ontworpen voor alle leeftijden en haarscherp geformatteerd om direct digitaal te downloaden en af te drukken.'}
               </p>
               <p className={styles.whyLead} style={{ marginBottom: 0 }}>
                 {isEn
-                  ?'Whether you are a parent, a teacher, or an adult unwinding with intricate mandalas — we have thousands of high-definition line art pages ready to print.':'Of je nu een ouder bent, een leraar, of een volwassene die ontspant met mandala\'s — wij hebben duizenden hoge resolutie kleurplaten printklaar.'}
+                  ? 'Whether you are a parent, a teacher, or an adult unwinding with intricate mandalas — explore 200+ high-definition PDF coloring books ready to print.'
+                  : 'Of je nu een ouder bent, een leerkracht, of een liefhebber van ontspannende mandala\'s — ontdek meer dan 200+ hoge resolutie PDF-kleurboeken klaar om af te drukken.'}
               </p>
             </ScrollReveal>
 
             <div>
               {[
-                { number:'01', title: isEn ? 'Instant Digital Delivery' : 'Direct Digitaal Geleverd', desc: isEn ?'No paywalls, no subscriptions, no accounts. Download & print instantly.':'Geen abonnementskosten, geen account nodig. Direct printen.'},
+                { number:'01', title: isEn ? 'Instant PDF Book Delivery' : 'Directe Digitale Levering', desc: isEn ? 'High-resolution PDF coloring books & 3D covers delivered instantly.' : 'Hoge resolutie PDF-kleurboeken en 3D covers direct geleverd op je apparaat.'},
                 { number:'02', title: isEn ?'Print-Optimized':'Optimaal Af te Drukken', desc: isEn ?'Clean crisp line art formatted for standard A4 and Letter paper.':'Scherpe lijnen geformatteerd voor A4 en Letter papier.'},
                 { number:'03', title: isEn ?'Curated by Age':'Gesorteerd op Leeftijd', desc: isEn ?'Tailored difficulty levels for toddlers, kids, teens & adults.':'Aangepaste moeilijkheidsgraden voor peuters, kinderen & volwassenen.'},
                 { number:'04', title: isEn ?'Interactive Pencil QA (World First!)':'Interactief Potlood (Wereldprimeur!)', desc: isEn ?'Spot an error? Circle it with our digital red pencil right on the drawing and we refine it!':'Zie je een foutje? Omcirkel het met ons digitale potlood direct op de tekening en we herstellen het!'},
