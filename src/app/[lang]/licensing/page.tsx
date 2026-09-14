@@ -5,8 +5,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
  return {
- title: lang ==='en'?'Licensing | ColorVaults':'Licentie | ColorVaults',
- description: lang ==='en'?'Learn about licensing and commercial use of ColorVaults content.':'Lees meer over licenties en commercieel gebruik van ColorVaults content.',
+ title: lang ==='en'?'Licensing | ColorMeNow':'Licentie | ColorMeNow',
+ description: lang ==='en'?'Learn about licensing and commercial use of ColorMeNow content.':'Lees meer over licenties en commercieel gebruik van ColorMeNow content.',
  };
 }
 
@@ -48,7 +48,7 @@ export default async function LicensingPage({ params }: { params: Promise<{ lang
  <h1 className="title-h1">{isEn ?'Licensing':'Licentie'}</h1>
  <p style={{ color:'#CBD5E1', fontSize:'1.1rem', marginTop:'0.5rem', maxWidth:'600px', lineHeight: 1.7 }}>
  {isEn
- ?'All ColorVaults pages are free for personal use. For commercial use, please read our licensing terms.':'Alle ColorVaults kleurplaten zijn gratis voor persoonlijk gebruik. Voor commercieel gebruik, lees onze licentievoorwaarden.'}
+ ?'All ColorMeNow pages are free for personal use. For commercial use, please read our licensing terms.':'Alle ColorMeNow kleurplaten zijn gratis voor persoonlijk gebruik. Voor commercieel gebruik, lees onze licentievoorwaarden.'}
  </p>
  </div>
  </div>
@@ -97,7 +97,7 @@ export default async function LicensingPage({ params }: { params: Promise<{ lang
  <h2>{isEn ?'Full License Terms':'Volledige Licentievoorwaarden'}</h2>
  <p>
  {isEn
- ?'ColorVaults grants you a non-exclusive, royalty-free license to download and use our coloring pages for personal, educational, and non-commercial purposes. You may not redistribute, sell, or use our pages in any commercial product without a commercial license.':'ColorVaults verleent u een niet-exclusieve, royaltyvrije licentie om onze kleurplaten te downloaden en te gebruiken voor persoonlijke, educatieve en niet-commerciële doeleinden. U mag onze pagina\'s niet herverspreiden, verkopen of gebruiken in commerciële producten zonder een commerciële licentie.'}
+ ?'ColorMeNow grants you a non-exclusive, royalty-free license to download and use our coloring pages for personal, educational, and non-commercial purposes. You may not redistribute, sell, or use our pages in any commercial product without a commercial license.':'ColorMeNow verleent u een niet-exclusieve, royaltyvrije licentie om onze kleurplaten te downloaden en te gebruiken voor persoonlijke, educatieve en niet-commerciële doeleinden. U mag onze pagina\'s niet herverspreiden, verkopen of gebruiken in commerciële producten zonder een commerciële licentie.'}
  </p>
  <p>
  {isEn

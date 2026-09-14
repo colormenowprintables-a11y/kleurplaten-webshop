@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     ? `/api/og?title=${encodeURIComponent(hub.title + ' Coloring Pages')}&image=${encodeURIComponent(hub.image)}`
     : '/images/banner.jpg';
 
-  let title = `${hub.title} Coloring Pages (Free Printable PDFs) | ColorVaults`;
+  let title = `${hub.title} Coloring Pages (Free Printable PDFs) | ColorMeNow`;
   if (lang === 'nl') {
-    title = `${hub.title} Kleurplaten (Gratis Printen & Downloaden) | ColorVaults`;
+    title = `${hub.title} Kleurplaten (Gratis Printen & Downloaden) | ColorMeNow`;
   } else if (lang === 'de') {
-    title = `${hub.title} Malvorlagen (Kostenlos Ausdrucken) | ColorVaults`;
+    title = `${hub.title} Malvorlagen (Kostenlos Ausdrucken) | ColorMeNow`;
   } else if (lang === 'fr') {
-    title = `Coloriages ${hub.title} (Gratuits à Imprimer) | ColorVaults`;
+    title = `Coloriages ${hub.title} (Gratuits à Imprimer) | ColorMeNow`;
   }
 
   return {
@@ -317,10 +317,10 @@ export default async function MainHubPage({ params }: { params: Promise<{ lang: 
 
       <script
         type="application/ld+json"dangerouslySetInnerHTML={{ __html: safeJsonLd({'@context':'https://schema.org','@graph': [
-            {'@type':'CollectionPage','name': hub.title,'description': hub.description,'url':`https://colorvaults.com/${lang}/${hub.slug}`,'isPartOf': {'@id':'https://colorvaults.com/#website'},'hasPart': allThemes.map(t => ({'@type':'WebPage','name': t.title,'url':`https://colorvaults.com/${lang}/${hub.slug}/${t.slug}`}))
+            {'@type':'CollectionPage','name': hub.title,'description': hub.description,'url':`https://colormenow.shop/${lang}/${hub.slug}`,'isPartOf': {'@id':'https://colormenow.shop/#website'},'hasPart': allThemes.map(t => ({'@type':'WebPage','name': t.title,'url':`https://colormenow.shop/${lang}/${hub.slug}/${t.slug}`}))
             },
             {'@type':'BreadcrumbList','itemListElement': [
-                {'@type':'ListItem','position': 1,'name': hub.title,'item':`https://colorvaults.com/${lang}/${hub.slug}`}
+                {'@type':'ListItem','position': 1,'name': hub.title,'item':`https://colormenow.shop/${lang}/${hub.slug}`}
               ]
             }
           ]

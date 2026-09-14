@@ -14,8 +14,8 @@ export default function FaqSection({ isEn }: { isEn: boolean }) {
   const faqs: FaqItem[] = isEn
     ? [
         {
-          question:'Are all coloring pages on ColorVaults really 100% free to print?',
-          answer:'Yes! Every single coloring page on ColorVaults is completely free to download, print, or color online. There are no paywalls, no subscriptions, and no user registration required. You can print unlimited copies for personal use, at home, or in classrooms.'},
+          question:'Are all coloring pages on ColorMeNow really 100% free to print?',
+          answer:'Yes! Every single coloring page on ColorMeNow is completely free to download, print, or color online. There are no paywalls, no subscriptions, and no user registration required. You can print unlimited copies for personal use, at home, or in classrooms.'},
         {
           question:'What is the best paper and printer setting for printing coloring pages?',
           answer:'All our coloring pages are formatted in high-definition (300 DPI) for standard A4 and US Letter paper. For best results, choose"Fit to Printable Area"or"100% Scale"with 0 margins in your printer settings. Standard 80gsm copy paper is great for crayons and colored pencils, while 120-160gsm cardstock is recommended for alcohol markers and watercolors to prevent bleed-through.'},
@@ -40,8 +40,8 @@ export default function FaqSection({ isEn }: { isEn: boolean }) {
       ]
     : [
         {
-          question:'Zijn alle kleurplaten op ColorVaults echt 100% gratis om te printen?',
-          answer:'Ja, absoluut! Elke kleurplaat op ColorVaults is volledig gratis te downloaden, uit te printen of direct online in te kleuren. Er zijn geen verborgen kosten, geen abonnementen en je hoeft geen account aan te maken. Je mag onbeperkt printen voor thuis, op school of bij de opvang.'},
+          question:'Zijn alle kleurplaten op ColorMeNow echt 100% gratis om te printen?',
+          answer:'Ja, absoluut! Elke kleurplaat op ColorMeNow is volledig gratis te downloaden, uit te printen of direct online in te kleuren. Er zijn geen verborgen kosten, geen abonnementen en je hoeft geen account aan te maken. Je mag onbeperkt printen voor thuis, op school of bij de opvang.'},
         {
           question:'Wat is de beste printerinstelling en papiersoort voor het afdrukken?',
           answer:'Onze kleurplaten zijn geoptimaliseerd in hoge resolutie (300 DPI) voor standaard A4-formaat. Stel in je printerdialoog de schaal in op"100%"of"Aanpassen aan afdrukbaar gebied"zonder marges. Normaal 80 grams printerpapier is ideaal voor kleurpotloden en wasco, terwijl 120-160 grams dikker papier perfect is voor viltstiften en waterverf tegen doordrukken.'},

@@ -29,8 +29,8 @@ export async function generateMetadata({
 
   return {
     title: isEn
-      ? `${lesson.titleEn} (Step-by-Step Drawing Tutorial) | ColorVaults`
-      : `${lesson.titleNl} (Stap voor Stap Tekengids) | ColorVaults`,
+      ? `${lesson.titleEn} (Step-by-Step Drawing Tutorial) | ColorMeNow`
+      : `${lesson.titleNl} (Stap voor Stap Tekengids) | ColorMeNow`,
     description: isEn ? lesson.descEn : lesson.descNl,
     openGraph: lesson.image ? {
       images: [{ url: lesson.image }],

@@ -1,5 +1,5 @@
 export const metadata = {
-  title:'Admin — ColorVaults',
+  title:'Admin — ColorMeNow',
   robots: { index: false, follow: false },
 };
 

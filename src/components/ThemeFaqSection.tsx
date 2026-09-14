@@ -112,7 +112,7 @@ export default function ThemeFaqSection({
     },
     {
       question: `Can my child color these online without a printer?`,
-      answer: `Yes! ColorVaults features an interactive Online Coloring Studio. Simply click the "Color Online" button on any ${displayTitle} page to start coloring directly on your iPad, tablet, smartphone, or laptop with digital fill buckets, brushes, and color palettes.`,
+      answer: `Yes! ColorMeNow features an interactive Online Coloring Studio. Simply click the "Color Online" button on any ${displayTitle} page to start coloring directly on your iPad, tablet, smartphone, or laptop with digital fill buckets, brushes, and color palettes.`,
     },
     {
       question: `How do I bundle multiple ${displayTitle} pages into a custom coloring book?`,
@@ -125,7 +125,7 @@ export default function ThemeFaqSection({
   ] : [
     {
       question: `Zijn deze ${displayTitle} kleurplaten echt 100% gratis te printen?`,
-      answer: `Ja, absoluut! Alle ${displayTitle} kleurplaten op ColorVaults zijn 100% gratis te downloaden en te printen voor thuis, op school of op de opvang. Er zijn geen abonnementen, verborgen kosten of verplichte accounts nodig.`,
+      answer: `Ja, absoluut! Alle ${displayTitle} kleurplaten op ColorMeNow zijn 100% gratis te downloaden en te printen voor thuis, op school of op de opvang. Er zijn geen abonnementen, verborgen kosten of verplichte accounts nodig.`,
     },
     ...getGenreFaqs(),
     {
@@ -138,7 +138,7 @@ export default function ThemeFaqSection({
     },
     {
       question: `Kan mijn kind deze kleurplaten ook digitaal inkleuren zonder printer?`,
-      answer: `Ja! ColorVaults heeft een ingebouwde interactieve Online Kleurtool. Klik bij een ${displayTitle} kleurplaat op "Online Inkleuren" om direct op een tablet, iPad of telefoon te kleuren met verfemmers, kwasten en een rijk kleurenpalet.`,
+      answer: `Ja! ColorMeNow heeft een ingebouwde interactieve Online Kleurtool. Klik bij een ${displayTitle} kleurplaat op "Online Inkleuren" om direct op een tablet, iPad of telefoon te kleuren met verfemmers, kwasten en een rijk kleurenpalet.`,
     },
     {
       question: `Hoe stel ik mijn eigen ${displayTitle} kleurboek samen?`,

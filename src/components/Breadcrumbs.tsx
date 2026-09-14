@@ -13,11 +13,11 @@ export default function Breadcrumbs({ items, lang }: { items: BreadcrumbItem[]; 
       {'@type':'ListItem',
         position: 1,
         name: lang ==='en'?'Home':'Home',
-        item:`https://colorvaults.com/${lang}`},
+        item:`https://colormenow.shop/${lang}`},
       ...items.map((item, index) => ({'@type':'ListItem',
         position: index + 2,
         name: item.label,
-        item: item.href ?`https://colorvaults.com${item.href}`: undefined
+        item: item.href ?`https://colormenow.shop${item.href}`: undefined
       }))
     ]
   };

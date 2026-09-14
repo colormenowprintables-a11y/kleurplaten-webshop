@@ -46,8 +46,8 @@ export default function FavoritesPage({ params }: { params: Promise<{ lang: stri
       pdf.setTextColor(100, 100, 100);
       pdf.text(
         isEn
-          ? `A collection of ${favorites.length} hand-picked coloring pages from ColorVaults.com`
-          : `Een bundel van ${favorites.length} favoriete kleurplaten van ColorVaults.com`,
+          ? `A collection of ${favorites.length} hand-picked coloring pages from ColorMeNow.com`
+          : `Een bundel van ${favorites.length} favoriete kleurplaten van ColorMeNow.com`,
         pageWidth / 2,
         96,
         { align: 'center' }
@@ -70,7 +70,7 @@ export default function FavoritesPage({ params }: { params: Promise<{ lang: stri
 
       pdf.setFontSize(9);
       pdf.setTextColor(160, 160, 160);
-      pdf.text('© ColorVaults.com — 100% Free Printable Coloring Pages', pageWidth / 2, pageHeight - 15, { align: 'center' });
+      pdf.text('© ColorMeNow.com — 100% Free Printable Coloring Pages', pageWidth / 2, pageHeight - 15, { align: 'center' });
 
       // Add each favorite page
       for (let i = 0; i < favorites.length; i++) {
@@ -83,7 +83,7 @@ export default function FavoritesPage({ params }: { params: Promise<{ lang: stri
         pdf.setFont('helvetica', 'bold');
         pdf.setFontSize(10);
         pdf.setTextColor(120, 120, 120);
-        pdf.text('ColorVaults.com — Free Printable Coloring Pages', pageWidth / 2, margin, { align: 'center' });
+        pdf.text('ColorMeNow.com — Free Printable Coloring Pages', pageWidth / 2, margin, { align: 'center' });
 
         try {
           // Fetch image via proxy to avoid CORS
@@ -123,14 +123,14 @@ export default function FavoritesPage({ params }: { params: Promise<{ lang: stri
         pdf.setFontSize(8);
         pdf.setTextColor(150, 150, 150);
         pdf.text(
-          `© ColorVaults.com — ${item.title} — Page ${i + 1} of ${favorites.length}`,
+          `© ColorMeNow.com — ${item.title} — Page ${i + 1} of ${favorites.length}`,
           pageWidth / 2,
           pageHeight - 6,
           { align: 'center' }
         );
       }
 
-      pdf.save(`colorvaults-coloring-book-${favorites.length}-pages.pdf`);
+      pdf.save(`colormenow-coloring-book-${favorites.length}-pages.pdf`);
       setGeneratingPdf(false);
       setPdfProgress('');
     } catch (err) {

@@ -91,7 +91,7 @@ export default function ThemeColoringBookPdfButton({
             // Page footer
             pdf.setFontSize(8);
             pdf.setTextColor(180, 190, 205);
-            pdf.text('ColorVaults.com', pageWidth / 2, pageHeight - 8, { align:'center'});
+            pdf.text('ColorMeNow.com', pageWidth / 2, pageHeight - 8, { align:'center'});
 
             URL.revokeObjectURL(img.src);
           }
@@ -101,7 +101,7 @@ export default function ThemeColoringBookPdfButton({
       }
 
       const cleanSlug = themeTitle.toLowerCase().replace(/[^a-z0-9]+/g,'-');
-      pdf.save(`colorvaults-${cleanSlug}-coloring-book.pdf`);
+      pdf.save(`colormenow-${cleanSlug}-coloring-book.pdf`);
       fireConfetti();
     } catch (e) {
       console.error('Failed to generate coloring book PDF:', e);

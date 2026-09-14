@@ -126,7 +126,7 @@ export default function DailyColoringChallenge({ isEn, lang }: DailyChallengePro
       }}>
         <div style={{ aspectRatio:'3/4', position:'relative', borderRadius:'10px', overflow:'hidden', background:'#F8FAFC'}}>
           <SafeImage
-            src="https://colorvaults.ams3.cdn.digitaloceanspaces.com/banner/hub_fantasy-fairytales.webp"alt="Daily Coloring Page"width={200}
+            src="https://colormenow.ams3.cdn.digitaloceanspaces.com/banner/hub_fantasy-fairytales.webp"alt="Daily Coloring Page"width={200}
             height={260}
             style={{ width:'100%', height:'100%', objectFit:'cover'}}
           />

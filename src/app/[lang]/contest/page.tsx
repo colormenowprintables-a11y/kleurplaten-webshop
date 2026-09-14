@@ -7,8 +7,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
  return {
- title: lang ==='en'?'Contest | ColorVaults':'Wedstrijd | ColorVaults',
- description: lang ==='en'?'Join the ColorVaults coloring contest and win prizes!':'Doe mee aan de ColorVaults kleurwedstrijd en win prijzen!',
+ title: lang ==='en'?'Contest | ColorMeNow':'Wedstrijd | ColorMeNow',
+ description: lang ==='en'?'Join the ColorMeNow coloring contest and win prizes!':'Doe mee aan de ColorMeNow kleurwedstrijd en win prijzen!',
  };
 }
 
@@ -33,7 +33,7 @@ export default async function ContestPage({ params }: { params: Promise<{ lang: 
  <h2>{isEn ?'How It Works':'Hoe Werkt Het'}</h2>
  <p>
  {isEn
- ?'Download any coloring page from ColorVaults, color it in, and submit a photo. Our community votes for the best entries and winners receive special prizes each month.':'Download een kleurplaat van ColorVaults, kleur hem in, en stuur een foto in. Onze community stemt op de beste inzendingen en winnaars ontvangen elke maand speciale prijzen.'}
+ ?'Download any coloring page from ColorMeNow, color it in, and submit a photo. Our community votes for the best entries and winners receive special prizes each month.':'Download een kleurplaat van ColorMeNow, kleur hem in, en stuur een foto in. Onze community stemt op de beste inzendingen en winnaars ontvangen elke maand speciale prijzen.'}
  </p>
  </div>
 

@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server';
 
 const ALLOWED_HOSTNAMES = new Set([
-  'colorvaults.ams3.cdn.digitaloceanspaces.com',
-  'colorvaults.ams3.digitaloceanspaces.com'
+  'colormenow.ams3.cdn.digitaloceanspaces.com',
+  'colormenow.ams3.digitaloceanspaces.com'
 ]);
 
 const ALLOWED_ORIGINS = [
-  'https://colorvaults.com',
-  'https://www.colorvaults.com',
+  'https://colormenow.shop',
+  'https://www.colormenow.shop',
   'http://localhost:3000',
   'http://127.0.0.1:3000'
 ];
@@ -17,7 +17,7 @@ function getAllowedOrigin(request: Request): string {
   if (origin && ALLOWED_ORIGINS.includes(origin)) {
     return origin;
   }
-  return 'https://colorvaults.com';
+  return 'https://colormenow.shop';
 }
 
 export async function OPTIONS(request: Request) {
@@ -75,7 +75,7 @@ export async function GET(request: Request) {
     const buffer = await response.arrayBuffer();
     
     const basename = parsedUrl.pathname.split('/').pop() || '';
-    const sanitizedFilename = basename.replace(/[^a-zA-Z0-9.-]/g, '') || 'colorvaults-page.jpg';
+    const sanitizedFilename = basename.replace(/[^a-zA-Z0-9.-]/g, '') || 'colormenow-page.jpg';
     const origin = getAllowedOrigin(request);
 
     return new NextResponse(buffer, {

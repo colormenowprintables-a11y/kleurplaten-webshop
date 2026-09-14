@@ -7,7 +7,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
  return {
- title: lang ==='en'?'Request a Coloring Page | ColorVaults':'Kleurplaat Aanvragen | ColorVaults',
+ title: lang ==='en'?'Request a Coloring Page | ColorMeNow':'Kleurplaat Aanvragen | ColorMeNow',
  description: lang ==='en'?'Can\'t find what you\'re looking for? Request a custom coloring page!':'Kun je niet vinden wat je zoekt? Vraag een aangepaste kleurplaat aan!',
  };
 }
@@ -36,8 +36,8 @@ export default async function RequestPage({ params }: { params: Promise<{ lang: 
               <h2>{isEn ? 'How Requests Work' : 'Hoe Aanvragen Werken'}</h2>
               <p>
                 {isEn
-                  ? 'We love hearing from our community! If there\'s a character, theme, or style you want to see on ColorVaults, send us a message and we\'ll do our best to create it.'
-                  : 'We horen graag van onze community! Als er een personage, thema of stijl is die je op ColorVaults wilt zien, stuur ons dan een bericht en we doen ons best om het te maken.'}
+                  ? 'We love hearing from our community! If there\'s a character, theme, or style you want to see on ColorMeNow, send us a message and we\'ll do our best to create it.'
+                  : 'We horen graag van onze community! Als er een personage, thema of stijl is die je op ColorMeNow wilt zien, stuur ons dan een bericht en we doen ons best om het te maken.'}
               </p>
               <p style={{ marginTop: '1rem' }}>
                 {isEn

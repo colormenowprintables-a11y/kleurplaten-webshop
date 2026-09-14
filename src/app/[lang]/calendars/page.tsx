@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isEn = lang === 'en';
   return {
     title: isEn
-      ? 'Free Printable 2026 & 2027 Coloring Calendars (10 Theme Editions, 12-Month PDF) | ColorVaults'
-      : 'Gratis Printbare 2026 & 2027 Kleurkalenders (10 Thema Uitgaven, 12 Maanden PDF) | ColorVaults',
+      ? 'Free Printable 2026 & 2027 Coloring Calendars (10 Theme Editions, 12-Month PDF) | ColorMeNow'
+      : 'Gratis Printbare 2026 & 2027 Kleurkalenders (10 Thema Uitgaven, 12 Maanden PDF) | ColorMeNow',
     description: isEn
       ? 'Download and print our 10 free 12-month printable coloring calendars for 2026 and 2027! Includes cute animals, dinosaurs, space, mandalas, fairytales and monthly planning grids.'
       : 'Download en print onze 10 gratis 12-maanden jaarkalenders voor 2026 en 2027! Met schattige dieren, dinosaurussen, ruimte, mandala’s, sprookjes en handige maandvakken.',

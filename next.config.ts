@@ -46,12 +46,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'colorvaults.ams3.cdn.digitaloceanspaces.com',
+        hostname: 'colormenow.ams3.cdn.digitaloceanspaces.com',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'colorvaults.ams3.digitaloceanspaces.com',
+        hostname: 'colormenow.ams3.digitaloceanspaces.com',
         pathname: '/**',
       },
       {

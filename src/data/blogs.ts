@@ -18,7 +18,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Parenting & Early Education',
       readTime:'4 min read',
       date:'August 28, 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Cute%20Pets%20Animals/Animals_An_intricate_fantasy_animal_kin_1785061615957_1.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Cute%20Pets%20Animals/Animals_An_intricate_fantasy_animal_kin_1785061615957_1.webp',
       content:`<p>Coloring is far more than just a fun rainy-day activity for toddlers—it is an essential developmental milestone! Between the ages of 2 and 4, young children are actively developing their fine motor skills, hand strength, and visual tracking abilities.</p>
         
         <h2>Why Bold Lines Matter for Toddlers</h2>
@@ -32,7 +32,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
           <li><strong>Focus & Calming:</strong> Sitting down to color fosters emotional regulation and mindfulness.</li>
         </ul>
 
-        <h2>Top Recommended Collections on ColorVaults</h2>
+        <h2>Top Recommended Collections on ColorMeNow</h2>
         <p>Check out our <strong>Bold & Easy</strong> and <strong>Cute Pets Animals</strong> collections. Every template is 100% free to print directly in high resolution!</p>`,
     },
     {
@@ -42,7 +42,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Wellness & Mindfulness',
       readTime:'5 min read',
       date:'August 26, 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134243675.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134243675.webp',
       content:`<p>In today's fast-paced digital environment, taking time to unplug is vital for mental health. Mandala coloring has emerged as one of the most effective, accessible forms of creative mindfulness for adults and teenagers alike.</p>
         
         <h2>The Science of Mandala Art</h2>
@@ -56,7 +56,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ul>
 
         <h2>Explore Our Mandala Library</h2>
-        <p>Browse over 150+ free printable mandalas on ColorVaults ranging from beginner geometric patterns to advanced botanical artwork.</p>`,
+        <p>Browse over 150+ free printable mandalas on ColorMeNow ranging from beginner geometric patterns to advanced botanical artwork.</p>`,
     },
     {
       slug:'creative-classroom-coloring-ideas',
@@ -65,7 +65,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Education & Teaching',
       readTime:'6 min read',
       date:'August 24, 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
       content:`<p>Teachers around the world are rediscovering printable coloring templates as versatile learning aids. Far from being just"filler work,"targeted coloring pages enhance lesson retention and foster classroom community.</p>
 
         <h2>5 Smart Ways to Use Coloring Sheets in School</h2>
@@ -83,7 +83,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Art Supplies & Reviews',
       readTime: '7 min read',
       date: 'August 28, 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Craft%20Sketches/Craft_Cute_animal_craft_sketches_with_1785055018698_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Craft%20Sketches/Craft_Cute_animal_craft_sketches_with_1785055018698_1.webp',
       content: `<p>Whether you are coloring with children or working on an intricate adult masterpiece, your choice of materials dramatically impacts your coloring experience. Here is an expert breakdown of the best pencils, markers, and paper stocks for printable coloring sheets.</p>
         <h2>1. Colored Pencils: Wax-Based vs. Oil-Based</h2>
         <ul>
@@ -105,7 +105,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Art Tutorials & Skills',
       readTime: '6 min read',
       date: 'August 25, 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau/Art_Nouveau_An_exquisite_Art_Nouveau_mas_1785050519124_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau/Art_Nouveau_An_exquisite_Art_Nouveau_mas_1785050519124_1.webp',
       content: `<p>Transform your flat coloring pages into dynamic, three-dimensional works of art! By understanding a few core illustration principles—light direction, pressure control, and tonal layering—you can achieve professional-looking results with any basic set of colored pencils.</p>
         <h2>Step 1: Establishing a Consistent Light Source</h2>
         <p>Before putting pencil to paper, decide where your imaginary light is coming from (e.g., top-left corner). Surfaces facing the light receive the lightest tints or white highlights, while opposing surfaces require deeper, layered shadows.</p>
@@ -121,7 +121,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Family & Lifestyle',
       readTime: '5 min read',
       date: 'August 22, 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Cozy%20Life/Cozy_Life_An_8k_cozy_hygge_room_interior_1785053229768_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Cozy%20Life/Cozy_Life_An_8k_cozy_hygge_room_interior_1785053229768_1.webp',
       content: `<p>Between smartphones, gaming consoles, and streaming television, modern family evenings are increasingly fragmented by screens. Creating a dedicated Coloring & Tea evening ritual is a simple, cost-effective way to restore connection, reduce bedtime anxiety, and inspire shared creativity.</p>
         <h2>Setting Up a Creative Family Station</h2>
         <p>Keep a portable caddy stocked with sharpened colored pencils, gel pens, and a binder of pre-printed coloring sheets tailored to each family member's taste.</p>
@@ -139,7 +139,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Art Tutorials & Skills',
       readTime: '6 min read',
       date: 'August 18, 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134261899.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134261899.webp',
       content: `<p>Have you ever started a coloring page with excitement, only to find the finished page looks chaotic or muddy? The secret to striking artwork lies in basic color theory. Understanding how colors interact empowers you to craft intentional moods and balanced compositions.</p>
         <h2>The 3 Essential Color Harmonies</h2>
         <ol>
@@ -157,7 +157,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Productivity & Organization',
       readTime: '5 min read',
       date: 'August 15, 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_2.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_2.webp',
       content: `<p>Staying organized does not have to feel like a chore. Printable coloring calendars and illustrated habit trackers transform daily planning into an engaging, visual creative ritual.</p>
         <h2>Benefits of Illustrated Planning</h2>
         <ul>
@@ -175,7 +175,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Opvoeding & Ontwikkeling',
       readTime:'4 min leestijd',
       date:'28 augustus 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Cute%20Pets%20Animals/Animals_An_intricate_fantasy_animal_kin_1785061615957_1.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Cute%20Pets%20Animals/Animals_An_intricate_fantasy_animal_kin_1785061615957_1.webp',
       content:`<p>Kleurplaten inkleuren is voor peuters veel meer dan zomaar een leuke tijdverdrijf op een regenachtige dag: het is een belangrijke stap in de lichamelijke en mentale ontwikkeling! Tussen de leeftijd van 2 en 4 jaar ontwikkelen jonge kinderen hun fijne motoriek, handspieren en visueel vermogen.</p>
         
         <h2>Waarom dikke omlijningen belangrijk zijn</h2>
@@ -189,7 +189,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
           <li><strong>Rust & Focus:</strong> Rustig zitten om in te kleuren bevordert concentratie en emotionele rust.</li>
         </ul>
 
-        <h2>Aanbevolen Collecties op ColorVaults</h2>
+        <h2>Aanbevolen Collecties op ColorMeNow</h2>
         <p>Bekijk onze <strong>Speciaal voor Peuters</strong> en <strong>Lieve Huisdieren</strong> collecties. Alle sjablonen zijn 100% gratis in hoge resolutie uit te printen!</p>`,
     },
     {
@@ -199,7 +199,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Gezondheid & Ontspanning',
       readTime:'5 min leestijd',
       date:'26 augustus 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134243675.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134243675.webp',
       content:`<p>In onze drukke digitale wereld is het bewust nemen van rustmomenten erg belangrijk. Mandala kleurplaten zijn uitgegroeid tot een van de meest effectieve en toegankelijke vormen van creatieve ontspanning voor volwassenen en tieners.</p>
         
         <h2>De Wetenschap achter Mandala Kunst</h2>
@@ -213,7 +213,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ul>
 
         <h2>Ontdek Onze Mandala Bibliotheek</h2>
-        <p>Bekijk meer dan 150+ gratis printbare mandalas op ColorVaults, variërend van eenvoudige geometrische vormen tot gedetailleerde botanische kunstwerken.</p>`,
+        <p>Bekijk meer dan 150+ gratis printbare mandalas op ColorMeNow, variërend van eenvoudige geometrische vormen tot gedetailleerde botanische kunstwerken.</p>`,
     },
     {
       slug:'creatieve-kleurplaat-ideeen-basisschool',
@@ -222,7 +222,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category:'Onderwijs & Lesideën',
       readTime:'6 min leestijd',
       date:'24 augustus 2026',
-      image:'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
+      image:'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_1.webp',
       content:`<p>Leerkrachten en kleuterjuffen wereldwijd gebruiken printbare kleurplaten als veelzijdige ondersteuning in de klas. Kleurplaten verhogen niet alleen de plezier in de klas, maar ondersteunen ook de lesstof.</p>
 
         <h2>5 Slimme Manieren om Kleurplaten in de Klas te Gebruiken</h2>
@@ -234,7 +234,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ol>
 
         <h2>Gratis Toegang voor Scholen</h2>
-        <p>Alle 26.000+ kleurplaten op ColorVaults zijn 100% gratis te gebruiken voor het onderwijs. Print direct onbeperkt lesmateriaal zonder registratie!</p>`,
+        <p>Alle 26.000+ kleurplaten op ColorMeNow zijn 100% gratis te gebruiken voor het onderwijs. Print direct onbeperkt lesmateriaal zonder registratie!</p>`,
     },
     {
       slug: 'beste-kleurpotloden-stiften-papier-gids',
@@ -243,7 +243,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Kleurmaterialen & Tips',
       readTime: '7 min leestijd',
       date: '28 augustus 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Craft%20Sketches/Craft_Cute_animal_craft_sketches_with_1785055018698_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Craft%20Sketches/Craft_Cute_animal_craft_sketches_with_1785055018698_1.webp',
       content: `<p>Of je nu kleurt met je kinderen of werkt aan een gedetailleerde mandala voor volwassenen: het juiste materiaal maakt een wereld van verschil. Hier is een heldere gids over de beste potloden, stiften en papier voor afgedrukte kleurplaten.</p>
         <h2>1. Kleurpotloden: Wasbasis versus Oliebasis</h2>
         <ul>
@@ -265,7 +265,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Kleurtechnieken & Cursus',
       readTime: '6 min leestijd',
       date: '25 augustus 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau/Art_Nouveau_An_exquisite_Art_Nouveau_mas_1785050519124_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau/Art_Nouveau_An_exquisite_Art_Nouveau_mas_1785050519124_1.webp',
       content: `<p>Wil je jouw kleurplaten tot leven laten komen met diepte en dynamiek? Door drie eenvoudige basisprincipes toe te passen—lichtbron, drukverdeling en kleurlaagjes—transformeer je elke platte tekening in een prachtig kunstwerk.</p>
         <h2>Stap 1: Bepaal een Duidelijke Lichtbron</h2>
         <p>Bedenk voordat je begint waar het denkbeeldige licht vandaan komt. Vlakken die naar het licht wijzen houd je licht, terwijl oppervlakken aan de schaduwzijde donkerdere tinten krijgen.</p>
@@ -281,7 +281,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Gezin & Lifestyle',
       readTime: '5 min leestijd',
       date: '22 augustus 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Cozy%20Life/Cozy_Life_An_8k_cozy_hygge_room_interior_1785053229768_1.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Cozy%20Life/Cozy_Life_An_8k_cozy_hygge_room_interior_1785053229768_1.webp',
       content: `<p>Tussen smartphones, tablets en televisies zijn gezinsavonden vaak gevuld met blauw licht en prikkels. Een vast wekelijks of dagelijks kleurmoment aan de keukentafel brengt rust, echte aandacht voor elkaar en creatieve ontspanning.</p>
         <h2>Een Handige Creatieve Knutselhoek Inrichten</h2>
         <p>Zet een gezellige bak met geslepen potloden, stiften en een map met geprinte kleurplaten binnen handbereik op tafel.</p>
@@ -299,7 +299,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Kleurtechnieken & Cursus',
       readTime: '6 min leestijd',
       date: '18 augustus 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134261899.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Mandalas/Black_and_White_Mandala_1786134261899.webp',
       content: `<p>Heb je wel eens een kleurplaat ingekleurd die er achteraf onrustig of flets uitzag? Het geheim van professioneel ogend kleurwerk zit in de basisprincipes van kleurenleer. Met de juiste kleurenharmonie creëer je rust en sfeer.</p>
         <h2>De 3 Belangrijkste Kleurenharmonieën</h2>
         <ol>
@@ -317,7 +317,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
       category: 'Productiviteit & Planning',
       readTime: '5 min leestijd',
       date: '15 augustus 2026',
-      image: 'https://colorvaults.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_2.webp',
+      image: 'https://colormenow.ams3.cdn.digitaloceanspaces.com/Coloring%20Calendars/Monthly_Calendars_2.webp',
       content: `<p>Plannen en doelen stellen hoeft niet saai te zijn. Printbare kleurkalenders en geïllustreerde gewoonte-trackers (habit trackers) maken van je dagelijkse routine een visueel en motiverend feestje.</p>
         <h2>Voordelen van Geïllustreerd Plannen</h2>
         <ul>

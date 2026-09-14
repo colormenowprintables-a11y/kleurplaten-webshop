@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   
   const isEn = lang === 'en';
   const title = isEn 
-    ? `Color ${page.title} Online for Free | ColorVaults` : `${page.title} Gratis Online Inkleuren | ColorVaults`;
+    ? `Color ${page.title} Online for Free | ColorMeNow` : `${page.title} Gratis Online Inkleuren | ColorMeNow`;
   const description = isEn
     ? `Color the ${page.title} coloring page online for free! Interactive in-browser painting studio with fill bucket, custom brush tools, and instant download.` : `Kleur de ${page.title} kleurplaat gratis online in! Interactieve online kleurstudio met verfemmer, kwasten en direct opslaan als kunstwerk.`;
   
@@ -89,7 +89,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
     pageChunks.push(displayPages.slice(i, i + 12));
   }
 
-  const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colorvaults.com/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
+  const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
 
   return (
     <div className="container section"style={{ paddingBottom:'4rem'}}>

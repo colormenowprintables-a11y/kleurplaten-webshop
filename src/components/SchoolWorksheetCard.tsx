@@ -171,7 +171,7 @@ export default function SchoolWorksheetCard({ sheet, isEn }: SchoolWorksheetCard
                     {isEn ? sheet.titleEn : sheet.titleNl}
                   </h2>
                   <span style={{ fontSize: '0.85rem', color: '#64748B', fontWeight: 700 }}>
-                    ColorVaults Education • {sheet.grade.toUpperCase()}
+                    ColorMeNow Education • {sheet.grade.toUpperCase()}
                   </span>
                 </div>
                 <div style={{ textAlign: 'right', fontSize: '0.85rem', color: '#475569' }}>
@@ -205,7 +205,7 @@ export default function SchoolWorksheetCard({ sheet, isEn }: SchoolWorksheetCard
 
               {/* Star Score Footer */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '2px solid #E2E8F0', paddingTop: '1rem', marginTop: '1.5rem', fontSize: '0.85rem', color: '#64748B' }}>
-                <span>© ColorVaults.com — Free for Schools & Families</span>
+                <span>© ColorMeNow.com — Free for Schools & Families</span>
                 <span>⭐ ⭐ ⭐ ⭐ ⭐ <strong>{isEn ? 'Great Job!' : 'Goed gedaan!'}</strong></span>
               </div>
             </div>

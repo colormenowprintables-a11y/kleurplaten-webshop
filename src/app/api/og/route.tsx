@@ -2,7 +2,7 @@ import { ImageResponse } from'next/og';
 
 export const runtime ='edge';
 
-const ALLOWED_HOSTNAMES = new Set(['colorvaults.ams3.cdn.digitaloceanspaces.com','colorvaults.ams3.digitaloceanspaces.com']);
+const ALLOWED_HOSTNAMES = new Set(['colormenow.ams3.cdn.digitaloceanspaces.com','colormenow.ams3.digitaloceanspaces.com']);
 
 export async function GET(request: Request) {
   try {

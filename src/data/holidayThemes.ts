@@ -70,8 +70,8 @@ export const HOLIDAY_THEMES: Record<HolidayThemeId, HolidayThemeConfig> = {
   },
   default: {
     id: 'default',
-    nameEn: 'Standard ColorVaults',
-    nameNl: 'Standaard ColorVaults',
+    nameEn: 'Standard ColorMeNow',
+    nameNl: 'Standaard ColorMeNow',
     emoji: '🌟',
     badge: 'Klassiek',
     primaryColor: '#6C5CE7',

@@ -38,13 +38,13 @@ export async function generateMetadata({
     ? `/api/og?title=${encodeURIComponent(theme.title + ' Coloring Pages')}&image=${encodeURIComponent(theme.image)}`
     : '/images/banner.jpg';
 
-  let title = `${theme.title} Coloring Pages (Free Printable PDFs) | ColorVaults`;
+  let title = `${theme.title} Coloring Pages (Free Printable PDFs) | ColorMeNow`;
   if (lang === 'nl') {
-    title = `${theme.title} Kleurplaten (Gratis Printen & Downloaden) | ColorVaults`;
+    title = `${theme.title} Kleurplaten (Gratis Printen & Downloaden) | ColorMeNow`;
   } else if (lang === 'de') {
-    title = `${theme.title} Malvorlagen & Ausmalbilder (Kostenlos Drucken) | ColorVaults`;
+    title = `${theme.title} Malvorlagen & Ausmalbilder (Kostenlos Drucken) | ColorMeNow`;
   } else if (lang === 'fr') {
-    title = `Coloriage ${theme.title} (Gratuit à Imprimer PDF) | ColorVaults`;
+    title = `Coloriage ${theme.title} (Gratuit à Imprimer PDF) | ColorMeNow`;
   }
 
   return {
@@ -133,12 +133,12 @@ export default async function ThemePage({
     '@type': 'ImageGallery',
     name: `${theme.title} Free Printable Coloring Pages`,
     description: theme.description,
-    url: `https://colorvaults.com/${lang}/${mainHubSlug}/${theme.slug}`,
+    url: `https://colormenow.shop/${lang}/${mainHubSlug}/${theme.slug}`,
     image: coloringPages.slice(0, 16).map(p => ({
       '@type': 'ImageObject',
       contentUrl: p.image,
       name: p.title,
-      description: `${p.title} - Free printable coloring page on ColorVaults`,
+      description: `${p.title} - Free printable coloring page on ColorMeNow`,
     })),
   };
 
@@ -391,7 +391,7 @@ export default async function ThemePage({
 
         <AdSlot type="banner" text={isEn ? 'Sponsored Content' : 'Gesponsord'} />
 
-        {/* 🎨 Create Your Own Coloring Book Callout Banner (Exclusive ColorVaults Feature) */}
+        {/* 🎨 Create Your Own Coloring Book Callout Banner (Exclusive ColorMeNow Feature) */}
         <div style={{
           marginTop: '1.5rem',
           marginBottom: '1.5rem',

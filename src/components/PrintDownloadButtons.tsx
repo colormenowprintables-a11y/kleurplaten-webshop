@@ -178,7 +178,7 @@ export default function PrintDownloadButtons({
       pdf.setFont('helvetica', 'bold');
       pdf.setFontSize(10);
       pdf.setTextColor(120, 120, 120);
-      pdf.text('ColorVaults.com — Free Printable Coloring Pages', pageWidth / 2, margin, { align: 'center' });
+      pdf.text('ColorMeNow.com — Free Printable Coloring Pages', pageWidth / 2, margin, { align: 'center' });
 
       pdf.addImage(img, 'JPEG', x, y, renderWidth, renderHeight, undefined, 'FAST');
 
@@ -186,14 +186,14 @@ export default function PrintDownloadButtons({
       pdf.setFontSize(8);
       pdf.setTextColor(150, 150, 150);
       pdf.text(
-        `© ColorVaults.com — ${pageTitle} — Free for personal, home and classroom educational use.`,
+        `© ColorMeNow.com — ${pageTitle} — Free for personal, home and classroom educational use.`,
         pageWidth / 2,
         pageHeight - 6,
         { align: 'center' }
       );
 
       const cleanSlug = pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-      pdf.save(`colorvaults-${cleanSlug}-A4.pdf`);
+      pdf.save(`colormenow-${cleanSlug}-A4.pdf`);
       setDownloadingPdf(false);
       checkAndTriggerEmailModal();
     } catch (err) {

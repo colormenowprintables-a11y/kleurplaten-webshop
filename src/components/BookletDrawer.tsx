@@ -93,7 +93,7 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
             // Page footer
             pdf.setFontSize(8);
             pdf.setTextColor(180, 190, 205);
-            pdf.text('© ColorVaults.com — 100% Free Printable Coloring Pages', pageWidth / 2, pageHeight - 8, { align:'center'});
+            pdf.text('© ColorMeNow.com — 100% Free Printable Coloring Pages', pageWidth / 2, pageHeight - 8, { align:'center'});
 
             URL.revokeObjectURL(img.src);
           }
@@ -102,7 +102,7 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
         }
       }
 
-      pdf.save(`colorvaults-custom-bundle-${selectedPages.length}-pages.pdf`);
+      pdf.save(`colormenow-custom-bundle-${selectedPages.length}-pages.pdf`);
       fireConfetti();
       onClose();
     } catch (e) {

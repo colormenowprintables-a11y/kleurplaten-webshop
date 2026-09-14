@@ -1,6 +1,6 @@
 Contact: mailto:colorvault@hotmail.com
 Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: nl, en
-Canonical: https://colorvaults.com/.well-known/security.txt
-Policy: https://colorvaults.com/en/privacy-policy
+Canonical: https://colormenow.shop/.well-known/security.txt
+Policy: https://colormenow.shop/en/privacy-policy
 

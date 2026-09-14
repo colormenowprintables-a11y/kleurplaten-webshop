@@ -62,7 +62,7 @@ function readJson<T>(lang: string, filename: string): T[] {
   try {
     return JSON.parse(fileContents) as T[];
   } catch (e) {
-    console.error(`[ColorVaults] Failed to parse JSON at ${filePath}:`, e);
+    console.error(`[ColorMeNow] Failed to parse JSON at ${filePath}:`, e);
     return [];
   }
 }
@@ -78,7 +78,7 @@ function readThemePages(lang: string, themeSlug: string): ColoringPage[] {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(fileContents) as ColoringPage[];
   } catch (e) {
-    console.error(`[ColorVaults] Failed to parse theme JSON at ${filePath}:`, e);
+    console.error(`[ColorMeNow] Failed to parse theme JSON at ${filePath}:`, e);
     return [];
   }
 }

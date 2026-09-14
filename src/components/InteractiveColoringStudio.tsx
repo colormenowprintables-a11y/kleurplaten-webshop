@@ -388,11 +388,11 @@ export default function InteractiveColoringStudio({
     const fontSize = Math.max(14, canvas.width * 0.025);
     ctx.font =`bold ${fontSize}px sans-serif`;
     ctx.textAlign ='right';
-    ctx.fillText('Colored on ColorVaults.com', canvas.width - 16, canvas.height - 16);
+    ctx.fillText('Colored on ColorMeNow.com', canvas.width - 16, canvas.height - 16);
 
     const a = document.createElement('a');
     a.href = exportCanvas.toDataURL('image/png');
-    a.download =`colorvaults-colored-${title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.png`;
+    a.download =`colormenow-colored-${title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.png`;
     a.click();
   };
 
@@ -408,7 +408,7 @@ export default function InteractiveColoringStudio({
     printWindow.document.write(`<!DOCTYPE html>
       <html>
         <head>
-          <title>${title} - ColorVaults</title>
+          <title>${title} - ColorMeNow</title>
           <style>
             @page { size: A4 portrait; margin: 10mm; }
             body { margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: sans-serif; }

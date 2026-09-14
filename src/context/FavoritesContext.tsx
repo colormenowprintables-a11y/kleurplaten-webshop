@@ -26,7 +26,7 @@ export function FavoritesProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      const stored = localStorage.getItem('colorvaults_favorites');
+      const stored = localStorage.getItem('colormenow_favorites');
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed)) {
@@ -47,7 +47,7 @@ export function FavoritesProvider({ children }: { children: ReactNode }) {
         ? prev.filter(fav => fav.id !== item.id)
         : [item, ...prev];
       try {
-        localStorage.setItem('colorvaults_favorites', JSON.stringify(newFavorites));
+        localStorage.setItem('colormenow_favorites', JSON.stringify(newFavorites));
         setStorageError(null);
       } catch (e: unknown) {
         if (e instanceof DOMException && e.name ==='QuotaExceededError') {

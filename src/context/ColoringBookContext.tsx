@@ -23,7 +23,7 @@ interface ColoringBookContextType {
 
 const ColoringBookContext = createContext<ColoringBookContextType | undefined>(undefined);
 
-const STORAGE_KEY ='colorvaults_custom_booklet_pages';
+const STORAGE_KEY ='colormenow_custom_booklet_pages';
 
 export function ColoringBookProvider({ children }: { children: React.ReactNode }) {
   const [selectedPages, setSelectedPages] = useState<SelectedColoringPage[]>([]);

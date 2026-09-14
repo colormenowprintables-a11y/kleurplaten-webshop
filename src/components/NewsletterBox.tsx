@@ -54,7 +54,7 @@ export default function NewsletterBox({ isEn, lang }: { isEn: boolean; lang: str
           marginBottom:'1rem',
           textTransform:'uppercase',
           letterSpacing:'0.05em'}}>
-          {isEn ?'ColorVaults Club':'Kleurplaten Club'}
+          {isEn ?'ColorMeNow Club':'Kleurplaten Club'}
         </span>
         <h2 style={{ fontSize:'2rem', fontWeight: 800, margin:'0 0 0.75rem', lineHeight: 1.25 }}>
           {isEn ?'Get 10 New Free Coloring Pages Every Week!':'Ontvang Elke Week 10 Nieuwe Gratis Kleurplaten!'}

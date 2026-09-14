@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isEn = lang === 'en';
   return {
     title: isEn
-      ? 'School & Educational Worksheets (Math, Letters, Spelling) | ColorVaults'
-      : 'School & Educatieve Werkbladen (Rekenen, Schrijven, Woorden) | ColorVaults',
+      ? 'School & Educational Worksheets (Math, Letters, Spelling) | ColorMeNow'
+      : 'School & Educatieve Werkbladen (Rekenen, Schrijven, Woorden) | ColorMeNow',
     description: isEn
       ? 'Download 100+ free printable educational coloring worksheets for kids! Math sums, letter tracing A-Z, handwriting practice, and bilingual vocabulary.'
       : 'Download 100+ gratis printbare educatieve werkbladen voor kinderen! Rekensommen, letters schrijven A-Z, woordenschat en kleuren.',

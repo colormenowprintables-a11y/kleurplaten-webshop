@@ -55,7 +55,7 @@ export default function AdminLoginForm() {
       }}>
         <div style={{ fontSize: '2.5rem', marginBottom: '0.75rem', textAlign: 'center' }}>🔐</div>
         <h1 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#FDF6E9', margin: '0 0 0.35rem', textAlign: 'center' }}>
-          ColorVaults Beheer
+          ColorMeNow Beheer
         </h1>
         <p style={{ fontSize: '0.8rem', color: 'rgba(253,246,233,0.4)', margin: '0 0 2rem', textAlign: 'center' }}>
           Geheime Toegangspoort — Alleen Geautoriseerd

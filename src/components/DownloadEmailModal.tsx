@@ -93,7 +93,7 @@ export default function DownloadEmailModal({
 
         <div className={styles.badge}>
           <span>🎨</span>
-          <span>{isEn ? 'ColorVaults Club' : 'ColorVaults Club'}</span>
+          <span>{isEn ? 'ColorMeNow Club' : 'ColorMeNow Club'}</span>
         </div>
 
         <h3 className={styles.title}>

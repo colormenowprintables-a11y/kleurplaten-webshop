@@ -8,7 +8,7 @@ Pas de website eenvoudig aan naar jouw eigen huisstijl en domeinnaam:
 1. WEBSITE NAAM & TITEL AANPASSEN:
 --------------------------------------------------------------------------------
 - Open: 'src/components/Navbar.tsx'
-  Zoek naar de merknaam (bijv. "ColorVaults") en verander dit in jouw eigen naam (bijv. "KleurPlaatjes.nl").
+  Zoek naar de merknaam (bijv. "ColorMeNow") en verander dit in jouw eigen naam (bijv. "KleurPlaatjes.nl").
 
 - Open: 'src/components/Footer.tsx'
   Pas hier de copyright-tekst, e-mailadres en links aan.

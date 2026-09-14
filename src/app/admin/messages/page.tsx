@@ -192,7 +192,7 @@ export default function MessagesPage() {
                   <td>
                     <div style={{ display: 'flex', gap: '0.4rem', alignItems: 'center' }}>
                       <a
-                        href={`mailto:${m.email}?subject=Re: ColorVaults — ${encodeURIComponent(m.subject)}`}
+                        href={`mailto:${m.email}?subject=Re: ColorMeNow — ${encodeURIComponent(m.subject)}`}
                         style={{
                           background: 'rgba(255, 107, 74, 0.2)',
                           color: '#FF6B4A',

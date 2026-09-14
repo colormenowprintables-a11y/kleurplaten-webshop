@@ -78,7 +78,7 @@ export default function AdminThemePage() {
             <span>🎨</span> Feestdagen & Thema Switcher
           </h1>
           <p className={styles.subtitle}>
-            Versier de ColorVaults website met 1 klik voor feestdagen of laat de website automatisch wisselen via de Feestdagen Kalender.
+            Versier de ColorMeNow website met 1 klik voor feestdagen of laat de website automatisch wisselen via de Feestdagen Kalender.
           </p>
         </div>
 

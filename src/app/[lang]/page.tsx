@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isFr = lang === 'fr';
 
   const title = isDe
-    ? 'ColorVaults | Kostenlose Premium Malvorlagen & Ausmalbilder'
+    ? 'ColorMeNow | Kostenlose Premium Malvorlagen & Ausmalbilder'
     : isFr
-    ? 'ColorVaults | Coloriages Gratuits à Imprimer de Haute Qualité'
+    ? 'ColorMeNow | Coloriages Gratuits à Imprimer de Haute Qualité'
     : isEn
-    ? 'ColorVaults | Free Premium Coloring Pages'
-    : 'ColorVaults | Gratis Premium Kleurplaten';
+    ? 'ColorMeNow | Free Premium Coloring Pages'
+    : 'ColorMeNow | Gratis Premium Kleurplaten';
 
   const description = isDe
     ? 'Tausende hochwertige kostenlose Malvorlagen und Ausmalbilder für Kinder, Kleinkinder und Erwachsene. 100% kostenlos zum Ausdrucken als PDF.'
@@ -57,18 +57,18 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     openGraph: {
       title,
       description,
-      url: `https://colorvaults.com/${lang}`,
-      siteName: 'ColorVaults',
+      url: `https://colormenow.shop/${lang}`,
+      siteName: 'ColorMeNow',
       locale: lang === 'nl' ? 'nl_NL' : lang === 'de' ? 'de_DE' : lang === 'fr' ? 'fr_FR' : 'en_US',
       type: 'website',
       images: [
         {
-          url: 'https://www.colorvaults.com/images/og-share.jpg',
-          secureUrl: 'https://www.colorvaults.com/images/og-share.jpg',
+          url: 'https://www.colormenow.shop/images/og-share.jpg',
+          secureUrl: 'https://www.colormenow.shop/images/og-share.jpg',
           width: 1200,
           height: 630,
           type: 'image/jpeg',
-          alt: 'ColorVaults — Free Premium Coloring Pages',
+          alt: 'ColorMeNow — Free Premium Coloring Pages',
         },
       ],
     },
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://www.colorvaults.com/images/og-share.jpg'],
+      images: ['https://www.colormenow.shop/images/og-share.jpg'],
     },
   };
 }
@@ -423,7 +423,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         </div>
       </section>
 
-      {/* ── Section: Custom Coloring Book Builder Showcase (ColorVaults Superpower) ── */}
+      {/* ── Section: Custom Coloring Book Builder Showcase (ColorMeNow Superpower) ── */}
       <section className="section" style={{ paddingTop: '1.5rem', paddingBottom: '2.5rem' }}>
         <div className="container">
           <div style={{
@@ -449,7 +449,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 boxShadow: '0 4px 12px rgba(79, 70, 229, 0.25)',
               }}>
                 <span>✨</span>
-                <span>{isEn ? 'Exclusive Free Tool — Better Than Single Downloads' : 'Exclusief bij ColorVaults — Geen Losse Downloads Meer'}</span>
+                <span>{isEn ? 'Exclusive Free Tool — Better Than Single Downloads' : 'Exclusief bij ColorMeNow — Geen Losse Downloads Meer'}</span>
               </span>
               <h2 style={{
                 fontSize: 'clamp(1.6rem, 3vw, 2.25rem)',
@@ -463,8 +463,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </h2>
               <p style={{ fontSize: '1.05rem', color: '#475569', marginTop: '0.6rem', lineHeight: 1.6 }}>
                 {isEn
-                  ? 'Why download 20 separate PDF files? ColorVaults lets you bundle your child’s or classroom’s favorite characters into one organized, printable coloring booklet with a personalized front cover!'
-                  : 'Waarom zou je 20 losse PDF’s downloaden? Bij ColorVaults bundel je al je favoriete thema’s in één compleet, printklaar boekje met een gepersonaliseerd voorblad!'}
+                  ? 'Why download 20 separate PDF files? ColorMeNow lets you bundle your child’s or classroom’s favorite characters into one organized, printable coloring booklet with a personalized front cover!'
+                  : 'Waarom zou je 20 losse PDF’s downloaden? Bij ColorMeNow bundel je al je favoriete thema’s in één compleet, printklaar boekje met een gepersonaliseerd voorblad!'}
               </p>
             </div>
 
@@ -615,8 +615,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 </h3>
                 <p style={{ margin: 0, fontSize: '0.88rem', color: '#475569', lineHeight: 1.5 }}>
                   {isEn
-                    ? 'At ColorVaults, every visitor can help refine our artwork. Click "Circle an issue" under any coloring page to draw right on the template with your finger or mouse!'
-                    : 'Bij ColorVaults kan iedere bezoeker meehelpen aan de strakste tekeningen ter wereld. Klik onder elke kleurplaat op ons potlood en omcirkel het probleem direct op de plaat!'}
+                    ? 'At ColorMeNow, every visitor can help refine our artwork. Click "Circle an issue" under any coloring page to draw right on the template with your finger or mouse!'
+                    : 'Bij ColorMeNow kan iedere bezoeker meehelpen aan de strakste tekeningen ter wereld. Klik onder elke kleurplaat op ons potlood en omcirkel het probleem direct op de plaat!'}
                 </p>
               </div>
             </div>
@@ -868,20 +868,20 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         </div>
       </section>
 
-      {/* ── Section 7: Why ColorVaults ── */}
+      {/* ── Section 7: Why ColorMeNow ── */}
       <section className={styles.whySection}>
         <div className="container">
           <div className={styles.whyInner}>
             <ScrollReveal>
               <span className="badge"style={{ background:'rgba(79, 70, 229, 0.08)', color:'var(--color-primary)', borderColor:'rgba(79, 70, 229, 0.2)'}}>
-                {isEn ?'Why ColorVaults?':'Waarom ColorVaults?'}
+                {isEn ?'Why ColorMeNow?':'Waarom ColorMeNow?'}
               </span>
               <h2 className="title-h2"style={{ marginTop:'0.75rem', marginBottom:'1.25rem'}}>
                 {isEn ?'The Best Free Printable Coloring Pages':'De Beste Gratis Printbare Kleurplaten'}
               </h2>
               <p className={styles.whyLead}>
                 {isEn
-                  ?'ColorVaults is your premier destination for high-quality, free printable coloring pages. We believe creativity should be accessible to everyone — which is why our entire collection is 100% free with no signups required.':'ColorVaults is jouw bestemming voor gratis printbare kleurplaten van topkwaliteit. Wij geloven dat creativiteit voor iedereen toegankelijk moet zijn — daarom is onze hele collectie 100% gratis zonder registratie.'}
+                  ?'ColorMeNow is your premier destination for high-quality, free printable coloring pages. We believe creativity should be accessible to everyone — which is why our entire collection is 100% free with no signups required.':'ColorMeNow is jouw bestemming voor gratis printbare kleurplaten van topkwaliteit. Wij geloven dat creativiteit voor iedereen toegankelijk moet zijn — daarom is onze hele collectie 100% gratis zonder registratie.'}
               </p>
               <p className={styles.whyLead} style={{ marginBottom: 0 }}>
                 {isEn

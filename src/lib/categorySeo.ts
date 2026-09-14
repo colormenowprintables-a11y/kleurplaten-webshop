@@ -30,7 +30,7 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
         <li><a href="URL_ADULTS"><strong>Hard / Adults (Moeilijk)</strong></a>: Intricate animal mandalas, realistic fur textures, and complex natural environments crafted for adult mindfulness and stress relief.</li>
       </ul>
 
-      <h3>Why Print Free Animal Sheets at ColorVaults?</h3>
+      <h3>Why Print Free Animal Sheets at ColorMeNow?</h3>
       <p>All our high-quality animal coloring pages are completely free to download in standard print formats. Use long-tail keywords like <em>easy animal coloring sheets for toddlers</em> or <em>detailed adult animal mandala PDF</em> to explore our full library and start coloring immediately.</p>
 
       <h3>Explore Related Categories</h3>
@@ -47,8 +47,8 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
         <li><a href="URL_ADULTS"><strong>Moeilijk / Volwassenen (Hard)</strong></a>: Ingewikkelde dieren mandala's, gedetailleerde vachtstructuren en anti-stress natuurontwerpen voor volwassenen.</li>
       </ul>
 
-      <h3>Waarom Dieren Kleurplaten Printen bij ColorVaults?</h3>
-      <p>Al onze dieren kleurplaten zijn 100% gratis te downloaden in hoge resolutie A4-formaat. Zoek je naar <em>makkelijke dieren kleurplaat peuters pdf</em> of <em>gedetailleerde dieren kleurplaten volwassenen gratis printen</em>? Bij ColorVaults kun je direct aan de slag zonder account.</p>
+      <h3>Waarom Dieren Kleurplaten Printen bij ColorMeNow?</h3>
+      <p>Al onze dieren kleurplaten zijn 100% gratis te downloaden in hoge resolutie A4-formaat. Zoek je naar <em>makkelijke dieren kleurplaat peuters pdf</em> of <em>gedetailleerde dieren kleurplaten volwassenen gratis printen</em>? Bij ColorMeNow kun je direct aan de slag zonder account.</p>
 
       <h3>Ontdek ook gerelateerde categorieën</h3>
       <p>Bekijk ook deze populaire gerelateerde categorieën:</p>
@@ -87,7 +87,7 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
       </ul>
 
       <h3>Gratis Printbare Mandala's in Hoge Resolutie</h3>
-      <p>Zoek je <em>makkelijke mandala kleurplaat printen</em> of <em>ingewikkelde mandala kleurplaten volwassenen pdf gratis</em>? Alle mandala's op ColorVaults zijn direct in te kleuren.</p>
+      <p>Zoek je <em>makkelijke mandala kleurplaat printen</em> of <em>ingewikkelde mandala kleurplaten volwassenen pdf gratis</em>? Alle mandala's op ColorMeNow zijn direct in te kleuren.</p>
 
       <h3>Ontdek ook gerelateerde categorieën</h3>
       <p>Bekijk ook deze ontspannende patroon- en kunstcategorieën:</p>
@@ -125,7 +125,7 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
       </ul>
 
       <h3>Gratis Printbare Disney Sjablonen</h3>
-      <p>Zoek je naar <em>gratis Disney prinsessen kleurplaat printen pdf</em> of <em>Assepoester en Belle kleurplaten voor kinderen</em>? Bij ColorVaults download je alles gratis.</p>
+      <p>Zoek je naar <em>gratis Disney prinsessen kleurplaat printen pdf</em> of <em>Assepoester en Belle kleurplaten voor kinderen</em>? Bij ColorMeNow download je alles gratis.</p>
 
       <h3>Ontdek ook gerelateerde categorieën</h3>
       <p>Laat je betoveren door deze gerelateerde categorieën:</p>
@@ -143,7 +143,7 @@ const SPECIFIC_SEO_DATA: Record<string, SpecificSeoOverride> = {
         <li><a href="URL_TEENS"><strong>Medium / Teens</strong></a>: Action-packed evolution battles, gym leader stadium showdowns, and anime scenes for school-age kids and teens.</li>
         <li><a href="URL_ADULTS"><strong>Hard / Adults</strong></a>: Detailed mosaic Pokémon mandalas and complex legendary beast illustrations for advanced colorists.</li>
       </ul>
-      <h3>Why Trainers Love ColorVaults</h3>
+      <h3>Why Trainers Love ColorMeNow</h3>
       <p>Download search favorites like <em>free printable Pikachu coloring sheet PDF</em>, <em>Charizard fire battle coloring page</em>, or <em>starter Pokemon printables</em> with zero subscription fees and unlimited downloads.</p>
       RELATED_LINKS`,
     nlBottomHtml: `<h2>Gratis Pokémon Kleurplaten Printen in Hoge Resolutie</h2>
@@ -414,7 +414,7 @@ function getDefaultBottomHtml(
 ): string {
   if (isEn) {
     return `<h2>The Ultimate ${themeTitle} Coloring Guide: Creative Fun & Learning</h2>
-      <p>Welcome to ColorVaults’ comprehensive library of free printable <strong>${themeTitle} coloring pages</strong>! Whether you are a parent looking for wholesome weekend activities, an educator preparing classroom lesson plans, or an art enthusiast seeking mindful creative relaxation, our high-resolution line art templates provide hours of engaging entertainment.</p>
+      <p>Welcome to ColorMeNow’ comprehensive library of free printable <strong>${themeTitle} coloring pages</strong>! Whether you are a parent looking for wholesome weekend activities, an educator preparing classroom lesson plans, or an art enthusiast seeking mindful creative relaxation, our high-resolution line art templates provide hours of engaging entertainment.</p>
 
       <h3>Recommended Color Palettes & Creative Supplies</h3>
       <p>To achieve the most vibrant and satisfying results with your ${themeTitle} illustrations, consider using these suggested materials:</p>
@@ -448,7 +448,7 @@ function getDefaultBottomHtml(
   }
 
   return `<h2>De Complete ${themeTitle} Kleurgids: Creatief Plezier & Educatie</h2>
-    <p>Welkom bij de uitgebreide verzameling gratis printbare <strong>${themeTitle} kleurplaten</strong> op ColorVaults! Of je nu als ouder zoekt naar een gezellige activiteit voor het weekend, als juf of meester lesmateriaal zoekt voor de klas, of als volwassene ontspanning zoekt na een drukke dag: onze haarscherpe kleurplaten bieden urenlang creatief plezier.</p>
+    <p>Welkom bij de uitgebreide verzameling gratis printbare <strong>${themeTitle} kleurplaten</strong> op ColorMeNow! Of je nu als ouder zoekt naar een gezellige activiteit voor het weekend, als juf of meester lesmateriaal zoekt voor de klas, of als volwassene ontspanning zoekt na een drukke dag: onze haarscherpe kleurplaten bieden urenlang creatief plezier.</p>
 
     <h3>Aanbevolen Kleurmaterialen & Tips</h3>
     <p>Voor het allermooiste resultaat bij het inkleuren van ${themeTitle} tekeningen adviseren we de volgende materialen:</p>

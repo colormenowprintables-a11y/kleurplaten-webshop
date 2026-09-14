@@ -43,7 +43,7 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/banner.jpg"
-          alt="ColorVaults 3D Vault Stage"
+          alt="ColorMeNow 3D Vault Stage"
           className={styles.vaultImage}
         />
         <div className={styles.vaultPortalAura} />

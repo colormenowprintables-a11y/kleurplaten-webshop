@@ -48,7 +48,7 @@ export default function AdminShell({ children, title, reportCount = 0 }: AdminSh
       <aside className={`${styles.sidebar} ${mobileNavOpen ? styles.sidebarOpen : ''}`}>
         <div className={styles.sidebarLogo}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <h2>ColorVaults</h2>
+            <h2>ColorMeNow</h2>
             {mobileNavOpen && (
               <button
                 type="button"
@@ -87,7 +87,7 @@ export default function AdminShell({ children, title, reportCount = 0 }: AdminSh
 
         <div className={styles.sidebarFooter}>
           <a
-            href="https://colorvaults.com"
+            href="https://colormenow.shop"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.liveSiteBtn}
@@ -122,7 +122,7 @@ export default function AdminShell({ children, title, reportCount = 0 }: AdminSh
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <a
-              href="https://colorvaults.com"
+              href="https://colormenow.shop"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.liveSiteBtn}

@@ -54,7 +54,7 @@ export async function generateMetadata({
   const canonicalPath = qString ?`/${lang}/search?${qString}`:`/${lang}/search`;
 
   return {
-    title: `${mainTitle} | ColorVaults`,
+    title: `${mainTitle} | ColorMeNow`,
     description: isEn
       ? `Search and filter thousands of free printable coloring pages by theme, difficulty, and age group.`
       : `Zoek en filter door duizenden gratis printbare kleurplaten op onderwerp, moeilijkheidsgraad en leeftijd.`,

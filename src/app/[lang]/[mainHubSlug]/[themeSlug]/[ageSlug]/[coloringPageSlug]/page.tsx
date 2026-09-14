@@ -102,7 +102,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
     pageChunks.push(displayPages.slice(i, i + 12));
   }
 
-  const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colorvaults.com/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
+  const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
 
   return (
     <div className="container section">
@@ -119,13 +119,13 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
       <script
         type="application/ld+json"dangerouslySetInnerHTML={{ __html: safeJsonLd({"@context":"https://schema.org","@graph": [
             {"@type":"BreadcrumbList","itemListElement": [
-                {"@type":"ListItem","position": 1,"name":"Home","item":`https://colorvaults.com/${lang}`},
-                {"@type":"ListItem","position": 2,"name": hub.title,"item":`https://colorvaults.com/${lang}/${hub.slug}`},
-                {"@type":"ListItem","position": 3,"name": theme.title,"item":`https://colorvaults.com/${lang}/${hub.slug}/${theme.slug}`},
-                {"@type":"ListItem","position": 4,"name": page.title,"item":`https://colorvaults.com/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
+                {"@type":"ListItem","position": 1,"name":"Home","item":`https://colormenow.shop/${lang}`},
+                {"@type":"ListItem","position": 2,"name": hub.title,"item":`https://colormenow.shop/${lang}/${hub.slug}`},
+                {"@type":"ListItem","position": 3,"name": theme.title,"item":`https://colormenow.shop/${lang}/${hub.slug}/${theme.slug}`},
+                {"@type":"ListItem","position": 4,"name": page.title,"item":`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
               ]
             },
-            {"@type":"ImageObject","name": page.title,"description": page.metaDescription || page.shortDescription,"contentUrl": page.image,"thumbnailUrl": page.image,"caption": page.title,"keywords":`${theme.title}, ${isEn ?'coloring page':'kleurplaat'}, ${isEn ?'free printable':'gratis printbaar'}, ${ageSlug}`,"license":`https://colorvaults.com/${lang}/licensing`,"acquireLicensePage":`https://colorvaults.com/${lang}/licensing`,"creditText":"ColorVaults","copyrightNotice":"© ColorVaults.com - Free for personal & educational use","creator": {"@type":"Organization","name":"ColorVaults","url":"https://colorvaults.com"},"isFamilyFriendly":"true","genre":"Coloring Page"},
+            {"@type":"ImageObject","name": page.title,"description": page.metaDescription || page.shortDescription,"contentUrl": page.image,"thumbnailUrl": page.image,"caption": page.title,"keywords":`${theme.title}, ${isEn ?'coloring page':'kleurplaat'}, ${isEn ?'free printable':'gratis printbaar'}, ${ageSlug}`,"license":`https://colormenow.shop/${lang}/licensing`,"acquireLicensePage":`https://colormenow.shop/${lang}/licensing`,"creditText":"ColorMeNow","copyrightNotice":"© ColorMeNow.com - Free for personal & educational use","creator": {"@type":"Organization","name":"ColorMeNow","url":"https://colormenow.shop"},"isFamilyFriendly":"true","genre":"Coloring Page"},
             {"@type":"HowTo","name": isEn ?`How to Print the ${page.title} Coloring Page`:`Hoe Print je de ${page.title} Kleurplaat`,"description": isEn
                 ?`Step-by-step guide to download and print this free high-resolution ${page.title} coloring sheet in A4 or Letter format.`:`Stapsgewijze handleiding om deze gratis hoge resolutie ${page.title} kleurplaat af te drukken op A4-formaat.`,"step": [
                 {"@type":"HowToStep","name": isEn ?"Preview & Open":"Bekijk & Open","text": isEn
@@ -140,7 +140,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
                 {
                   question: isEn ?`Is this ${page.title} coloring page free to print?`:`Is deze ${page.title} kleurplaat gratis te printen?`,
                   answer: isEn
-                    ?`Yes! All coloring pages on ColorVaults are 100% free for personal, classroom, and non-commercial educational use.`:`Ja! Alle kleurplaten op ColorVaults zijn 100% gratis voor persoonlijk gebruik en in de klas.`},
+                    ?`Yes! All coloring pages on ColorMeNow are 100% free for personal, classroom, and non-commercial educational use.`:`Ja! Alle kleurplaten op ColorMeNow zijn 100% gratis voor persoonlijk gebruik en in de klas.`},
                 {
                   question: isEn ?`What paper size is best for printing?`:`Welk papierformaat is het beste om af te drukken?`,
                   answer: isEn
@@ -205,7 +205,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
           <SocialShareButtons
             isEn={isEn}
             title={page.title}
-            url={`https://colorvaults.com/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
+            url={`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
             imageUrl={page.image}
           />
 

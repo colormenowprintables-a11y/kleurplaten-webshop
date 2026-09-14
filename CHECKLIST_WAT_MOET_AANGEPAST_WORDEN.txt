@@ -13,14 +13,14 @@ Vink deze checklist stap-voor-stap af!
 [ ] 1.1 PRIVACY POLICY (Privacybeleid)
     📁 Bestand: src/app/[lang]/privacy-policy/page.tsx
     Wat aanpassen:
-    - Vervang "ColorVaults" door haar eigen websitenaam (bijv. "KleurPrentjes").
+    - Vervang "ColorMeNow" door haar eigen websitenaam (bijv. "KleurPrentjes").
     - Pas het contact e-mailadres aan (bijv. privacy@jouwdomein.nl of info@jouwdomein.nl).
     - Pas de website-URL aan naar haar eigen domein.
 
 [ ] 1.2 TERMS OF SERVICE (Algemene Voorwaarden)
     📁 Bestand: src/app/[lang]/terms-of-service/page.tsx
     Wat aanpassen:
-    - Vervang "ColorVaults" door haar eigen bedrijfs- of websitenaam.
+    - Vervang "ColorMeNow" door haar eigen bedrijfs- of websitenaam.
     - Controleer de voorwaarden voor persoonlijk gebruik van de kleurplaten.
 
 [ ] 1.3 ABOUT US (Over Ons / Over deze website)
@@ -48,7 +48,7 @@ Vink deze checklist stap-voor-stap af!
 [ ] 2.1 NAVBAR / BOVENBALK
     📁 Bestand: src/components/Navbar.tsx
     Wat aanpassen:
-    - De naam in het logo (vervang "ColorVaults" door haar merknaam).
+    - De naam in het logo (vervang "ColorMeNow" door haar merknaam).
     - Eventueel het icoontje naast de naam aanpassen.
 
 [ ] 2.2 FOOTER / ONDERKANT VAN DE WEBSITE
@@ -61,7 +61,7 @@ Vink deze checklist stap-voor-stap af!
 [ ] 2.3 WATERMERK OP GEDOWNLOADE AFBEELDINGEN
     📁 Bestand: src/components/PrintDownloadButtons.tsx
     Wat aanpassen:
-    - Zoek naar "© ColorVaults.com" (rond regel 54).
+    - Zoek naar "© ColorMeNow.com" (rond regel 54).
     - Verander dit naar haar eigen watermerk, bijvoorbeeld: "© JouwWebsite.nl".
 
 ================================================================================
@@ -72,13 +72,13 @@ Vink deze checklist stap-voor-stap af!
     📁 Bestand: src/app/[lang]/layout.tsx
     Wat aanpassen:
     - De standaard titel en beschrijving die Google laat zien.
-    - De canonical URL / base URL (vervang https://colorvaults.com door haar eigen domein).
+    - De canonical URL / base URL (vervang https://colormenow.shop door haar eigen domein).
 
 [ ] 3.2 SITEMAP & ROBOTS.TXT
     📁 Bestand: src/app/sitemap.ts
     📁 Bestand: src/app/robots.ts
     Wat aanpassen:
-    - Vervang overal "https://colorvaults.com" door haar eigen live domeinnaam (bijv. "https://www.kleurprentjes.nl").
+    - Vervang overal "https://colormenow.shop" door haar eigen live domeinnaam (bijv. "https://www.kleurprentjes.nl").
 
 [ ] 3.3 SOCIAL MEDIA SHARE AFBEELDING (OPENGRAPH)
     📁 Bestand: src/app/api/og/route.tsx
@@ -108,7 +108,7 @@ Vink deze checklist stap-voor-stap af!
 [ ] 4.4 PINTEREST AUTOMATISCHE RSS-FEED
     📁 Bestand: src/app/api/pinterest-feed/route.ts
     Wat aanpassen:
-    - Vervang "colorvaults.com" en kanaaltitels door haar eigen domein en Pinterest bord-namen.
+    - Vervang "colormenow.shop" en kanaaltitels door haar eigen domein en Pinterest bord-namen.
 
 ================================================================================
 💡 TIP VOOR ANTIGRAVITY / AI ASSISTENT:

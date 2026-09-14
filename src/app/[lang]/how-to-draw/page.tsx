@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isEn = lang ==='en';
   return {
     title: isEn
-      ?'How to Draw for Kids & Beginners (Step-by-Step Easy Tutorials) | ColorVaults':'Leren Tekenen in Stappen voor Kinderen (Makkelijke Tekenlessen) | ColorVaults',
+      ?'How to Draw for Kids & Beginners (Step-by-Step Easy Tutorials) | ColorMeNow':'Leren Tekenen in Stappen voor Kinderen (Makkelijke Tekenlessen) | ColorMeNow',
     description: isEn
       ?'Learn how to draw dinosaurs, unicorns, animals, and cartoon characters with our free 6-step printable drawing tutorials and worksheets.':'Leer stap voor stap dinosaurussen, eenhoorns, dieren en figuren tekenen met onze gratis 6-stappen tekengidsen en oefenbladen.',
   };

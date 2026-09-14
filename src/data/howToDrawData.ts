@@ -87,7 +87,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/A_Friendly_Spiky_Dinosaur_1788433082694.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/A_Friendly_Spiky_Dinosaur_1788433082694.webp",
     "coloringPageSlug": "dinosaur-adventures-1",
     "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/kids/dinosaur-adventures-1"
   },
@@ -151,7 +151,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Alligator_Dinosaur_1787903491461.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Alligator_Dinosaur_1787903491461.webp",
     "coloringPageSlug": "dinosaur-adventures-2",
     "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/teens/dinosaur-adventures-2"
   },
@@ -215,7 +215,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Character_Rides_Dinosaur_1787914182842.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Character_Rides_Dinosaur_1787914182842.webp",
     "coloringPageSlug": "dinosaur-adventures-3",
     "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/toddlers/dinosaur-adventures-3"
   },
@@ -279,7 +279,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_1787912134785.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_1787912134785.webp",
     "coloringPageSlug": "dinosaur-adventures-4",
     "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/kids/dinosaur-adventures-4"
   },
@@ -343,7 +343,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_Adventure_1787912454417.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dinosaur%20Adventures/Cartoon_Dinosaur_Adventure_1787912454417.webp",
     "coloringPageSlug": "dinosaur-adventures-5",
     "coloringPageUrl": "/en/animals-wildlife/dinosaur-adventures/teens/dinosaur-adventures-5"
   },
@@ -407,7 +407,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Ancient%20Mythology/Athena_with_owl_or_Goddess_Athena_holding_a_shield_1788270214760.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Ancient%20Mythology/Athena_with_owl_or_Goddess_Athena_holding_a_shield_1788270214760.webp",
     "coloringPageSlug": "birds-of-the-world-6",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-6"
   },
@@ -471,7 +471,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_Flight_1788438810635.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_Flight_1788438810635.webp",
     "coloringPageSlug": "birds-of-the-world-7",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-7"
   },
@@ -535,7 +535,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_Flight.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_Flight.webp",
     "coloringPageSlug": "birds-of-the-world-8",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-8"
   },
@@ -599,7 +599,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_flight_1.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bald_Eagle_in_flight_1.webp",
     "coloringPageSlug": "birds-of-the-world-9",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-9"
   },
@@ -663,7 +663,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_in_flight_1788438558681.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bald_Eagle_in_flight_1788438558681.webp",
     "coloringPageSlug": "birds-of-the-world-10",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-10"
   },
@@ -727,7 +727,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds/Bears_Garden_1788559958256.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Bears_Garden_1788559958256.webp",
     "coloringPageSlug": "birds-of-the-world-11",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-11"
   },
@@ -791,7 +791,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-Like_Creature_Landing_1787900907865.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-Like_Creature_Landing_1787900907865.webp",
     "coloringPageSlug": "birds-of-the-world-12",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-12"
   },
@@ -855,7 +855,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-headed_Character_Drinks_Tea_With_Female_Artist_1788369193193.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird-headed_Character_Drinks_Tea_With_Female_Artist_1788369193193.webp",
     "coloringPageSlug": "birds-of-the-world-13",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-13"
   },
@@ -919,7 +919,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_Nature_1788441894503.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_Nature_1788441894503.webp",
     "coloringPageSlug": "birds-of-the-world-14",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-14"
   },
@@ -983,7 +983,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_a_picnic_1788438576629.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_a_picnic_1788438576629.webp",
     "coloringPageSlug": "birds-of-the-world-15",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-15"
   },
@@ -1047,7 +1047,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_nature_scene_1788434055448.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_above_nature_scene_1788434055448.webp",
     "coloringPageSlug": "birds-of-the-world-16",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-16"
   },
@@ -1111,7 +1111,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_over_serene_lake_scene_1788438486851.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Bird_in_flight_over_serene_lake_scene_1788438486851.webp",
     "coloringPageSlug": "birds-of-the-world-17",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-17"
   },
@@ -1175,7 +1175,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Blippi_the_Bird_1787912939769.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Blippi_the_Bird_1787912939769.webp",
     "coloringPageSlug": "birds-of-the-world-18",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-18"
   },
@@ -1239,7 +1239,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_1787902999551.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_1787902999551.webp",
     "coloringPageSlug": "birds-of-the-world-19",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-19"
   },
@@ -1303,7 +1303,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Farm%20Animals/Coloring_Sheep_Family_1788440926447.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Farm%20Animals/Coloring_Sheep_Family_1788440926447.webp",
     "coloringPageSlug": "farm-animals-20",
     "coloringPageUrl": "/en/animals-wildlife/farm-animals/toddlers/farm-animals-20"
   },
@@ -1367,7 +1367,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_with_Plant_1787926462721.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Cartoon_Bird_with_Plant_1787926462721.webp",
     "coloringPageSlug": "birds-of-the-world-21",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-21"
   },
@@ -1431,7 +1431,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celestial_Woman_with_Peacock_Feathers_1788283696862.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celestial_Woman_with_Peacock_Feathers_1788283696862.webp",
     "coloringPageSlug": "birds-of-the-world-22",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-22"
   },
@@ -1495,7 +1495,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celtic_Cross_and_Owl_Coloring_Page_1787899190306.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Celtic_Cross_and_Owl_Coloring_Page_1787899190306.webp",
     "coloringPageSlug": "birds-of-the-world-23",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/toddlers/birds-of-the-world-23"
   },
@@ -1559,7 +1559,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Character_in_nature_with_a_bird_companion_1788368079409.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds%20Of%20The%20World/Character_in_nature_with_a_bird_companion_1788368079409.webp",
     "coloringPageSlug": "birds-of-the-world-24",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/teens/birds-of-the-world-24"
   },
@@ -1623,7 +1623,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Birds/Colorful_birds_by_an_egg-shaped_plant_1788559949249.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Birds/Colorful_birds_by_an_egg-shaped_plant_1788559949249.webp",
     "coloringPageSlug": "birds-of-the-world-25",
     "coloringPageUrl": "/en/animals-wildlife/birds-of-the-world/kids/birds-of-the-world-25"
   },
@@ -1687,7 +1687,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788447944112.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788447944112.webp",
     "coloringPageSlug": "unicorns-pegasus-26",
     "coloringPageUrl": "/en/fantasy-fairytales/unicorns-pegasus/toddlers/unicorns-pegasus-26"
   },
@@ -1751,7 +1751,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447014944.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447014944.webp",
     "coloringPageSlug": "dragons-27",
     "coloringPageUrl": "/en/fantasy-fairytales/dragons/teens/dragons-27"
   },
@@ -1815,7 +1815,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454733282.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454733282.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-28",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-28"
   },
@@ -1879,7 +1879,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454742518.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454742518.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-29",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-29"
   },
@@ -1943,7 +1943,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454751534.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454751534.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-30",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-30"
   },
@@ -2007,7 +2007,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454760781.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454760781.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-31",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-31"
   },
@@ -2071,7 +2071,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454770029.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454770029.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-32",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-32"
   },
@@ -2135,7 +2135,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454779302.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454779302.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-33",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-33"
   },
@@ -2199,7 +2199,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140629650.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140629650.webp",
     "coloringPageSlug": "construction-heavy-vehicles-34",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-34"
   },
@@ -2263,7 +2263,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140641722.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Coloring_Page_of_a_Construction_Vehicle_1786140641722.webp",
     "coloringPageSlug": "construction-heavy-vehicles-35",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-35"
   },
@@ -2327,7 +2327,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447095812.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447095812.webp",
     "coloringPageSlug": "dragons-36",
     "coloringPageUrl": "/en/fantasy-fairytales/dragons/teens/dragons-36"
   },
@@ -2391,7 +2391,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513359545.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513359545.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-37",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-37"
   },
@@ -2455,7 +2455,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454824752.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454824752.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-38",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-38"
   },
@@ -2519,7 +2519,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454833932.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454833932.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-39",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/toddlers/fairytale-kingdoms-castles-39"
   },
@@ -2583,7 +2583,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454842736.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788454842736.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-40",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-40"
   },
@@ -2647,7 +2647,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Among%20Us/Among_Us__A_clean_printable_coloring_pag_1788416987708.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Among%20Us/Among_Us__A_clean_printable_coloring_pag_1788416987708.webp",
     "coloringPageSlug": "among-us-41",
     "coloringPageUrl": "/en/gaming-virtual-worlds/among-us/toddlers/among-us-41"
   },
@@ -2711,7 +2711,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
     "coloringPageSlug": "marvel-spider-man-42",
     "coloringPageUrl": "/en/superheroes-comic-universes/marvel-spider-man/toddlers/marvel-spider-man-42"
   },
@@ -2775,7 +2775,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
     "coloringPageSlug": "marvel-spider-man-43",
     "coloringPageUrl": "/en/superheroes-comic-universes/marvel-spider-man/kids/marvel-spider-man-43"
   },
@@ -2839,7 +2839,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Blippi/Blippi__A_clean_printable_coloring_page__1788424304271.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Blippi/Blippi__A_clean_printable_coloring_page__1788424304271.webp",
     "coloringPageSlug": "blippi-44",
     "coloringPageUrl": "/en/kids-tv-shows/blippi/teens/blippi-44"
   },
@@ -2903,7 +2903,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Adventure_1786140665859.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Adventure_1786140665859.webp",
     "coloringPageSlug": "construction-heavy-vehicles-45",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-45"
   },
@@ -2967,7 +2967,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513451514.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513451514.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-46",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-46"
   },
@@ -3031,7 +3031,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513461030.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513461030.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-47",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/teens/autumn-harvest-pumpkins-47"
   },
@@ -3095,7 +3095,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513470062.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513470062.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-48",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/toddlers/autumn-harvest-pumpkins-48"
   },
@@ -3159,7 +3159,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788448152394.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unicorns%20%26%20Pegasus/Unicorns___Pegasus__A_clean_printable_co_1788448152394.webp",
     "coloringPageSlug": "unicorns-pegasus-49",
     "coloringPageUrl": "/en/fantasy-fairytales/unicorns-pegasus/kids/unicorns-pegasus-49"
   },
@@ -3223,7 +3223,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447222437.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Dragons/Dragons__A_clean_printable_coloring_page_1788447222437.webp",
     "coloringPageSlug": "dragons-50",
     "coloringPageUrl": "/en/fantasy-fairytales/dragons/kids/dragons-50"
   },
@@ -3287,7 +3287,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786116360918.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786116360918.webp",
     "coloringPageSlug": "construction-heavy-vehicles-51",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-51"
   },
@@ -3351,7 +3351,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829.webp",
     "coloringPageSlug": "construction-heavy-vehicles-52",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-52"
   },
@@ -3415,7 +3415,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829_1.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Crane_1786140659829_1.webp",
     "coloringPageSlug": "construction-heavy-vehicles-53",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-53"
   },
@@ -3479,7 +3479,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Digging_1787740537779.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_Digging_1787740537779.webp",
     "coloringPageSlug": "construction-heavy-vehicles-54",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-54"
   },
@@ -3543,7 +3543,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Moon_1785056022726.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Moon_1785056022726.webp",
     "coloringPageSlug": "construction-heavy-vehicles-55",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-55"
   },
@@ -3607,7 +3607,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Surfboard_1786116348833.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_and_Surfboard_1786116348833.webp",
     "coloringPageSlug": "construction-heavy-vehicles-56",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-56"
   },
@@ -3671,7 +3671,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_at_Carnival_1787912353264.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_at_Carnival_1787912353264.webp",
     "coloringPageSlug": "construction-heavy-vehicles-57",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-57"
   },
@@ -3735,7 +3735,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_in_Nature_1786116161340.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_in_Nature_1786116161340.webp",
     "coloringPageSlug": "construction-heavy-vehicles-58",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-58"
   },
@@ -3799,7 +3799,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_in_the_Mountains_1787913279152.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Unsorted%20Coloring%20Pages/Construction_Vehicle_in_the_Mountains_1787913279152.webp",
     "coloringPageSlug": "construction-heavy-vehicles-59",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-59"
   },
@@ -3863,7 +3863,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786116360918.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786116360918.webp",
     "coloringPageSlug": "construction-heavy-vehicles-60",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-60"
   },
@@ -3927,7 +3927,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786140536350.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_1786140536350.webp",
     "coloringPageSlug": "construction-heavy-vehicles-61",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-61"
   },
@@ -3991,7 +3991,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_Arm_1786116221668.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Crane_Arm_1786116221668.webp",
     "coloringPageSlug": "construction-heavy-vehicles-62",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-62"
   },
@@ -4055,7 +4055,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Hard_Hat_1786116318627.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Vehicle_with_Hard_Hat_1786116318627.webp",
     "coloringPageSlug": "construction-heavy-vehicles-63",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-63"
   },
@@ -4119,7 +4119,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_Character_in_Motion_1786106514796.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_Character_in_Motion_1786106514796.webp",
     "coloringPageSlug": "construction-heavy-vehicles-64",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-64"
   },
@@ -4183,7 +4183,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734166923.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734166923.webp",
     "coloringPageSlug": "construction-heavy-vehicles-65",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-65"
   },
@@ -4247,7 +4247,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734522292.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Construction_Worker_with_Rocket_1787734522292.webp",
     "coloringPageSlug": "construction-heavy-vehicles-66",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-66"
   },
@@ -4311,7 +4311,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_Truck_Coloring_Page_1785055950337.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_Truck_Coloring_Page_1785055950337.webp",
     "coloringPageSlug": "construction-heavy-vehicles-67",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-67"
   },
@@ -4375,7 +4375,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_with_extended_boom_1785055950337.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Crane_with_extended_boom_1785055950337.webp",
     "coloringPageSlug": "construction-heavy-vehicles-68",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-68"
   },
@@ -4439,7 +4439,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912013247.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912013247.webp",
     "coloringPageSlug": "construction-heavy-vehicles-69",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-69"
   },
@@ -4503,7 +4503,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912428131.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912428131.webp",
     "coloringPageSlug": "construction-heavy-vehicles-70",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-70"
   },
@@ -4567,7 +4567,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912899436.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Excavator_Adventure_1787912899436.webp",
     "coloringPageSlug": "construction-heavy-vehicles-71",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-71"
   },
@@ -4631,7 +4631,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_digging_a_hole_1785055944303.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_digging_a_hole_1785055944303.webp",
     "coloringPageSlug": "construction-heavy-vehicles-72",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-72"
   },
@@ -4695,7 +4695,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_under_the_Moon_1785056022726.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Excavator_under_the_Moon_1785056022726.webp",
     "coloringPageSlug": "construction-heavy-vehicles-73",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/teens/construction-heavy-vehicles-73"
   },
@@ -4759,7 +4759,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Friendly_Bulldozer_1787734136652.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20%26%20Heavy%20Vehicles/Friendly_Bulldozer_1787734136652.webp",
     "coloringPageSlug": "construction-heavy-vehicles-74",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/kids/construction-heavy-vehicles-74"
   },
@@ -4823,7 +4823,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Friendly_Bulldozer_1787911962823.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Construction%20Vehicles/Friendly_Bulldozer_1787911962823.webp",
     "coloringPageSlug": "construction-heavy-vehicles-75",
     "coloringPageUrl": "/en/vehicles-transportation/construction-heavy-vehicles/toddlers/construction-heavy-vehicles-75"
   },
@@ -4887,7 +4887,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493330903.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493330903.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-76",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-76"
   },
@@ -4951,7 +4951,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356089_1.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356089_1.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-77",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-77"
   },
@@ -5015,7 +5015,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356116_2.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493356116_2.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-78",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-78"
   },
@@ -5079,7 +5079,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493433305.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493433305.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-79",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-79"
   },
@@ -5143,7 +5143,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788455207245.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Fairytale%20Kingdoms%20%26%20Castles/Fairytale_Kingdoms___Castles__A_magical__1788455207245.webp",
     "coloringPageSlug": "fairytale-kingdoms-castles-80",
     "coloringPageUrl": "/en/fantasy-fairytales/fairytale-kingdoms-castles/teens/fairytale-kingdoms-castles-80"
   },
@@ -5207,7 +5207,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493451361.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493451361.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-81",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-81"
   },
@@ -5271,7 +5271,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493460279.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493460279.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-82",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-82"
   },
@@ -5335,7 +5335,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513792851.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513792851.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-83",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/teens/autumn-harvest-pumpkins-83"
   },
@@ -5399,7 +5399,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493478588.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493478588.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-84",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-84"
   },
@@ -5463,7 +5463,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493487599.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493487599.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-85",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-85"
   },
@@ -5527,7 +5527,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493588054.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493588054.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-86",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-86"
   },
@@ -5591,7 +5591,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493596747.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493596747.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-87",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-87"
   },
@@ -5655,7 +5655,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493605890.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493605890.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-88",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-88"
   },
@@ -5719,7 +5719,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493614795.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493614795.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-89",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-89"
   },
@@ -5783,7 +5783,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493624076.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493624076.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-90",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-90"
   },
@@ -5847,7 +5847,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643970_1.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643970_1.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-91",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-91"
   },
@@ -5911,7 +5911,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643997_2.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493643997_2.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-92",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-92"
   },
@@ -5975,7 +5975,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493716335.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493716335.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-93",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-93"
   },
@@ -6039,7 +6039,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493725235.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493725235.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-94",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-94"
   },
@@ -6103,7 +6103,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493734522.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493734522.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-95",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-95"
   },
@@ -6167,7 +6167,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493744231.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493744231.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-96",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/kids/art-nouveau-mucha-style-96"
   },
@@ -6231,7 +6231,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493753360.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493753360.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-97",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/adults/art-nouveau-mucha-style-97"
   },
@@ -6295,7 +6295,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493762276.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Art%20Nouveau%20%28Mucha%20Style%29/Art_Nouveau__Mucha_Style___A_clean_print_1788493762276.webp",
     "coloringPageSlug": "art-nouveau-mucha-style-98",
     "coloringPageUrl": "/en/art-aesthetic/art-nouveau-mucha-style/teens/art-nouveau-mucha-style-98"
   },
@@ -6359,7 +6359,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513940906.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513940906.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-99",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/toddlers/autumn-harvest-pumpkins-99"
   },
@@ -6423,7 +6423,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colorvaults.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513950293.webp",
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Autumn%20Harvest%20%26%20Pumpkins/Autumn_Harvest___Pumpkins__A_clean_print_1788513950293.webp",
     "coloringPageSlug": "autumn-harvest-pumpkins-100",
     "coloringPageUrl": "/en/holidays-seasons/autumn-harvest-pumpkins/kids/autumn-harvest-pumpkins-100"
   }
