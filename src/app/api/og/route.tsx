@@ -123,7 +123,7 @@ export async function GET(request: Request) {
               boxShadow:'0 4px 10px rgba(0,0,0,0.1)',
             }}
           >
-            100% FREE
+            PREMIUM DIGITAL
           </div>
         </div>
       ),

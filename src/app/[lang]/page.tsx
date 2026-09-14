@@ -25,21 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isDe = lang === 'de';
   const isFr = lang === 'fr';
 
-  const title = isDe
-    ? 'ColorMeNow | Kostenlose Premium Malvorlagen & Ausmalbilder'
-    : isFr
-    ? 'ColorMeNow | Coloriages Gratuits à Imprimer de Haute Qualité'
-    : isEn
-    ? 'ColorMeNow | Free Premium Coloring Pages'
-    : 'ColorMeNow | Gratis Premium Kleurplaten';
+  const title = isDe ? 'ColorMeNow | Premium Ausmalbücher & Ausmalbilder' : isFr ? 'ColorMeNow | Livres de Coloriage Premium' : isEn ? 'ColorMeNow | Premium Printable Coloring Books' : 'ColorMeNow | Exclusieve Kleurboeken & Printables';
 
-  const description = isDe
-    ? 'Tausende hochwertige kostenlose Malvorlagen und Ausmalbilder für Kinder, Kleinkinder und Erwachsene. 100% kostenlos zum Ausdrucken als PDF.'
-    : isFr
-    ? 'Téléchargez des milliers de coloriages gratuits et dessins à imprimer de haute qualité pour enfants et adultes. 100% gratuit en PDF.'
-    : isEn
-    ? 'Download thousands of high-quality free printable coloring pages for kids, toddlers, teens and adults. 100% free, no account required.'
-    : 'Download duizenden gratis printbare kleurplaten van topkwaliteit voor kinderen, peuters, tieners en volwassenen. 100% gratis.';
+  const description = isDe ? 'Hochwertige Ausmalbücher und 3D-Cover für Kinder und Erwachsene. Sofortiger digitaler PDF-Download.' : isFr ? 'Découvrez des livres de coloriage et couvertures 3D haute qualité pour enfants et adultes. Téléchargement PDF immédiat.' : isEn ? 'Explore high-quality printable coloring books and 3D covers for kids, toddlers, teens and adults. Instant digital PDF downloads.' : 'Ontdek hoogwaardige printbare kleurboeken en 3D covers voor kinderen, peuters, tieners en volwassenen. Direct digitaal te downloaden als PDF.';
 
   return {
     title,
@@ -94,7 +82,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const dailyTheme = allThemes.find(t => t.slug === dailyPage?.parentTheme);
 
   // Popular character theme slugs
-  const characterSlugs = ['frozen','pokemon','sonic-the-hedgehog','marvel-spider-man','paw-patrol','beauty-and-the-beast-belle','bluey','spongebob-squarepants','super-mario','dragonball','minecraft-voxel-worlds','the-lion-king'];
+  const characterSlugs = ['monster-trucks','whimsical-animals','space-adventures','adorable-houses','home-sweet-home','tiny-world','skull-realms','tiny-food-friends','cuddly-cottage-collection','inked-realms','adorable-fantasy-creatures','cute-gothic'];
 
   // Animal & nature slugs
   const animalSlugs = ['dinosaur-adventures','unicorns-pegasus','cute-puppies-dogs','cute-kittens-cats','safari-lions-big-cats','ocean-life-whales','horses-ponies','birds-of-the-world'];
@@ -169,21 +157,19 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           <div className={styles.heroHeaderWrapper}>
             <div className={styles.heroTopBadge}>
               <span aria-hidden="true">✨</span>
-              <span>{isEn ? '100% Free — High Resolution Printables' : '100% Gratis — Hoge Resolutie Printables'}</span>
+              <span>{isEn ? 'PREMIUM PRINTABLE COLORING BOOKS' : 'EXCLUSIEVE DIGITALE KLEURBOEKEN'}</span>
             </div>
             
             <h1 className={styles.heroMainTitle}>
               {isEn ? (
-                <>Free Premium <span className={styles.heroTitleGradient}>Coloring Pages</span></>
+                <>Premium Coloring <span className={styles.heroTitleGradient}>Books & Art</span></>
               ) : (
-                <>Gratis Premium <span className={styles.heroTitleGradient}>Kleurplaten</span></>
+                <>Exclusieve Kleurboeken <span className={styles.heroTitleGradient}>& 3D Covers</span></>
               )}
             </h1>
             
             <p className={styles.heroMainSubtitle}>
-              {isEn
-                ? 'Thousands of high-quality printable coloring pages for toddlers, kids, teens, and adults. Free instant downloads — no account needed!'
-                : 'Duizenden gratis printbare kleurplaten voor peuters, kinderen, tieners en volwassenen. Direct gratis downloaden — geen account nodig!'}
+              {isEn ? 'High-quality printable coloring books and 3D covers for toddlers, kids, teens, and adults. Instant digital PDF downloads!' : 'Hoogwaardige printbare kleurboeken en 3D covers voor peuters, kinderen, tieners en volwassenen. Direct digitaal te downloaden als PDF!'}
             </p>
 
             {/* Central Hero Search Bar */}
@@ -191,7 +177,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               <HeaderSearchBar
                 lang={lang}
                 variant="hero"
-                placeholder={isEn ? 'Search 10,000+ coloring pages (e.g. Spider-Man, Unicorn, Elsa)...' : 'Zoek uit 10.000+ kleurplaten (bijv. Pokémon, Stitch, Dinos)...'}
+                placeholder={isEn ? 'Search 200+ coloring books (e.g. Monster Trucks, Whimsical Animals, Space)...' : 'Zoek uit 200+ kleurboeken (bijv. Monster Trucks, Dinos, Fantasy)...'}
               />
             </div>
 
@@ -211,7 +197,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </span>
               <span className={styles.heroFeatureItem}>
                 <span aria-hidden="true">🛡️</span>
-                {isEn ? '100% Free Forever' : '100% Gratis Zonder Account'}
+                {isEn ? 'Instant Digital Delivery' : 'Direct Digitaal Geleverd'}
               </span>
             </div>
           </div>
@@ -873,11 +859,11 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 {isEn ?'Why ColorMeNow?':'Waarom ColorMeNow?'}
               </span>
               <h2 className="title-h2"style={{ marginTop:'0.75rem', marginBottom:'1.25rem'}}>
-                {isEn ?'The Best Free Printable Coloring Pages':'De Beste Gratis Printbare Kleurplaten'}
+                {isEn ? 'The Best Premium Printable Coloring Books' : 'De Beste Exclusieve Kleurboeken'}
               </h2>
               <p className={styles.whyLead}>
                 {isEn
-                  ?'ColorMeNow is your premier destination for high-quality, free printable coloring pages. We believe creativity should be accessible to everyone — which is why our entire collection is 100% free with no signups required.':'ColorMeNow is jouw bestemming voor gratis printbare kleurplaten van topkwaliteit. Wij geloven dat creativiteit voor iedereen toegankelijk moet zijn — daarom is onze hele collectie 100% gratis zonder registratie.'}
+                  ?'ColorMeNow is your premier destination for high-quality, free printable coloring pages. We believe creativity should be accessible to everyone — which is why our entire collection is premium high-resolution with no signups required.':'ColorMeNow is jouw bestemming voor gratis printbare kleurplaten van topkwaliteit. Wij geloven dat creativiteit voor iedereen toegankelijk moet zijn — daarom is onze hele collectie hoge resolutie zonder registratie.'}
               </p>
               <p className={styles.whyLead} style={{ marginBottom: 0 }}>
                 {isEn
@@ -887,7 +873,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
 
             <div>
               {[
-                { number:'01', title: isEn ?'100% Free Forever':'100% Gratis Voor Altijd', desc: isEn ?'No paywalls, no subscriptions, no accounts. Download & print instantly.':'Geen abonnementskosten, geen account nodig. Direct printen.'},
+                { number:'01', title: isEn ? 'Instant Digital Delivery' : 'Direct Digitaal Geleverd', desc: isEn ?'No paywalls, no subscriptions, no accounts. Download & print instantly.':'Geen abonnementskosten, geen account nodig. Direct printen.'},
                 { number:'02', title: isEn ?'Print-Optimized':'Optimaal Af te Drukken', desc: isEn ?'Clean crisp line art formatted for standard A4 and Letter paper.':'Scherpe lijnen geformatteerd voor A4 en Letter papier.'},
                 { number:'03', title: isEn ?'Curated by Age':'Gesorteerd op Leeftijd', desc: isEn ?'Tailored difficulty levels for toddlers, kids, teens & adults.':'Aangepaste moeilijkheidsgraden voor peuters, kinderen & volwassenen.'},
                 { number:'04', title: isEn ?'Interactive Pencil QA (World First!)':'Interactief Potlood (Wereldprimeur!)', desc: isEn ?'Spot an error? Circle it with our digital red pencil right on the drawing and we refine it!':'Zie je een foutje? Omcirkel het met ons digitale potlood direct op de tekening en we herstellen het!'},

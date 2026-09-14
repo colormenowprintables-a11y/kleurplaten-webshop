@@ -140,7 +140,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
                 {
                   question: isEn ?`Is this ${page.title} coloring page free to print?`:`Is deze ${page.title} kleurplaat gratis te printen?`,
                   answer: isEn
-                    ?`Yes! All coloring pages on ColorMeNow are 100% free for personal, classroom, and non-commercial educational use.`:`Ja! Alle kleurplaten op ColorMeNow zijn 100% gratis voor persoonlijk gebruik en in de klas.`},
+                    ?`Yes! All coloring pages on ColorMeNow are premium high-resolution for personal, classroom, and non-commercial educational use.`:`Ja! Alle kleurplaten op ColorMeNow zijn hoge resolutie voor persoonlijk gebruik en in de klas.`},
                 {
                   question: isEn ?`What paper size is best for printing?`:`Welk papierformaat is het beste om af te drukken?`,
                   answer: isEn

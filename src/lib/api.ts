@@ -103,7 +103,7 @@ const hubTranslations: Record<string, Record<string, { title: string; descriptio
     'disney-pixar': { title: 'Disney & Pixar', description: 'Entdecke magische Malvorlagen deiner Disney & Pixar Favoriten wie Frozen, Toy Story und König der Löwen.' },
     'anime-manga': { title: 'Anime & Manga', description: 'Tolle Anime und Manga Ausmalbilder mit Dragon Ball, Naruto, One Piece und Pokémon.' },
     'gaming-virtual-worlds': { title: 'Gaming & Videospiele', description: 'Epische Gaming-Malvorlagen mit Fortnite, Minecraft, Roblox, Super Mario und Sonic.' },
-    'superheroes-comic-universes': { title: 'Superhelden & Comics', description: 'Actiongeladene Superhelden-Malvorlagen mit Spider-Man, Batman, Avengers und Superman.' },
+    'superheroes-comic-universes': { title: 'Superhelden & Comics', description: 'Actiongeladene Malvorlagen und Ausmalbücher.' },
     'kids-tv-shows': { title: 'Kinder & Zeichentrick', description: 'Fröhliche Ausmalbilder für Kinder mit Paw Patrol, Bluey, Peppa Wutz und SpongeBob.' },
     'animals-wildlife': { title: 'Tiere & Natur', description: 'Entdecke das Tierreich mit Malvorlagen von Dinosauriern, Hunden, Katzen und Pferden.' },
     'fantasy-fairytales': { title: 'Fantasy & Märchen', description: 'Tauche ein in magische Welten mit Einhörnern, Drachen, Feen und Zauberschlössern.' },

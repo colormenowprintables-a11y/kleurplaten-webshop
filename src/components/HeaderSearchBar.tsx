@@ -135,8 +135,8 @@ export default function HeaderSearchBar({
 
   const isHero = variant === 'hero';
   const defaultPlaceholder = isHero
-    ? (isEn ? 'Search 10,000+ free coloring pages (e.g. Spider-Man, Unicorn, Elsa)...' : 'Zoek uit 10.000+ kleurplaten (bijv. Pokémon, Stitch, Dinosauriërs)...')
-    : (isEn ? 'Search 10,000+ free coloring pages...' : 'Zoek 10.000+ gratis kleurplaten...');
+    ? (isEn ? 'Search 200+ coloring books (e.g. Monster Trucks, Whimsical Animals, Space)...' : 'Zoek uit 200+ kleurboeken (bijv. Monster Trucks, Dinos, Fantasy)...')
+    : (isEn ? 'Search 200+ coloring books...' : 'Zoek 200+ kleurboeken...');
 
   return (
     <div className={`${isHero ? styles.heroContainer : styles.container} ${className}`} ref={containerRef}>

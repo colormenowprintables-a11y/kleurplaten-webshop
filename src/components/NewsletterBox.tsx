@@ -61,7 +61,7 @@ export default function NewsletterBox({ isEn, lang }: { isEn: boolean; lang: str
         </h2>
         <p style={{ color:'#94A3B8', fontSize:'1rem', lineHeight: 1.6, marginBottom:'2rem'}}>
           {isEn
-            ?'Join over 15,000+ parents and teachers. Free high-resolution printables sent directly to your inbox — 100% spam-free.':'Sluit je aan bij meer dan 15.000+ ouders en leerkrachten. Wekelijks nieuwe A4 printables in je mailbox — 100% gratis en vrijblijvend.'}
+            ?'Join over 15,000+ parents and teachers. Free high-resolution printables sent directly to your inbox — 100% spam-free.':'Sluit je aan bij meer dan 15.000+ ouders en leerkrachten. Wekelijks nieuwe A4 printables in je mailbox — topkwaliteit en vrijblijvend.'}
         </p>
 
         {status ==='success'? (

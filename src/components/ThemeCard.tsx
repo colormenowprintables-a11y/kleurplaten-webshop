@@ -153,7 +153,7 @@ export default function ThemeCard({
             {pageCount ?`${pageCount} ${isEn ?'Pages':'Kleurplaten'}`: (isEn ?'Full Album':'Volledig Album')}
           </span>
           <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
-            100% Free
+            PDF Album
           </span>
         </div>
 

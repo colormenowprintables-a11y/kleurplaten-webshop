@@ -98,8 +98,8 @@ export default function ThemeFaqSection({
 
   const baseFaqs: FaqItem[] = isEn ? [
     {
-      question: `Are these ${displayTitle} coloring pages 100% free to print?`,
-      answer: `Yes! Every single ${displayTitle} coloring page in our library is 100% free for personal, family, and educational use. There are no subscriptions, paywalls, or account registrations required. You can print as many copies as you like.`,
+      question: `What format are the ${displayTitle} coloring books delivered in?`,
+      answer: `Yes! Every single ${displayTitle} coloring page in our library is high-resolution PDF for personal, family, and educational use. There are no subscriptions, paywalls, or account registrations required. You can print as many copies as you like.`,
     },
     ...getGenreFaqs(),
     {
@@ -124,8 +124,8 @@ export default function ThemeFaqSection({
     },
   ] : [
     {
-      question: `Zijn deze ${displayTitle} kleurplaten echt 100% gratis te printen?`,
-      answer: `Ja, absoluut! Alle ${displayTitle} kleurplaten op ColorMeNow zijn 100% gratis te downloaden en te printen voor thuis, op school of op de opvang. Er zijn geen abonnementen, verborgen kosten of verplichte accounts nodig.`,
+      question: `Zijn deze ${displayTitle} kleurplaten echt hoge resolutie PDF te printen?`,
+      answer: `Ja, absoluut! Alle ${displayTitle} kleurplaten op ColorMeNow zijn hoge resolutie PDF te downloaden en te printen voor thuis, op school of op de opvang. Er zijn geen abonnementen, verborgen kosten of verplichte accounts nodig.`,
     },
     ...getGenreFaqs(),
     {

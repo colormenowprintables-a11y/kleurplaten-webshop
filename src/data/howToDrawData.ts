@@ -2662,7 +2662,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "descEn": "Learn how to draw a fun, easy flying superhero boy step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke vliegende superheld jongen tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
     "relatedHubSlug": "superheroes-comic-universes",
-    "relatedThemeSlug": "marvel-spider-man",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -2711,9 +2711,9 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
-    "coloringPageSlug": "marvel-spider-man-42",
-    "coloringPageUrl": "/en/superheroes-comic-universes/marvel-spider-man/toddlers/marvel-spider-man-42"
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418940611.webp",
+    "coloringPageSlug": "monster-trucks-42",
+    "coloringPageUrl": "/en/superheroes-comic-universes/monster-trucks/toddlers/monster-trucks-42"
   },
   {
     "slug": "how-to-draw-a-superhero-girl",
@@ -2726,7 +2726,7 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
     "descEn": "Learn how to draw a fun, easy mighty superhero girl step-by-step in 6 simple illustrated stages! Perfect for kids, parents, and classrooms.",
     "descNl": "Leer stap voor stap een vrolijke sterke superheldin meisje tekenen in 6 simpele, duidelijke stappen! Ideaal voor kinderen, thuis en in de klas.",
     "relatedHubSlug": "superheroes-comic-universes",
-    "relatedThemeSlug": "marvel-spider-man",
+    "relatedThemeSlug": "monster-trucks",
     "steps": [
       {
         "stepNumber": 1,
@@ -2775,9 +2775,9 @@ export const HOW_TO_DRAW_LESSONS: HowToDrawLesson[] = [
         "instructionNl": "Maak je meesterwerk af! Trek strakke zwarte contourlijnen en kleur alles prachtig in met viltstiften, potloden of in onze Online Kleurtool!"
       }
     ],
-    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Spider-Man/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
-    "coloringPageSlug": "marvel-spider-man-43",
-    "coloringPageUrl": "/en/superheroes-comic-universes/marvel-spider-man/kids/marvel-spider-man-43"
+    "image": "https://colormenow.ams3.cdn.digitaloceanspaces.com/Marvel%20-%20Monster Trucks/Marvel__A_clean_printable_coloring_page__1788418949614.webp",
+    "coloringPageSlug": "monster-trucks-43",
+    "coloringPageUrl": "/en/superheroes-comic-universes/monster-trucks/kids/monster-trucks-43"
   },
   {
     "slug": "how-to-draw-a-cute-monster",

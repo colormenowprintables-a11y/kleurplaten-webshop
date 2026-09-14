@@ -81,8 +81,8 @@ export const HOLIDAY_THEMES: Record<HolidayThemeId, HolidayThemeConfig> = {
     particleType: 'none',
     particleCount: 0,
     banner: {
-      tagEn: '100% Free Coloring Pages',
-      tagNl: '100% Gratis Kleurplaten',
+      tagEn: 'Premium Coloring Collection',
+      tagNl: 'Exclusieve Kleurcollectie',
       titleEn: 'Over 53,000+ Free Printable Pages',
       titleNl: 'Meer dan 53.000+ Gratis Printbare Kleurplaten',
       descEn: 'Clean line art for toddlers, kids, teens and adults with no watermark.',

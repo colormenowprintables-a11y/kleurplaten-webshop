@@ -33,7 +33,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ul>
 
         <h2>Top Recommended Collections on ColorMeNow</h2>
-        <p>Check out our <strong>Bold & Easy</strong> and <strong>Cute Pets Animals</strong> collections. Every template is 100% free to print directly in high resolution!</p>`,
+        <p>Check out our <strong>Bold & Easy</strong> and <strong>Cute Pets Animals</strong> collections. Every template is high-resolution PDF digital printables in high resolution!</p>`,
     },
     {
       slug:'mandalas-mindfulness-stress-relief',
@@ -190,7 +190,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ul>
 
         <h2>Aanbevolen Collecties op ColorMeNow</h2>
-        <p>Bekijk onze <strong>Speciaal voor Peuters</strong> en <strong>Lieve Huisdieren</strong> collecties. Alle sjablonen zijn 100% gratis in hoge resolutie uit te printen!</p>`,
+        <p>Bekijk onze <strong>Speciaal voor Peuters</strong> en <strong>Lieve Huisdieren</strong> collecties. Alle sjablonen zijn hoge resolutie in hoge resolutie uit te printen!</p>`,
     },
     {
       slug:'mandalas-mindfulness-ontspanning',
@@ -234,7 +234,7 @@ export const blogPosts: Record<'en'|'nl', BlogPost[]> = {
         </ol>
 
         <h2>Gratis Toegang voor Scholen</h2>
-        <p>Alle 26.000+ kleurplaten op ColorMeNow zijn 100% gratis te gebruiken voor het onderwijs. Print direct onbeperkt lesmateriaal zonder registratie!</p>`,
+        <p>Alle 26.000+ kleurplaten op ColorMeNow zijn hoge resolutie te gebruiken voor het onderwijs. Print direct onbeperkt lesmateriaal zonder registratie!</p>`,
     },
     {
       slug: 'beste-kleurpotloden-stiften-papier-gids',

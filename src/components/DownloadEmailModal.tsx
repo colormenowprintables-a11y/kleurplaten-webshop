@@ -152,7 +152,7 @@ export default function DownloadEmailModal({
             )}
 
             <div className={styles.benefits}>
-              <span>✓ {isEn ? '100% Free forever' : '100% Gratis'}</span>
+              <span>✓ {isEn ? 'Instant Digital Download' : 'Directe Digitale Download'}</span>
               <span>✓ {isEn ? 'No spam, 1-click unsubscribe' : 'Geen spam, altijd uitschrijfbaar'}</span>
             </div>
           </form>

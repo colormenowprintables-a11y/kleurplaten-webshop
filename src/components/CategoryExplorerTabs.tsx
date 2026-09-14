@@ -25,7 +25,7 @@ interface CategoryExplorerTabsProps {
   themes: ThemeItem[];
 }
 
-const TOP_FEATURED_SLUGS = ['frozen','pokemon','marvel-spider-man','dinosaur-adventures','sonic-the-hedgehog','paw-patrol','unicorns-pegasus','mandalas-sacred-geometry','super-mario','cute-puppies-dogs','cute-kittens-cats','princesses-castles','the-lion-king','beauty-and-the-beast-belle','the-little-mermaid-ariel','aladdin-jasmine'];
+const TOP_FEATURED_SLUGS = ['monster-trucks','whimsical-animals','space-adventures','adorable-houses','home-sweet-home','tiny-world','skull-realms','tiny-food-friends','cuddly-cottage-collection','inked-realms','adorable-fantasy-creatures','cute-gothic'];
 
 export default function CategoryExplorerTabs({
   lang,
@@ -130,7 +130,7 @@ export default function CategoryExplorerTabs({
                     {theme.pageCount || 90} {isEn ?'Pages':'Platen'}
                   </span>
                   <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
-                    100% Free
+                    PDF Album
                   </span>
                 </div>
 

@@ -85,16 +85,14 @@ export default function SearchFilterBar({
           {isEn ?'Trending:':'Populair:'}
         </span>
         {[
-          { label:'Frozen', q:'Frozen'},
-          { label:'Pokemon', q:'Pokemon'},
-          { label:'Spider-Man', q:'Spider-Man'},
-          { label:'Paw Patrol', q:'Paw Patrol'},
-          { label: isEn ?'Dinosaurs':'Dino', q:'Dinosaur'},
-          { label:'Mandalas', q:'Mandala'},
-          { label:'Super Mario', q:'Mario'},
-          { label: isEn ?'Princesses':'Prinsessen', q:'Princess'},
-          { label: isEn ?'Unicorns':'Eenhoorns', q:'Unicorn'},
-          { label:'Lion King', q:'Lion'},
+          { label: 'Monster Trucks', q: 'Monster Trucks' },
+          { label: 'Whimsical Animals', q: 'Whimsical Animals' },
+          { label: 'Space Adventures', q: 'Space' },
+          { label: 'Adorable Houses', q: 'Houses' },
+          { label: 'Skull Realms', q: 'Skull' },
+          { label: 'Mandalas', q: 'Mandala' },
+          { label: 'Fantasy Creatures', q: 'Fantasy' },
+          { label: 'Cute Gothic', q: 'Gothic' },
         ].map((pill) => (
           <button
             key={pill.q}

@@ -21,7 +21,7 @@ export default function PinterestThemeCard({
   const fullUrl = `https://colormenow.shop${url}`;
   const pinTitle = `${pageCount}+ Free Printable ${themeTitle} Coloring Pages (PDF Download) | ColorMeNow`;
   const pinDescription = isEn
-    ? `Download and print ${pageCount}+ free high-resolution ${themeTitle} coloring pages! Perfect for toddlers, kids, and teachers. 100% free A4/Letter PDF printables.`
+    ? `Download and print ${pageCount}+ free high-resolution ${themeTitle} coloring pages! Perfect for toddlers, kids, and teachers. high-resolution A4/Letter PDF printables.`
     : `Download en print ${pageCount}+ gratis hoge resolutie ${themeTitle} kleurplaten! Ideaal voor kinderen, peuters en schoolklassen. 100% gratis A4 PDF.`;
 
   const pinShareUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(

@@ -89,7 +89,7 @@ export default function FloatingBookletBar({ lang }: { lang: string }) {
             // Page footer
             pdf.setFontSize(8);
             pdf.setTextColor(180, 190, 205);
-            pdf.text('© ColorMeNow.com — 100% Free Printable Coloring Pages', pageWidth / 2, pageHeight - 8, { align:'center'});
+            pdf.text('© ColorMeNow.com — Premium Printable Coloring Books', pageWidth / 2, pageHeight - 8, { align:'center'});
 
             URL.revokeObjectURL(img.src);
           }
