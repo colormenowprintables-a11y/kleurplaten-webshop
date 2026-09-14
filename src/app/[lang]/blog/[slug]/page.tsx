@@ -6,11 +6,11 @@ import Link from'next/link';
 
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
-  for (const post of blogPosts.en) {
-    params.push({ lang:'en', slug: post.slug });
-  }
-  for (const post of blogPosts.nl) {
-    params.push({ lang:'nl', slug: post.slug });
+  for (const lang of ['en', 'nl', 'de', 'fr']) {
+    const posts = blogPosts[lang === 'nl' ? 'nl' : 'en'] || blogPosts.en;
+    for (const post of posts) {
+      params.push({ lang, slug: post.slug });
+    }
   }
   return params;
 }

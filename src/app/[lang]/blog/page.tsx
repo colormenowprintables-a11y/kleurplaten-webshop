@@ -4,7 +4,7 @@ import SafeImage from'@/components/SafeImage';
 import Breadcrumbs from'@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
-  return [{ lang:'en'}, { lang:'nl'}];
+  return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
