@@ -111,8 +111,8 @@ export default function ThemeFaqSection({
       answer: `Absolutely! We enthusiastically support teachers, homeschoolers, daycare educators, and community organizers. You are welcome to print multiple copies for classroom activities, lesson plans, rainy-day recess, and art corners.`,
     },
     {
-      question: `Can my child color these online without a printer?`,
-      answer: `Yes! ColorMeNow features an interactive Online Coloring Studio. Simply click the "Color Online" button on any ${displayTitle} page to start coloring directly on your iPad, tablet, smartphone, or laptop with digital fill buckets, brushes, and color palettes.`,
+      question: `How do I download full ${displayTitle} coloring book bundles?`,
+      answer: `You can download individual high-resolution PDF pages directly or pick complete 35+ page theme coloring book bundles starting at just €1.99. Click "Add to Bundle" on any page or browse our complete book store to download print-ready PDFs.`,
     },
     {
       question: `How do I bundle multiple ${displayTitle} pages into a custom coloring book?`,

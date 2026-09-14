@@ -204,7 +204,7 @@ export default async function AgePage({
                     A4 / Letter PDF
                   </span>
                   <span className="badge"style={{ background:'rgba(255, 255, 255, 0.95)', color:'#6B21A8', borderColor:'#E9D5FF', fontWeight: 700 }}>
-                    {isEn ?'Color Online':'Online Inkleuren'}
+                    {isEn ? 'High Resolution' : 'Hoge Resolutie'}
                   </span>
                 </div>
               </div>

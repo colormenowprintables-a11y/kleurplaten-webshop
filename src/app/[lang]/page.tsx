@@ -190,7 +190,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </span>
               <span className={styles.heroFeatureItem}>
                 <span aria-hidden="true">🎨</span>
-                {isEn ? 'Color Online Tool' : 'Online Inkleuren'}
+                {isEn ? 'High-Res 300 DPI PDF' : 'Hoge Resolutie 300 DPI'}
               </span>
               <span className={styles.heroFeatureItem}>
                 <span aria-hidden="true">🛡️</span>

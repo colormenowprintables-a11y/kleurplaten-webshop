@@ -83,7 +83,7 @@ export default function DailyColoringChallenge({ isEn, lang }: DailyChallengePro
 
         <div style={{ display:'flex', gap:'0.75rem', flexWrap:'wrap'}}>
           <Link
-            href={`/${lang}/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-1/color`}
+            href={`/${lang}/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-1`}
             style={{
               padding:'0.75rem 1.4rem',
               borderRadius:'9999px',
@@ -95,7 +95,7 @@ export default function DailyColoringChallenge({ isEn, lang }: DailyChallengePro
               boxShadow:'0 4px 15px rgba(255, 107, 53, 0.4)',
             }}
           >
-            {isEn ?'Color Online Now':'Nu Online Inkleuren'}
+            {isEn ? 'View & Download Book' : 'Bekijk & Download Kleurboek'}
           </Link>
           <Link
             href={`/${lang}/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-1`}
