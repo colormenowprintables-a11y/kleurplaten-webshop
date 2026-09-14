@@ -47,18 +47,18 @@ export default function RequestForm({ lang, isEn }: { lang: string; isEn: boolea
  <h2 style={{ fontSize:'1.75rem', fontWeight: 800, color:'var(--primary)', marginBottom:'0.75rem'}}>
  {isEn ?'Request Submitted!':'Aanvraag Ingediend!'}
  </h2>
- <p style={{ color:'var(--gray-600)', fontSize:'1rem', lineHeight: 1.6, marginBottom:'2rem'}}>
- {isEn 
- ?'We have received your coloring page request. Popular requests are added to our vaults weekly.':'We hebben je kleurplaataanvraag ontvangen. Populaire aanvragen worden wekelijks toegevoegd.'}
- </p>
- <button 
- onClick={() => {
- setFormData({ name:'', email:'', request:'', details:''});
- setStatus('idle');
- }}
- className="btn-primary">
- {isEn ?'Request Another Page':'Nog Een Kleurplaat Aanvragen'}
- </button>
+  <p style={{ color:'var(--gray-600)', fontSize:'1rem', lineHeight: 1.6, marginBottom:'2rem'}}>
+  {isEn 
+  ?'We have received your coloring book theme request! Popular requests are created and added to our shop weekly.':'We hebben je kleurboek-aanvraag ontvangen! Populaire thema\'s worden wekelijks ontworpen en toegevoegd.'}
+  </p>
+  <button 
+  onClick={() => {
+  setFormData({ name:'', email:'', request:'', details:''});
+  setStatus('idle');
+  }}
+  className="btn-primary">
+  {isEn ?'Request Another Book':'Nog Een Kleurboek Aanvragen'}
+  </button>
  </div>
  );
  }
@@ -95,18 +95,18 @@ export default function RequestForm({ lang, isEn }: { lang: string; isEn: boolea
  />
  </div>
 
- <div>
- <label style={{ display:'block', fontSize:'0.85rem', fontWeight: 700, marginBottom:'0.4rem', color:'var(--gray-700)'}}>
- {isEn ?'What would you like?':'Wat wil je graag?'} *
- </label>
- <input
- type="text"required
- value={formData.request}
- onChange={e => setFormData(prev => ({ ...prev, request: e.target.value }))}
- placeholder={isEn ?'e.g. Sonic the Hedgehog for teens':'bijv. Sonic the Hedgehog voor tieners'}
- style={inputStyle}
- />
- </div>
+        <div>
+          <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.4rem', color: 'var(--gray-700)' }}>
+            {isEn ? 'Which coloring book theme would you like?' : 'Welk kleurboek-thema wil je graag aanvragen?'} *
+          </label>
+          <input
+            type="text" required
+            value={formData.request}
+            onChange={e => setFormData(prev => ({ ...prev, request: e.target.value }))}
+            placeholder={isEn ? 'e.g. Cozy Magical Woodlands, Chibi Pets or Monster Trucks' : 'bijv. Gezellig Magisch Bos, Schattige Huisdieren of Monster Trucks'}
+            style={inputStyle}
+          />
+        </div>
 
  <div>
  <label style={{ display:'block', fontSize:'0.85rem', fontWeight: 700, marginBottom:'0.4rem', color:'var(--gray-700)'}}>
