@@ -11,7 +11,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 5,
+    "pageCount": 7,
     "language": "fr"
   },
   {
@@ -26,7 +26,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 53,
+    "pageCount": 45,
     "language": "fr"
   },
   {
@@ -41,7 +41,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 44,
+    "pageCount": 42,
     "language": "fr"
   },
   {
@@ -56,7 +56,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 4,
+    "pageCount": 16,
     "language": "fr"
   },
   {
@@ -71,7 +71,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 26,
+    "pageCount": 17,
     "language": "fr"
   },
   {
@@ -86,7 +86,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 21,
+    "pageCount": 12,
     "language": "fr"
   },
   {
@@ -101,7 +101,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 30,
+    "pageCount": 14,
     "language": "fr"
   },
   {
@@ -116,7 +116,7 @@
       "kids",
       "all-ages"
     ],
-    "pageCount": 8,
+    "pageCount": 19,
     "language": "fr"
   },
   {
@@ -132,6 +132,21 @@
       "all-ages"
     ],
     "pageCount": 7,
+    "language": "fr"
+  },
+  {
+    "title": "Aventures Spatiales",
+    "slug": "space-adventures",
+    "parentHub": "kids-adventures",
+    "description": "Printable coloring pages for Space Adventures.",
+    "image": "/covers/astro_adventure_cover.png",
+    "coverImage": "/covers/astro_adventure_cover.png",
+    "availableAges": [
+      "toddlers",
+      "kids",
+      "all-ages"
+    ],
+    "pageCount": 19,
     "language": "fr"
   }
 ]
