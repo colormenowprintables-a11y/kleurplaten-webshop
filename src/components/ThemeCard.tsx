@@ -150,10 +150,10 @@ export default function ThemeCard({
 
         <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.75rem'}}>
           <span style={{ fontSize:'0.78rem', fontWeight: 800, color:'var(--color-primary)', background:'var(--primary-light)', padding:'0.2rem 0.65rem', borderRadius:'9999px'}}>
-            {pageCount ?`${pageCount} ${isEn ?'Pages':'Kleurplaten'}`: (isEn ?'Full Album':'Volledig Album')}
+            {pageCount ? `${pageCount} ${lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : isEn ? 'Books' : 'Boeken'}` : (isEn ? 'Book Collection' : 'Boekencollectie')}
           </span>
           <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
-            PDF Album
+            PDF Book
           </span>
         </div>
 
@@ -163,7 +163,7 @@ export default function ThemeCard({
 
         <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginTop:'auto', paddingTop:'0.75rem', borderTop:'1px solid var(--gray-200)'}}>
           <span style={{ fontSize:'0.85rem', fontWeight: 800, color:'var(--color-primary)'}}>
-            {isEn ?'Explore Album →':'Bekijk Kleurplaten →'}
+            {isEn ? 'Explore Book →' : 'Bekijk Kleurboek →'}
           </span>
           <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
             A4 • PDF / PNG

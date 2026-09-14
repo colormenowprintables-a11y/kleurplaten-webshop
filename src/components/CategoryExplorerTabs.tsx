@@ -127,16 +127,16 @@ export default function CategoryExplorerTabs({
                 
                 <div style={{ display:'flex', alignItems:'center', gap:'0.45rem', marginBottom:'0.75rem'}}>
                   <span style={{ fontSize:'0.75rem', fontWeight: 800, color:'var(--color-primary)', background:'var(--primary-light)', padding:'0.15rem 0.6rem', borderRadius:'9999px'}}>
-                    {theme.pageCount || 90} {isEn ?'Pages':'Platen'}
+                    {theme.pageCount || 10} {lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : isEn ? 'Books' : 'Boeken'}
                   </span>
                   <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
-                    PDF Album
+                    PDF Book
                   </span>
                 </div>
 
                 <div className={styles.cardBottomRow}>
                   <span className={styles.cardLinkText}>
-                    {isEn ?'Explore Album →':'Bekijk Album →'}
+                    {isEn ? 'Explore Book →' : 'Bekijk Kleurboek →'}
                   </span>
                   <span className={styles.freeBadge}>
                     PDF / PNG

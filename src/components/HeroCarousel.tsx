@@ -68,13 +68,13 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
                 
                 {/* Album Badge Top Left */}
                 <div className={styles.albumBadge}>
-                  <span>Album</span>
+                  <span>Book</span>
                 </div>
 
                 {/* Album Title Bottom */}
                 <div className={styles.cardLabel}>
                   <span className={styles.albumTitle}>{img.alt}</span>
-                  <span className={styles.albumCta}>{isEn ? 'Explore →' : 'Bekijk Album →'}</span>
+                  <span className={styles.albumCta}>{isEn ? 'Explore Book →' : 'Bekijk Kleurboek →'}</span>
                 </div>
               </Link>
             ))}
