@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { getRotatingAffiliateProduct, AffiliateProduct } from '@/data/affiliateData';
 
 interface AdSlotProps {
@@ -14,14 +14,39 @@ interface AdSlotProps {
 export default function AdSlot({
   type = 'banner',
   text = 'Advertisement',
+  slotId,
   index = 0,
   lang = 'nl',
 }: AdSlotProps) {
   const [product, setProduct] = useState<AffiliateProduct | null>(null);
+  const adRef = useRef<HTMLModElement>(null);
+  const pushedRef = useRef(false);
+
+  const SLOT_IDS: Record<string, string> = {
+    banner: '5856381732',
+    rectangle: '6437272564',
+    'in-feed': '6760706190',
+  };
+
+  const resolvedSlot = slotId && /^\d+$/.test(slotId.trim())
+    ? slotId.trim()
+    : SLOT_IDS[type] ?? SLOT_IDS['banner'];
 
   useEffect(() => {
-    // Pick daily rotating affiliate product offset by index
     setProduct(getRotatingAffiliateProduct(index));
+
+    if (pushedRef.current) return;
+    try {
+      if (typeof window !== 'undefined') {
+        const insElement = adRef.current;
+        if (insElement && !insElement.getAttribute('data-adsbygoogle-status')) {
+          ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+          pushedRef.current = true;
+        }
+      }
+    } catch (e) {
+      console.warn('AdSlot push notice:', e);
+    }
   }, [index]);
 
   if (!product) return null;
@@ -46,10 +71,22 @@ export default function AdSlot({
         gap: '1.5rem',
         boxShadow: '0 4px 14px rgba(245, 158, 11, 0.08)',
         flexWrap: 'wrap',
+        position: 'relative',
       }}
       role="complementary"
       aria-label={text}
     >
+      {/* Hidden/Active Google AdSense tag for Google Ads integration */}
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'none' }}
+        data-ad-client="ca-pub-1184801748776428"
+        data-ad-slot={resolvedSlot}
+        data-ad-format={type === 'rectangle' ? 'rectangle' : type === 'in-feed' ? 'fluid' : 'auto'}
+        data-full-width-responsive="true"
+      />
+
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flex: 1, minWidth: '280px' }}>
         {/* Thumbnail Image or Icon Box */}
         {product.imageUrl ? (

@@ -1,19 +1,34 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { getRotatingAffiliateProduct, AffiliateProduct } from '@/data/affiliateData';
 
 interface AdCardProps {
   index?: number;
   lang?: string;
+  slotId?: string;
 }
 
-export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
+export default function AdCard({ index = 0, lang = 'nl', slotId = '6437272564' }: AdCardProps) {
   const [product, setProduct] = useState<AffiliateProduct | null>(null);
+  const adRef = useRef<HTMLModElement>(null);
+  const pushedRef = useRef(false);
 
   useEffect(() => {
-    // Pick daily rotating affiliate product offset by index
     setProduct(getRotatingAffiliateProduct(index));
+
+    if (pushedRef.current) return;
+    try {
+      if (typeof window !== 'undefined') {
+        const ins = adRef.current;
+        if (ins && !ins.getAttribute('data-adsbygoogle-status')) {
+          ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+          pushedRef.current = true;
+        }
+      }
+    } catch (e) {
+      console.warn('AdCard push notice:', e);
+    }
   }, [index]);
 
   if (!product) {
@@ -53,6 +68,17 @@ export default function AdCard({ index = 0, lang = 'nl' }: AdCardProps) {
       aria-label="Sponsored Recommendation"
       role="complementary"
     >
+      {/* Hidden/Active Google AdSense tag for Google Ads integration */}
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'none' }}
+        data-ad-client="ca-pub-1184801748776428"
+        data-ad-slot={slotId}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+
       <div>
         {/* Top Tag & Badge */}
         <div
