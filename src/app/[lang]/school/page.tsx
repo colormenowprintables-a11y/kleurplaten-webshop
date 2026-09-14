@@ -8,51 +8,75 @@ import SchoolWorksheetCard from '@/components/SchoolWorksheetCard';
 import { SCHOOL_WORKSHEETS_DATA } from '@/data/schoolData';
 
 export async function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'nl' }];
+  return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const isEn = lang === 'en';
+  if (lang === 'nl') {
+    return {
+      title: '100% Gratis Educatieve Werkbladen (Rekenen, Schrijven, Woorden) | ColorMeNow',
+      description: 'Download 100+ gratis printbare educatieve werkbladen voor peuters, kleuters, basisscholen en leerkrachten! Oefen met tellen, sommen maken, letters schrijven A-Z en woordenschat.',
+    };
+  } else if (lang === 'de') {
+    return {
+      title: '100% Kostenlose Lernblätter (Mathe, Schreiben, Wörter) | ColorMeNow',
+      description: 'Laden Sie 100+ kostenlose ausdruckbare Lernblätter für Kindergarten, Grundschule und Lehrer herunter! Mathe, ABC Schreiben und Wortschatz.',
+    };
+  } else if (lang === 'fr') {
+    return {
+      title: 'Fiches Éducatives 100% Gratuites (Maths, Écriture, Mots) | ColorMeNow',
+      description: 'Téléchargez 100+ fiches éducatives gratuites à imprimer pour la maternelle, l’école primaire et les enseignants!',
+    };
+  }
   return {
-    title: isEn
-      ? 'School & Educational Worksheets (Math, Letters, Spelling) | ColorMeNow'
-      : 'School & Educatieve Werkbladen (Rekenen, Schrijven, Woorden) | ColorMeNow',
-    description: isEn
-      ? 'Download 100+ free printable educational coloring worksheets for kids! Math sums, letter tracing A-Z, handwriting practice, and bilingual vocabulary.'
-      : 'Download 100+ gratis printbare educatieve werkbladen voor kinderen! Rekensommen, letters schrijven A-Z, woordenschat en kleuren.',
+    title: '100% Free Educational Worksheets (Math, Letters, Spelling) | ColorMeNow',
+    description: 'Download 100+ free printable educational coloring worksheets for kids, parents, and teachers! Math counting, letter tracing A-Z, handwriting practice, and bilingual vocabulary.',
   };
 }
 
 export default async function SchoolHubPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const isEn = lang === 'en';
+  const isNl = lang === 'nl';
+  const isDe = lang === 'de';
+  const isFr = lang === 'fr';
 
   const mathWorksheets = SCHOOL_WORKSHEETS_DATA.filter(w => w.subject === 'math');
   const writingWorksheets = SCHOOL_WORKSHEETS_DATA.filter(w => w.subject === 'writing');
   const langWorksheets = SCHOOL_WORKSHEETS_DATA.filter(w => w.subject === 'language');
 
+  const heroBadge = isNl ? '🎁 100% GRATIS EDUCATEVE LEERHUB VOOR SCHOLEN & GEZINNEN' : isDe ? '🎁 100% KOSTENLOSE LERN-HUB FÜR SCHULEN & FAMILIEN' : isFr ? '🎁 HUB ÉDUCATIF 100% GRATUIT POUR ÉCOLES & FAMILLES' : '🎁 100% FREE EDUCATIONAL HUB FOR SCHOOLS & FAMILIES';
+  const heroTitle = isNl ? 'Gratis Educatieve Werkbladen (Rekenen, Schrijven & Taal)' : isDe ? 'Kostenlose Lernblätter (Mathe, Schreiben & Alphabet)' : isFr ? 'Fiches Éducatives Gratuites (Maths, Écriture & Langue)' : 'Free Educational Worksheets (Math, Letters & Handwriting)';
+  const heroDesc = isNl
+    ? '100% gratis printbare educatieve werkbladen voor peuters, kleuters, basisscholen, ouders en leerkrachten! Oefen met tellen, sommen maken, letters schrijven A t/m Z en woordjes leren.'
+    : isDe
+    ? '100% kostenlose ausdruckbare Lernblätter für Kindergarten, Grundschule, Eltern und Lehrer! Üben Sie Mathe, ABC-Schreiben und Wortschatz.'
+    : isFr
+    ? '100% gratuit fiches éducatives à imprimer pour la maternelle, l’école primaire, les parents et les enseignants!'
+    : '100% free printable educational worksheets for preschool, kindergarten, elementary schools, parents, and teachers! Practice math counting, letter tracing A to Z, and bilingual vocabulary.';
+
   const categories = [
     {
       id: 'math',
-      title: isEn ? '🧮 Math & Numbers' : '🧮 Rekenen & Cijfers',
-      desc: isEn ? 'Numbers 1-10, addition, subtraction, shapes, telling time, and fractions' : 'Cijfers 1-10, optellen, aftrekken, vormen, klokkijken en breuken',
+      title: isNl ? '🧮 Rekenen & Cijfers' : isDe ? '🧮 Mathe & Zahlen' : isFr ? '🧮 Maths & Chiffres' : '🧮 Math & Numbers',
+      desc: isNl ? 'Cijfers 1-10, optellen, aftrekken, vormen, klokkijken en breuken' : isDe ? 'Zahlen 1-10, Addition, Subtraktion, Formen, Uhrzeit und Brüche' : isFr ? 'Chiffres 1-10, addition, soustraction, formes, heure et fractions' : 'Numbers 1-10, addition, subtraction, shapes, telling time, and fractions',
       items: mathWorksheets,
-      badge: isEn ? '35 Math Sheets' : '35 Rekenbladen'
+      badge: isNl ? '35 Gratis Rekenbladen' : isDe ? '35 Kostenlose Matheblätter' : isFr ? '35 Fiches de Maths Gratuites' : '35 Free Math Sheets'
     },
     {
       id: 'writing',
-      title: isEn ? '🔤 Handwriting & Alphabet A-Z' : '🔤 Letters Schrijven & Alfabet A-Z',
-      desc: isEn ? 'Alphabet A to Z letter tracing, stroke guides, handwriting lines, and phonics' : 'Alfabet A t/m Z overtrekken, schrijfregels, klinkers en motoriek',
+      title: isNl ? '🔤 Letters Schrijven & Alfabet A-Z' : isDe ? '🔤 Alphabet & Schreiben A-Z' : isFr ? '🔤 Écriture & Alphabet A-Z' : '🔤 Handwriting & Alphabet A-Z',
+      desc: isNl ? 'Alfabet A t/m Z overtrekken, schrijfregels, klinkers en motoriek' : isDe ? 'Alphabet A bis Z nachspuren, Schreiblinien, Vokale und Feinmotorik' : isFr ? 'Tracer l’alphabet A à Z, lignes d’écriture, voyelles et motricité' : 'Alphabet A to Z letter tracing, stroke guides, handwriting lines, and phonics',
       items: writingWorksheets,
-      badge: isEn ? '35 Writing Sheets' : '35 Schrijfbladen'
+      badge: isNl ? '35 Gratis Schrijfbladen' : isDe ? '35 Kostenlose Schreibblätter' : isFr ? '35 Fiches d’Écriture Gratuites' : '35 Free Writing Sheets'
     },
     {
       id: 'language',
-      title: isEn ? '📖 Vocabulary & Spelling (Bilingual NL/EN)' : '📖 Woordenschat & Spellen (Tweetalig)',
-      desc: isEn ? 'Colors, emotions, body parts, 4 seasons, animals, rhyming words, and word searches' : "Kleuren, emoties, seizoenen, rijmwoorden, woordzoekers en diploma's",
+      title: isNl ? '📖 Woordenschat & Spellen (Tweetalig)' : isDe ? '📖 Wortschatz & Rechtschreibung' : isFr ? '📖 Vocabulaire & Orthographe' : '📖 Vocabulary & Spelling (Bilingual NL/EN)',
+      desc: isNl ? "Kleuren, emoties, seizoenen, rijmwoorden, woordzoekers en diploma's" : isDe ? 'Farben, Gefühle, Jahreszeiten, Reimwörter und Wortsuchrätsel' : isFr ? 'Couleurs, émotions, saisons, mots rimés et mots mêlés' : 'Colors, emotions, body parts, 4 seasons, animals, rhyming words, and word searches',
       items: langWorksheets,
-      badge: isEn ? '30 Language Sheets' : '30 Taalbladen'
+      badge: isNl ? '30 Gratis Taalbladen' : isDe ? '30 Kostenlose Sprachblätter' : isFr ? '30 Fiches de Langue Gratuites' : '30 Free Language Sheets'
     }
   ];
 
@@ -62,7 +86,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ lang
         <div className="container" style={{ maxWidth: '880px', margin: '0 auto', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
             <Breadcrumbs
-              items={[{ label: isEn ? 'School & Education' : 'School & Educatie' }]}
+              items={[{ label: isNl ? 'School & Educatie' : isDe ? 'Schule & Bildung' : isFr ? 'École & Éducation' : 'School & Education' }]}
               lang={lang}
             />
           </div>
@@ -81,17 +105,15 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ lang
             letterSpacing: '0.04em',
             marginBottom: '0.75rem',
           }}>
-            {isEn ? '🎓 Educational Learning Hub' : '🎓 Educatieve Leerhub voor Kinderen'}
+            {heroBadge}
           </span>
 
           <h1 className="title-h1" style={{ fontSize: '2.5rem', fontWeight: 900, lineHeight: 1.25, color: '#0F172A' }}>
-            {isEn ? 'School, Math & Handwriting Worksheets' : 'School, Rekenen & Letters Schrijven'}
+            {heroTitle}
           </h1>
 
           <p style={{ color: '#475569', fontSize: '1.1rem', marginTop: '0.8rem', lineHeight: 1.7, maxWidth: '680px', margin: '0.8rem auto 0' }}>
-            {isEn
-              ? '100 free printable educational worksheets for preschool, kindergarten, and elementary school! Practice math counting, letter tracing A to Z, and bilingual vocabulary.'
-              : '100 gratis printbare educatieve werkbladen voor peuters, kleuters en de basisschool! Oefen met tellen, sommen maken, letters schrijven en woordjes leren.'}
+            {heroDesc}
           </p>
         </div>
       </div>

@@ -85,7 +85,7 @@ export default function SchoolWorksheetCard({ sheet, isEn }: SchoolWorksheetCard
             letterSpacing: '0.04em',
             textTransform: 'uppercase',
           }}>
-            📄 {isEn ? 'Printable A4 Worksheet' : 'Printbaar A4 Werkblad'}
+            📄 {isEn ? '100% FREE A4 WORKSHEET' : '100% GRATIS A4 WERKBLAD'}
           </span>
         </div>
 
@@ -205,7 +205,7 @@ export default function SchoolWorksheetCard({ sheet, isEn }: SchoolWorksheetCard
 
               {/* Star Score Footer */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '2px solid #E2E8F0', paddingTop: '1rem', marginTop: '1.5rem', fontSize: '0.85rem', color: '#64748B' }}>
-                <span>© ColorMeNow.com — Free for Schools & Families</span>
+                <span>© ColorMeNow.shop — 100% Free for Schools, Teachers & Families</span>
                 <span>⭐ ⭐ ⭐ ⭐ ⭐ <strong>{isEn ? 'Great Job!' : 'Goed gedaan!'}</strong></span>
               </div>
             </div>
