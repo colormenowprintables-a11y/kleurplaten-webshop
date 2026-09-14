@@ -193,14 +193,6 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             </div>
           </div>
 
-          {/* Prominent Friendly Pencil Error Finder Tool Banner */}
-          <ReportButton
-            imageUrl={page.image}
-            category={theme.title}
-            isEn={isEn}
-            variant="hero-banner"
-          />
-
           {/* Social Share bar */}
           <SocialShareButtons
             isEn={isEn}
