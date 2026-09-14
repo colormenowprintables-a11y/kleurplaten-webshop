@@ -36,17 +36,10 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   output: 'standalone',
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
-  experimental: {
-    workerThreads: false,
-    cpus: 1,
-  },
   images: {
     unoptimized: true,
     formats: ['image/avif', 'image/webp'],

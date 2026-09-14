@@ -2,7 +2,7 @@
   {
     "title": "Dogs & Puppies (Tout-petits)",
     "slug": "toddlers",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "honden",
     "ageGroup": "toddlers",
     "introText": "Kleurplaten voor Tout-petits.",
@@ -18,7 +18,7 @@
   {
     "title": "Dogs & Puppies (Enfants)",
     "slug": "kids",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "honden",
     "ageGroup": "kids",
     "introText": "Kleurplaten voor Enfants.",
@@ -34,7 +34,7 @@
   {
     "title": "Dogs & Puppies (Tous Âges)",
     "slug": "all-ages",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "honden",
     "ageGroup": "all-ages",
     "introText": "Kleurplaten voor Tous Âges.",
@@ -50,7 +50,7 @@
   {
     "title": "Cats & Kittens (Tout-petits)",
     "slug": "toddlers",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "katten",
     "ageGroup": "toddlers",
     "introText": "Kleurplaten voor Tout-petits.",
@@ -66,7 +66,7 @@
   {
     "title": "Cats & Kittens (Enfants)",
     "slug": "kids",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "katten",
     "ageGroup": "kids",
     "introText": "Kleurplaten voor Enfants.",
@@ -82,7 +82,7 @@
   {
     "title": "Cats & Kittens (Tous Âges)",
     "slug": "all-ages",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "parentTheme": "katten",
     "ageGroup": "all-ages",
     "introText": "Kleurplaten voor Tous Âges.",
@@ -98,7 +98,7 @@
   {
     "title": "Christmas (Tout-petits)",
     "slug": "toddlers",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "kerstmis",
     "ageGroup": "toddlers",
     "introText": "Kleurplaten voor Tout-petits.",
@@ -114,7 +114,7 @@
   {
     "title": "Christmas (Enfants)",
     "slug": "kids",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "kerstmis",
     "ageGroup": "kids",
     "introText": "Kleurplaten voor Enfants.",
@@ -130,7 +130,7 @@
   {
     "title": "Christmas (Tous Âges)",
     "slug": "all-ages",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "kerstmis",
     "ageGroup": "all-ages",
     "introText": "Kleurplaten voor Tous Âges.",
@@ -146,7 +146,7 @@
   {
     "title": "Easter (Tout-petits)",
     "slug": "toddlers",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "pasen",
     "ageGroup": "toddlers",
     "introText": "Kleurplaten voor Tout-petits.",
@@ -162,7 +162,7 @@
   {
     "title": "Easter (Enfants)",
     "slug": "kids",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "pasen",
     "ageGroup": "kids",
     "introText": "Kleurplaten voor Enfants.",
@@ -178,7 +178,7 @@
   {
     "title": "Easter (Tous Âges)",
     "slug": "all-ages",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "parentTheme": "pasen",
     "ageGroup": "all-ages",
     "introText": "Kleurplaten voor Tous Âges.",

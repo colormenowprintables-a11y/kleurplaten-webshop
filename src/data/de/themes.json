@@ -2,7 +2,7 @@
   {
     "title": "Dogs & Puppies",
     "slug": "honden",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "description": "Cute dog and puppy coloring pages.",
     "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
     "coverImage": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
@@ -17,7 +17,7 @@
   {
     "title": "Cats & Kittens",
     "slug": "katten",
-    "parentHub": "dieren-en-natuur",
+    "parentHub": "cute-animals-fantasy",
     "description": "Adorable cats and kittens to color.",
     "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
     "coverImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
@@ -32,7 +32,7 @@
   {
     "title": "Christmas",
     "slug": "kerstmis",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "description": "Atmospheric Christmas trees and Santa Claus pages.",
     "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
     "coverImage": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
@@ -47,7 +47,7 @@
   {
     "title": "Easter",
     "slug": "pasen",
-    "parentHub": "feestdagen-en-seizoenen",
+    "parentHub": "special-deals-promo-packs",
     "description": "Happy Easter bunnies and decorated eggs.",
     "image": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",
     "coverImage": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800&q=80",

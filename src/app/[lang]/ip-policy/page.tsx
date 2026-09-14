@@ -1,9 +1,6 @@
 export default async function IPPolicyPage({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
  const isEn = lang ==='en';
-export default async function IPPolicyPage({ params }: { params: Promise<{ lang: string }> }) {
- const { lang } = await params;
- const isEn = lang ==='en';
 
  return (
  <div className="container section">

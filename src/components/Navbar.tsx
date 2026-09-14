@@ -138,6 +138,31 @@ export default function Navbar({ lang }: { lang: string }) {
     return () => {
       document.removeEventListener('mousedown', handler);
       document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  return (
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+      <div className={styles.navbarInner} ref={navRef}>
+        <div className={styles.logoSection}>
+          <Link href={`/${lang}`} className={styles.logo}>
+            <div className={styles.logoBadge} aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C13.66 22 15 20.66 15 19C15 18.23 14.7 17.53 14.21 17.01C13.73 16.5 13.43 15.82 13.43 15.07C13.43 13.41 14.77 12.07 16.43 12.07H18.93C20.59 12.07 21.93 10.73 21.93 9.07C21.93 5.16 17.48 2 12 2Z" fill="white" fillOpacity="0.95"/>
+                <circle cx="6.5" cy="11.5" r="1.5" fill="#FF4B72"/>
+                <circle cx="9.5" cy="7.5" r="1.5" fill="#FF8A00"/>
+                <circle cx="14.5" cy="7.5" r="1.5" fill="#FFD600"/>
+                <circle cx="17.5" cy="11.5" r="1.5" fill="#00D2D3"/>
+              </svg>
+            </div>
+            <span className={`${styles.logoText} notranslate`}>
+              Color<span className={styles.logoAccent}>MeNow</span>
+            </span>
+          </Link>
+
+          <div className={styles.desktopSearchWrapper}>
+            <HeaderSearchBar lang={lang} />
+          </div>
         </div>
 
         {/* Desktop Navigation Links */}

@@ -40,12 +40,14 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
  <li>
  <strong>{isEn ?'Contact & Report Forms:':'Contact- & Meldingsformulieren:'}</strong>{''}
  {isEn
- ?'When you submit a contact message or report an issue with a page, we collect your name, email address, and message content to respond to your inquiry.'':'Wanneer u een contactbericht verstuurt of een probleem met een pagina meldt, verzamelen wij uw naam, e-mailadres en berichtinhoud om op uw vraag te kunnen reageren.'}
+ ? 'When you submit a contact message or report an issue with a page, we collect your name, email address, and message content to respond to your inquiry.'
+ : 'Wanneer u een contactbericht verstuurt of een probleem met een pagina meldt, verzamelen wij uw naam, e-mailadres en berichtinhoud om op uw vraag te kunnen reageren.'}
  </li>
  <li>
  <strong>{isEn ?'Technical Log Data:':'Technische Loggegevens:'}</strong>{''}
  {isEn
- ?'Our servers automatically record standard web browser information, including IP address, browser type, operating system, referring pages, and timestamps for security and operational monitoring.'':'Onze servers leggen automatisch standaard webbrowser-informatie vast, waaronder IP-adres, browsertype, besturingssysteem, verwijzende pagina\'s en tijdstempels voor beveiliging en operationele monitoring.'}
+ ? 'Our servers automatically record standard web browser information, including IP address, browser type, operating system, referring pages, and timestamps for security and operational monitoring.'
+ : 'Onze servers leggen automatisch standaard webbrowser-informatie vast, waaronder IP-adres, browsertype, besturingssysteem, verwijzende pagina\'s en tijdstempels voor beveiliging en operationele monitoring.'}
  </li>
  </ul>
 
