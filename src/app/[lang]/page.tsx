@@ -125,20 +125,20 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   ];
 
   const quickShortcuts = [
-    { name: 'Monster Trucks Collection', icon: '🚛', href: `/${lang}/special-deals-promo-packs` },
-    { name: 'Whimsical Animals', icon: '🦊', href: `/${lang}/cute-animals-fantasy` },
+    { name: 'Monster Trucks Collection', icon: '🚛', href: `/${lang}/kids-adventures/monster-trucks` },
+    { name: 'Whimsical Animals', icon: '🦊', href: `/${lang}/cute-animals-fantasy/cute-animals` },
     { name: 'Space Adventures', icon: '🚀', href: `/${lang}/kids-adventures` },
-    { name: 'Adorable Houses', icon: '🏡', href: `/${lang}/cozy-life-cottagecore` },
-    { name: 'Home Sweet Home', icon: '☕', href: `/${lang}/cozy-life-cottagecore` },
-    { name: 'Tiny World', icon: '🔍', href: `/${lang}/botanical-floral-art` },
-    { name: 'Skull Realms', icon: '💀', href: `/${lang}/gothic-spooky-cute` },
-    { name: 'Tiny Food Friends', icon: '🍕', href: `/${lang}/special-deals-promo-packs` },
-    { name: 'Cuddly Cottage Collection', icon: '🐰', href: `/${lang}/cozy-life-cottagecore` },
-    { name: 'Inked Realms', icon: '🎨', href: `/${lang}/mindful-mandalas-patterns` },
-    { name: 'Adorable Fantasy Creatures', icon: '🦄', href: `/${lang}/cute-animals-fantasy` },
-    { name: 'Food & Snacks', icon: '🧁', href: `/${lang}/special-deals-promo-packs` },
-    { name: 'Whimsical Creatures', icon: '✨', href: `/${lang}/cute-animals-fantasy` },
-    { name: 'Cute Gothic', icon: '🎃', href: `/${lang}/gothic-spooky-cute` },
+    { name: 'Adorable Houses', icon: '🏡', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+    { name: 'Home Sweet Home', icon: '☕', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+    { name: 'Tiny World', icon: '🔍', href: `/${lang}/botanical-floral-art/botanical-gardens` },
+    { name: 'Skull Realms', icon: '💀', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
+    { name: 'Tiny Food Friends', icon: '🍕', href: `/${lang}/cozy-life-cottagecore` },
+    { name: 'Cuddly Cottage Collection', icon: '🐰', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+    { name: 'Inked Realms', icon: '🎨', href: `/${lang}/mindful-mandalas-patterns/mandalas` },
+    { name: 'Adorable Fantasy Creatures', icon: '🦄', href: `/${lang}/cute-animals-fantasy/fantasy-creatures` },
+    { name: 'Food & Snacks', icon: '🧁', href: `/${lang}/cozy-life-cottagecore` },
+    { name: 'Whimsical Creatures', icon: '✨', href: `/${lang}/cute-animals-fantasy/fantasy-creatures` },
+    { name: 'Cute Gothic', icon: '🎃', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
   ];
 
   return (
