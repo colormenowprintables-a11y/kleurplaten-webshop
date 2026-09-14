@@ -98,7 +98,7 @@ export default function PrintableCalendarGrid({ themes = [], months: initialMont
               {isEn ? '12-Month Printable Calendar' : '12-Maanden Printbare Kalender'}
             </span>
             <h2 style={{ fontSize: '1.65rem', fontWeight: 800, margin: '0.4rem 0 0.2rem', color: '#FFFFFF' }}>
-              {activeTheme ? (isEn ? activeTheme.titleEn + ' (' + year + ')' : activeTheme.titleNl + ' (' + year + ')') : (isEn ? 'Free Printable ' + year + ' Coloring Calendar' : 'Gratis Printbare ' + year + ' Kleurkalender')}
+              {activeTheme ? (isEn ? activeTheme.titleEn + ' (' + year + ')' : activeTheme.titleNl + ' (' + year + ')') : (isEn ? 'Printable ' + year + ' Coloring Calendar' : 'Printbare ' + year + ' Kleurkalender')}
             </h2>
             <p style={{ margin: 0, fontSize: '0.95rem', color: '#C7D2FE' }}>
               {isEn
