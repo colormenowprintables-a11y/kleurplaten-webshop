@@ -34,40 +34,29 @@ export async function generateMetadata({
   const { lang, mainHubSlug, themeSlug } = await params;
   const theme = getThemeBySlug(lang, mainHubSlug, themeSlug);
   if (!theme) return {};
-  const ogImageUrl = theme.image
+  const ogImage = theme.image
     ? `/api/og?title=${encodeURIComponent(theme.title + ' Coloring Pages')}&image=${encodeURIComponent(theme.image)}`
     : '/images/banner.jpg';
 
-  let title = `${theme.title} Coloring Pages (Free Printable PDFs) | ColorMeNow`;
+  let title = `${theme.title} Coloring Pages (Printable PDFs) | ColorMeNow`;
   if (lang === 'nl') {
-    title = `${theme.title} Kleurplaten (Gratis Printen & Downloaden) | ColorMeNow`;
+    title = `${theme.title} Kleurplaten (Printen & Downloaden) | ColorMeNow`;
   } else if (lang === 'de') {
-    title = `${theme.title} Malvorlagen & Ausmalbilder (Kostenlos Drucken) | ColorMeNow`;
+    title = `${theme.title} Malvorlagen & Ausmalbilder (PDF Drucken) | ColorMeNow`;
   } else if (lang === 'fr') {
-    title = `Coloriage ${theme.title} (Gratuit à Imprimer PDF) | ColorMeNow`;
+    title = `Coloriage ${theme.title} (PDF à Imprimer) | ColorMeNow`;
   }
 
   return {
     title,
     description: theme.description,
     alternates: {
-      canonical: `/${lang}/${mainHubSlug}/${theme.slug}`,
-      languages: {
-        en: `/en/${mainHubSlug}/${theme.slug}`,
-        nl: `/nl/${mainHubSlug}/${theme.slug}`,
-        de: `/de/${mainHubSlug}/${theme.slug}`,
-        fr: `/fr/${mainHubSlug}/${theme.slug}`,
-        'x-default': `/en/${mainHubSlug}/${theme.slug}`,
-      },
+      canonical: `https://colormenow.shop/${lang}/${mainHubSlug}/${theme.slug}`,
     },
     openGraph: {
       title,
       description: theme.description,
-      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: theme.title }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      images: [ogImageUrl],
+      images: [{ url: ogImage, width: 1200, height: 630 }],
     },
   };
 }
@@ -81,8 +70,8 @@ export default async function ThemePage({
 }) {
   const { lang, mainHubSlug, themeSlug } = await params;
   const { page: pageParam, difficulty: diffParam } = await searchParams;
-  const currentPage = Math.max(1, parseInt(pageParam ||'1', 10));
-  const rawDiff = (diffParam ||'').toLowerCase();
+  const currentPage = Math.max(1, parseInt(pageParam || '1', 10));
+  const rawDiff = (diffParam || '').toLowerCase();
 
   const theme = getThemeBySlug(lang, mainHubSlug, themeSlug);
   if (!theme) return notFound();
@@ -101,20 +90,21 @@ export default async function ThemePage({
   // Get ALL coloring pages for this theme via O(1) index
   const allColoringPages = getColoringPagesForTheme(lang, mainHubSlug, themeSlug);
 
+  const total = allColoringPages.length;
   const counts = {
-    all: allColoringPages.length,
-    easy: allColoringPages.filter(p => p.ageGroup ==='kids'|| p.ageGroup ==='kinderen').length,
-    medium: allColoringPages.filter(p => p.ageGroup ==='teens'|| p.ageGroup ==='tieners').length,
-    hard: allColoringPages.filter(p => p.ageGroup ==='adults'|| p.ageGroup ==='volwassenen').length,
+    all: total,
+    easy: allColoringPages.filter((p, i) => p.difficulty === 'easy' || i % 3 === 0).length,
+    medium: allColoringPages.filter((p, i) => p.difficulty === 'medium' || i % 3 === 1).length,
+    hard: allColoringPages.filter((p, i) => p.difficulty === 'hard' || i % 3 === 2).length,
   };
 
   let filteredPages = allColoringPages;
-  if (rawDiff ==='easy'|| rawDiff ==='kids') {
-    filteredPages = allColoringPages.filter(p => p.ageGroup ==='kids'|| p.ageGroup ==='kinderen');
-  } else if (rawDiff ==='medium'|| rawDiff ==='teens') {
-    filteredPages = allColoringPages.filter(p => p.ageGroup ==='teens'|| p.ageGroup ==='tieners');
-  } else if (rawDiff ==='hard'|| rawDiff ==='adults') {
-    filteredPages = allColoringPages.filter(p => p.ageGroup ==='adults'|| p.ageGroup ==='volwassenen');
+  if (rawDiff === 'easy' || rawDiff === 'kids') {
+    filteredPages = allColoringPages.filter((p, i) => p.difficulty === 'easy' || i % 3 === 0);
+  } else if (rawDiff === 'medium' || rawDiff === 'teens') {
+    filteredPages = allColoringPages.filter((p, i) => p.difficulty === 'medium' || i % 3 === 1);
+  } else if (rawDiff === 'hard' || rawDiff === 'adults') {
+    filteredPages = allColoringPages.filter((p, i) => p.difficulty === 'hard' || i % 3 === 2);
   }
 
   const totalPages = Math.ceil(filteredPages.length / PER_PAGE);
@@ -249,7 +239,7 @@ export default async function ThemePage({
                     ✓ {allColoringPages.length} {isEn ?'Printable Pages':'Printbare Kleurplaten'}
                   </span>
                   <span className="badge"style={{ background:'rgba(255, 255, 255, 0.95)', color:'#065F46', borderColor:'#A7F3D0', fontWeight: 700 }}>
-                    100% {isEn ?'Free':'Gratis'}
+                    {isEn ?'PDF Download':'PDF Download'}
                   </span>
                   <span className="badge"style={{ background:'rgba(255, 255, 255, 0.95)', color:'#1E40AF', borderColor:'#BFDBFE', fontWeight: 700 }}>
                     A4 / Letter PDF
@@ -421,7 +411,7 @@ export default async function ThemePage({
                 letterSpacing: '0.04em',
                 marginBottom: '0.35rem',
               }}>
-                {isEn ? 'Exclusive Free Feature' : 'Exclusieve Gratis Functie'}
+                {isEn ? 'Exclusive Feature' : 'Exclusieve Functie'}
               </span>
               <h3 style={{ fontSize: '1.18rem', fontWeight: 900, color: '#0F172A', margin: '0 0 0.25rem', lineHeight: 1.3 }}>
                 {isEn ? `Create a Custom ${theme.title} Coloring Book (PDF)` : `Stel Je Eigen ${theme.title} Kleurboek Samen (PDF)`}
@@ -444,7 +434,7 @@ export default async function ThemePage({
               color: '#4F46E5',
               boxShadow: '0 2px 8px rgba(79, 70, 229, 0.1)',
             }}>
-              {isEn ? '✨ 100% Free • Unlimited' : '✨ 100% Gratis • Onbeperkt'}
+              {isEn ? '✨ High Resolution • PDF Download' : '✨ Hoge Resolutie • PDF Download'}
             </span>
           </div>
         </div>
@@ -457,7 +447,7 @@ export default async function ThemePage({
               {filteredPages.length} {isEn ?'Printables in this View':'Kleurplaten'}
             </span>
             <h2 className="title-h2"style={{ marginTop:'0.4rem'}}>
-              {isEn ?`Free Printable ${theme.title} Coloring Sheets`:`Gratis Printbare ${theme.title} Kleurplaten`}
+              {isEn ?`Printable ${theme.title} Coloring Sheets`:`Printbare ${theme.title} Kleurplaten`}
             </h2>
           </div>
         </div>

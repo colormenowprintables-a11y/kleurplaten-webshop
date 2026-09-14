@@ -30,13 +30,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     ? `/api/og?title=${encodeURIComponent(agePage.title)}&image=${encodeURIComponent(theme.image)}`
     : '/images/banner.jpg';
 
-  let title = `${agePage.title} (Free Printable PDF Coloring Pages) | ColorMeNow`;
+  let title = `${agePage.title} (Printable PDF Coloring Pages) | ColorMeNow`;
   if (lang === 'nl') {
-    title = `${agePage.title} (Gratis Printbare Kleurplaten PDF) | ColorMeNow`;
+    title = `${agePage.title} (Printbare Kleurplaten PDF) | ColorMeNow`;
   } else if (lang === 'de') {
-    title = `${agePage.title} (Kostenlose Malvorlagen PDF zum Drucken) | ColorMeNow`;
+    title = `${agePage.title} (Malvorlagen PDF zum Drucken) | ColorMeNow`;
   } else if (lang === 'fr') {
-    title = `${agePage.title} (Coloriages Gratuits à Imprimer PDF) | ColorMeNow`;
+    title = `${agePage.title} (Coloriages à Imprimer PDF) | ColorMeNow`;
   }
 
   return {

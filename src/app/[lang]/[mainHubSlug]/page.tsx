@@ -293,14 +293,14 @@ export default async function MainHubPage({ params }: { params: Promise<{ lang: 
 
         <CategorySeoBlock
           title={isEn ?`About ${hub.title} Coloring Pages`:`Over ${hub.title} Kleurplaten`}
-          contentHtml={isEn ?`<h2>Free Printable ${hub.title} Coloring Collection</h2>
+          contentHtml={isEn ?`<h2>Printable ${hub.title} Coloring Collection</h2>
             <p>${hub.description} Explore our complete library of high-resolution printable coloring pages, carefully categorized by sub-theme and difficulty level.</p>
             <h3>Featured Themes in ${hub.title}</h3>
             <ul>
               ${allThemes.slice(0, 6).map(t =>`<li><a href="/${lang}/${hub.slug}/${t.slug}"><strong>${t.title}</strong></a> — ${t.description}</li>`).join('')}
             </ul>
             <h3>Easy Printing & High Quality Downloads</h3>
-            <p>Download your favorite ${hub.title} coloring pages instantly in clean line vector PDF format. Ideal for toddlers, children, teens, and adults.</p>`:`<h2>Gratis Printbare ${hub.title} Kleurplaten Collectie</h2>
+            <p>Download your favorite ${hub.title} coloring pages instantly in clean line vector PDF format. Ideal for toddlers, children, teens, and adults.</p>`:`<h2>Printbare ${hub.title} Kleurplaten Collectie</h2>
             <p>${hub.description} Ontdek onze volledige verzameling van hoge resolutie printbare kleurplaten, zorgvuldig ingedeeld per subthema en moeilijkheidsgraad.</p>
             <h3>Populaire Thema's in ${hub.title}</h3>
             <ul>
