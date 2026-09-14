@@ -152,18 +152,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         <div className="container" style={{ maxWidth: '1200px' }}>
           {/* 1. Top Hero Intro & Live Search (Above Banner, Light & Welcoming) */}
           <div className={styles.heroHeaderWrapper}>
-            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.25rem' }}>
-              <img
-                src="/colormenow-logo.png"
-                alt="ColorMeNow Big Logo"
-                style={{
-                  height: '140px',
-                  width: 'auto',
-                  objectFit: 'contain',
-                  filter: 'drop-shadow(0 4px 20px rgba(255, 107, 74, 0.3))'
-                }}
-              />
-            </div>
             <div className={styles.heroTopBadge}>
               <span aria-hidden="true">✨</span>
               <span>{isEn ? 'PREMIUM PRINTABLE COLORING BOOKS' : 'EXCLUSIEVE DIGITALE KLEURBOEKEN'}</span>
