@@ -95,9 +95,7 @@ export default function Navbar({ lang }: { lang: string }) {
     { label: isEn ? 'Recommended Tools' : 'Aanbevolen Spullen', icon: '🛒', href: `/${lang}/recommendations` },
     { label: isEn ? 'Free Samples' : 'Gratis Kleurplaten', icon: '🖼️', href: `/${lang}/free` },
     { label: isEn ? 'School & Math' : 'School & Rekenen', icon: '🎓', href: `/${lang}/school` },
-    { label: isEn ? 'Calendars' : 'Kalenders', icon: '📅', href: `/${lang}/calendars` },
     { label: isEn ? 'Amazon Paperbacks' : 'Amazon Boeken', icon: '📦', href: `/${lang}/kdp` },
-    { label: isEn ? 'How to Draw' : 'Leren Tekenen', icon: '✏️', href: `/${lang}/how-to-draw` },
     { label: isEn ? 'Blog & Tips' : 'Tips & Blog', icon: '💡', href: `/${lang}/blog` },
     {
       label: isEn ?'About':'Over',

@@ -234,9 +234,6 @@ export default async function MainHubPage({ params }: { params: Promise<{ lang: 
             <span className="badge">{isEn ?'Browse Hub':'Bladeren'}</span>
             <h2 className="title-h2"style={{ marginTop:'0.5rem'}}>{isEn ?'All Themes in this Hub':'Alle Thema\'s in deze Hoofdcategorie'}</h2>
           </div>
-          <Link href={`/${lang}/how-to-draw`} className="btn-secondary"style={{ fontSize:'0.85rem'}}>
-            {isEn ?'Drawing Academy':'Leren Tekenen'}
-          </Link>
         </div>
         
         {/* 3-row chunks (12 themes) → AdCard in middle → banner between groups */}

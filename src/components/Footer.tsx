@@ -39,7 +39,6 @@ export default function Footer({ lang }: { lang: string }) {
               <Link href={`/${lang}/free`} className={styles.link}>{isEn ? '100% Free Samples' : '100% Gratis Kleurplaten'}</Link>
               <Link href={`/${lang}/search`} className={styles.link}>{isEn ?'Search All Pages':'Alle Kleurplaten Zoeken'}</Link>
               <Link href={`/${lang}/favorites`} className={styles.link}>{isEn ?'My Favorites':'Mijn Favorieten'}</Link>
-              <Link href={`/${lang}/how-to-draw`} className={styles.link}>{isEn ?'How to Draw (Tutorials)':'Leren Tekenen (Stappenplan)'}</Link>
               <Link href={`/${lang}/school`} className={styles.link}>{isEn ?'School & Worksheets':'School & Werkbladen'}</Link>
               <Link href={`/${lang}/calendars`} className={styles.link}>{isEn ?'2026 Coloring Calendars':'2026 Kleurkalenders'}</Link>
               <Link href={`/${lang}/kdp`} className={styles.link}>{isEn ? 'Amazon Paperbacks' : 'Amazon KDP Boeken'}</Link>

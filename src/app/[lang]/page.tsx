@@ -263,31 +263,16 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               {/* Action CTAs */}
               <div className={styles.trendingCtas}>
                 <Link
-                  href="#collections"
+                  href="#categories"
                   className="btn-primary"
                   style={{
-                    padding: '0.85rem 2.2rem',
+                    padding: '0.85rem 2rem',
                     fontSize: '0.96rem',
                     fontWeight: 800,
                     boxShadow: '0 8px 24px rgba(255, 107, 74, 0.4)',
                   }}
                 >
                   {isEn ? '✨ Explore All Collections' : '✨ Alle Collecties Bekijken'}
-                </Link>
-                <Link
-                  href={`/${lang}/how-to-draw`}
-                  className="btn-secondary"
-                  style={{
-                    padding: '0.85rem 2rem',
-                    fontSize: '0.96rem',
-                    fontWeight: 800,
-                    background: 'rgba(255, 255, 255, 0.94)',
-                    backdropFilter: 'blur(8px)',
-                    borderColor: '#CBD5E1',
-                    color: '#0F172A',
-                  }}
-                >
-                  {isEn ? '✏️ Learn How to Draw' : '✏️ Stap-voor-stap Leren Tekenen'}
                 </Link>
               </div>
             </div>
