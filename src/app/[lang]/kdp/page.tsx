@@ -50,12 +50,41 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
         : 'https://www.amazon.com/dp/B0H7SW2MPP?tag=colormenowpri-20',
       img: '/covers/gothic_kawaii_carnival_cover.png',
       rating: '5.0 ⭐⭐⭐⭐⭐',
-      badge: 'OFFICIËLE AMAZON KDP EDITIES',
+      asin: 'B0H7SW2MPP',
     },
-    { title: isNl ? '50 Cozy Cottages Paperback Edition' : '50 Cozy Cottages Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW1?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW1?tag=colormenowpri-20', img: '/covers/50_cozy_cottages_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Cute Animals & Pets Paperback Edition' : '50 Cute Animals & Pets Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW2?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW2?tag=colormenowpri-20', img: '/covers/50_cute_animals_cover.png', rating: '4.9 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Relaxing Mandalas Paperback Edition' : '50 Relaxing Mandalas Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW3?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW3?tag=colormenowpri-20', img: '/covers/50_relaxing_mandalas_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Monster Trucks & Big Wheels Paperback' : '50 Monster Trucks & Big Wheels Paperback', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW4?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW4?tag=colormenowpri-20', img: '/covers/50_monster_trucks_cover.png', rating: '4.8 ⭐⭐⭐⭐⭐' },
+    {
+      title: 'Botanical Gardens: Herb Gardens & Pots (Volume 1): 50 Vintage Herb Designs',
+      pages: '104 Pages',
+      price: '$9.99 USD / € 10,69',
+      amazonUrl: isNl
+        ? 'https://www.amazon.nl/dp/B0H7N6X145?tag=colormenownl-21'
+        : 'https://www.amazon.com/dp/B0H7N6X145?tag=colormenowpri-20',
+      img: '/covers/botanical_gardens_cover.png',
+      rating: '5.0 ⭐⭐⭐⭐⭐',
+      asin: 'B0H7N6X145',
+    },
+    {
+      title: 'Boho Chic Lotus Dreamcatchers (Volume 1): 50 Mandala & Dreamcatcher Designs',
+      pages: '104 Pages',
+      price: '$9.99 USD / € 10,69',
+      amazonUrl: isNl
+        ? 'https://www.amazon.nl/dp/B0H75HZ2X3?tag=colormenownl-21'
+        : 'https://www.amazon.com/dp/B0H75HZ2X3?tag=colormenowpri-20',
+      img: '/covers/dreamcatchers_cover.png',
+      rating: '4.9 ⭐⭐⭐⭐⭐',
+      asin: 'B0H75HZ2X3',
+    },
+    {
+      title: 'Art Nouveau Flower Gardens (Volume 1): Elegant Floral & Swirling Patterns',
+      pages: '104 Pages',
+      price: '$9.99 USD / € 10,69',
+      amazonUrl: isNl
+        ? 'https://www.amazon.nl/dp/B0H6XKVVGX?tag=colormenownl-21'
+        : 'https://www.amazon.com/dp/B0H6XKVVGX?tag=colormenowpri-20',
+      img: '/covers/flower_gardens_cover.png',
+      rating: '5.0 ⭐⭐⭐⭐⭐',
+      asin: 'B0H6XKVVGX',
+    },
   ];
 
   return (
