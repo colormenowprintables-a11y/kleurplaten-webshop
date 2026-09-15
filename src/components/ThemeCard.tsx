@@ -124,20 +124,27 @@ export default function ThemeCard({
           <div
             style={{
               position:'absolute',
-              top:'12px',
+              bottom:'12px',
               right:'12px',
-              background:'rgba(0, 0, 0, 0.65)',
-              backdropFilter:'blur(6px)',
+              background: isHovered ? 'linear-gradient(135deg, #FF6B35, #FF3B30)' : 'rgba(15, 23, 42, 0.85)',
+              backdropFilter:'blur(8px)',
               color:'#FFFFFF',
               borderRadius:'9999px',
-              padding:'0.25rem 0.65rem',
-              fontSize:'0.7rem',
+              padding:'0.3rem 0.7rem',
+              fontSize:'0.72rem',
               fontWeight: 800,
               zIndex: 10,
-              letterSpacing:'0.04em',
+              letterSpacing:'0.02em',
+              boxShadow:'0 4px 12px rgba(0, 0, 0, 0.3)',
+              border:'1px solid rgba(255, 255, 255, 0.3)',
+              display:'flex',
+              alignItems:'center',
+              gap:'0.3rem',
+              transition:'all 0.2s',
             }}
           >
-            <span>{currentIdx + 1}/{images.length}</span>
+            <span>📖</span>
+            <span>{isHovered ? (isEn ? `Page ${currentIdx + 1}/${images.length}` : `Pagina ${currentIdx + 1}/${images.length}`) : (isEn ? 'Look Inside' : 'Inkijkexemplaar')}</span>
           </div>
         )}
       </div>

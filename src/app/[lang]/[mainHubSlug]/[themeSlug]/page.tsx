@@ -12,6 +12,7 @@ import { notFound } from'next/navigation';
 import Link from'next/link';
 import Breadcrumbs from'@/components/Breadcrumbs';
 import MotionCard from'@/components/MotionCard';
+import BookSneakPeekPreview from'@/components/BookSneakPeekPreview';
 import AdSlot from'@/components/AdSlot';
 import AdCard from'@/components/AdCard';
 import React from'react';
@@ -250,46 +251,14 @@ export default async function ThemePage({
                 </div>
               </div>
 
-              {/* Right Column: 100% Complete Uncropped Artwork Card */}
+              {/* Right Column: Interactive Fanned 3D Book & Sneak Peek Preview ("Inkijkexemplaar") */}
               {theme.image && (
-                <div style={{
-                  flex:'0 0 auto',
-                  margin:'0 auto',
-                  position:'relative',
-                }}>
-                  <div style={{
-                    position:'absolute',
-                    top:'12px',
-                    right:'12px',
-                    zIndex: 5,
-                    background:'rgba(15, 23, 42, 0.85)',
-                    backdropFilter:'blur(8px)',
-                    WebkitBackdropFilter:'blur(8px)',
-                    color:'#F8FAFC',
-                    borderRadius:'9999px',
-                    padding:'0.25rem 0.75rem',
-                    fontSize:'0.72rem',
-                    fontWeight: 800,
-                    border:'1px solid rgba(255, 255, 255, 0.3)',
-                    boxShadow:'0 2px 8px rgba(0,0,0,0.35)',
-                  }}>
-                    {isEn ?'Fan-Art Edition':'Fan-Art Editie'}
-                  </div>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={theme.image}
-                    alt={`${theme.title} Artwork`}
-                    style={{
-                      maxHeight:'340px',
-                      maxWidth:'100%',
-                      width:'auto',
-                      height:'auto',
-                      objectFit:'contain',
-                      borderRadius:'20px',
-                      border:'3px solid rgba(255, 255, 255, 0.9)',
-                      boxShadow:'0 16px 40px rgba(0, 0, 0, 0.55), 0 0 20px rgba(255, 107, 74, 0.25)',
-                      display:'block',
-                    }}
+                <div style={{ flex: '0 0 auto', margin: '0 auto' }}>
+                  <BookSneakPeekPreview
+                    coverImage={theme.image}
+                    title={theme.title}
+                    samplePages={allColoringPages.slice(0, 2).map((p) => ({ title: p.title, image: p.image }))}
+                    isEn={isEn}
                   />
                 </div>
               )}
