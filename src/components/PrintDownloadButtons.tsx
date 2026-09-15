@@ -158,21 +158,76 @@ export default function PrintDownloadButtons({
 
   return (
     <>
-      <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-        {/* Primary Action: Print */}
+      <div style={{ marginTop: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+        {/* Primary High-Converting CTA: Buy Full Book (€1.99) */}
         <button
-          onClick={handlePrintClick}
-          className="download-btn"
-          style={{ width: '100%', justifyContent: 'center', cursor: 'pointer', fontSize: '1rem', padding: '0.95rem' }}
+          onClick={() => setShowPayPalCheckout(true)}
           type="button"
+          style={{
+            width: '100%',
+            padding: '1.1rem 1.25rem',
+            background: 'linear-gradient(135deg, #FF6B4A 0%, #F0501F 100%)',
+            color: '#FFFFFF',
+            border: 'none',
+            borderRadius: '9999px',
+            fontWeight: 900,
+            fontSize: '1.025rem',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.5rem',
+            boxShadow: '0 8px 24px rgba(240, 80, 31, 0.35)',
+            transition: 'transform 0.15s ease, boxShadow 0.15s ease',
+          }}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z" />
-          </svg>
-          {isEn ? 'Download High-Res PDF' : 'Download Hoge Resolutie PDF'}
+          <span style={{ fontSize: '1.2rem' }}>🛒</span>
+          <span>
+            {isEn
+              ? 'Buy Full Book (€1.99) →'
+              : lang === 'de'
+              ? 'Kauf das ganze Buch (€ 1,99) →'
+              : lang === 'fr'
+              ? 'Acheter le livre complet (1,99 €) →'
+              : 'Koop het Volledige Kleurboek (€ 1,99) →'}
+          </span>
         </button>
 
-        {/* Add to Custom Coloring Book Bundle Button */}
+        {/* Secondary CTA: Bundle Deals (Vanaf €4,49) */}
+        <button
+          onClick={() => setShowPayPalCheckout(true)}
+          type="button"
+          style={{
+            width: '100%',
+            padding: '0.95rem 1.1rem',
+            background: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
+            color: '#FFFFFF',
+            border: 'none',
+            borderRadius: '9999px',
+            fontWeight: 800,
+            fontSize: '0.925rem',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.5rem',
+            boxShadow: '0 4px 16px rgba(16, 185, 129, 0.25)',
+            transition: 'transform 0.15s ease',
+          }}
+        >
+          <span style={{ fontSize: '1.1rem' }}>🎁</span>
+          <span>
+            {isEn
+              ? 'View Bundle Deals (3 Books for €4.49)'
+              : lang === 'de'
+              ? 'Sparpaket Ansehen (3 Bücher ab € 4,49)'
+              : lang === 'fr'
+              ? 'Packs Promo (3 livres dès 4,49 €)'
+              : 'Bekijk Bundel Deals (3 Boeken v.a. € 4,49)'}
+          </span>
+        </button>
+
+        {/* Custom Bundle Multi-Select Button */}
         <button
           onClick={() => {
             toggleSelectPage({
@@ -187,136 +242,54 @@ export default function PrintDownloadButtons({
             width: '100%',
             padding: '0.85rem',
             background: isSelected
-              ? 'linear-gradient(135deg, #10B981 0%, #059669 100%)'
+              ? 'linear-gradient(135deg, #4F46E5 0%, #4338CA 100%)'
               : 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)',
             color: isSelected ? '#FFFFFF' : '#4F46E5',
-            border: isSelected ? '1.5px solid #059669' : '1.5px solid #C7D2FE',
-            borderRadius: 'var(--radius-full)',
+            border: isSelected ? '1.5px solid #4338CA' : '1.5px solid #C7D2FE',
+            borderRadius: '9999px',
             fontWeight: 800,
-            fontSize: '0.92rem',
+            fontSize: '0.88rem',
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             gap: '0.5rem',
-            boxShadow: isSelected ? '0 4px 14px rgba(16, 185, 129, 0.3)' : 'none',
+            boxShadow: isSelected ? '0 4px 14px rgba(79, 70, 229, 0.3)' : 'none',
             transition: 'all 0.2s ease',
           }}
         >
-          <span style={{ fontSize: '1.05rem' }}>{isSelected ? '✓' : '➕'}</span>
+          <span style={{ fontSize: '1rem' }}>{isSelected ? '✓' : '➕'}</span>
           <span>
             {isSelected
               ? isEn
-                ? 'Added to Custom Coloring Book'
-                : 'Toegevoegd aan je Kleurboek'
+                ? 'Added to Custom Bundle'
+                : 'Toegevoegd aan je Bundel'
               : isEn
-              ? 'Add to My Coloring Book Bundle'
-              : 'Voeg toe aan Kleurboek Bundel'}
+              ? 'Add to Custom Coloring Book'
+              : 'Voeg toe aan Eigen Kleurboek'}
           </span>
         </button>
 
-
-
-        {/* Download A4 PDF Button -> Triggers Interstitial Progress Modal */}
-        <button
-          onClick={() => setProgressModal({ open: true, type: 'pdf' })}
-          disabled={downloadingPdf}
-          type="button"
-          style={{
-            width: '100%',
-            padding: '0.8rem',
-            background: 'var(--surface-2)',
-            color: 'var(--foreground)',
-            border: '1.5px solid var(--gray-300)',
-            borderRadius: 'var(--radius-full)',
-            fontWeight: 700,
-            fontSize: '0.88rem',
-            cursor: downloadingPdf ? 'not-allowed' : 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '0.5rem',
-            transition: 'all 0.2s ease',
-          }}
-        >
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
-          </svg>
-          {downloadingPdf
-            ? isEn
-              ? 'Creating A4 PDF...'
-              : 'A4 PDF Genereren...'
-            : isEn
-            ? 'Download A4 Printable PDF'
-            : 'Download Printklare PDF (A4)'}
-        </button>
-
-        {/* Download PNG Image Button -> Triggers Interstitial Progress Modal */}
-        <button
-          onClick={() => setProgressModal({ open: true, type: 'png' })}
-          disabled={downloading}
-          className="btn-secondary"
-          style={{
-            width: '100%',
-            justifyContent: 'center',
-            cursor: downloading ? 'not-allowed' : 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-          }}
-          type="button"
-        >
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-          </svg>
-          {downloading
-            ? isEn
-              ? 'Preparing PNG...'
-              : 'PNG Verwerken...'
-            : isEn
-            ? 'Download PNG Image'
-            : 'Download PNG Afbeelding'}
-        </button>
-
-        {/* Full Book Upsell Callout Box */}
+        {/* Security & Guarantee Trust Badge */}
         <div
           style={{
-            marginTop: '0.85rem',
-            background: 'linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)',
-            border: '1.5px solid #FCD34D',
+            marginTop: '0.25rem',
+            background: '#F8FAFC',
+            border: '1px solid #E2E8F0',
             borderRadius: '16px',
-            padding: '0.85rem 1rem',
+            padding: '0.75rem 0.9rem',
             textAlign: 'center',
-            boxShadow: '0 4px 12px rgba(245, 158, 11, 0.12)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '0.35rem',
           }}
         >
-          <p style={{ fontSize: '0.82rem', color: '#92400E', fontWeight: 800, margin: '0 0 0.4rem' }}>
-            {isEn ? '💡 Love this page?' : lang === 'de' ? '💡 Gefällt dir diese Seite?' : lang === 'fr' ? '💡 Vous aimez cette page?' : '💡 Vind je deze pagina leuk?'}
-          </p>
-          <button
-            type="button"
-            onClick={() => setShowPayPalCheckout(true)}
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '0.35rem',
-              fontSize: '0.88rem',
-              fontWeight: 900,
-              color: '#FFFFFF',
-              border: 'none',
-              cursor: 'pointer',
-              background: 'linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%)',
-              padding: '0.6rem 1.1rem',
-              borderRadius: '9999px',
-              width: '100%',
-              boxShadow: '0 3px 10px rgba(255, 107, 53, 0.35)',
-            }}
-          >
-            <span>
-              {isEn ? 'Click here for the full book (€1.99) →' : lang === 'de' ? 'Klicke hier für das ganze Buch (€ 1,99) →' : lang === 'fr' ? 'Cliquez ici pour le livre complet (1,99 €) →' : 'Klik hier voor het hele boek (€ 1,99) →'}
-            </span>
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', fontSize: '0.78rem', fontWeight: 800, color: '#334155' }}>
+            <span>⚡ Instant Hoge-Resolutie PDF Download</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', fontSize: '0.74rem', fontWeight: 700, color: '#64748B' }}>
+            <span>🛡️ Veilig Betalen via iDEAL, PayPal & Creditcard</span>
+          </div>
         </div>
       </div>
 
