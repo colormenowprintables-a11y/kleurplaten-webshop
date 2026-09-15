@@ -217,53 +217,64 @@
 .bundleBtn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: rgba(255, 255, 255, 0.95);
-  color: #0F172A;
-  border: 1.5px solid #CBD5E1;
+  gap: 0.45rem;
+  background: #EEF2FF;
+  color: #4F46E5;
+  border: 1.5px solid #C7D2FE;
   border-radius: 9999px;
-  padding: 0.35rem 0.8rem;
-  font-size: 0.82rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
   font-weight: 800;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.12);
   transition: all 0.2s ease;
   flex-shrink: 0;
   font-family: inherit;
 }
 
 .bundleBtn:hover {
+  background: #E0E7FF;
+  border-color: #A5B4FC;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .bundleBtnActive {
-  background: linear-gradient(135deg, #6366F1, #4F46E5) !important;
+  background: linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%) !important;
   color: #FFFFFF !important;
   border-color: transparent !important;
-  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.45) !important;
+  box-shadow: 0 4px 14px rgba(255, 107, 53, 0.4) !important;
+}
+
+.basketIconEmoji {
+  font-size: 1.15rem;
+  line-height: 1;
 }
 
 .bundleBtnText {
-  display: inline;
+  display: inline-block;
+  font-weight: 800;
 }
 
 .bundleBadge {
-  background: #EF4444;
+  background: #94A3B8;
   color: #FFFFFF;
   border-radius: 9999px;
-  padding: 0.05rem 0.45rem;
-  font-size: 0.7rem;
+  padding: 0.08rem 0.5rem;
+  font-size: 0.72rem;
   font-weight: 900;
+  min-width: 20px;
+  text-align: center;
+}
+
+.bundleBadgeActive {
+  background: #FFFFFF;
+  color: #FF3B30;
 }
 
 @media (max-width: 480px) {
   .bundleBtn {
-    padding: 0.35rem 0.6rem;
+    padding: 0.35rem 0.65rem;
     font-size: 0.78rem;
-  }
-  .bundleBtnText {
-    display: none;
   }
 }
 

@@ -208,20 +208,14 @@ export default function Navbar({ lang }: { lang: string }) {
           <button
             type="button"
             onClick={() => setDrawerOpen(true)}
-            aria-label={isEn ? 'Open coloring bundle' : 'Open kleurboek bundel'}
+            aria-label={isEn ? 'Open print basket' : 'Open printmandje'}
             className={`${styles.bundleBtn} ${totalSelected > 0 ? styles.bundleBtnActive : ''}`}
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M6 6h10"/>
-              <path d="M6 10h10"/>
-            </svg>
-            <span className={styles.bundleBtnText}>{isEn ? '📚 Book Maker' : '📚 Kleurboek Maker'}</span>
-            {totalSelected > 0 && (
-              <span className={styles.bundleBadge}>
-                {totalSelected}
-              </span>
-            )}
+            <span className={styles.basketIconEmoji} aria-hidden="true">🧺</span>
+            <span className={styles.bundleBtnText}>{isEn ? 'Print Basket' : 'Printmandje'}</span>
+            <span className={`${styles.bundleBadge} ${totalSelected > 0 ? styles.bundleBadgeActive : ''}`}>
+              {totalSelected}
+            </span>
           </button>
 
           <div className={styles.langSwitcher}>
@@ -329,13 +323,11 @@ export default function Navbar({ lang }: { lang: string }) {
                 boxShadow: '0 4px 14px rgba(79, 70, 229, 0.3)',
               }}
             >
-              <span>📚</span>
-              <span>{isEn ? 'Open Coloring Book Maker' : 'Kleurboek Maker Openen'}</span>
-              {totalSelected > 0 && (
-                <span style={{ background: '#FF4B72', color: '#FFF', borderRadius: '9999px', padding: '0.1rem 0.5rem', fontSize: '0.75rem' }}>
-                  {totalSelected}
-                </span>
-              )}
+              <span>🧺</span>
+              <span>{isEn ? 'Open Print Basket' : 'Printmandje Openen'}</span>
+              <span style={{ background: '#FF3B30', color: '#FFF', borderRadius: '9999px', padding: '0.1rem 0.5rem', fontSize: '0.75rem', fontWeight: 900 }}>
+                {totalSelected}
+              </span>
             </button>
           </div>
 
