@@ -39,12 +39,16 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
 
   return (
     <div className={styles.widescreenHeroMaster}>
-      {/* 3D Master Brand Title: COLOR ME NOW */}
+      {/* 3D Master Brand Title Graphic: COLOR ME NOW */}
       <div className={styles.vaultTitleBanner}>
-        <h2 className={styles.vault3DTitle}>
-          <span className={styles.vault3DWord}>COLOR</span>
-          <span className={styles.vault3DWordAccent}>ME</span>
-          <span className={styles.vault3DWord}>NOW</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/colormenow-3d-banner-logo.jpg"
+          alt="COLOR ME NOW"
+          className={styles.vault3DLogoImg}
+        />
+        <h2 style={{ position: 'absolute', width: '1px', height: '1px', padding: 0, margin: '-1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', border: 0 }}>
+          COLOR ME NOW
         </h2>
       </div>
 

@@ -21,105 +21,34 @@
   perspective: 1100px;
 }
 
-/* ── Epic 3D Master Brand Title: COLOR ME NOW ────────────────────────────── */
+/* ── Epic 3D Master Brand Title Graphic: COLOR ME NOW ────────────────────── */
 .vaultTitleBanner {
   position: absolute;
-  top: 1.25rem;
+  top: 0.65rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 15;
-  width: 95%;
-  max-width: 960px;
+  width: 90%;
+  max-width: 580px;
   text-align: center;
   pointer-events: none;
 }
 
-.vault3DTitle {
-  font-family: var(--font-display), 'Fredoka', 'Arial Black', sans-serif;
-  font-size: clamp(2.2rem, 5.5vw, 4.2rem);
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  line-height: 1;
-  margin: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35em;
-  white-space: nowrap;
-  perspective: 1000px;
-  filter: drop-shadow(0 0 25px rgba(217, 70, 239, 0.85)) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.95));
-}
-
-.vault3DWord {
-  display: inline-block;
-  background: linear-gradient(
-    180deg,
-    #FFFFFF 0%,
-    #F472B6 22%,
-    #E879F9 45%,
-    #C084FC 70%,
-    #9333EA 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.95);
-  
-  /* 3D Extrusion Shadow Stack (Real 3D block depth matching reference) */
-  text-shadow:
-    1px 1px 0 #A855F7,
-    2px 2px 0 #9333EA,
-    3px 3px 0 #7E22CE,
-    4px 4px 0 #6B21A8,
-    5px 5px 0 #581C87,
-    6px 6px 0 #3B0764,
-    7px 7px 0 #1E1B4B,
-    8px 8px 0 #0F172A,
-    9px 12px 25px rgba(0, 0, 0, 0.95);
-}
-
-.vault3DWordAccent {
-  display: inline-block;
-  background: linear-gradient(
-    180deg,
-    #FFFFFF 0%,
-    #FB7185 22%,
-    #F43F5E 45%,
-    #E11D48 70%,
-    #9F1239 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.95);
-  
-  text-shadow:
-    1px 1px 0 #FB7185,
-    2px 2px 0 #F43F5E,
-    3px 3px 0 #E11D48,
-    4px 4px 0 #BE123C,
-    5px 5px 0 #9F1239,
-    6px 6px 0 #4C0519,
-    7px 7px 0 #1E1B4B,
-    8px 8px 0 #0F172A,
-    9px 12px 25px rgba(0, 0, 0, 0.95);
+.vault3DLogoImg {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  object-fit: contain;
+  filter: 
+    drop-shadow(0 0 25px rgba(217, 70, 239, 0.85)) 
+    drop-shadow(0 14px 28px rgba(0, 0, 0, 0.95));
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 640px) {
   .vaultTitleBanner {
-    top: 0.6rem;
-  }
-  .vault3DTitle {
-    font-size: clamp(1.3rem, 5vw, 2.2rem);
-    letter-spacing: 0.03em;
-  }
-  .vault3DWord,
-  .vault3DWordAccent {
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.85);
-    text-shadow:
-      1px 1px 0 #9333EA,
-      2px 2px 0 #7E22CE,
-      3px 3px 0 #581C87,
-      4px 5px 12px rgba(0, 0, 0, 0.9);
+    top: 0.35rem;
+    max-width: 320px;
   }
 }
 
