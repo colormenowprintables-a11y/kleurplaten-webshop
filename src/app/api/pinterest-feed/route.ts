@@ -93,7 +93,25 @@ export async function GET(request: Request) {
         .replace(/'/g, '&apos;');
     };
 
-    const itemsXml = selectedPages.map((page: any) => {
+    const freebieAndAffiliateItems = `
+    <item>
+      <title>🎁 Printable Freebies &amp; Free Coloring Sample Packs (A4 PDF)</title>
+      <link>https://colormenow.shop/en/freebies</link>
+      <guid isPermaLink="true">https://colormenow.shop/en/freebies</guid>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+      <description><![CDATA[<p>Download 100% free printable freebies and sample coloring packs in A4 PDF format! Animals, mandalas, dinosaurs and cozy cottage life.</p><img src="https://colormenow.shop/covers/50_cute_animals_cover.png" alt="Printable Freebies" />]]></description>
+      <enclosure url="https://colormenow.shop/covers/50_cute_animals_cover.png" type="image/png" length="102400" />
+    </item>
+    <item>
+      <title>🎨 Top Recommended Coloring Supplies &amp; Heavyweight Paper</title>
+      <link>https://colormenow.shop/en/recommendations</link>
+      <guid isPermaLink="true">https://colormenow.shop/en/recommendations</guid>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+      <description><![CDATA[<p>Discover the best 160g paper, alcohol brush markers, Faber-Castell pencils, and craft kits for flawless coloring results.</p><img src="https://colormenow.shop/affiliates/ohuhu-honolulu-markers.jpg" alt="Recommended Coloring Supplies" />]]></description>
+      <enclosure url="https://colormenow.shop/affiliates/ohuhu-honolulu-markers.jpg" type="image/jpeg" length="102400" />
+    </item>`;
+
+    const itemsXml = freebieAndAffiliateItems + selectedPages.map((page: any) => {
       const hub = page.parentHub || 'disney-pixar';
       const theme = page.parentTheme || 'frozen';
       const age = page.ageGroup || 'kids';
