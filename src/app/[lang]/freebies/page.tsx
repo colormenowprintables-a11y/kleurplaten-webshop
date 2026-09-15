@@ -1,10 +1,9 @@
 import React from 'react';
-import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AdSlot from '@/components/AdSlot';
 import NewsletterBox from '@/components/NewsletterBox';
-import SafeImage from '@/components/SafeImage';
 import AffiliateSection from '@/components/AffiliateSection';
+import FreebiesCardGrid from '@/components/FreebiesCardGrid';
 
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
@@ -49,6 +48,11 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
       desc: isNl ? '3 Haarscherpe A4 proefkleurplaten met eekhoorns, uiltjes en vosjes.' : '3 High-res A4 sample coloring sheets with squirrels, owls and foxes.',
       img: '/covers/50_cute_animals_cover.png',
       slug: 'cute-animals-fantasy',
+      samplePages: [
+        { title: 'Cute Panda in Forest', image: '/covers/50_cute_animals_cover.png' },
+        { title: 'Playful Fox & Bunny', image: '/covers/50_cozy_cottages_cover.png' },
+        { title: 'Little Owls in Trees', image: '/covers/50_relaxing_mandalas_cover.png' },
+      ],
     },
     {
       id: 'freebie-mandalas',
@@ -57,6 +61,11 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
       desc: isNl ? 'Gedetailleerde mandala patronen voor ontspanning en stressverlichting.' : 'Detailed mandala patterns for mindfulness and stress-relief.',
       img: '/covers/50_relaxing_mandalas_cover.png',
       slug: 'mandalas-patterns',
+      samplePages: [
+        { title: 'Floral Mandala Art', image: '/covers/50_relaxing_mandalas_cover.png' },
+        { title: 'Geometric Zen Pattern', image: '/covers/celestial_dreams_cover.png' },
+        { title: 'Starburst Mandala', image: '/covers/50_cute_animals_cover.png' },
+      ],
     },
     {
       id: 'freebie-dino-world',
@@ -65,6 +74,11 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
       desc: isNl ? 'T-Rex, Triceratops en stoere ruimteraketten om in te kleuren.' : 'T-Rex, Triceratops, and cool space rockets ready to color.',
       img: '/covers/dino_monster_trucks_cover.png',
       slug: 'kids-adventures',
+      samplePages: [
+        { title: 'Jurassic Dinosaur Adventure', image: '/covers/dino_monster_trucks_cover.png' },
+        { title: 'Monster Truck Big Wheels', image: '/covers/50_monster_trucks_cover.png' },
+        { title: 'Cosmic Space Rocket', image: '/covers/astro_adventure_cover.png' },
+      ],
     },
     {
       id: 'freebie-cozy-cottage',
@@ -73,6 +87,11 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
       desc: isNl ? 'Sfeervolle huisjes, bloementuinen en knusse leeshoekjes.' : 'Charming cottages, flower gardens, and cozy reading nooks.',
       img: '/covers/50_cozy_cottages_cover.png',
       slug: 'cozy-life-cottagecore',
+      samplePages: [
+        { title: 'Cozy Country Cottage', image: '/covers/50_cozy_cottages_cover.png' },
+        { title: 'Flower Garden Haven', image: '/covers/50_kawaii_sweets_cover.png' },
+        { title: 'Sweet Tea Room', image: '/covers/celestial_dreams_cover.png' },
+      ],
     },
   ];
 
@@ -129,12 +148,12 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
 
           <p style={{ color: '#475569', fontSize: '1.1rem', marginTop: '0.8rem', lineHeight: 1.7, maxWidth: '680px', margin: '0.8rem auto 0' }}>
             {isNl
-              ? 'Welkom op de Freebies pagina! Download direct onze meest populaire proef-kleurplaten in A4 PDF-formaat. Perfect voor gezellige middagen of in de klas.'
+              ? 'Klik op de groene knop en download direct 100% gratis proef-kleurplaten in A4 PDF-formaat! Haarscherp en printklaar voor thuis of in de klas.'
               : isDe
-              ? 'Willkommen auf unserer Freebie-Seite! Laden Sie unsere beliebtesten Ausmalbilder kostenlos als A4 PDF herunter.'
+              ? 'Klicken Sie auf den grünen Button und laden Sie kostenlose Ausmalbilder direkt als A4 PDF herunter!'
               : isFr
-              ? 'Bienvenue sur la page des Freebies! Téléchargez gratuitement nos coloriages PDF A4 les plus populaires.'
-              : 'Welcome to our Freebies hub! Download our top printable sample coloring packs in instant A4 PDF format for home and classroom activities.'}
+              ? 'Cliquez sur le bouton vert et téléchargez gratuitement vos coloriages PDF A4!'
+              : 'Click the green button to download instant 100% free A4 PDF sample coloring packs for home & school!'}
           </p>
         </div>
       </div>
@@ -142,88 +161,7 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
       <div className="container section">
         <AdSlot type="banner" text={isNl ? 'Gesponsorde Aanbevelingen' : 'Sponsored Recommendations'} />
 
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-            gap: '1.75rem',
-            marginTop: '2rem',
-          }}
-        >
-          {freebiesList.map((item) => (
-            <div
-              key={item.id}
-              style={{
-                background: '#FFFFFF',
-                borderRadius: '20px',
-                border: '1px solid #E2E8F0',
-                overflow: 'hidden',
-                boxShadow: '0 4px 15px rgba(0, 0, 0, 0.05)',
-                display: 'flex',
-                flexDirection: 'column',
-                transition: 'transform 0.2s ease, box-shadow 0.2s ease',
-              }}
-            >
-              <div style={{ position: 'relative', height: '220px', background: '#F8FAFC' }}>
-                <SafeImage
-                  src={item.img}
-                  alt={item.title}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-                <span
-                  style={{
-                    position: 'absolute',
-                    top: '12px',
-                    left: '12px',
-                    background: '#16A34A',
-                    color: '#FFFFFF',
-                    fontWeight: 900,
-                    fontSize: '0.75rem',
-                    padding: '0.25rem 0.65rem',
-                    borderRadius: '9999px',
-                  }}
-                >
-                  {isNl ? '100% GRATIS' : '100% FREE'}
-                </span>
-              </div>
-
-              <div style={{ padding: '1.25rem', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                <div>
-                  <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0F172A', margin: 0 }}>
-                    {item.title}
-                  </h3>
-                  <p style={{ fontSize: '0.88rem', color: '#64748B', marginTop: '0.5rem', lineHeight: 1.5 }}>
-                    {item.desc}
-                  </p>
-                </div>
-
-                <div style={{ marginTop: '1.25rem' }}>
-                  <Link
-                    href={`/${lang}/${item.slug}`}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: '0.5rem',
-                      width: '100%',
-                      padding: '0.75rem 1rem',
-                      borderRadius: '9999px',
-                      background: 'linear-gradient(135deg, #16A34A 0%, #15803D 100%)',
-                      color: '#FFFFFF',
-                      fontWeight: 800,
-                      fontSize: '0.9rem',
-                      textDecoration: 'none',
-                      boxShadow: '0 4px 12px rgba(22, 163, 74, 0.3)',
-                    }}
-                  >
-                    <span>📥</span>
-                    <span>{isNl ? 'Bekijk & Download Freebie' : 'View & Download Freebie'}</span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FreebiesCardGrid freebiesList={freebiesList} isEn={isEn} lang={lang} />
 
         {/* Upgrade Banner to Complete Books (€1.99) */}
         <div
@@ -261,7 +199,7 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
               : 'Get 1 full theme coloring book for just €1.99 or pick the 3-Book Theme Bundle for €4.49 (€1.50/book)!'}
           </p>
 
-          <Link
+          <a
             href={`/${lang}`}
             style={{
               display: 'inline-flex',
@@ -279,7 +217,7 @@ export default async function FreebiesPage({ params }: { params: Promise<{ lang:
           >
             <span>📚</span>
             <span>{isNl ? 'Bekijk Alle 198 Kleurboeken (€ 1,99)' : 'Browse All 198 Coloring Books (€1.99)'}</span>
-          </Link>
+          </a>
         </div>
 
         {/* Affiliate Recommendations */}
