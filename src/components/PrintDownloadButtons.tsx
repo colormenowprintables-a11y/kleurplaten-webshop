@@ -7,6 +7,7 @@ import OnlineColoringTool from './OnlineColoringTool';
 import ReportButton from './ReportButton';
 import DownloadEmailModal from './DownloadEmailModal';
 import DownloadProgressModal from './DownloadProgressModal';
+import PayPalCheckoutModal from './PayPalCheckoutModal';
 import { useColoringBook } from '@/context/ColoringBookContext';
 
 export default function PrintDownloadButtons({
@@ -27,6 +28,7 @@ export default function PrintDownloadButtons({
   const [showPreview, setShowPreview] = useState(false);
   const [showColorOnline, setShowColorOnline] = useState(false);
   const [showEmailModal, setShowEmailModal] = useState(false);
+  const [showPayPalCheckout, setShowPayPalCheckout] = useState(false);
   const [progressModal, setProgressModal] = useState<{ open: boolean; type: 'pdf' | 'png' }>({
     open: false,
     type: 'pdf',
@@ -291,8 +293,9 @@ export default function PrintDownloadButtons({
           <p style={{ fontSize: '0.82rem', color: '#92400E', fontWeight: 800, margin: '0 0 0.4rem' }}>
             {isEn ? '💡 Love this page?' : lang === 'de' ? '💡 Gefällt dir diese Seite?' : lang === 'fr' ? '💡 Vous aimez cette page?' : '💡 Vind je deze pagina leuk?'}
           </p>
-          <Link
-            href={`/${lang}`}
+          <button
+            type="button"
+            onClick={() => setShowPayPalCheckout(true)}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -301,7 +304,8 @@ export default function PrintDownloadButtons({
               fontSize: '0.88rem',
               fontWeight: 900,
               color: '#FFFFFF',
-              textDecoration: 'none',
+              border: 'none',
+              cursor: 'pointer',
               background: 'linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%)',
               padding: '0.6rem 1.1rem',
               borderRadius: '9999px',
@@ -312,9 +316,18 @@ export default function PrintDownloadButtons({
             <span>
               {isEn ? 'Click here for the full book (€1.99) →' : lang === 'de' ? 'Klicke hier für das ganze Buch (€ 1,99) →' : lang === 'fr' ? 'Cliquez ici pour le livre complet (1,99 €) →' : 'Klik hier voor het hele boek (€ 1,99) →'}
             </span>
-          </Link>
+          </button>
         </div>
       </div>
+
+      <PayPalCheckoutModal
+        isOpen={showPayPalCheckout}
+        onClose={() => setShowPayPalCheckout(false)}
+        defaultTierId="single"
+        bookTitle={pageTitle}
+        isEn={isEn}
+        onSuccessDownload={performActualDownloadPdf}
+      />
 
       {/* Download Preparation Interstitial Modal with AdSlot */}
       <DownloadProgressModal
