@@ -85,7 +85,9 @@ export default function PayPalCheckoutModal({
   if (!isOpen) return null;
 
   const currentTier = BUNDLE_TIERS.find((t) => t.id === selectedTierId) || BUNDLE_TIERS[0];
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'test';
+  const clientId =
+    process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID ||
+    'BAAteFL7TYAqwF2RAKSz5QEpGVfFb6HmBgRa6yYctsotI9N5HKBgzWaxdptI5gJN5rNS2_3SxXfzlDPdWg';
 
   const handleApprove = (data: any, actions: any) => {
     return actions.order.capture().then((details: any) => {
