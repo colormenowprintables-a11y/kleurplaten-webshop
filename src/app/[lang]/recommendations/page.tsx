@@ -13,23 +13,23 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   if (lang === 'nl') {
     return {
-      title: 'Aanbevolen Kleurspullen, Papier & Stiften | ColorMeNow',
-      description: 'Ontdek de beste kleurspullen voor thuis en in de klas! Zwaar 160g A4 papier, alcoholstiften, Faber-Castell potloden en creatieve knutselsets.',
+      title: 'Aanbevolen Kleurspullen, Papier, Inkt, Dekens & Mokken | ColorMeNow',
+      description: 'De ultieme gids voor kleurders! Zwaar 160g papier, printer inkt, lamineerapparaten, inkleurbare dekens, kussenslopen, t-shirts, mokken, Ohuhu markers en potloden.',
     };
   } else if (lang === 'de') {
     return {
-      title: 'Empfohlene Malutensilien, Papier & Stifte | ColorMeNow',
-      description: 'Entdecken Sie die besten Malutensilien: Schweres 160g A4-Papier, Alkohol-Marker, Faber-Castell Farbstifte und kreative Mal-Sets.',
+      title: 'Empfohlene Malutensilien, Papier, Tinte, Decken & Tassen | ColorMeNow',
+      description: 'Der ultimative Ratgeber für Malbegeisterte: Papier, Druckerpatronen, Laminiergeräte, ausmalbare Decken, T-Shirts, Tassen und Stifte.',
     };
   } else if (lang === 'fr') {
     return {
-      title: 'Matériel de Coloriage Recommandé, Papier & Feutres | ColorMeNow',
-      description: 'Découvrez les meilleurs outils de coloriage: papier A4 épais 160g, feutres à alcool, crayons Faber-Castell et kits créatifs.',
+      title: 'Matériel de Coloriage Recommandé, Papier, Encre, Plaids & Mugs | ColorMeNow',
+      description: 'Le guide ultime: papier épais 160g, cartouches d’encre, plastifieuses, plaids et taies à colorier, feutres et crayons.',
     };
   }
   return {
-    title: 'Recommended Coloring Supplies, Paper & Markers | ColorMeNow',
-    description: 'Discover the best coloring supplies for home and classroom! Premium 160g heavy A4 paper, alcohol brush markers, Faber-Castell pencils, and craft kits.',
+    title: 'Recommended Coloring Supplies, Paper, Ink, Blankets & Mugs | ColorMeNow',
+    description: 'The ultimate coloring companion guide! Premium 160g paper, printer ink, laminators, color-your-own blankets, pillowcases, t-shirts, mugs, brush markers, and pencils.',
   };
 }
 
@@ -42,10 +42,14 @@ export default async function RecommendationsPage({ params }: { params: Promise<
 
   const categories = [
     { key: 'paper', title: isNl ? '📄 Beste Papier voor Printen' : isDe ? '📄 Bestes Druckerpapier' : isFr ? '📄 Meilleur Papier' : '📄 Best Paper for Printing' },
+    { key: 'ink', title: isNl ? '🖨️ Printer Inkt & Toners' : isDe ? '🖨️ Druckerpatronen & Tinte' : isFr ? '🖨️ Cartouches d’Encre' : '🖨️ Printer Ink & Toners' },
+    { key: 'laminating', title: isNl ? '🔥 Lamineerapparaten & Hoezen' : isDe ? '🔥 Laminiergeräte & Folien' : isFr ? '🔥 Plastifieuses & Poches' : '🔥 Laminators & Sheets' },
+    { key: 'crafts', title: isNl ? '🧶 Inkleurbare Dekens, Kussenslopen, T-Shirts, Tasjes & Mokken' : isDe ? '🧶 Ausmalbare Decken, T-Shirts & Tassen' : isFr ? '🧶 Plaids, T-Shirts, Sacs & Mugs à Colorier' : '🧶 Color-Your-Own Blankets, Shirts, Bags & Mugs' },
     { key: 'markers', title: isNl ? '🎨 Viltstiften & Alcohol Markers' : isDe ? '🎨 Filzstifte & Marker' : isFr ? '🎨 Marqueurs & Feutres' : '🎨 Markers & Alcohol Pens' },
     { key: 'pencils', title: isNl ? '✏️ Premium Kleurpotloden' : isDe ? '✏️ Premium Buntstifte' : isFr ? '✏️ Crayons de Couleur' : '✏️ Premium Pencils' },
-    { key: 'crafts', title: isNl ? '🧶 Inkleurbare Kleding & Textiles' : isDe ? '🧶 Ausmalbare Textilien' : isFr ? '🧶 Textiles à Colorier' : '🧶 Coloring Textiles & Gifts' },
-    { key: 'kits', title: isNl ? '🎁 Knutselsets voor Kinderen' : isDe ? '🎁 Bastel-Sets für Kinder' : isFr ? '🎁 Kits Créatifs Enfant' : '🎁 Craft Kits & Art Sets' },
+    { key: 'kits', title: isNl ? '🎁 Tekenkoffers & Verfsets' : isDe ? '🎁 Malsets & Koffer' : isFr ? '🎁 Coffrets d’Art & Kits' : '🎁 Art Cases & Painting Kits' },
+    { key: 'storage', title: isNl ? '📚 Opbergen & Showalbums' : isDe ? '📚 Sammelmappen & Alben' : isFr ? '📚 Porte-Vues & Rangement' : '📚 Storage & Display Books' },
+    { key: 'lighting', title: isNl ? '💡 Lichtbakken & Overtekenen' : isDe ? '💡 Leuchttische & Tracing' : isFr ? '💡 Tablettes Lumineuses' : '💡 Light Pads & Tracing' },
   ];
 
   return (
@@ -101,12 +105,12 @@ export default async function RecommendationsPage({ params }: { params: Promise<
 
           <p style={{ color: '#475569', fontSize: '1.1rem', marginTop: '0.8rem', lineHeight: 1.7, maxWidth: '680px', margin: '0.8rem auto 0' }}>
             {isNl
-              ? 'Wil je het beste resultaat bij het printen en inkleuren? Wij hebben de fijnste papiersoorten, viltstiften, alcoholmarkers en kleurpotloden voor je geselecteerd.'
+              ? 'Van het beste 160g papier en inkt tot inkleurbare dekens, kussenslopen, t-shirts, mokken, lamineerapparaten en Ohuhu markers. Alles wat je nodig hebt voor jouw ultieme kleurhobby!'
               : isDe
-              ? 'Die besten Materialien für perfekte Malergebnisse: Hochwertiges Papier, Marker und Farbstifte.'
+              ? 'Von bestem 160g Papier und Tinte bis zu ausmalbaren Decken, T-Shirts, Tassen, Laminiergeräten und Markern. Alles für Ihr Malhobby!'
               : isFr
-              ? 'Les meilleurs outils pour réussir vos coloriages: papiers épais, feutres et crayons de qualité.'
-              : 'Want the best results when printing and coloring? We have tested and handpicked the finest paper, brush markers, and colored pencils.'}
+              ? 'Du papier 160g à l’encre, en passant par les plaids, t-shirts, mugs, plastifieuses et feutres. Tout pour votre passion!'
+              : 'From 160g heavy paper and ink to color-your-own blankets, pillowcases, t-shirts, mugs, laminators, and brush markers. Everything for your coloring hobby!'}
           </p>
         </div>
       </div>
