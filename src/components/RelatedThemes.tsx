@@ -69,7 +69,7 @@ export default function RelatedThemes({
                 className={styles.themeImg}
                 loading="lazy"/>
               <span className={styles.badge}>
-                {theme.pageCount || 60}+ {isEn ?'Pages':'Platen'}
+                {theme.pageCount || 60}+ {lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : lang === 'nl' ? 'Boeken' : 'Books'}
               </span>
             </div>
             <div className={styles.cardBody}>

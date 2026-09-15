@@ -118,7 +118,7 @@ export default function CategoryExplorerTabs({
                   height={500}
                   loading="lazy"/>
                 <span className={styles.countBadge}>
-                  {theme.pageCount || 90}+ {isEn ?'Pages':'Platen'}
+                  {theme.pageCount || 90}+ {lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : lang === 'nl' ? 'Boeken' : 'Books'}
                 </span>
               </div>
               <div className={styles.cardContent}>

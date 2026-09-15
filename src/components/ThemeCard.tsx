@@ -116,7 +116,7 @@ export default function ThemeCard({
               border:'1px solid rgba(255, 255, 255, 0.25)',
             }}
           >
-            <span>{pageCount} {isEn ?'Pages':'Platen'}</span>
+            <span>{pageCount} {lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : lang === 'nl' ? 'Boeken' : 'Books'}</span>
           </div>
         )}
 
