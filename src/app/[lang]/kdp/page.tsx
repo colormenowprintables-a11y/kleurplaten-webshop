@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AdSlot from '@/components/AdSlot';
 import NewsletterBox from '@/components/NewsletterBox';
 import SafeImage from '@/components/SafeImage';
+import BookSneakPeekPreview from '@/components/BookSneakPeekPreview';
 
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'nl' }, { lang: 'de' }, { lang: 'fr' }];
@@ -51,6 +52,10 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
       img: '/covers/gothic_kawaii_carnival_cover.png',
       rating: '5.0 ⭐⭐⭐⭐⭐',
       asin: 'B0H7SW2MPP',
+      samplePages: [
+        { title: 'Chibi Spooky Carnival Girl', image: '/covers/50_cute_gothic_cover.png' },
+        { title: 'Bat-Winged Pumpkin Cutie', image: '/covers/circus_of_shadows_cover.png' },
+      ],
     },
     {
       title: 'Botanical Gardens: Herb Gardens & Pots (Volume 1): 50 Vintage Herb Designs',
@@ -62,6 +67,10 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
       img: '/covers/botanical_gardens_cover.png',
       rating: '5.0 ⭐⭐⭐⭐⭐',
       asin: 'B0H7N6X145',
+      samplePages: [
+        { title: 'Vintage Rosemary & Herb Pot', image: '/covers/botanical_gardens_cover (1).png' },
+        { title: 'Ornate Greenhouse & Flora', image: '/covers/botanical_gardens_cover (2).png' },
+      ],
     },
     {
       title: 'Boho Chic Lotus Dreamcatchers (Volume 1): 50 Mandala & Dreamcatcher Designs',
@@ -73,6 +82,10 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
       img: '/covers/dreamcatchers_cover.png',
       rating: '4.9 ⭐⭐⭐⭐⭐',
       asin: 'B0H75HZ2X3',
+      samplePages: [
+        { title: 'Feathered Lotus Dreamcatcher', image: '/covers/50_relaxing_mandalas_cover.png' },
+        { title: 'Celestial Moon & Stars Mandala', image: '/covers/celestial_dreams_cover.png' },
+      ],
     },
     {
       title: 'Art Nouveau Flower Gardens (Volume 1): Elegant Floral & Swirling Patterns',
@@ -84,6 +97,10 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
       img: '/covers/flower_gardens_cover.png',
       rating: '5.0 ⭐⭐⭐⭐⭐',
       asin: 'B0H6XKVVGX',
+      samplePages: [
+        { title: 'Art Nouveau Iris Swirls', image: '/covers/flower_gardens_cover.png' },
+        { title: 'Whimsical Garden Floral Gate', image: '/covers/berry_garden_buddies_cover.png' },
+      ],
     },
   ];
 
@@ -189,33 +206,45 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
                     {book.title}
                   </h3>
 
-                  <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#16A34A', marginBottom: '1.25rem' }}>
+                  <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#16A34A', marginBottom: '1rem' }}>
                     {book.price}
                   </div>
                 </div>
 
-                <a
-                  href={book.amazonUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '0.5rem',
-                    padding: '0.8rem 1rem',
-                    borderRadius: '12px',
-                    background: '#FF9900',
-                    color: '#000000',
-                    fontWeight: 900,
-                    fontSize: '0.95rem',
-                    textDecoration: 'none',
-                    boxShadow: '0 4px 14px rgba(255, 153, 0, 0.3)',
-                  }}
-                >
-                  <span>🛒</span>
-                  <span>{isNl ? 'Bestel op Amazon' : isDe ? 'Auf Amazon Bestellen' : isFr ? 'Commander sur Amazon' : 'Order on Amazon'}</span>
-                </a>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                  <BookSneakPeekPreview
+                    mode="button"
+                    coverImage={book.img}
+                    title={book.title}
+                    samplePages={book.samplePages}
+                    isEn={!isNl}
+                    buttonText={isNl ? '📖 Bekijk Inkijkexemplaar' : isDe ? '📖 Blick ins Buch' : isFr ? '📖 Feuilleter le livre' : '📖 Look Inside Book'}
+                    buttonStyle={{ width: '100%' }}
+                  />
+
+                  <a
+                    href={book.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      gap: '0.5rem',
+                      padding: '0.8rem 1rem',
+                      borderRadius: '9999px',
+                      background: '#FF9900',
+                      color: '#000000',
+                      fontWeight: 900,
+                      fontSize: '0.95rem',
+                      textDecoration: 'none',
+                      boxShadow: '0 4px 14px rgba(255, 153, 0, 0.3)',
+                    }}
+                  >
+                    <span>🛒</span>
+                    <span>{isNl ? 'Bestel op Amazon' : isDe ? 'Auf Amazon Bestellen' : isFr ? 'Commander sur Amazon' : 'Order on Amazon'}</span>
+                  </a>
+                </div>
               </div>
             </div>
           ))}

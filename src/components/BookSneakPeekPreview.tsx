@@ -9,6 +9,9 @@ interface BookSneakPeekPreviewProps {
   title: string;
   samplePages: { title: string; image: string }[];
   isEn?: boolean;
+  mode?: 'stack' | 'button';
+  buttonText?: string;
+  buttonStyle?: React.CSSProperties;
 }
 
 export default function BookSneakPeekPreview({
@@ -16,81 +19,105 @@ export default function BookSneakPeekPreview({
   title,
   samplePages,
   isEn = false,
+  mode = 'stack',
+  buttonText,
+  buttonStyle,
 }: BookSneakPeekPreviewProps) {
   const [modalOpen, setModalOpen] = useState(false);
   const page1 = samplePages[0];
   const page2 = samplePages[1] || samplePages[0];
+  const page3 = samplePages[2];
+
+  const defaultBtnLabel = isEn ? '📖 Look Inside (Sample Pages)' : '📖 Inkijkexemplaar (Voorbeelden)';
 
   return (
     <>
-      <div
-        className={styles.previewContainer}
-        onClick={() => setModalOpen(true)}
-        title={isEn ? 'Click to inspect book interior pages' : 'Klik om binnenin het boekje te kijken'}
-        role="button"
-        tabIndex={0}
-      >
-        {/* Badge Top */}
-        <div className={styles.sneakPeekBadge}>
-          <span>📖</span>
-          <span>{isEn ? 'Look Inside (2 Sample Pages)' : 'Inkijkexemplaar (2 Pagina\'s)'}</span>
-        </div>
+      {mode === 'button' ? (
+        <button
+          type="button"
+          className={styles.previewTriggerBtn}
+          onClick={() => setModalOpen(true)}
+          style={buttonStyle}
+          title={isEn ? 'Click to inspect sample interior pages' : 'Klik om voorbeeldpagina\'s te bekijken'}
+        >
+          {buttonText || defaultBtnLabel}
+        </button>
+      ) : (
+        <div
+          className={styles.previewContainer}
+          onClick={() => setModalOpen(true)}
+          title={isEn ? 'Click to inspect book interior pages' : 'Klik om binnenin het boekje te kijken'}
+          role="button"
+          tabIndex={0}
+        >
+          {/* Badge Top */}
+          <div className={styles.sneakPeekBadge}>
+            <span>📖</span>
+            <span>{isEn ? 'Look Inside (Sample Pages)' : 'Inkijkexemplaar (Voorbeeld Pagina\'s)'}</span>
+          </div>
 
-        {/* Fanned 3D Book Stack */}
-        <div className={styles.stackWrapper}>
-          {/* Back Left Page Sample */}
-          {page1 && (
-            <div className={`${styles.stackedCard} ${styles.leftPage}`}>
-              <SafeImage
-                src={page1.image}
-                alt={`${title} sample page 1`}
-                width={170}
-                height={230}
-                className={styles.pageImg}
-              />
-              <div className={styles.watermarkOverlay}>
-                <span className={styles.watermarkText}>{isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}</span>
+          {/* Fanned 3D Book Stack */}
+          <div className={styles.stackWrapper}>
+            {/* Back Left Page Sample */}
+            {page1 && (
+              <div className={`${styles.stackedCard} ${styles.leftPage}`}>
+                <SafeImage
+                  src={page1.image}
+                  alt={`${title} sample page 1`}
+                  width={170}
+                  height={230}
+                  className={styles.pageImg}
+                  onContextMenu={(e) => e.preventDefault()}
+                />
+                <div className={styles.watermarkOverlay}>
+                  <span className={styles.watermarkText}>
+                    {isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}
+                  </span>
+                </div>
+                <div className={styles.pageLabel}>{isEn ? 'Page 1' : 'Pagina 1'}</div>
               </div>
-              <div className={styles.pageLabel}>{isEn ? 'Page 1' : 'Pagina 1'}</div>
-            </div>
-          )}
+            )}
 
-          {/* Back Right Page Sample */}
-          {page2 && (
-            <div className={`${styles.stackedCard} ${styles.rightPage}`}>
-              <SafeImage
-                src={page2.image}
-                alt={`${title} sample page 2`}
-                width={170}
-                height={230}
-                className={styles.pageImg}
-              />
-              <div className={styles.watermarkOverlay}>
-                <span className={styles.watermarkText}>{isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}</span>
+            {/* Back Right Page Sample */}
+            {page2 && (
+              <div className={`${styles.stackedCard} ${styles.rightPage}`}>
+                <SafeImage
+                  src={page2.image}
+                  alt={`${title} sample page 2`}
+                  width={170}
+                  height={230}
+                  className={styles.pageImg}
+                  onContextMenu={(e) => e.preventDefault()}
+                />
+                <div className={styles.watermarkOverlay}>
+                  <span className={styles.watermarkText}>
+                    {isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}
+                  </span>
+                </div>
+                <div className={styles.pageLabel}>{isEn ? 'Page 2' : 'Pagina 2'}</div>
               </div>
-              <div className={styles.pageLabel}>{isEn ? 'Page 2' : 'Pagina 2'}</div>
-            </div>
-          )}
+            )}
 
-          {/* Main Front Cover */}
-          <div className={`${styles.stackedCard} ${styles.frontCover}`}>
-            <SafeImage
-              src={coverImage}
-              alt={`${title} Cover`}
-              width={190}
-              height={260}
-              className={styles.coverImg}
-            />
-            <div className={styles.coverTag}>{isEn ? 'Book Cover' : 'Kleurboek Cover'}</div>
+            {/* Main Front Cover */}
+            <div className={`${styles.stackedCard} ${styles.frontCover}`}>
+              <SafeImage
+                src={coverImage}
+                alt={`${title} Cover`}
+                width={190}
+                height={260}
+                className={styles.coverImg}
+              />
+              <div className={styles.coverTag}>{isEn ? 'Book Cover' : 'Kleurboek Cover'}</div>
+            </div>
+          </div>
+
+          {/* Hover Hint CTA */}
+          <div className={styles.zoomHint}>
+            <span>🔍</span>
+            <span>{isEn ? 'Click for interior preview' : 'Klik voor gratis inkijkexemplaar'}</span>
           </div>
         </div>
-
-        {/* Hover Hint CTA */}
-        <div className={styles.zoomHint}>
-          <span>🔍</span>
-          <span>{isEn ? 'Click for 2-page interior preview' : 'Klik voor gratis inkijkexemplaar'}</span>
-        </div>
-      </div>
+      )}
 
       {/* Modal Lightbox for Fullscreen Page Inspection */}
       {modalOpen && (
@@ -103,8 +130,8 @@ export default function BookSneakPeekPreview({
                 </h3>
                 <p className={styles.modalSubtitle}>
                   {isEn
-                    ? '🔒 Watermark Protected Preview — Full high-resolution PDF download available upon purchase'
-                    : '🔒 Beveiligd Voorbeeld — Download het volledige kleurboek in hoge resolutie zonder watermerk na afrekenen'}
+                    ? '🔒 Watermark Protected Preview — High-resolution PDF available upon purchase / download'
+                    : '🔒 Beveiligd Voorbeeld met Watermerk — Hoge resolutie PDF zonder watermerk beschikbaar na bestelling'}
                 </p>
               </div>
               <button className={styles.closeBtn} onClick={() => setModalOpen(false)}>✕</button>
@@ -126,7 +153,14 @@ export default function BookSneakPeekPreview({
                   <div className={styles.sampleBox}>
                     <div className={styles.sampleBadge}>{isEn ? 'Sample Page 1' : 'Voorbeeld Pagina 1'}</div>
                     <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
-                      <SafeImage src={page1.image} alt={page1.title} width={300} height={400} className={styles.sampleImg} />
+                      <SafeImage
+                        src={page1.image}
+                        alt={page1.title}
+                        width={300}
+                        height={400}
+                        className={styles.sampleImg}
+                        onContextMenu={(e) => e.preventDefault()}
+                      />
                       <div className={styles.modalWatermarkOverlay}>
                         <div className={styles.modalWatermarkRepeater}>
                           <span>COLOR ME NOW • VOORBEELD</span>
@@ -144,7 +178,14 @@ export default function BookSneakPeekPreview({
                   <div className={styles.sampleBox}>
                     <div className={styles.sampleBadge}>{isEn ? 'Sample Page 2' : 'Voorbeeld Pagina 2'}</div>
                     <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
-                      <SafeImage src={page2.image} alt={page2.title} width={300} height={400} className={styles.sampleImg} />
+                      <SafeImage
+                        src={page2.image}
+                        alt={page2.title}
+                        width={300}
+                        height={400}
+                        className={styles.sampleImg}
+                        onContextMenu={(e) => e.preventDefault()}
+                      />
                       <div className={styles.modalWatermarkOverlay}>
                         <div className={styles.modalWatermarkRepeater}>
                           <span>COLOR ME NOW • VOORBEELD</span>
@@ -154,6 +195,31 @@ export default function BookSneakPeekPreview({
                       </div>
                     </div>
                     <div className={styles.sampleTitle}>{page2.title}</div>
+                  </div>
+                )}
+
+                {/* Page 3 view (if present) */}
+                {page3 && (
+                  <div className={styles.sampleBox}>
+                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 3' : 'Voorbeeld Pagina 3'}</div>
+                    <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
+                      <SafeImage
+                        src={page3.image}
+                        alt={page3.title}
+                        width={300}
+                        height={400}
+                        className={styles.sampleImg}
+                        onContextMenu={(e) => e.preventDefault()}
+                      />
+                      <div className={styles.modalWatermarkOverlay}>
+                        <div className={styles.modalWatermarkRepeater}>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                          <span>SAMPLE • DO NOT PRINT</span>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.sampleTitle}>{page3.title}</div>
                   </div>
                 )}
               </div>

@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import SafeImage from './SafeImage';
 import { fireConfetti } from '@/lib/confetti';
 import PayPalCheckoutModal from './PayPalCheckoutModal';
+import BookSneakPeekPreview from './BookSneakPeekPreview';
 
 interface FreebieItem {
   id: string;
@@ -140,11 +141,12 @@ export default function FreebiesCardGrid({
               style={{
                 background: '#FFFFFF',
                 borderRadius: '20px',
-                border: '1px solid #E2E8F0',
+                border: '1.5px solid #E2E8F0',
                 overflow: 'hidden',
                 boxShadow: '0 4px 15px rgba(0, 0, 0, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
+                justifyContent: 'space-between',
                 transition: 'transform 0.2s ease, box-shadow 0.2s ease',
               }}
             >
@@ -177,7 +179,7 @@ export default function FreebiesCardGrid({
                   flex: 1,
                   display: 'flex',
                   flexDirection: 'column',
-                  justify: 'space-between',
+                  justifyContent: 'space-between',
                 }}
               >
                 <div>
@@ -190,6 +192,16 @@ export default function FreebiesCardGrid({
                 </div>
 
                 <div style={{ marginTop: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                  <BookSneakPeekPreview
+                    mode="button"
+                    coverImage={item.img}
+                    title={item.title}
+                    samplePages={item.samplePages}
+                    isEn={isEn}
+                    buttonText={isEn ? '📖 Look Inside Freebie' : '📖 Inkijkexemplaar Bekijken'}
+                    buttonStyle={{ width: '100%' }}
+                  />
+
                   <button
                     type="button"
                     onClick={() => handleDownloadFreebie(item)}

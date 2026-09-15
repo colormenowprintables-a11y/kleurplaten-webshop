@@ -15,6 +15,7 @@ import ReportButton from '@/components/ReportButton';
 import CraftIdeasSection from '@/components/CraftIdeasSection';
 import ThemeFaqSection from '@/components/ThemeFaqSection';
 import NewsletterBox from '@/components/NewsletterBox';
+import BookSneakPeekPreview from '@/components/BookSneakPeekPreview';
 import React from 'react';
 
 export const dynamicParams = true;
@@ -284,6 +285,25 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             lang={lang}
             category={theme.title}
           />
+
+          {/* Look Inside Book / Inkijkexemplaar Box */}
+          <div style={{ marginTop: '1.25rem', background: '#F8FAFC', borderRadius: 'var(--radius-lg)', padding: '1.15rem', border: '1.5px solid #E2E8F0' }}>
+            <p style={{ fontSize: '0.78rem', fontWeight: 800, color: '#4F46E5', textTransform: 'uppercase', letterSpacing: '0.05em', margin: '0 0 0.4rem' }}>
+              📖 {isEn ? 'Look Inside Full Coloring Book' : 'Inkijkexemplaar Volledig Kleurboek'}
+            </p>
+            <p style={{ fontSize: '0.82rem', color: '#64748B', margin: '0 0 0.85rem', lineHeight: 1.45 }}>
+              {isEn ? `Preview sample interior pages from the complete ${theme.title} collection.` : `Bekijk voorbeeldpagina's uit het complete ${theme.title} kleurboek.`}
+            </p>
+            <BookSneakPeekPreview
+              mode="button"
+              coverImage={theme.image || page.image}
+              title={theme.title}
+              samplePages={displayPages.slice(0, 3).map(p => ({ title: p.title, image: p.image }))}
+              isEn={isEn}
+              buttonText={isEn ? '📖 Look Inside Book' : '📖 Bekijk Inkijkexemplaar'}
+              buttonStyle={{ width: '100%' }}
+            />
+          </div>
 
           {/* Metadata Chips */}
           <div style={{ marginTop:'1.5rem', display:'flex', flexDirection:'column', gap:'0.6rem'}}>
