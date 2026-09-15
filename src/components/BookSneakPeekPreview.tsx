@@ -48,6 +48,9 @@ export default function BookSneakPeekPreview({
                 height={230}
                 className={styles.pageImg}
               />
+              <div className={styles.watermarkOverlay}>
+                <span className={styles.watermarkText}>{isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}</span>
+              </div>
               <div className={styles.pageLabel}>{isEn ? 'Page 1' : 'Pagina 1'}</div>
             </div>
           )}
@@ -62,6 +65,9 @@ export default function BookSneakPeekPreview({
                 height={230}
                 className={styles.pageImg}
               />
+              <div className={styles.watermarkOverlay}>
+                <span className={styles.watermarkText}>{isEn ? 'SAMPLE • DO NOT PRINT' : 'VOORBEELD • COLOR ME NOW'}</span>
+              </div>
               <div className={styles.pageLabel}>{isEn ? 'Page 2' : 'Pagina 2'}</div>
             </div>
           )}
@@ -97,8 +103,8 @@ export default function BookSneakPeekPreview({
                 </h3>
                 <p className={styles.modalSubtitle}>
                   {isEn
-                    ? 'Preview sample interior coloring pages inside this book'
-                    : 'Bekijk de binnenkant en kleurplaten uit dit boekje'}
+                    ? '🔒 Watermark Protected Preview — Full high-resolution PDF download available upon purchase'
+                    : '🔒 Beveiligd Voorbeeld — Download het volledige kleurboek in hoge resolutie zonder watermerk na afrekenen'}
                 </p>
               </div>
               <button className={styles.closeBtn} onClick={() => setModalOpen(false)}>✕</button>
@@ -118,9 +124,16 @@ export default function BookSneakPeekPreview({
                 {/* Page 1 view */}
                 {page1 && (
                   <div className={styles.sampleBox}>
-                    <div className={styles.sampleBadge}>{isEn ? 'Interior Page 1' : 'Inhoud Pagina 1'}</div>
-                    <div className={styles.sampleImgWrapper}>
+                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 1' : 'Voorbeeld Pagina 1'}</div>
+                    <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
                       <SafeImage src={page1.image} alt={page1.title} width={300} height={400} className={styles.sampleImg} />
+                      <div className={styles.modalWatermarkOverlay}>
+                        <div className={styles.modalWatermarkRepeater}>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                          <span>SAMPLE • DO NOT PRINT</span>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                        </div>
+                      </div>
                     </div>
                     <div className={styles.sampleTitle}>{page1.title}</div>
                   </div>
@@ -129,9 +142,16 @@ export default function BookSneakPeekPreview({
                 {/* Page 2 view */}
                 {page2 && (
                   <div className={styles.sampleBox}>
-                    <div className={styles.sampleBadge}>{isEn ? 'Interior Page 2' : 'Inhoud Pagina 2'}</div>
-                    <div className={styles.sampleImgWrapper}>
+                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 2' : 'Voorbeeld Pagina 2'}</div>
+                    <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
                       <SafeImage src={page2.image} alt={page2.title} width={300} height={400} className={styles.sampleImg} />
+                      <div className={styles.modalWatermarkOverlay}>
+                        <div className={styles.modalWatermarkRepeater}>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                          <span>SAMPLE • DO NOT PRINT</span>
+                          <span>COLOR ME NOW • VOORBEELD</span>
+                        </div>
+                      </div>
                     </div>
                     <div className={styles.sampleTitle}>{page2.title}</div>
                   </div>
