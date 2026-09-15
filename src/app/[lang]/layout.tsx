@@ -62,6 +62,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: ["https://colormenow.shop/images/og-share.jpg"],
   },
+  verification: {
+    other: {
+      "p:domain_verify": "bb488ddad4ca7ae628902aaf24e447da",
+    },
+  },
 };
 
 export async function generateStaticParams() {
