@@ -18,6 +18,7 @@ import NewsletterBox from '@/components/NewsletterBox';
 import BookSneakPeekPreview from '@/components/BookSneakPeekPreview';
 import ColorInspirationViewer from '@/components/ColorInspirationViewer';
 import coloredMapping from '@/data/colored-mapping.json';
+import bookSamples from '@/data/book-samples.json';
 import React from 'react';
 
 export const dynamicParams = true;
@@ -129,6 +130,15 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
     pageChunks.push(displayPages.slice(i, i + 12));
   }
 
+  // Specific interior sample drawing sheets for this exact book (with watermark protection)
+  const specificSamples = (bookSamples as Record<string, string[]>)[page.slug];
+  const samplePagesList = specificSamples && specificSamples.length > 0
+    ? specificSamples.map((imgUrl, idx) => ({
+        title: isEn ? `${page.title} - Sample Page ${idx + 1}` : `${page.title} - Voorbeeld ${idx + 1}`,
+        image: imgUrl,
+      }))
+    : displayPages.slice(0, 4).map(p => ({ title: p.title, image: p.image }));
+
   const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
 
   return (
@@ -204,8 +214,8 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
           <BookSneakPeekPreview
             mode="inline-grid"
             coverImage={theme.image || page.image}
-            title={theme.title}
-            samplePages={displayPages.slice(0, 4).map(p => ({ title: p.title, image: p.image }))}
+            title={page.title}
+            samplePages={samplePagesList}
             isEn={isEn}
           />
 
@@ -312,8 +322,8 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             <BookSneakPeekPreview
               mode="button"
               coverImage={theme.image || page.image}
-              title={theme.title}
-              samplePages={displayPages.slice(0, 3).map(p => ({ title: p.title, image: p.image }))}
+              title={page.title}
+              samplePages={samplePagesList}
               isEn={isEn}
               buttonText={isEn ? '📖 Look Inside Book' : '📖 Bekijk Inkijkexemplaar'}
               buttonStyle={{ width: '100%' }}
