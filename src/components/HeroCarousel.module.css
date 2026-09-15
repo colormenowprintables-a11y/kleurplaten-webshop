@@ -27,7 +27,7 @@
   inset: 0;
   border-radius: inherit;
   overflow: hidden;
-  background: #0F172A;
+  background: radial-gradient(circle at 50% 45%, #2E1065 0%, #1E1B4B 35%, #0F172A 70%, #020617 100%);
   z-index: 1;
 }
 

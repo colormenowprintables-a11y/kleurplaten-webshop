@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import SafeImage from './SafeImage';
 import styles from './HeroCarousel.module.css';
 
 export interface CarouselItem {
@@ -40,13 +41,6 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
     <div className={styles.widescreenHeroMaster}>
       {/* 3D Bank Vault Master Artwork Backdrop */}
       <div className={styles.vaultFrame}>
-        
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/banner.jpg"
-          alt="ColorMeNow 3D Vault Stage"
-          className={styles.vaultImage}
-        />
         <div className={styles.vaultPortalAura} />
       </div>
 
@@ -62,8 +56,12 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
                 style={{ '--i': i, '--count': count } as React.CSSProperties}
                 title={img.alt}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={img.src} alt={img.alt} className={styles.img} />
+                <SafeImage
+                  src={img.src}
+                  alt={img.alt}
+                  className={styles.img}
+                  fallbackSrc="/covers/50_cozy_cottages_cover.png"
+                />
                 <div className={styles.shine} />
                 
                 {/* Album Badge Top Left */}
