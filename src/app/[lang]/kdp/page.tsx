@@ -41,10 +41,21 @@ export default async function KdpBooksPage({ params }: { params: Promise<{ lang:
   const isFr = lang === 'fr';
 
   const kdpBooks = [
-    { title: isNl ? '50 Cozy Cottages Paperback Edition' : '50 Cozy Cottages Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: 'https://www.amazon.com/dp/B0COLORMENOW1', img: '/covers/50_cozy_cottages_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Cute Animals & Pets Paperback Edition' : '50 Cute Animals & Pets Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: 'https://www.amazon.com/dp/B0COLORMENOW2', img: '/covers/50_cute_animals_cover.png', rating: '4.9 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Relaxing Mandalas Paperback Edition' : '50 Relaxing Mandalas Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: 'https://www.amazon.com/dp/B0COLORMENOW3', img: '/covers/50_relaxing_mandalas_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
-    { title: isNl ? '50 Monster Trucks & Big Wheels Paperback' : '50 Monster Trucks & Big Wheels Paperback', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: 'https://www.amazon.com/dp/B0COLORMENOW4', img: '/covers/50_monster_trucks_cover.png', rating: '4.8 ⭐⭐⭐⭐⭐' },
+    {
+      title: 'Gothic Kawaii Carnival (Volume 1): 50 Unique Cute Chibi & Spooky Outlines',
+      pages: '104 Pages',
+      price: '$9.99 USD / € 10,69',
+      amazonUrl: isNl
+        ? 'https://www.amazon.nl/dp/B0H7SW2MPP?tag=colormenownl-21'
+        : 'https://www.amazon.com/dp/B0H7SW2MPP?tag=colormenowpri-20',
+      img: '/covers/gothic_kawaii_carnival_cover.png',
+      rating: '5.0 ⭐⭐⭐⭐⭐',
+      badge: 'OFFICIËLE AMAZON KDP EDITIES',
+    },
+    { title: isNl ? '50 Cozy Cottages Paperback Edition' : '50 Cozy Cottages Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW1?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW1?tag=colormenowpri-20', img: '/covers/50_cozy_cottages_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
+    { title: isNl ? '50 Cute Animals & Pets Paperback Edition' : '50 Cute Animals & Pets Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW2?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW2?tag=colormenowpri-20', img: '/covers/50_cute_animals_cover.png', rating: '4.9 ⭐⭐⭐⭐⭐' },
+    { title: isNl ? '50 Relaxing Mandalas Paperback Edition' : '50 Relaxing Mandalas Paperback Edition', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW3?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW3?tag=colormenowpri-20', img: '/covers/50_relaxing_mandalas_cover.png', rating: '5.0 ⭐⭐⭐⭐⭐' },
+    { title: isNl ? '50 Monster Trucks & Big Wheels Paperback' : '50 Monster Trucks & Big Wheels Paperback', pages: '104 Pages', price: '€ 6,99 / $7.99', amazonUrl: isNl ? 'https://www.amazon.nl/dp/B0COLORMENOW4?tag=colormenownl-21' : 'https://www.amazon.com/dp/B0COLORMENOW4?tag=colormenowpri-20', img: '/covers/50_monster_trucks_cover.png', rating: '4.8 ⭐⭐⭐⭐⭐' },
   ];
 
   return (
