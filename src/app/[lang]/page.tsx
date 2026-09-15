@@ -363,7 +363,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
 
             <Link
-              href={`/${lang}/special-deals-promo-packs`}
+              href={`/${lang}#categories`}
               className="btn-primary"
               style={{
                 background: 'linear-gradient(135deg, #FF6B4A 0%, #F0501F 100%)',
@@ -394,7 +394,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   {isEn ? 'Popular Coloring Book Series' : 'Populaire Kleurboekenseries'}
                 </h2>
               </div>
-              <Link href={`/${lang}/special-deals-promo-packs`} className="btn-secondary">
+              <Link href={`/${lang}#categories`} className="btn-secondary">
                 {isEn ? 'View All Series →' : 'Bekijk Alle Series →'}
               </Link>
             </ScrollReveal>
