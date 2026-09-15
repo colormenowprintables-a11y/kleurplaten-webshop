@@ -41,6 +41,12 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
     <div className={styles.widescreenHeroMaster}>
       {/* 3D Bank Vault Master Artwork Backdrop */}
       <div className={styles.vaultFrame}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/banner.jpg"
+          alt="ColorMeNow 3D Vault Stage"
+          className={styles.vaultImage}
+        />
         <div className={styles.vaultPortalAura} />
       </div>
 
