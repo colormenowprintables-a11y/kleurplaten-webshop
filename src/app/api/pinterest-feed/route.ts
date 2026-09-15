@@ -36,11 +36,22 @@ export async function GET(request: Request) {
     const themeFilter = searchParams.get('theme')?.toLowerCase();
 
     const dataPath = path.join(process.cwd(), 'src', 'data', 'en', 'coloring-pages.json');
+    const mappingPath = path.join(process.cwd(), 'src', 'data', 'colored-mapping.json');
+
     if (!fs.existsSync(dataPath)) {
       return new NextResponse('Data not found', { status: 404 });
     }
 
     const allPages = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+    let coloredSlugMap: Record<string, any> = {};
+    if (fs.existsSync(mappingPath)) {
+      try {
+        const mappingJson = JSON.parse(fs.readFileSync(mappingPath, 'utf-8'));
+        coloredSlugMap = mappingJson.slugMap || {};
+      } catch (err) {
+        console.warn('Failed to parse colored-mapping.json:', err);
+      }
+    }
     
     // Filter valid pages with images
     let validPages = allPages.filter((p: any) => p.image && !p.image.includes('default.jpg'));
@@ -103,6 +114,14 @@ export async function GET(request: Request) {
       <enclosure url="https://colormenow.shop/covers/50_cute_animals_cover.png" type="image/png" length="102400" />
     </item>
     <item>
+      <title>📦 Amazon KDP Physical Paperback Coloring Books</title>
+      <link>https://colormenow.shop/en/kdp</link>
+      <guid isPermaLink="true">https://colormenow.shop/en/kdp</guid>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+      <description><![CDATA[<p>Browse our official Amazon KDP physical paperback coloring books with high-quality printed paper delivered straight to your door!</p><img src="https://colormenow.shop/covers/gothic_kawaii_carnival_cover.png" alt="Amazon KDP Books" />]]></description>
+      <enclosure url="https://colormenow.shop/covers/gothic_kawaii_carnival_cover.png" type="image/png" length="102400" />
+    </item>
+    <item>
       <title>🎨 Top Recommended Coloring Supplies &amp; Heavyweight Paper</title>
       <link>https://colormenow.shop/en/recommendations</link>
       <guid isPermaLink="true">https://colormenow.shop/en/recommendations</guid>
@@ -118,7 +137,12 @@ export async function GET(request: Request) {
       const slug = page.slug;
       const rawTitle = page.title || 'Coloring Page';
       const title = cleanTitle(rawTitle, theme, hub);
-      const imgUrl = page.image || page.downloadableFile;
+      
+      // Use colored artwork image if mapped, fallback to standard image
+      const mappedColored = coloredSlugMap[slug]?.coloredImage;
+      const rawImg = mappedColored || page.image || page.downloadableFile;
+      const imgUrl = rawImg.startsWith('http') ? rawImg : `https://colormenow.shop${rawImg}`;
+      
       const pageUrl = `https://colormenow.shop/en/${hub}/${theme}/${age}/${slug}`;
       const description = `Download & print this free ${title} coloring page! High-resolution A4 & Letter PDF format ready to print at home or school. Printable coloring page on ColorMeNow.shop.`;
 
@@ -129,7 +153,7 @@ export async function GET(request: Request) {
       <guid isPermaLink="true">${escapeXml(pageUrl)}</guid>
       <pubDate>${new Date().toUTCString()}</pubDate>
       <description><![CDATA[<p>${description}</p><img src="${imgUrl}" alt="${escapeXml(title)}" />]]></description>
-      <enclosure url="${escapeXml(imgUrl)}" type="image/webp" length="102400" />
+      <enclosure url="${escapeXml(imgUrl)}" type="image/jpeg" length="102400" />
     </item>`;
     }).join('');
 

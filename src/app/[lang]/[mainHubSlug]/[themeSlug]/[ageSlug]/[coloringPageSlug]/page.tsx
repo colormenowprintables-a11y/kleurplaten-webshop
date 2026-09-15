@@ -16,6 +16,8 @@ import CraftIdeasSection from '@/components/CraftIdeasSection';
 import ThemeFaqSection from '@/components/ThemeFaqSection';
 import NewsletterBox from '@/components/NewsletterBox';
 import BookSneakPeekPreview from '@/components/BookSneakPeekPreview';
+import ColorInspirationViewer from '@/components/ColorInspirationViewer';
+import coloredMapping from '@/data/colored-mapping.json';
 import React from 'react';
 
 export const dynamicParams = true;
@@ -163,36 +165,16 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
       />
 
       <div className="coloring-page-detail-grid">
-        {/* Main Stage Image */}
         <div>
-          <div 
-            className="coloring-page-image-container"style={{ 
-              position:'relative', 
-              background:'#FFFFFF', 
-              borderRadius:'var(--radius-xl)', 
-              border:'1px solid var(--gray-200)', 
-              padding:'2.5rem', 
-              textAlign:'center',
-              boxShadow:'var(--shadow-md)'}}
-          >
-            <SafeImage 
-              src={page.image} 
-              alt={page.metaTitle || page.title} 
-              width={800} 
-              height={800} 
-              loading="eager"fetchPriority="high"style={{ maxWidth:'100%', height:'auto', borderRadius:'var(--radius)', boxShadow:'var(--shadow-sm)'}} 
-            />
-            <div style={{ position:'absolute', top:'18px', right:'18px'}}>
-              <FavoriteButton 
-                item={{ 
-                  id: page.slug, 
-                  slug: page.slug, 
-                  title: page.title, 
-                  preview: page.image, 
-                  url:`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}} 
-              />
-            </div>
-          </div>
+          {/* Main Stage Image & Color Inspiration Toggle */}
+          <ColorInspirationViewer
+            pageImage={page.image}
+            coloredImage={(coloredMapping.slugMap as Record<string, any>)[page.slug]?.coloredImage}
+            title={page.metaTitle || page.title}
+            slug={page.slug}
+            url={`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
+            isEn={isEn}
+          />
 
           {/* Social Share bar */}
           <SocialShareButtons
