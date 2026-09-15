@@ -21,6 +21,54 @@
   perspective: 1100px;
 }
 
+/* ── Vault Top Brand Overlay ──────────────────────────────────────────────── */
+.vaultTitleBanner {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  text-align: center;
+  pointer-events: none;
+}
+
+.vaultBrandName {
+  font-family: var(--font-display), 'Fredoka', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 0.35rem 1.25rem;
+  border-radius: 9999px;
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(255, 107, 74, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.vaultBrandAccent {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .vaultTitleBanner {
+    top: 0.65rem;
+  }
+  .vaultBrandName {
+    font-size: 0.92rem;
+    padding: 0.25rem 0.85rem;
+  }
+}
+
 /* ── Vault Backdrop & Overlays ────────────────────────────────────────────── */
 .vaultFrame {
   position: absolute;

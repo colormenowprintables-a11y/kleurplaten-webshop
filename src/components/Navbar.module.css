@@ -44,19 +44,19 @@
 }
 
 .logoBadge {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
   background: var(--gradient-primary, linear-gradient(135deg, #FF6B35, #FF3B30));
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 14px rgba(255, 107, 53, 0.4);
 }
 
 .logoText {
-  font-size: 1.35rem;
-  font-weight: 800;
+  font-size: 1.6rem;
+  font-weight: 900;
   color: #FFFFFF;
   font-family: var(--font-display), sans-serif;
   letter-spacing: -0.02em;
@@ -71,11 +71,11 @@
     gap: 0.45rem;
   }
   .logoBadge {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
   }
   .logoText {
-    font-size: 1.18rem;
+    font-size: 1.32rem;
   }
 }
 
