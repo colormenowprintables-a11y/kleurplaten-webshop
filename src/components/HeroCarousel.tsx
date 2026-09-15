@@ -39,12 +39,13 @@ export default function HeroCarousel({ items, lang = 'nl' }: HeroCarouselProps) 
 
   return (
     <div className={styles.widescreenHeroMaster}>
-      {/* Top Brand Title Badge Overlay */}
+      {/* 3D Master Brand Title: COLOR ME NOW */}
       <div className={styles.vaultTitleBanner}>
-        <div className={styles.vaultBrandName}>
-          <span>🎨</span>
-          <span>COLOR <span className={styles.vaultBrandAccent}>ME</span> NOW</span>
-        </div>
+        <h2 className={styles.vault3DTitle}>
+          <span className={styles.vault3DWord}>COLOR</span>
+          <span className={styles.vault3DWordAccent}>ME</span>
+          <span className={styles.vault3DWord}>NOW</span>
+        </h2>
       </div>
 
       {/* 3D Bank Vault Master Artwork Backdrop */}
