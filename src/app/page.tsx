@@ -7,7 +7,7 @@ export default function RootPage() {
         <title>ColorMeNow | Premium Printable Coloring Books</title>
         <meta name="description" content="Explore high-quality printable coloring books and 3D covers for kids, toddlers, teens and adults. Instant digital PDF downloads." />
         <meta name="google-adsense-account" content="ca-pub-1184801748776428" />
-        <meta name="p:domain_verify" content="314125f62194f4aab9b5275a55bc34a2" />
+        <meta name="p:domain_verify" content="bb488ddad4ca7ae628902aaf24e447da" />
 
         {/* WhatsApp & Social Media Preview Meta Tags */}
         <meta property="og:site_name" content="ColorMeNow" />
