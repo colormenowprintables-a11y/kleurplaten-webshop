@@ -23,8 +23,64 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
 
   const isEn = lang === 'en';
 
-  const defaultTierId =
-    totalSelected <= 1 ? 'single' : totalSelected <= 3 ? 'pack3' : totalSelected <= 5 ? 'pack5' : 'pack10';
+  const getBundleInfo = (count: number, isEnglish: boolean) => {
+    if (count <= 1) {
+      return {
+        tierId: 'single',
+        priceDisplay: '€ 1,99',
+        price: '1.99',
+        tierName: isEnglish ? '1 Single Coloring Book' : '1 Los Kleurboek',
+        badge: isEnglish ? 'STANDARD PRICE' : 'STANDAARD PRIJS',
+        savings: null,
+        unitPrice: '€ 1,99 / book',
+        nextTierHint: isEnglish
+          ? '💡 Add 1-2 more books to unlock the 3-Book Bundle deal for €4.49!'
+          : '💡 Voeg nog 1-2 kleurboeken toe voor de 3-Boeken Bundeldeal van € 4,49!',
+      };
+    } else if (count <= 3) {
+      return {
+        tierId: 'pack3',
+        priceDisplay: '€ 4,49',
+        price: '4.49',
+        tierName: isEnglish ? '3-Book Theme Bundle' : '3-Boeken Bundeldeal',
+        badge: isEnglish ? 'POPULAR 🌟' : 'POPULAIR 🌟',
+        savings: isEnglish ? '3-Book Bundle active (€1.50 per book)!' : '3-Boeken bundelkorting actief (€ 1,50 per boek)!',
+        unitPrice: '€ 1,50 / book',
+        nextTierHint:
+          count === 2
+            ? (isEnglish ? '💡 Tip: You can add 1 more book for FREE in this price tier!' : '💡 Tip: Je kunt nog 1 boek GRATIS toevoegen in deze prijsklasse!')
+            : (isEnglish ? '💡 Add 1 more book to reach the 5-Book Mega Bundle for €6.49!' : '💡 Voeg nog 1 boek toe voor de 5-Boeken Mega Bundel van € 6,49!'),
+      };
+    } else if (count <= 5) {
+      return {
+        tierId: 'pack5',
+        priceDisplay: '€ 6,49',
+        price: '6.49',
+        tierName: isEnglish ? '5-Book Mega Bundle' : '5-Boeken Mega Bundel',
+        badge: isEnglish ? 'BEST DEAL 🔥' : 'BESTE DEAL 🔥',
+        savings: isEnglish ? '5-Book Mega Bundle active (€1.30 per book)!' : '5-Boeken Mega Bundel actief (€ 1,30 per boek)!',
+        unitPrice: '€ 1,30 / book',
+        nextTierHint:
+          count === 4
+            ? (isEnglish ? '💡 Tip: You can add 1 more book for FREE in this price tier!' : '💡 Tip: Je kunt nog 1 boek GRATIS toevoegen in deze prijsklasse!')
+            : (isEnglish ? '💡 Add more books to reach the 10-Book Collection Pack for €11.99!' : '💡 Voeg meer boeken toe voor de 10-Boeken Collectie Pack van € 11,99!'),
+      };
+    } else {
+      return {
+        tierId: 'pack10',
+        priceDisplay: '€ 11,99',
+        price: '11.99',
+        tierName: isEnglish ? '10-Book Collection Pack' : '10-Boeken Collectie Pack',
+        badge: isEnglish ? 'MAX SAVINGS 👑' : 'MAX KORTING 👑',
+        savings: isEnglish ? '10-Book Collection Pack active (€1.20 per book)!' : '10-Boeken Collectie Pack actief (€ 1,20 per boek)!',
+        unitPrice: '€ 1,20 / book',
+        nextTierHint: null,
+      };
+    }
+  };
+
+  const bundleInfo = getBundleInfo(totalSelected, isEn);
+  const defaultTierId = bundleInfo.tierId;
 
   const handleDownloadCustomBooklet = async () => {
     if (downloading || selectedPages.length === 0) return;
@@ -182,26 +238,53 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
         {/* Footer Actions */}
         {totalSelected > 0 && (
           <div className={styles.footer}>
-            <button
-              type="button"className={styles.clearBtn}
-              onClick={clearSelection}
-              disabled={downloading}
-            >
-              {isEn ?'Clear All':'Alles Wissen'}
-            </button>
-            <button
-              type="button"
-              className={styles.downloadBtn}
-              onClick={() => setShowPayPalCheckout(true)}
-              disabled={downloading}
-            >
-              <span>🛒</span>
-              <span>
-                {downloading
-                  ? (isEn ? `Generating (${progress}/${totalSelected})...` : `Genereren (${progress}/${totalSelected})...`)
-                  : (isEn ? `Checkout & Download Bundle (${totalSelected} Pages)` : `Afrekenen & Downloaden (${totalSelected} Platen)`)}
-              </span>
-            </button>
+            <div className={styles.bundleSummaryCard}>
+              <div className={styles.summaryTopRow}>
+                <div>
+                  <span className={styles.summaryBadge}>{bundleInfo.badge}</span>
+                  <div className={styles.summaryTierName}>{bundleInfo.tierName}</div>
+                </div>
+                <div className={styles.summaryPriceBox}>
+                  <div className={styles.summaryTotalPrice}>{bundleInfo.priceDisplay}</div>
+                  <div className={styles.summaryUnitPrice}>{bundleInfo.unitPrice}</div>
+                </div>
+              </div>
+              {bundleInfo.savings && (
+                <div className={styles.summarySavings}>
+                  <span>✨</span>
+                  <span>{bundleInfo.savings}</span>
+                </div>
+              )}
+              {bundleInfo.nextTierHint && (
+                <div className={styles.summaryHint}>
+                  {bundleInfo.nextTierHint}
+                </div>
+              )}
+            </div>
+
+            <div className={styles.footerActions}>
+              <button
+                type="button"
+                className={styles.clearBtn}
+                onClick={clearSelection}
+                disabled={downloading}
+              >
+                {isEn ? 'Clear All' : 'Alles Wissen'}
+              </button>
+              <button
+                type="button"
+                className={styles.downloadBtn}
+                onClick={() => setShowPayPalCheckout(true)}
+                disabled={downloading}
+              >
+                <span>🛒</span>
+                <span>
+                  {downloading
+                    ? (isEn ? `Generating (${progress}/${totalSelected})...` : `Genereren (${progress}/${totalSelected})...`)
+                    : (isEn ? `Checkout (${bundleInfo.priceDisplay})` : `Afrekenen (${bundleInfo.priceDisplay})`)}
+                </span>
+              </button>
+            </div>
           </div>
         )}
       </div>

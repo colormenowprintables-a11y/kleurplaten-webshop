@@ -82,6 +82,12 @@ export default function PayPalCheckoutModal({
   const [paid, setPaid] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
+  React.useEffect(() => {
+    if (isOpen) {
+      setSelectedTierId(defaultTierId);
+    }
+  }, [isOpen, defaultTierId]);
+
   if (!isOpen) return null;
 
   const currentTier = BUNDLE_TIERS.find((t) => t.id === selectedTierId) || BUNDLE_TIERS[0];
