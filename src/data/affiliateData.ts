@@ -50,7 +50,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4e77qxQ',
     urlNl: 'https://amzn.to/4gjYFSq',
     icon: '📄',
-    imageUrl: 'https://m.media-amazon.com/images/I/61y8B3t6xUL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/xerox-paper-160g.jpg',
   },
   {
     id: 'ohuhu-honolulu-markers',
@@ -76,7 +76,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4fLte3m',
     urlNl: 'https://amzn.to/3SGs7rV',
     icon: '🎨',
-    imageUrl: 'https://m.media-amazon.com/images/I/81xU9dJ5bBL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/ohuhu-honolulu-markers.jpg',
   },
   {
     id: 'faber-castell-polychromos',
@@ -102,7 +102,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/3Qh106a',
     urlNl: 'https://amzn.to/3SGs1k3',
     icon: '✏️',
-    imageUrl: 'https://m.media-amazon.com/images/I/81q7oYgX6BL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/faber-castell-polychromos.jpg',
   },
   {
     id: 'crayola-supertips-50',
@@ -128,7 +128,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4e9mjzK',
     urlNl: 'https://amzn.to/447riLc',
     icon: '🌈',
-    imageUrl: 'https://m.media-amazon.com/images/I/81Yd8e5A3mL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/crayola-supertips-50.jpg',
   },
   {
     id: 'faber-castell-castle-60',
@@ -154,7 +154,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4a1D4ud',
     urlNl: 'https://amzn.to/4glizMN',
     icon: '⭐',
-    imageUrl: 'https://m.media-amazon.com/images/I/81M7rJzU-uL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/faber-castell-castle-60.jpg',
   },
   {
     id: 'guangna-acrylic-markers',
@@ -180,7 +180,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/43K3FbE',
     urlNl: 'https://amzn.to/4oJ0wCH',
     icon: '🖌️',
-    imageUrl: 'https://m.media-amazon.com/images/I/71wE7x744FL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/guangna-acrylic-markers.jpg',
   },
   {
     id: 'tempera-paint-sticks-30',
@@ -206,7 +206,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4xHhd5A',
     urlNl: 'https://amzn.to/3QP5jFV',
     icon: '🖍️',
-    imageUrl: 'https://m.media-amazon.com/images/I/81N0F-2-7FL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/tempera-paint-sticks-30.jpg',
   },
   {
     id: 'kinspory-art-set-150',
@@ -232,7 +232,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/44fWsjB',
     urlNl: 'https://amzn.to/4vl3nEh',
     icon: '🎁',
-    imageUrl: 'https://m.media-amazon.com/images/I/81H+YpQ2n4L._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/kinspory-art-set-150.jpg',
   },
   {
     id: 'splat-dino-tshirt-kit',
@@ -258,7 +258,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4uOdS1R',
     urlNl: 'https://amzn.to/4gqGwCq',
     icon: '👕',
-    imageUrl: 'https://m.media-amazon.com/images/I/71L5T+V7nIL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/splat-dino-tshirt-kit.jpg',
   },
   {
     id: 'eatsleepdoodle-butterfly-bag',
@@ -284,7 +284,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/4xC090G',
     urlNl: 'https://amzn.to/3S7lZsK',
     icon: '👜',
-    imageUrl: 'https://m.media-amazon.com/images/I/71u9sW4jYtL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/eatsleepdoodle-butterfly-bag.jpg',
   },
   {
     id: 'eatsleepdoodle-pillowcase',
@@ -310,7 +310,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/3Qxg3Zx',
     urlNl: 'https://amzn.to/4xCTOBU',
     icon: '🛏️',
-    imageUrl: 'https://m.media-amazon.com/images/I/81XmJz5W4qL._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/eatsleepdoodle-pillowcase.jpg',
   },
   {
     id: 'diy-color-blanket',
@@ -324,7 +324,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
       en: 'Cozy fleece blanket with printed outlines to color using included fabric markers.',
       nl: 'Heerlijk zachte fleece deken met kleurplaat-opdruk en textielstiften.',
       de: 'Kuschelige Fleece-Decke mit ausmalbaren Konturen und Textilstiften.',
-      fr: 'Plaid polaire doux avec motifs à colorier et feutres textiles inclus.',
+      fr: 'Plaid polaire doux met motifs à colorier et feutres textiles inclus.',
     },
     category: 'crafts',
     badge: {
@@ -336,7 +336,7 @@ export const AFFILIATE_PRODUCTS: AffiliateProduct[] = [
     urlEn: 'https://amzn.to/49YQjM8',
     urlNl: 'https://amzn.to/4vcv0zj',
     icon: '🛋️',
-    imageUrl: 'https://m.media-amazon.com/images/I/81O3lR6kO8L._AC_SL1500_.jpg',
+    imageUrl: '/affiliates/diy-color-blanket.jpg',
   },
 ];
 
