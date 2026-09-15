@@ -9,7 +9,7 @@ interface BookSneakPeekPreviewProps {
   title: string;
   samplePages: { title: string; image: string }[];
   isEn?: boolean;
-  mode?: 'stack' | 'button';
+  mode?: 'stack' | 'button' | 'inline-grid';
   buttonText?: string;
   buttonStyle?: React.CSSProperties;
 }
@@ -32,7 +32,64 @@ export default function BookSneakPeekPreview({
 
   return (
     <>
-      {mode === 'button' ? (
+      {mode === 'inline-grid' ? (
+        <div className={styles.inlineGridContainer}>
+          <div className={styles.inlineHeader}>
+            <div className={styles.inlineHeaderLeft}>
+              <span className={styles.inlineHeaderIcon}>📖</span>
+              <div>
+                <h3 className={styles.inlineTitle}>
+                  {isEn ? 'Inside this Coloring Book (Sample Pages)' : 'Binnenin dit Kleurboek (Voorbeelden)'}
+                </h3>
+                <p className={styles.inlineSubtitle}>
+                  {isEn ? 'Click any sample page to inspect the high-resolution line art' : 'Klik op een voorbeeldplaat om het haarscherpe binnenwerk groot te bekijken'}
+                </p>
+              </div>
+            </div>
+            <button
+              type="button"
+              className={styles.inlineExpandBtn}
+              onClick={() => setModalOpen(true)}
+            >
+              <span>🔍</span>
+              <span>{isEn ? 'View All Samples' : 'Bekijk Alle Pagina\'s'}</span>
+            </button>
+          </div>
+
+          <div className={styles.inlineThumbnailsRow}>
+            {samplePages.slice(0, 4).map((p, idx) => (
+              <div
+                key={idx}
+                className={styles.inlineThumbCard}
+                onClick={() => setModalOpen(true)}
+                role="button"
+                tabIndex={0}
+                title={isEn ? `Preview ${p.title}` : `Bekijk ${p.title}`}
+              >
+                <div className={styles.inlineThumbImgWrapper}>
+                  <SafeImage
+                    src={p.image}
+                    alt={p.title}
+                    width={180}
+                    height={240}
+                    className={styles.inlineThumbImg}
+                    onContextMenu={(e) => e.preventDefault()}
+                  />
+                  <div className={styles.inlineThumbWatermark}>
+                    <span>SAMPLE</span>
+                  </div>
+                  <div className={styles.inlineThumbHoverOverlay}>
+                    <span>🔍</span>
+                  </div>
+                </div>
+                <div className={styles.inlineThumbLabel}>
+                  {isEn ? `Sample ${idx + 1}` : `Kleurplaat ${idx + 1}`}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : mode === 'button' ? (
         <button
           type="button"
           className={styles.previewTriggerBtn}

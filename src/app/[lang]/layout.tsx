@@ -129,7 +129,7 @@ export default async function RootLayout({
         </a>
         <script
           type="application/ld+json"dangerouslySetInnerHTML={{ __html: safeJsonLd({"@context":"https://schema.org","@graph": [
-              {"@type":"WebSite","@id":"https://colormenow.shop/#website","url":"https://colormenow.shop","name":"ColorMeNow.shop","description":"Printable coloring pages and book packs","inLanguage": ["en","nl"],"potentialAction": [{"@type":"SearchAction","target": {"@type":"EntryPoint","urlTemplate":`https://colormenow.shop/${lang}/search?q={search_term_string}`},"query-input":"required name=search_term_string"}]
+              {"@type":"WebSite","@id":"https://colormenow.shop/#website","url":"https://colormenow.shop","name":"ColorMeNow.shop","description":"Printable coloring pages and book packs","inLanguage": ["en", "nl", "de", "fr"],"potentialAction": [{"@type":"SearchAction","target": {"@type":"EntryPoint","urlTemplate":`https://colormenow.shop/${lang}/search?q={search_term_string}`},"query-input":"required name=search_term_string"}]
               },
               {"@type":"Organization","@id":"https://colormenow.shop/#organization","name":"ColorMeNow.shop","url":"https://colormenow.shop","logo": {"@type":"ImageObject","url":"https://colormenow.shop/images/banner.jpg","width": 1200,"height": 630
                 }

@@ -36,10 +36,25 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   if (!page) return {};
   
   const ogImageUrl = `/api/og?title=${encodeURIComponent(page.title)}&image=${encodeURIComponent(page.image)}`;
-  
+
+  const rawTitle = page.metaTitle || page.title;
+  const cleanTitle = rawTitle
+    .replace(/\s*\|\s*Color\s*Me\s*Now\s*/gi, ' ')
+    .replace(/\s*\|\s*ColorMeNow\.shop\s*/gi, ' ')
+    .trim();
+  const pageTitle = `${cleanTitle} | ColorMeNow.shop`;
+
+  const descMap: Record<string, string> = {
+    nl: `Download & print direct het complete ${cleanTitle} kleurboek (${page.fileSize || '50+ Pagina\'s'}). Haarscherpe 300 DPI PDF vectorlijnen voor urenlang creatief kleurplezier!`,
+    en: `Download and print the complete ${cleanTitle} coloring book (${page.fileSize || '50+ Pages'}). Crisp 300 DPI vector lines in high-resolution PDF for hours of creative fun!`,
+    de: `Sofort herunterladen und drucken: Das komplette ${cleanTitle} Malbuch (${page.fileSize || '50+ Seiten'}) als hochauflösende 300 DPI PDF!`,
+    fr: `Téléchargez et imprimez le livre de coloriage complet ${cleanTitle} (${page.fileSize || '50+ Pages'}) en PDF haute résolution 300 DPI !`,
+  };
+  const pageDesc = descMap[lang] || descMap['en'];
+
   return {
-    title: page.metaTitle || page.title,
-    description: page.metaDescription || page.shortDescription,
+    title: pageTitle,
+    description: pageDesc,
     alternates: {
       canonical: `/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`,
       languages: {
@@ -51,21 +66,21 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       },
     },
     openGraph: {
-      title: page.metaTitle || page.title,
-      description: page.metaDescription || page.shortDescription,
+      title: pageTitle,
+      description: pageDesc,
       images: [
         {
           url: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: page.title,
+          alt: `${cleanTitle} Coloring Book`,
         }
       ]
     },
     twitter: {
       card: 'summary_large_image',
-      title: page.metaTitle || page.title,
-      description: page.metaDescription || page.shortDescription,
+      title: pageTitle,
+      description: pageDesc,
       images: [ogImageUrl]
     }
   };
@@ -83,6 +98,15 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
   if (!hub || !theme || !agePage) return notFound();
 
   const isEn = lang !== 'nl';
+
+  const ageLabels: Record<string, Record<string, string>> = {
+    'all-ages': { nl: 'Alle Leeftijden', en: 'All Ages', de: 'Alle Altersgruppen', fr: 'Tous les âges' },
+    'toddlers': { nl: 'Peuters & Kleuters (2-4 jr)', en: 'Toddlers (Ages 2-4)', de: 'Kleinkinder (2-4 J.)', fr: 'Tout-petits (2-4 ans)' },
+    'kids': { nl: 'Kinderen (5-12 jr)', en: 'Kids (Ages 5-12)', de: 'Kinder (5-12 J.)', fr: 'Enfants (5-12 ans)' },
+    'teens': { nl: 'Tieners & Volwassenen', en: 'Teens & Adults', de: 'Teenager & Erwachsene', fr: 'Ados & Adultes' },
+    'adults': { nl: 'Volwassenen & Zen', en: 'Adults & Art Therapy', de: 'Erwachsene & Zen', fr: 'Adultes & Zen' },
+  };
+  const formattedAge = ageLabels[ageSlug]?.[lang] || ageLabels[ageSlug]?.['en'] || ageSlug.replace(/-/g, ' ');
 
   // Related pages: get all pages from the same theme (excluding current page)
   const allThemePages = getColoringPagesForTheme(lang, mainHubSlug, themeSlug).filter(
@@ -173,6 +197,15 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             title={page.metaTitle || page.title}
             slug={page.slug}
             url={`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`}
+            isEn={isEn}
+          />
+
+          {/* Direct Interior Preview Strip — Real Coloring Pages visible immediately without modal */}
+          <BookSneakPeekPreview
+            mode="inline-grid"
+            coverImage={theme.image || page.image}
+            title={theme.title}
+            samplePages={displayPages.slice(0, 4).map(p => ({ title: p.title, image: p.image }))}
             isEn={isEn}
           />
 
@@ -292,7 +325,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             <div style={{ display:'flex', alignItems:'center', gap:'0.85rem', padding:'0.85rem 1rem', background:'var(--surface)', borderRadius:'var(--radius-lg)', border:'1px solid var(--gray-200)'}}>
               <div>
                 <p style={{ fontSize:'0.7rem', fontWeight: 800, color:'var(--gray-400)', textTransform:'uppercase', letterSpacing:'0.06em'}}>{isEn ?'Age Group':'Leeftijdsgroep'}</p>
-                <p style={{ fontSize:'0.925rem', fontWeight: 800, color:'var(--foreground)', textTransform:'capitalize'}}>{ageSlug}</p>
+                <p style={{ fontSize:'0.925rem', fontWeight: 800, color:'var(--foreground)'}}>{formattedAge}</p>
               </div>
             </div>
             <div style={{ display:'flex', alignItems:'center', gap:'0.85rem', padding:'0.85rem 1rem', background:'var(--surface)', borderRadius:'var(--radius-lg)', border:'1px solid var(--gray-200)'}}>
@@ -311,7 +344,7 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             <div style={{ display:'flex', flexWrap:'wrap', gap:'0.35rem'}}>
               <Link href={`/${lang}/${hub.slug}`} className="tag-chip">#{hub.title.replace(/\s+/g,'')}</Link>
               <Link href={`/${lang}/${hub.slug}/${theme.slug}`} className="tag-chip">#{theme.title.replace(/\s+/g,'')}</Link>
-              <Link href={`/${lang}/${hub.slug}/${theme.slug}/${ageSlug}`} className="tag-chip">#{ageSlug}</Link>
+              <Link href={`/${lang}/${hub.slug}/${theme.slug}/${ageSlug}`} className="tag-chip">#{formattedAge.replace(/[^a-zA-Z0-9]/g,'')}</Link>
               <Link href={`/${lang}/search?q=${encodeURIComponent(theme.title)}`} className="tag-chip">#{isEn ?'FreeColoringSheet':'GratisKleurplaat'}</Link>
               <Link href={`/${lang}/search?q=${encodeURIComponent('PDF')}`} className="tag-chip">#PDF</Link>
             </div>

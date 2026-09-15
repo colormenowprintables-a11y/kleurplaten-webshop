@@ -125,9 +125,12 @@ export default function CategoryExplorerTabs({
                 {/* Subject Title Only (No Disney Pixar tag) */}
                 <h3 className={styles.cardTitle}>{theme.title}</h3>
                 
-                <div style={{ display:'flex', alignItems:'center', gap:'0.45rem', marginBottom:'0.75rem'}}>
+                <div style={{ display:'flex', alignItems:'center', gap:'0.45rem', marginBottom:'0.75rem', flexWrap:'wrap'}}>
                   <span style={{ fontSize:'0.75rem', fontWeight: 800, color:'var(--color-primary)', background:'var(--primary-light)', padding:'0.15rem 0.6rem', borderRadius:'9999px'}}>
                     {theme.pageCount || 10} {lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : isEn ? 'Books' : 'Boeken'}
+                  </span>
+                  <span style={{ fontSize:'0.75rem', fontWeight: 900, color:'#166534', background:'#DCFCE7', border:'1px solid #86EFAC', padding:'0.15rem 0.55rem', borderRadius:'9999px'}}>
+                    {isEn ? '$1.99' : '€ 1,99'}
                   </span>
                   <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
                     PDF Book
@@ -138,8 +141,8 @@ export default function CategoryExplorerTabs({
                   <span className={styles.cardLinkText}>
                     {isEn ? 'Explore Book →' : 'Bekijk Kleurboek →'}
                   </span>
-                  <span className={styles.freeBadge}>
-                    PDF / PNG
+                  <span style={{ fontSize:'0.75rem', fontWeight: 800, color:'#166534'}}>
+                    {isEn ? '$1.99 • PDF' : '€ 1,99 • PDF'}
                   </span>
                 </div>
               </div>

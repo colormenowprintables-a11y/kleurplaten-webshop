@@ -61,23 +61,5 @@
     "pageCount": 500,
     "themeCount": 6,
     "language": "en"
-  },
-  {
-    "title": "Dieren & Natuur",
-    "slug": "dieren-en-natuur",
-    "description": "Dieren en natuur kleurplaten.",
-    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
-    "pageCount": 200,
-    "themeCount": 2,
-    "language": "en"
-  },
-  {
-    "title": "Feestdagen & Seizoenen",
-    "slug": "feestdagen-en-seizoenen",
-    "description": "Feestdagen en seizoenen kleurplaten.",
-    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80",
-    "pageCount": 200,
-    "themeCount": 2,
-    "language": "en"
   }
 ]

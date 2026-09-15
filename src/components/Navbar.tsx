@@ -59,53 +59,143 @@ export default function Navbar({ lang }: { lang: string }) {
     return `/${segments.join('/')}`;
   };
 
+  const navTranslations = {
+    en: {
+      categories: 'Categories',
+      popular: 'Popular',
+      search: 'Search',
+      freebies: 'Freebies',
+      recommended: 'Recommended Tools',
+      freeSamples: 'Free Samples',
+      school: 'School & Math',
+      amazon: 'Amazon Paperbacks',
+      blog: 'Blog & Tips',
+      about: 'About',
+      aboutUs: 'About Us',
+      contact: 'Contact',
+      contest: 'Contest',
+      request: 'Request a Page',
+      licensing: 'Licensing',
+      privacy: 'Privacy & Terms',
+      printBasket: 'Print Basket',
+      openBasket: 'Open print basket',
+      openBasketBtn: 'Open Print Basket',
+    },
+    nl: {
+      categories: 'Categorieën',
+      popular: 'Populair',
+      search: 'Zoeken',
+      freebies: 'Freebies',
+      recommended: 'Aanbevolen Spullen',
+      freeSamples: 'Gratis Kleurplaten',
+      school: 'School & Rekenen',
+      amazon: 'Amazon Boeken',
+      blog: 'Tips & Blog',
+      about: 'Over',
+      aboutUs: 'Over Ons',
+      contact: 'Contact',
+      contest: 'Wedstrijd',
+      request: 'Pagina Aanvragen',
+      licensing: 'Licentie',
+      privacy: 'Privacy & Voorwaarden',
+      printBasket: 'Printmandje',
+      openBasket: 'Open printmandje',
+      openBasketBtn: 'Printmandje Openen',
+    },
+    de: {
+      categories: 'Kategorien',
+      popular: 'Beliebt',
+      search: 'Suchen',
+      freebies: 'Freebies',
+      recommended: 'Empfohlene Tools',
+      freeSamples: 'Kostenlose Malvorlagen',
+      school: 'Schule & Mathe',
+      amazon: 'Amazon Bücher',
+      blog: 'Mal-Tipps & Blog',
+      about: 'Über uns',
+      aboutUs: 'Über uns',
+      contact: 'Kontakt',
+      contest: 'Malwettbewerb',
+      request: 'Vorlage anfragen',
+      licensing: 'Lizenzierung',
+      privacy: 'Datenschutz & AGB',
+      printBasket: 'Druckkorb',
+      openBasket: 'Druckkorb öffnen',
+      openBasketBtn: 'Druckkorb Öffnen',
+    },
+    fr: {
+      categories: 'Catégories',
+      popular: 'Populaire',
+      search: 'Rechercher',
+      freebies: 'Freebies',
+      recommended: 'Outils Recommandés',
+      freeSamples: 'Coloriages Gratuits',
+      school: 'École & Maths',
+      amazon: 'Livres Amazon',
+      blog: 'Conseils & Blog',
+      about: 'À propos',
+      aboutUs: 'À propos',
+      contact: 'Contact',
+      contest: 'Concours',
+      request: 'Demander un coloriage',
+      licensing: 'Licence',
+      privacy: 'Confidentialité & CGU',
+      printBasket: 'Panier',
+      openBasket: 'Ouvrir le panier',
+      openBasketBtn: 'Ouvrir le Panier',
+    },
+  };
+
+  const currentLang = (['en', 'nl', 'de', 'fr'].includes(lang) ? lang : 'en') as keyof typeof navTranslations;
+  const t = navTranslations[currentLang];
+
   const navItems: NavItem[] = [
     {
-      label: isEn ?'Categories':'Categorieën',
+      label: t.categories,
       children: [
-        { label:'Monster Trucks Collection', href:`/${lang}/kids-adventures/monster-trucks`},
-        { label:'Whimsical Animals', href:`/${lang}/cute-animals-fantasy/cute-animals`},
-        { label:'Space Adventures', href:`/${lang}/kids-adventures`},
-        { label:'Adorable Houses', href:`/${lang}/cozy-life-cottagecore/cozy-cottages`},
-        { label:'Home Sweet Home', href:`/${lang}/cozy-life-cottagecore/cozy-cottages`},
-        { label:'Tiny World', href:`/${lang}/botanical-floral-art/botanical-gardens`},
-        { label:'Skull Realms', href:`/${lang}/gothic-spooky-cute/gothic-skulls`},
-        { label:'Tiny Food Friends', href:`/${lang}/cozy-life-cottagecore`},
-        { label:'Cuddly Cottage Collection', href:`/${lang}/cozy-life-cottagecore/cozy-cottages`},
-        { label:'Inked Realms', href:`/${lang}/mindful-mandalas-patterns/mandalas`},
-        { label:'Adorable Fantasy Creatures', href:`/${lang}/cute-animals-fantasy/fantasy-creatures`},
-        { label:'Food & Snacks', href:`/${lang}/cozy-life-cottagecore`},
+        { label: 'Monster Trucks Collection', href: `/${lang}/kids-adventures/monster-trucks` },
+        { label: 'Whimsical Animals', href: `/${lang}/cute-animals-fantasy/cute-animals` },
+        { label: 'Space Adventures', href: `/${lang}/kids-adventures` },
+        { label: 'Adorable Houses', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+        { label: 'Home Sweet Home', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+        { label: 'Tiny World', href: `/${lang}/botanical-floral-art/botanical-gardens` },
+        { label: 'Skull Realms', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
+        { label: 'Tiny Food Friends', href: `/${lang}/cozy-life-cottagecore` },
+        { label: 'Cuddly Cottage Collection', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+        { label: 'Inked Realms', href: `/${lang}/mindful-mandalas-patterns/mandalas` },
+        { label: 'Adorable Fantasy Creatures', href: `/${lang}/cute-animals-fantasy/fantasy-creatures` },
+        { label: 'Food & Snacks', href: `/${lang}/cozy-life-cottagecore` },
       ],
     },
     {
-      label: isEn ?'Popular':'Populair',
+      label: t.popular,
       children: [
-        { label:'Monster Trucks', href:`/${lang}/kids-adventures/monster-trucks`},
-        { label:'Whimsical Animals', href:`/${lang}/cute-animals-fantasy/cute-animals`},
-        { label:'Space Adventures', href:`/${lang}/kids-adventures`},
-        { label:'Cuddly Cottages', href:`/${lang}/cozy-life-cottagecore/cozy-cottages`},
-        { label:'Tiny Food Friends', href:`/${lang}/cozy-life-cottagecore`},
-        { label:'Skull & Gothic Realms', href:`/${lang}/gothic-spooky-cute/gothic-skulls`},
-        { label:'Mindful Mandalas', href:`/${lang}/mindful-mandalas-patterns/mandalas`},
-        { label:'Botanical Art', href:`/${lang}/botanical-floral-art/botanical-gardens`},
+        { label: 'Monster Trucks', href: `/${lang}/kids-adventures/monster-trucks` },
+        { label: 'Whimsical Animals', href: `/${lang}/cute-animals-fantasy/cute-animals` },
+        { label: 'Space Adventures', href: `/${lang}/kids-adventures` },
+        { label: 'Cuddly Cottages', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+        { label: 'Tiny Food Friends', href: `/${lang}/cozy-life-cottagecore` },
+        { label: 'Skull & Gothic Realms', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
+        { label: 'Mindful Mandalas', href: `/${lang}/mindful-mandalas-patterns/mandalas` },
+        { label: 'Botanical Art', href: `/${lang}/botanical-floral-art/botanical-gardens` },
       ],
     },
-    { label: isEn ? 'Search' : 'Zoeken', icon: '🔍', href: `/${lang}/search` },
-    { label: isEn ? 'Freebies' : 'Freebies', icon: '🎁', href: `/${lang}/freebies` },
-    { label: isEn ? 'Recommended Tools' : 'Aanbevolen Spullen', icon: '🛒', href: `/${lang}/recommendations` },
-    { label: isEn ? 'Free Samples' : 'Gratis Kleurplaten', icon: '🖼️', href: `/${lang}/free` },
-    { label: isEn ? 'School & Math' : 'School & Rekenen', icon: '🎓', href: `/${lang}/school` },
-    { label: isEn ? 'Amazon Paperbacks' : 'Amazon Boeken', icon: '📦', href: `/${lang}/kdp` },
-    { label: isEn ? 'Blog & Tips' : 'Tips & Blog', icon: '💡', href: `/${lang}/blog` },
+    { label: t.search, icon: '🔍', href: `/${lang}/search` },
+    { label: t.freebies, icon: '🎁', href: `/${lang}/freebies` },
+    { label: t.recommended, icon: '🛒', href: `/${lang}/recommendations` },
+    { label: t.freeSamples, icon: '🖼️', href: `/${lang}/free` },
+    { label: t.school, icon: '🎓', href: `/${lang}/school` },
+    { label: t.amazon, icon: '📦', href: `/${lang}/kdp` },
+    { label: t.blog, icon: '💡', href: `/${lang}/blog` },
     {
-      label: isEn ?'About':'Over',
+      label: t.about,
       children: [
-        { label: isEn ?'About Us':'Over Ons', href:`/${lang}/about`},
-        { label:'Contact', href:`/${lang}/contact`},
-        { label: isEn ?'Contest':'Wedstrijd', href:`/${lang}/contest`},
-        { label: isEn ?'Request a Page':'Pagina Aanvragen', href:`/${lang}/request`},
-        { label: isEn ?'Licensing':'Licentie', href:`/${lang}/licensing`},
-        { label: isEn ?'Privacy & Terms':'Privacy & Voorwaarden', href:`/${lang}/privacy-policy`},
+        { label: t.aboutUs, href: `/${lang}/about` },
+        { label: t.contact, href: `/${lang}/contact` },
+        { label: t.contest, href: `/${lang}/contest` },
+        { label: t.request, href: `/${lang}/request` },
+        { label: t.licensing, href: `/${lang}/licensing` },
+        { label: t.privacy, href: `/${lang}/privacy-policy` },
       ],
     },
   ];
@@ -206,11 +296,11 @@ export default function Navbar({ lang }: { lang: string }) {
           <button
             type="button"
             onClick={() => setDrawerOpen(true)}
-            aria-label={isEn ? 'Open print basket' : 'Open printmandje'}
+            aria-label={t.openBasket}
             className={`${styles.bundleBtn} ${totalSelected > 0 ? styles.bundleBtnActive : ''}`}
           >
             <span className={styles.basketIconEmoji} aria-hidden="true">🧺</span>
-            <span className={styles.bundleBtnText}>{isEn ? 'Print Basket' : 'Printmandje'}</span>
+            <span className={styles.bundleBtnText}>{t.printBasket}</span>
             <span className={`${styles.bundleBadge} ${totalSelected > 0 ? styles.bundleBadgeActive : ''}`}>
               {totalSelected}
             </span>
@@ -322,7 +412,7 @@ export default function Navbar({ lang }: { lang: string }) {
               }}
             >
               <span>🧺</span>
-              <span>{isEn ? 'Open Print Basket' : 'Printmandje Openen'}</span>
+              <span>{t.openBasketBtn}</span>
               <span style={{ background: '#FF3B30', color: '#FFF', borderRadius: '9999px', padding: '0.1rem 0.5rem', fontSize: '0.75rem', fontWeight: 900 }}>
                 {totalSelected}
               </span>

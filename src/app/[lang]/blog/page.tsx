@@ -14,6 +14,16 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: isEn ? 'Parenting & Teaching Guides, Tips & Coloring Blog' : 'Kleurplaten Tips, Opvoeding & Onderwijs Blog',
     description: isEn
       ?'Explore expert guides on child motor skills development, mindfulness coloring for adults, and creative classroom ideas.':'Ontdek handige tips voor fijne motoriek bij peuters, mindfulness kleurplaten voor volwassenen en creatieve lesideën voor de basisschool.',
+    alternates: {
+      canonical: `/${lang}/blog`,
+      languages: {
+        en: '/en/blog',
+        nl: '/nl/blog',
+        de: '/de/blog',
+        fr: '/fr/blog',
+        'x-default': '/en/blog',
+      },
+    },
   };
 }
 

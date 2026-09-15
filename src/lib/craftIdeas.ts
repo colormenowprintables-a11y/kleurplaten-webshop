@@ -8458,9 +8458,18 @@ export function getCraftIdeas(
 ): CraftIdea[] {
   const effectiveLang = ['nl', 'en', 'de', 'fr'].includes(lang) ? lang : 'nl';
   
-  // Select matching category pool or default to animals/kidsTv/art
-  const poolKey = parentHub && HUB_TEMPLATES[parentHub] ? parentHub : 'animals-wildlife';
-  const templates = HUB_TEMPLATES[poolKey] || HUB_TEMPLATES['animals-wildlife'];
+  const HUB_ALIASES: Record<string, string> = {
+    'kids-adventures': 'vehicles-transportation',
+    'cozy-life-cottagecore': 'art-aesthetic',
+    'mindful-mandalas-patterns': 'art-aesthetic',
+    'botanical-floral-art': 'art-aesthetic',
+    'gothic-spooky-cute': 'fantasy-fairytales',
+    'cute-animals-fantasy': 'fantasy-fairytales',
+    'special-deals-promo-packs': 'art-aesthetic',
+  };
+  const resolvedHub = parentHub ? (HUB_ALIASES[parentHub] || parentHub) : 'art-aesthetic';
+  const poolKey = HUB_TEMPLATES[resolvedHub] ? resolvedHub : 'art-aesthetic';
+  const templates = HUB_TEMPLATES[poolKey] || HUB_TEMPLATES['art-aesthetic'];
 
   return templates.map((tpl, idx) => {
     const rawTitle = tpl.titles[effectiveLang] || tpl.titles['en'] || tpl.titles['nl'] || '';

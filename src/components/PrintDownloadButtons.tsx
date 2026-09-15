@@ -251,10 +251,26 @@ export default function PrintDownloadButtons({
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', fontSize: '0.78rem', fontWeight: 800, color: '#334155' }}>
-            <span>⚡ Instant Hoge-Resolutie PDF Download</span>
+            <span>
+              {lang === 'de'
+                ? '⚡ Sofortiger Download als hochauflösende PDF'
+                : lang === 'fr'
+                ? '⚡ Téléchargement immédiat en PDF haute résolution'
+                : isEn
+                ? '⚡ Instant High-Resolution PDF Download'
+                : '⚡ Direct Hoge-Resolutie PDF Download'}
+            </span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', fontSize: '0.74rem', fontWeight: 700, color: '#64748B' }}>
-            <span>🛡️ Veilig Betalen via iDEAL, PayPal & Creditcard</span>
+            <span>
+              {lang === 'de'
+                ? '🛡️ Sichere Zahlung per PayPal, iDEAL & Kreditkarte'
+                : lang === 'fr'
+                ? '🛡️ Paiement sécurisé par PayPal, iDEAL et Carte'
+                : isEn
+                ? '🛡️ Secure Payment via PayPal, iDEAL & Credit Card'
+                : '🛡️ Veilig Betalen via iDEAL, PayPal & Creditcard'}
+            </span>
           </div>
         </div>
       </div>

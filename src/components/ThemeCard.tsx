@@ -155,9 +155,12 @@ export default function ThemeCard({
           {title}
         </h3>
 
-        <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.75rem'}}>
+        <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.75rem', flexWrap:'wrap'}}>
           <span style={{ fontSize:'0.78rem', fontWeight: 800, color:'var(--color-primary)', background:'var(--primary-light)', padding:'0.2rem 0.65rem', borderRadius:'9999px'}}>
             {pageCount ? `${pageCount} ${lang === 'de' ? 'Bücher' : lang === 'fr' ? 'Livres' : isEn ? 'Books' : 'Boeken'}` : (isEn ? 'Book Collection' : 'Boekencollectie')}
+          </span>
+          <span style={{ fontSize:'0.78rem', fontWeight: 900, color:'#166534', background:'#DCFCE7', border:'1px solid #86EFAC', padding:'0.2rem 0.65rem', borderRadius:'9999px'}}>
+            {isEn ? '$1.99' : '€ 1,99'}
           </span>
           <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
             PDF Book
@@ -172,8 +175,8 @@ export default function ThemeCard({
           <span style={{ fontSize:'0.85rem', fontWeight: 800, color:'var(--color-primary)'}}>
             {isEn ? 'Explore Book →' : 'Bekijk Kleurboek →'}
           </span>
-          <span style={{ fontSize:'0.75rem', fontWeight: 700, color:'var(--gray-500)'}}>
-            A4 • PDF / PNG
+          <span style={{ fontSize:'0.78rem', fontWeight: 800, color:'#166534'}}>
+            {isEn ? '$1.99 • Direct PDF' : '€ 1,99 • Direct PDF'}
           </span>
         </div>
       </div>

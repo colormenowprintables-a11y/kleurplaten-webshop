@@ -24,14 +24,14 @@ export default function Footer({ lang }: { lang: string }) {
 
           <div className={styles.links}>
             <div className={styles.linkColumn}>
-              <span className={styles.linkColumnTitle}>{isEn ?'Popular Hubs':'Populaire Categorieën'}</span>
-              <Link href={`/${lang}/special-deals-promo-packs`} className={styles.link}>Gothic Kawaii Carnival</Link>
-              <Link href={`/${lang}/anime-manga`} className={styles.link}>Cozy Cottages & Cabins</Link>
-              <Link href={`/${lang}/gaming-virtual-worlds`} className={styles.link}>{isEn ?'Cute Animals':'Schattige Dieren'}</Link>
-              <Link href={`/${lang}/superheroes-comic-universes`} className={styles.link}>{isEn ?'Kawaii Sweets':'Kawaii Sweets'}</Link>
-              <Link href={`/${lang}/kids-tv-shows`} className={styles.link}>{isEn ?'Monster Trucks':'Monster Trucks'}</Link>
-              <Link href={`/${lang}/animals-wildlife`} className={styles.link}>{isEn ?'Relaxing Mandalas':'Ontspannende Mandala’s'}</Link>
-              <Link href={`/${lang}/art-aesthetic`} className={styles.link}>{isEn ?'Art Nouveau Floral':'Art Nouveau Bloemen'}</Link>
+              <span className={styles.linkColumnTitle}>{isEn ? 'Popular Hubs' : 'Populaire Categorieën'}</span>
+              <Link href={`/${lang}/gothic-spooky-cute/gothic-skulls`} className={styles.link}>{isEn ? 'Gothic & Spooky Cute' : 'Gothic & Spooky Cute'}</Link>
+              <Link href={`/${lang}/cozy-life-cottagecore/cozy-cottages`} className={styles.link}>{isEn ? 'Cozy Cottages & Cabins' : 'Gezellige Huisjes & Cabins'}</Link>
+              <Link href={`/${lang}/cute-animals-fantasy/cute-animals`} className={styles.link}>{isEn ? 'Cute Animals' : 'Schattige Dieren'}</Link>
+              <Link href={`/${lang}/cozy-life-cottagecore`} className={styles.link}>{isEn ? 'Tiny Food Friends' : 'Schattig Eten & Snacks'}</Link>
+              <Link href={`/${lang}/kids-adventures/monster-trucks`} className={styles.link}>Monster Trucks</Link>
+              <Link href={`/${lang}/mindful-mandalas-patterns/mandalas`} className={styles.link}>{isEn ? 'Relaxing Mandalas' : 'Ontspannende Mandala’s'}</Link>
+              <Link href={`/${lang}/botanical-floral-art/botanical-gardens`} className={styles.link}>{isEn ? 'Botanical Gardens & Art' : 'Botanische Tuinen & Kunst'}</Link>
             </div>
             <div className={styles.linkColumn}>
               <span className={styles.linkColumnTitle}>{isEn ?'Quick Links':'Snelle Links'}</span>

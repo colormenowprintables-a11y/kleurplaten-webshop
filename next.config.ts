@@ -68,6 +68,14 @@ const nextConfig: NextConfig = {
         destination: '/sitemap.xml',
       },
       {
+        source: '/:lang/inspiratie',
+        destination: '/:lang/inspiration',
+      },
+      {
+        source: '/inspiratie',
+        destination: '/nl/inspiration',
+      },
+      {
         source: '/pinterest-feed.xml',
         destination: '/api/pinterest-feed',
       },
