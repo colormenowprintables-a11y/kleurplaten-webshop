@@ -381,63 +381,7 @@ export default async function ThemePage({
 
         <AdSlot type="banner" text={isEn ? 'Sponsored Content' : 'Gesponsord'} />
 
-        {/* 🎨 Create Your Own Coloring Book Callout Banner (Exclusive ColorMeNow Feature) */}
-        <div style={{
-          marginTop: '1.5rem',
-          marginBottom: '1.5rem',
-          background: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 50%, #F5F3FF 100%)',
-          border: '1.5px solid #C7D2FE',
-          borderRadius: '24px',
-          padding: '1.5rem 1.85rem',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: '1.25rem',
-          flexWrap: 'wrap',
-          boxShadow: '0 8px 24px rgba(79, 70, 229, 0.07)',
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', maxWidth: '720px' }}>
-            <span style={{ fontSize: '2.5rem', flexShrink: 0 }}>📚</span>
-            <div>
-              <span style={{
-                display: 'inline-block',
-                background: '#4F46E5',
-                color: '#FFFFFF',
-                fontSize: '0.72rem',
-                fontWeight: 800,
-                padding: '0.2rem 0.65rem',
-                borderRadius: '9999px',
-                textTransform: 'uppercase',
-                letterSpacing: '0.04em',
-                marginBottom: '0.35rem',
-              }}>
-                {isEn ? 'Exclusive Feature' : 'Exclusieve Functie'}
-              </span>
-              <h3 style={{ fontSize: '1.18rem', fontWeight: 900, color: '#0F172A', margin: '0 0 0.25rem', lineHeight: 1.3 }}>
-                {isEn ? `Create a Custom ${theme.title} Coloring Book (PDF)` : `Stel Je Eigen ${theme.title} Kleurboek Samen (PDF)`}
-              </h3>
-              <p style={{ fontSize: '0.92rem', color: '#475569', margin: 0, lineHeight: 1.55 }}>
-                {isEn 
-                  ? `Click "+ Bundle" on your favorite sheets below to combine them into one organized, ready-to-print booklet with a personalized front cover!`
-                  : `Klik op "+ Kleurboek" bij je favoriete tekeningen en download ze als één compleet, printklaar boekje met eigen titelblad!`}
-              </p>
-            </div>
-          </div>
-          <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-            <span style={{
-              background: '#FFFFFF',
-              border: '1.5px solid #C7D2FE',
-              borderRadius: '9999px',
-              padding: '0.45rem 1.1rem',
-              fontSize: '0.84rem',
-              fontWeight: 800,
-              color: '#4F46E5',
-              boxShadow: '0 2px 8px rgba(79, 70, 229, 0.1)',
-            }}>
-              {isEn ? '✨ High Resolution • PDF Download' : '✨ Hoge Resolutie • PDF Download'}
-            </span>
-          </div>
-        </div>
+
 
         <DifficultyFilterBar isEn={isEn} counts={counts} />
 
