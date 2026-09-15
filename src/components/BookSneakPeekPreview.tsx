@@ -138,27 +138,42 @@ export default function BookSneakPeekPreview({
             </div>
 
             <div className={styles.modalBody}>
+              {/* Explanatory Info Header Banner */}
+              <div className={styles.previewInfoBanner}>
+                <div className={styles.infoBannerIcon}>✏️</div>
+                <div className={styles.infoBannerText}>
+                  <strong>{isEn ? 'Interior Book Preview (B&W Coloring Sheets)' : 'Binnenwerk Inkijkexemplaar (Zwart-Wit Kleurplaten)'}</strong>
+                  <p>
+                    {isEn
+                      ? 'Below you can see the book cover alongside actual black-and-white interior line art coloring pages included inside this book.'
+                      : 'Hieronder zie je de boekcover samen met de echte zwart-wit kleurplaten (lijntekeningen) die in dit boek zitten om in te kleuren.'}
+                  </p>
+                </div>
+              </div>
+
               <div className={styles.modalGrid}>
                 {/* Cover view */}
                 <div className={styles.sampleBox}>
-                  <div className={styles.sampleBadge}>{isEn ? 'Book Cover' : 'Kleurboek Cover'}</div>
+                  <div className={styles.sampleBadge}>{isEn ? '🎨 Book Cover (Color)' : '🎨 Boek Cover (Kleur)'}</div>
                   <div className={styles.sampleImgWrapper}>
                     <SafeImage src={coverImage} alt={title} width={300} height={400} className={styles.sampleImg} />
                   </div>
                   <div className={styles.sampleTitle}>{title}</div>
                 </div>
 
-                {/* Page 1 view */}
+                {/* Page 1 view - Interior Line Art Page */}
                 {page1 && (
-                  <div className={styles.sampleBox}>
-                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 1' : 'Voorbeeld Pagina 1'}</div>
+                  <div className={`${styles.sampleBox} ${styles.interiorBox}`}>
+                    <div className={styles.interiorBadge}>
+                      {isEn ? '✏️ Interior Page 1 (B&W Line Art)' : '✏️ Binnenwerk Kleurplaat 1'}
+                    </div>
                     <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
                       <SafeImage
                         src={page1.image}
                         alt={page1.title}
                         width={300}
                         height={400}
-                        className={styles.sampleImg}
+                        className={`${styles.sampleImg} ${styles.lineArtImage}`}
                         onContextMenu={(e) => e.preventDefault()}
                       />
                       <div className={styles.modalWatermarkOverlay}>
@@ -173,17 +188,19 @@ export default function BookSneakPeekPreview({
                   </div>
                 )}
 
-                {/* Page 2 view */}
+                {/* Page 2 view - Interior Line Art Page */}
                 {page2 && (
-                  <div className={styles.sampleBox}>
-                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 2' : 'Voorbeeld Pagina 2'}</div>
+                  <div className={`${styles.sampleBox} ${styles.interiorBox}`}>
+                    <div className={styles.interiorBadge}>
+                      {isEn ? '✏️ Interior Page 2 (B&W Line Art)' : '✏️ Binnenwerk Kleurplaat 2'}
+                    </div>
                     <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
                       <SafeImage
                         src={page2.image}
                         alt={page2.title}
                         width={300}
                         height={400}
-                        className={styles.sampleImg}
+                        className={`${styles.sampleImg} ${styles.lineArtImage}`}
                         onContextMenu={(e) => e.preventDefault()}
                       />
                       <div className={styles.modalWatermarkOverlay}>
@@ -200,15 +217,17 @@ export default function BookSneakPeekPreview({
 
                 {/* Page 3 view (if present) */}
                 {page3 && (
-                  <div className={styles.sampleBox}>
-                    <div className={styles.sampleBadge}>{isEn ? 'Sample Page 3' : 'Voorbeeld Pagina 3'}</div>
+                  <div className={`${styles.sampleBox} ${styles.interiorBox}`}>
+                    <div className={styles.interiorBadge}>
+                      {isEn ? '✏️ Interior Page 3 (B&W Line Art)' : '✏️ Binnenwerk Kleurplaat 3'}
+                    </div>
                     <div className={styles.sampleImgWrapper} style={{ position: 'relative' }}>
                       <SafeImage
                         src={page3.image}
                         alt={page3.title}
                         width={300}
                         height={400}
-                        className={styles.sampleImg}
+                        className={`${styles.sampleImg} ${styles.lineArtImage}`}
                         onContextMenu={(e) => e.preventDefault()}
                       />
                       <div className={styles.modalWatermarkOverlay}>
