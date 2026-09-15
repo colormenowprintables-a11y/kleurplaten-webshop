@@ -285,6 +285,9 @@ export default function PayPalCheckoutModal({
                     createOrder={(data, actions) => {
                       return actions.order.create({
                         intent: 'CAPTURE',
+                        application_context: {
+                          shipping_preference: 'NO_SHIPPING',
+                        },
                         purchase_units: [
                           {
                             description: isEn ? currentTier.nameEn : currentTier.name,
@@ -294,7 +297,7 @@ export default function PayPalCheckoutModal({
                             },
                           },
                         ],
-                      });
+                      } as any);
                     }}
                     onApprove={handleApprove}
                     onError={(err) => {
