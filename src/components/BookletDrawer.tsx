@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState } from'react';
-import { useColoringBook } from'@/context/ColoringBookContext';
-import { fireConfetti } from'@/lib/confetti';
-import SafeImage from'./SafeImage';
-import styles from'./BookletDrawer.module.css';
+import React, { useState } from 'react';
+import { useColoringBook } from '@/context/ColoringBookContext';
+import { fireConfetti } from '@/lib/confetti';
+import SafeImage from './SafeImage';
+import styles from './BookletDrawer.module.css';
+import PayPalCheckoutModal from './PayPalCheckoutModal';
 
 interface BookletDrawerProps {
   isOpen: boolean;
@@ -16,10 +17,14 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
   const { selectedPages, clearSelection, removePage, totalSelected } = useColoringBook();
   const [downloading, setDownloading] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [showPayPalCheckout, setShowPayPalCheckout] = useState(false);
 
   if (!isOpen) return null;
 
-  const isEn = lang ==='en';
+  const isEn = lang === 'en';
+
+  const defaultTierId =
+    totalSelected <= 1 ? 'single' : totalSelected <= 3 ? 'pack3' : totalSelected <= 5 ? 'pack5' : 'pack10';
 
   const handleDownloadCustomBooklet = async () => {
     if (downloading || selectedPages.length === 0) return;
@@ -187,21 +192,28 @@ export default function BookletDrawer({ isOpen, onClose, lang }: BookletDrawerPr
             <button
               type="button"
               className={styles.downloadBtn}
-              onClick={handleDownloadCustomBooklet}
+              onClick={() => setShowPayPalCheckout(true)}
               disabled={downloading}
             >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-              </svg>
+              <span>🛒</span>
               <span>
                 {downloading
-                  ? (isEn ?`Generating (${progress}/${totalSelected})...`:`Genereren (${progress}/${totalSelected})...`)
-                  : (isEn ?`Download PDF Bundle (${totalSelected} Pages)`:`Download PDF Bundel (${totalSelected} Platen)`)}
+                  ? (isEn ? `Generating (${progress}/${totalSelected})...` : `Genereren (${progress}/${totalSelected})...`)
+                  : (isEn ? `Checkout & Download Bundle (${totalSelected} Pages)` : `Afrekenen & Downloaden (${totalSelected} Platen)`)}
               </span>
             </button>
           </div>
         )}
       </div>
+
+      <PayPalCheckoutModal
+        isOpen={showPayPalCheckout}
+        onClose={() => setShowPayPalCheckout(false)}
+        defaultTierId={defaultTierId}
+        bookTitle={isEn ? `Custom ${totalSelected}-Page Coloring Bundle` : `Eigen ${totalSelected}-Platen Kleurboek Bundel`}
+        isEn={isEn}
+        onSuccessDownload={handleDownloadCustomBooklet}
+      />
     </div>
   );
 }
