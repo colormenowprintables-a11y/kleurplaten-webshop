@@ -159,7 +159,7 @@ export default function PrintDownloadButtons({
   return (
     <>
       <div style={{ marginTop: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
-        {/* Primary High-Converting CTA: Buy Full Book (€1.99) */}
+        {/* Primary Direct Buy Button (€1.99) */}
         <button
           onClick={() => setShowPayPalCheckout(true)}
           type="button"
@@ -184,50 +184,16 @@ export default function PrintDownloadButtons({
           <span style={{ fontSize: '1.2rem' }}>🛒</span>
           <span>
             {isEn
-              ? 'Buy Full Book (€1.99) →'
+              ? 'Buy This Book Now (€1.99) →'
               : lang === 'de'
-              ? 'Kauf das ganze Buch (€ 1,99) →'
+              ? 'Kauf dieses Buch (€ 1,99) →'
               : lang === 'fr'
-              ? 'Acheter le livre complet (1,99 €) →'
-              : 'Koop het Volledige Kleurboek (€ 1,99) →'}
+              ? 'Acheter ce livre (1,99 €) →'
+              : 'Koop Dit Kleurboek Direct (€ 1,99) →'}
           </span>
         </button>
 
-        {/* Secondary CTA: Bundle Deals (Vanaf €4,49) */}
-        <button
-          onClick={() => setShowPayPalCheckout(true)}
-          type="button"
-          style={{
-            width: '100%',
-            padding: '0.95rem 1.1rem',
-            background: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
-            color: '#FFFFFF',
-            border: 'none',
-            borderRadius: '9999px',
-            fontWeight: 800,
-            fontSize: '0.925rem',
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '0.5rem',
-            boxShadow: '0 4px 16px rgba(16, 185, 129, 0.25)',
-            transition: 'transform 0.15s ease',
-          }}
-        >
-          <span style={{ fontSize: '1.1rem' }}>🎁</span>
-          <span>
-            {isEn
-              ? 'View Bundle Deals (3 Books for €4.49)'
-              : lang === 'de'
-              ? 'Sparpaket Ansehen (3 Bücher ab € 4,49)'
-              : lang === 'fr'
-              ? 'Packs Promo (3 livres dès 4,49 €)'
-              : 'Bekijk Bundel Deals (3 Boeken v.a. € 4,49)'}
-          </span>
-        </button>
-
-        {/* Custom Bundle Multi-Select Button */}
+        {/* Secondary Action: Add to Print Basket */}
         <button
           onClick={() => {
             toggleSelectPage({
@@ -240,7 +206,7 @@ export default function PrintDownloadButtons({
           type="button"
           style={{
             width: '100%',
-            padding: '0.85rem',
+            padding: '0.95rem 1.1rem',
             background: isSelected
               ? 'linear-gradient(135deg, #4F46E5 0%, #4338CA 100%)'
               : 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)',
@@ -248,7 +214,7 @@ export default function PrintDownloadButtons({
             border: isSelected ? '1.5px solid #4338CA' : '1.5px solid #C7D2FE',
             borderRadius: '9999px',
             fontWeight: 800,
-            fontSize: '0.88rem',
+            fontSize: '0.92rem',
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
@@ -258,15 +224,15 @@ export default function PrintDownloadButtons({
             transition: 'all 0.2s ease',
           }}
         >
-          <span style={{ fontSize: '1rem' }}>{isSelected ? '✓' : '➕'}</span>
+          <span style={{ fontSize: '1.05rem' }}>{isSelected ? '✓' : '🧺'}</span>
           <span>
             {isSelected
               ? isEn
-                ? 'Added to Custom Bundle'
-                : 'Toegevoegd aan je Bundel'
+                ? 'Added to Print Basket (View Basket)'
+                : 'In je Printmandje (Bekijk Mandje)'
               : isEn
-              ? 'Add to Custom Coloring Book'
-              : 'Voeg toe aan Eigen Kleurboek'}
+              ? 'Add to Print Basket (Combine Books)'
+              : 'Voeg toe aan Printmandje (Boeken Combineren)'}
           </span>
         </button>
 
