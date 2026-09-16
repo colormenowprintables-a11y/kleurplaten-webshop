@@ -279,6 +279,7 @@ export default function PayPalCheckoutModal({
                   options={{
                     clientId: clientId,
                     currency: 'EUR',
+                    enableFunding: 'ideal',
                   }}
                 >
                   <PayPalButtons
