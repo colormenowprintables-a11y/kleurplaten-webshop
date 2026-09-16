@@ -76,6 +76,14 @@ export async function GET(request: Request) {
 
     const freebieAndAffiliateItems = `
     <item>
+      <title>🏫 Free Educational School Worksheets (Math, Letters, Coloring)</title>
+      <link>https://colormenow.shop/en/school</link>
+      <guid isPermaLink="true">https://colormenow.shop/en/school</guid>
+      <pubDate>${baseDate}</pubDate>
+      <description><![CDATA[<p>Download 100+ free printable educational coloring worksheets for teachers, classrooms, preschool, and homeschooling! Math counting, alphabet tracing, and handwriting sheets in print-ready A4 PDF.</p><img src="https://colormenow.shop/covers/50_cute_animals_cover.png" alt="Free School Educational Worksheets" />]]></description>
+      <enclosure url="https://colormenow.shop/covers/50_cute_animals_cover.png" type="image/png" length="102400" />
+    </item>
+    <item>
       <title>🎁 Printable Freebies &amp; Free Coloring Sample Packs (A4 PDF)</title>
       <link>https://colormenow.shop/en/freebies</link>
       <guid isPermaLink="true">https://colormenow.shop/en/freebies</guid>
