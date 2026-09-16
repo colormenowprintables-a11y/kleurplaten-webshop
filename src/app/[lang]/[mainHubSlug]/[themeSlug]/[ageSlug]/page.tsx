@@ -195,7 +195,7 @@ export default async function AgePage({
 
                 <div style={{ display:'flex', gap:'0.5rem', alignItems:'center', flexWrap:'wrap'}}>
                   <span className="badge"style={{ background:'#FF6B35', color:'#FFFFFF', borderColor:'#FF6B35', fontWeight: 800 }}>
-                    ✓ {allColoringPages.length} {isEn ?'Printable Pages':'Printbare Kleurplaten'}
+                    ✓ {isEn ? '50-Page Coloring Book' : '50 Pagina\'s Kleurboek'}
                   </span>
                   <span className="badge"style={{ background:'rgba(255, 255, 255, 0.95)', color:'#065F46', borderColor:'#A7F3D0', fontWeight: 700 }}>
                     100% {isEn ?'Free':'Gratis'}
