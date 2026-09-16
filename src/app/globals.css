@@ -751,10 +751,20 @@ main {
   align-items: start;
 }
 
+.mobile-buy-box {
+  display: none;
+}
+
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 960px) {
   .container { padding: 0 1.25rem; }
   .coloring-page-detail-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .mobile-buy-box {
+    display: block !important;
+  }
+  .desktop-sidebar-buy-box {
+    display: none !important;
+  }
 }
 
 @media (max-width: 768px) {

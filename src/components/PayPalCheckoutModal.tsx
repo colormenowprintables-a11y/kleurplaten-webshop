@@ -68,6 +68,7 @@ interface PayPalCheckoutModalProps {
   bookTitle?: string;
   isEn?: boolean;
   onSuccessDownload?: () => void;
+  downloadUrl?: string;
 }
 
 export default function PayPalCheckoutModal({
@@ -77,6 +78,7 @@ export default function PayPalCheckoutModal({
   bookTitle = 'ColorMeNow Kleurboek',
   isEn = false,
   onSuccessDownload,
+  downloadUrl,
 }: PayPalCheckoutModalProps) {
   const [selectedTierId, setSelectedTierId] = useState<string>(defaultTierId);
   const [paid, setPaid] = useState<boolean>(false);
@@ -277,7 +279,6 @@ export default function PayPalCheckoutModal({
                   options={{
                     clientId: clientId,
                     currency: 'EUR',
-                    enableFunding: 'ideal',
                   }}
                 >
                   <PayPalButtons
@@ -374,26 +375,49 @@ export default function PayPalCheckoutModal({
                 : 'Bedankt voor je bestelling! Je digitale kleurboek bundel staat nu klaar om direct gedownload te worden.'}
             </p>
 
-            <button
-              onClick={() => {
-                if (onSuccessDownload) onSuccessDownload();
-                onClose();
-              }}
-              style={{
-                marginTop: '1.5rem',
-                padding: '0.9rem 2rem',
-                borderRadius: '9999px',
-                background: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
-                color: '#FFFFFF',
-                fontWeight: 900,
-                fontSize: '1.05rem',
-                border: 'none',
-                cursor: 'pointer',
-                boxShadow: '0 6px 20px rgba(16, 185, 129, 0.4)',
-              }}
-            >
-              📥 {isEn ? 'Download PDF Color Book Now' : 'Download PDF Kleurboek Nu'}
-            </button>
+            <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
+              <a
+                href={downloadUrl || '#'}
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => {
+                  if (onSuccessDownload) onSuccessDownload();
+                }}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '0.6rem',
+                  padding: '1.1rem 2.2rem',
+                  borderRadius: '9999px',
+                  background: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
+                  color: '#FFFFFF',
+                  fontWeight: 900,
+                  fontSize: '1.08rem',
+                  textDecoration: 'none',
+                  boxShadow: '0 8px 25px rgba(16, 185, 129, 0.4)',
+                  cursor: 'pointer',
+                }}
+              >
+                📥 {isEn ? 'Download PDF Color Book Now' : 'Download PDF Kleurboek Nu'}
+              </a>
+              <button
+                onClick={onClose}
+                type="button"
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: '#64748B',
+                  fontSize: '0.85rem',
+                  cursor: 'pointer',
+                  padding: '0.4rem 0.8rem',
+                  textDecoration: 'underline',
+                }}
+              >
+                {isEn ? 'Close this window' : 'Sluit dit venster'}
+              </button>
+            </div>
           </div>
         )}
       </div>

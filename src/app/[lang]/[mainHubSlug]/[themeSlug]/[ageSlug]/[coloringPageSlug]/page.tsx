@@ -210,6 +210,22 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
             isEn={isEn}
           />
 
+          {/* Mobile Fast Buy Box: Instant visibility directly below the cover image on phones! */}
+          <div className="mobile-buy-box">
+            <h1 className="title-h1" style={{ fontSize: '1.75rem', marginTop: '1rem', marginBottom: '0.4rem' }}>{page.title}</h1>
+            <p style={{ color: 'var(--gray-600)', fontSize: '0.95rem', marginBottom: '1.25rem', lineHeight: 1.6 }}>
+              {page.shortDescription}
+            </p>
+            <PrintDownloadButtons 
+              isEn={isEn} 
+              fileUrl={page.image} 
+              bookSlug={page.slug}
+              colorPageUrl={`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}/color`}
+              lang={lang}
+              category={theme.title}
+            />
+          </div>
+
           {/* Direct Interior Preview Strip — Real Coloring Pages visible immediately without modal */}
           <BookSneakPeekPreview
             mode="inline-grid"
@@ -288,28 +304,31 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
 
         {/* Sticky Sidebar */}
         <div style={{ position:'sticky', top:'5.5rem'}}>
-          <h1 className="title-h1"style={{ fontSize:'2rem'}}>{page.title}</h1>
-          <p style={{ color:'var(--gray-600)', fontSize:'1rem', marginTop:'0.6rem', lineHeight: 1.7 }}>
-            {page.shortDescription}
-          </p>
+          <div className="desktop-sidebar-buy-box">
+            <h1 className="title-h1"style={{ fontSize:'2rem'}}>{page.title}</h1>
+            <p style={{ color:'var(--gray-600)', fontSize:'1rem', marginTop:'0.6rem', lineHeight: 1.7 }}>
+              {page.shortDescription}
+            </p>
 
-          <div style={{ background:'var(--primary-light)', borderRadius:'var(--radius-lg)', padding:'1.25rem 1.5rem', marginTop:'1.5rem', border:'1px solid rgba(108,92,231,0.18)'}}>
-            <p style={{ fontSize:'0.8rem', fontWeight: 800, color:'var(--primary)', marginBottom:'0.35rem', textTransform:'uppercase', letterSpacing:'0.06em'}}>
-              {isEn ? 'INSTANT DIGITAL DOWNLOAD — HIGH RESOLUTION PDF' : 'DIRECT DIGITAAL GELEVERD — HOGE RESOLUTIE PDF'}
-            </p>
-            <p style={{ fontSize:'0.875rem', color:'var(--gray-600)'}}>
-              {isEn ? 'Download instantly as a high-resolution PDF coloring book.' : 'Download direct als hoge resolutie PDF-kleurboek.'}
-            </p>
+            <div style={{ background:'var(--primary-light)', borderRadius:'var(--radius-lg)', padding:'1.25rem 1.5rem', marginTop:'1.5rem', border:'1px solid rgba(108,92,231,0.18)'}}>
+              <p style={{ fontSize:'0.8rem', fontWeight: 800, color:'var(--primary)', marginBottom:'0.35rem', textTransform:'uppercase', letterSpacing:'0.06em'}}>
+                {isEn ? 'INSTANT DIGITAL DOWNLOAD — HIGH RESOLUTION PDF' : 'DIRECT DIGITAAL GELEVERD — HOGE RESOLUTIE PDF'}
+              </p>
+              <p style={{ fontSize:'0.875rem', color:'var(--gray-600)'}}>
+                {isEn ? 'Download instantly as a high-resolution PDF coloring book.' : 'Download direct als hoge resolutie PDF-kleurboek.'}
+              </p>
+            </div>
+
+            {/* Action CTAs */}
+            <PrintDownloadButtons 
+              isEn={isEn} 
+              fileUrl={page.image} 
+              bookSlug={page.slug}
+              colorPageUrl={`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}/color`}
+              lang={lang}
+              category={theme.title}
+            />
           </div>
-
-          {/* Action CTAs */}
-          <PrintDownloadButtons 
-            isEn={isEn} 
-            fileUrl={page.image} 
-            colorPageUrl={`/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}/color`}
-            lang={lang}
-            category={theme.title}
-          />
 
           {/* Look Inside Book / Inkijkexemplaar Box */}
           <div style={{ marginTop: '1.25rem', background: '#F8FAFC', borderRadius: 'var(--radius-lg)', padding: '1.15rem', border: '1.5px solid #E2E8F0' }}>

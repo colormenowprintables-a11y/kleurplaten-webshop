@@ -16,12 +16,14 @@ export default function PrintDownloadButtons({
   category = 'Unknown',
   colorPageUrl,
   lang = 'nl',
+  bookSlug,
 }: {
   isEn: boolean;
   fileUrl: string;
   category?: string;
   colorPageUrl?: string;
   lang?: string;
+  bookSlug?: string;
 }) {
   const [downloading, setDownloading] = useState(false);
   const [downloadingPdf, setDownloadingPdf] = useState(false);
@@ -36,7 +38,8 @@ export default function PrintDownloadButtons({
 
   const { isPageSelected, toggleSelectPage } = useColoringBook();
   const pageSlug = fileUrl.split('/').pop()?.replace(/\.[^.]+$/, '') || 'page';
-  const isSelected = isPageSelected(pageSlug);
+  const effectiveSlug = bookSlug || pageSlug;
+  const isSelected = isPageSelected(effectiveSlug);
 
   const pageTitle =
     fileUrl.split('/').pop()?.replace(/_/g, ' ').replace(/\.[^.]+$/, '') ||
@@ -85,73 +88,25 @@ export default function PrintDownloadButtons({
     }
   };
 
-  // Download Print-Ready A4 PDF
+  // Download Print-Ready A4 Book PDF
   const performActualDownloadPdf = async () => {
     if (downloadingPdf) return;
     setDownloadingPdf(true);
 
     try {
-      const response = await fetch(previewUrl);
-      if (!response.ok) throw new Error('Proxy fetch failed');
-
-      const blob = await response.blob();
-      const img = new Image();
-      img.src = URL.createObjectURL(blob);
-
-      await new Promise((resolve, reject) => {
-        img.onload = resolve;
-        img.onerror = reject;
-      });
-
-      const { default: jsPDF } = await import('jspdf');
-      const pdf = new jsPDF({
-        orientation: 'portrait',
-        unit: 'mm',
-        format: 'a4',
-      });
-
-      const pageWidth = 210;
-      const pageHeight = 297;
-      const margin = 12;
-      const maxWidth = pageWidth - margin * 2;
-      const maxHeight = pageHeight - margin * 2 - 16;
-
-      const imgRatio = img.width / img.height;
-      let renderWidth = maxWidth;
-      let renderHeight = maxWidth / imgRatio;
-
-      if (renderHeight > maxHeight) {
-        renderHeight = maxHeight;
-        renderWidth = maxHeight * imgRatio;
-      }
-
-      const x = (pageWidth - renderWidth) / 2;
-      const y = margin + 8;
-
-      pdf.setFont('helvetica', 'bold');
-      pdf.setFontSize(10);
-      pdf.setTextColor(120, 120, 120);
-      pdf.text('ColorMeNow.com — Free Printable Coloring Pages', pageWidth / 2, margin, { align: 'center' });
-
-      pdf.addImage(img, 'JPEG', x, y, renderWidth, renderHeight, undefined, 'FAST');
-
-      pdf.setFont('helvetica', 'normal');
-      pdf.setFontSize(8);
-      pdf.setTextColor(150, 150, 150);
-      pdf.text(
-        `© ColorMeNow.com — ${pageTitle} — Free for personal, home and classroom educational use.`,
-        pageWidth / 2,
-        pageHeight - 6,
-        { align: 'center' }
-      );
-
-      const cleanSlug = pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-      pdf.save(`colormenow-${cleanSlug}-A4.pdf`);
+      const directPdf = `/books/${effectiveSlug}.pdf`;
+      const a = document.createElement('a');
+      a.href = directPdf;
+      a.download = `ColorMeNow-${effectiveSlug}.pdf`;
+      a.target = '_blank';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
       setDownloadingPdf(false);
       checkAndTriggerEmailModal();
     } catch (err) {
-      console.error('Failed to generate PDF', err);
-      alert(isEn ? 'Could not generate PDF, please try downloading image.' : 'PDF kon niet worden gegenereerd.');
+      console.error('Failed to trigger direct PDF download', err);
+      window.open(`/books/${effectiveSlug}.pdf`, '_blank');
       setDownloadingPdf(false);
     }
   };
@@ -281,6 +236,7 @@ export default function PrintDownloadButtons({
         defaultTierId="single"
         bookTitle={pageTitle}
         isEn={isEn}
+        downloadUrl={`/books/${effectiveSlug}.pdf`}
         onSuccessDownload={performActualDownloadPdf}
       />
 
