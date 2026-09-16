@@ -80,15 +80,6 @@ export async function GET(request: Request) {
       } catch (e) {}
     }
 
-    const escapeXml = (unsafe: string) => {
-      if (!unsafe) return '';
-      return unsafe
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&apos;');
-    };
 
     const baseDate = new Date('2026-09-01T12:00:00Z').toUTCString();
 
