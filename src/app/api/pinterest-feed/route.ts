@@ -101,10 +101,10 @@ export async function GET(request: Request) {
         desc: 'Download 100% free printable coloring sample packs in A4 PDF format! Animals, mandalas, dinosaurs and cozy cottage life.',
       },
       {
-        title: '💥 100 Mega Pack Coloring Pages Special Deal (€0.01 / Promo)',
+        title: '💥 100 Mega Pack Coloring Book Deal (Only €1.00 — 1 Cent Per Page!)',
         link: 'https://colormenow.shop/en/special-deals-promo-packs/promo-packs/all-ages/100-mega-pack',
         img: 'https://colormenow.shop/covers/100_mega_pack_cover.png',
-        desc: 'Get our biggest 100-page mega coloring book collection for just 1 cent! 100 hours of relaxing creative coloring.',
+        desc: 'Get our biggest 100-page mega coloring book collection for just €1.00 (that is only 1 cent per page)! 100 hours of relaxing creative coloring in print-ready A4 PDF.',
       },
       {
         title: '📦 Amazon KDP Physical Paperback Coloring Books',
