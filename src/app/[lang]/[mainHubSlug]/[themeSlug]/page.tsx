@@ -282,14 +282,15 @@ export default async function ThemePage({
           flexWrap:'wrap',
         }}>
           <div style={{ display:'flex', alignItems:'center', gap:'0.85rem'}}>
-            <div style={{ fontSize:'1.8rem'}}></div>
+            <div style={{ fontSize:'1.8rem'}}>📚</div>
             <div style={{ textAlign:'left'}}>
               <h3 style={{ margin: 0, fontSize:'1.05rem', fontWeight: 800, color:'#312E81'}}>
-                {isEn ?'Create Your Own Coloring Book':'Stel je Eigen Kleurboek Samen'}
+                {isEn ? 'Complete 50-Page Digital PDF Coloring Book (€1.99)' : 'Volledig 50-Pagina PDF Kleurboek (€ 1,99)'}
               </h3>
               <p style={{ margin:'0.15rem 0 0', fontSize:'0.85rem', color:'#4338CA'}}>
                 {isEn
-                  ?'Click the button on any coloring page below to collect your favorites into a single custom PDF!':'Klik op het icoon bij een kleurplaat om je favorieten te verzamelen in 1 printbare PDF!'}
+                  ? 'Instant high-resolution PDF download (300 DPI vector lines). Contains 50 unique coloring sheets ready for A4/Letter printing or tablet coloring!'
+                  : 'Directe hoge resolutie PDF download (300 DPI haarscherpe lijnen). Bevat 50 unieke kleurplaten, klaar om af te drukken op A4 of digitaal in te kleuren!'}
               </p>
             </div>
           </div>
