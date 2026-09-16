@@ -59,8 +59,8 @@ export async function GET(request: Request) {
       validPages = validPages.filter((p: any) => ownHubs.includes(p.parentHub) || !p.parentHub);
     }
     
-    // Select up to 100 items for Pinterest
-    const selectedPages = validPages.slice(0, 100);
+    // Select up to 200 items (Pinterest RSS supports up to 250 items) so all 198 books are included
+    const selectedPages = validPages.slice(0, 200);
 
     const escapeXml = (unsafe: string) => {
       if (!unsafe) return '';
