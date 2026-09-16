@@ -137,7 +137,12 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
         title: isEn ? `${page.title} - Sample Page ${idx + 1}` : `${page.title} - Voorbeeld ${idx + 1}`,
         image: imgUrl,
       }))
-    : displayPages.slice(0, 4).map(p => ({ title: p.title, image: p.image }));
+    : [
+        {
+          title: isEn ? `${page.title} - Interior Page 1` : `${page.title} - Binnenwerk Kleurplaat 1`,
+          image: page.image,
+        },
+      ];
 
   const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
 
