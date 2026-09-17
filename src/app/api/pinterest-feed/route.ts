@@ -145,9 +145,12 @@ export async function GET(request: Request) {
       const title = cleanTitle(rawTitle, theme);
       const pageUrl = `https://colormenow.shop/en/${hub}/${theme}/${age}/${slug}`;
 
-      // If page has a mapped colored version
+      // If page has a mapped colored version that matches the title/slug keywords
       const mappedColored = coloredSlugMap[slug]?.coloredImage;
-      if (mappedColored) {
+      const mappedTitle = (coloredSlugMap[slug]?.title || '').toLowerCase();
+      const currentSlugClean = slug.replace(/-/g, ' ');
+      // Only include colored inspiration if title/slug matches to prevent cross-theme mismatch
+      if (mappedColored && mappedTitle && currentSlugClean.split(' ').slice(0, 2).some(word => mappedTitle.includes(word))) {
         const fullColored = mappedColored.startsWith('http') ? mappedColored : `https://colormenow.shop${mappedColored}`;
         coloredPool.push({
           title: `🎨 ${title} (Finished Color Inspiration)`,
