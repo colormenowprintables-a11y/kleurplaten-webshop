@@ -210,8 +210,8 @@ export default function MotionCard({ page, lang, isEn }: MotionCardProps) {
                 transition: 'all 0.15s ease',
               }}
             >
-              <span aria-hidden="true">🖨️</span>
-              <span>{isEn ? 'View & Download PDF' : 'Bekijk & Download PDF'}</span>
+              <span aria-hidden="true">📖</span>
+              <span>{isEn ? 'View Book (€1.99)' : 'Bekijk Kleurboek (€ 1,99)'}</span>
             </Link>
           </div>
         </div>

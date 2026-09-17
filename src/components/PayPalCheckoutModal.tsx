@@ -166,88 +166,65 @@ export default function PayPalCheckoutModal({
         {!paid ? (
           <>
             {/* Header */}
-            <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
-              <div
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.4rem',
-                  background: 'rgba(108, 92, 231, 0.1)',
-                  color: '#6C5CE7',
-                  padding: '0.35rem 0.9rem',
-                  borderRadius: '9999px',
-                  fontWeight: 800,
-                  fontSize: '0.8rem',
-                  textTransform: 'uppercase',
-                  marginBottom: '0.5rem',
-                }}
-              >
-                🔒 {isEn ? 'SECURE PAYPAL & IDEAL CHECKOUT' : 'VEILIG AFREKENEN VIA PAYPAL & IDEAL'}
-              </div>
-              <h2 style={{ fontSize: '1.6rem', fontWeight: 900, color: '#0F172A', margin: 0 }}>
-                {bookTitle}
-              </h2>
-              <p style={{ color: '#64748B', fontSize: '0.95rem', marginTop: '0.4rem' }}>
-                {isEn
-                  ? 'Select your preferred bundle package and download instantly in high quality A4 PDF!'
-                  : 'Kies jouw gewenste pakket en ontvang direct je haarscherpe A4 PDF-kleurboek!'}
-              </p>
-            </div>
-
-            {/* Tier Selector */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.5rem' }}>
-              {BUNDLE_TIERS.map((tier) => {
-                const isSelected = tier.id === selectedTierId;
-                return (
+            {(() => {
+              const displayTitle = bookTitle.replace(/ cover$/i, '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+              return (
+                <div style={{ textAlign: 'center', marginBottom: '1.25rem' }}>
                   <div
-                    key={tier.id}
-                    onClick={() => setSelectedTierId(tier.id)}
                     style={{
-                      border: isSelected ? '2px solid #6C5CE7' : '1px solid #E2E8F0',
-                      background: isSelected ? '#F8F7FF' : '#FFFFFF',
-                      borderRadius: '16px',
-                      padding: '1rem 1.25rem',
-                      cursor: 'pointer',
-                      display: 'flex',
+                      display: 'inline-flex',
                       alignItems: 'center',
-                      justifyContent: 'space-between',
-                      transition: 'all 0.2s ease',
-                      position: 'relative',
+                      gap: '0.4rem',
+                      background: 'rgba(108, 92, 231, 0.1)',
+                      color: '#6C5CE7',
+                      padding: '0.35rem 0.9rem',
+                      borderRadius: '9999px',
+                      fontWeight: 800,
+                      fontSize: '0.8rem',
+                      textTransform: 'uppercase',
+                      marginBottom: '0.5rem',
                     }}
                   >
-                    <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <span style={{ fontWeight: 800, fontSize: '1rem', color: '#0F172A' }}>
-                          {isEn ? tier.nameEn : tier.name}
-                        </span>
-                        {tier.badge && (
-                          <span
-                            style={{
-                              background: '#FF6B35',
-                              color: '#FFFFFF',
-                              fontSize: '0.65rem',
-                              fontWeight: 900,
-                              padding: '0.15rem 0.5rem',
-                              borderRadius: '9999px',
-                            }}
-                          >
-                            {tier.badge}
-                          </span>
-                        )}
-                      </div>
-                      <div style={{ fontSize: '0.85rem', color: '#64748B', marginTop: '0.2rem' }}>
-                        {isEn ? tier.descriptionEn : tier.description}
-                      </div>
-                    </div>
-
-                    <div style={{ textAlign: 'right' }}>
-                      <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#6C5CE7' }}>
-                        {tier.priceDisplay}
-                      </div>
-                    </div>
+                    🔒 {isEn ? 'SECURE PAYPAL & IDEAL CHECKOUT' : 'VEILIG AFREKENEN VIA PAYPAL & IDEAL'}
                   </div>
-                );
-              })}
+                  <h2 style={{ fontSize: '1.5rem', fontWeight: 900, color: '#0F172A', margin: 0 }}>
+                    {displayTitle}
+                  </h2>
+                  <p style={{ color: '#64748B', fontSize: '0.9rem', marginTop: '0.25rem', marginBottom: 0 }}>
+                    {isEn
+                      ? 'Instant A4 PDF download (50 High-Resolution Pages)'
+                      : 'Directe A4 PDF download (50 Hoge-Resolutie Pagina\'s)'}
+                  </p>
+                </div>
+              );
+            })()}
+
+            {/* Single Clear Order Box — Instant Payment Visibility */}
+            <div
+              style={{
+                border: '2px solid #6C5CE7',
+                background: '#F8F7FF',
+                borderRadius: '18px',
+                padding: '1.15rem 1.25rem',
+                marginBottom: '1.25rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+              }}
+            >
+              <div>
+                <div style={{ fontWeight: 800, fontSize: '1.05rem', color: '#0F172A' }}>
+                  {isEn ? '1 Complete Digital Coloring Book' : '1 Compleet Digitaal Kleurboek'}
+                </div>
+                <div style={{ fontSize: '0.82rem', color: '#64748B', marginTop: '0.2rem' }}>
+                  {isEn ? 'Instant high-res A4 PDF delivered after payment' : 'Directe haarscherpe A4 PDF levering na betaling'}
+                </div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontSize: '1.4rem', fontWeight: 900, color: '#6C5CE7' }}>
+                  € 1,99
+                </div>
+              </div>
             </div>
 
             {/* Payment Guarantee Notice */}

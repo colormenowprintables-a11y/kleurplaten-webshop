@@ -95,7 +95,7 @@ export default function DailyColoringChallenge({ isEn, lang }: DailyChallengePro
               boxShadow:'0 4px 15px rgba(255, 107, 53, 0.4)',
             }}
           >
-            {isEn ? 'View & Download Book' : 'Bekijk & Download Kleurboek'}
+            {isEn ? 'View Book (€1.99)' : 'Bekijk Kleurboek (€ 1,99)'}
           </Link>
           <Link
             href={`/${lang}/fantasy-fairytales/fairytale-kingdoms-castles/kids/fairytale-kingdoms-castles-1`}
