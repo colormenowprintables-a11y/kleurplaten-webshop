@@ -237,7 +237,7 @@ export default async function ThemePage({
 
                 <div style={{ display:'flex', gap:'0.5rem', alignItems:'center', flexWrap:'wrap'}}>
                   <span className="badge"style={{ background:'#FF6B35', color:'#FFFFFF', borderColor:'#FF6B35', fontWeight: 800 }}>
-                    ✓ {isEn ? '50-Page Coloring Book' : '50 Pagina\'s Kleurboek'}
+                    ✓ {isEn ? 'Complete PDF Coloring Book' : 'Compleet PDF Kleurboek'}
                   </span>
                   <span className="badge"style={{ background:'rgba(255, 255, 255, 0.95)', color:'#065F46', borderColor:'#A7F3D0', fontWeight: 700 }}>
                     {isEn ?'PDF Download':'PDF Download'}
@@ -285,7 +285,7 @@ export default async function ThemePage({
             <div style={{ fontSize:'1.8rem'}}>📚</div>
             <div style={{ textAlign:'left'}}>
               <h3 style={{ margin: 0, fontSize:'1.05rem', fontWeight: 800, color:'#312E81'}}>
-                {isEn ? 'Complete 50-Page Digital PDF Coloring Book (€1.99)' : 'Volledig 50-Pagina PDF Kleurboek (€ 1,99)'}
+                {isEn ? 'Complete Digital PDF Coloring Book (€1.99)' : 'Volledig PDF Kleurboek (€ 1,99)'}
               </h3>
               <p style={{ margin:'0.15rem 0 0', fontSize:'0.85rem', color:'#4338CA'}}>
                 {isEn

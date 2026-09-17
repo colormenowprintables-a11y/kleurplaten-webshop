@@ -192,8 +192,8 @@ export default function PayPalCheckoutModal({
                   </h2>
                   <p style={{ color: '#64748B', fontSize: '0.9rem', marginTop: '0.25rem', marginBottom: 0 }}>
                     {isEn
-                      ? 'Instant A4 PDF download (50 High-Resolution Pages)'
-                      : 'Directe A4 PDF download (50 Hoge-Resolutie Pagina\'s)'}
+                      ? 'Instant A4 PDF download (High-Resolution Vector Lines)'
+                      : 'Directe A4 PDF download (Haarscherpe Vector Lijnen)'}
                   </p>
                 </div>
               );
