@@ -239,15 +239,22 @@ export async function GET(request: Request) {
     }
 
     const itemsXml = mixedItems.map((item: any, idx: number) => {
-      const itemDate = new Date(Date.UTC(2026, 8, 1 + (idx % 14), (idx * 3) % 24, (idx * 7) % 60)).toUTCString();
+      const itemDate = new Date(Date.now() - (idx * 3600 * 1000)).toUTCString();
+      const imgUrl = item.img || '';
+      let mimeType = 'image/jpeg';
+      if (imgUrl.toLowerCase().endsWith('.png')) {
+        mimeType = 'image/png';
+      } else if (imgUrl.toLowerCase().endsWith('.webp')) {
+        mimeType = 'image/webp';
+      }
       return `
     <item>
       <title>${escapeXml(item.title)}</title>
       <link>${escapeXml(item.link)}</link>
       <guid isPermaLink="false">${escapeXml(item.link)}#pin-${idx}</guid>
       <pubDate>${itemDate}</pubDate>
-      <description><![CDATA[<p>${item.desc}</p><img src="${item.img}" alt="${escapeXml(item.title)}" />]]></description>
-      <enclosure url="${escapeXml(item.img)}" type="image/jpeg" length="102400" />
+      <description><![CDATA[<p>${item.desc}</p><img src="${imgUrl}" alt="${escapeXml(item.title)}" />]]></description>
+      <enclosure url="${escapeXml(imgUrl)}" type="${mimeType}" length="102400" />
     </item>`;
     }).join('');
 

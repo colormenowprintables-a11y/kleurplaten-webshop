@@ -84,6 +84,10 @@ const nextConfig: NextConfig = {
         destination: '/api/pinterest-feed',
       },
       {
+        source: '/coloring-book/:slug',
+        destination: '/en/coloring-book/:slug',
+      },
+      {
         source: '/cv-vault-8942',
         destination: '/admin?secret=cv-vault-8942',
       },
