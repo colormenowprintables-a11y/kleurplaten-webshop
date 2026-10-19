@@ -201,8 +201,10 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
 
           {/* 2. Full-Width Pure 16:9 3D Vault Banner (Zero text obstruction, centered carousel) */}
           <HeroCarousel
-            items={allThemes
-              .filter(t => t.image && !t.image.includes('default.jpg'))
+            items={[
+              ...allThemes.filter(t => t.parentHub === 'gothic-spooky-cute' && t.image && !t.image.includes('default.jpg')),
+              ...allThemes.filter(t => t.parentHub !== 'gothic-spooky-cute' && t.image && !t.image.includes('default.jpg')),
+            ]
               .slice(0, 16)
               .map(t => ({
                 src: t.image,
@@ -211,6 +213,9 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               }))}
             lang={lang}
           />
+
+          {/* 🎃 Spooky Halloween Event Banner */}
+          <SeasonalEventBanner isEn={isEn} lang={lang} />
 
           {/* 3. Top Trending Albums & Categories Showcase Shelf (Below Banner, Light & Elegant) */}
           {/* 3. Top Trending Albums & Categories Showcase Shelf (With 3D Art Studio Banner Backdrop) */}

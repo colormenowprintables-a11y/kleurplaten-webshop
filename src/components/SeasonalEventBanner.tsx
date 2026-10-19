@@ -17,11 +17,11 @@ export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lan
     // October/November - Halloween
     seasonalData = {
       emoji: '🎃',
-      tag: isEn ? 'Halloween Special' : 'Halloween & Spanning',
-      title: isEn ? 'Spooky Halloween & Pumpkin Printables' : 'Griezelige Halloween & Pompoen Kleurplaten',
-      desc: isEn ? 'Friendly ghosts, witches, and haunted castles ready to print!' : 'Vriendelijke spookjes, heksen en kastelen om uit te printen!',
-      href: `/${lang}/holidays-seasons/halloween-spooky-nights`,
-      bg: 'linear-gradient(135deg, #451A03 0%, #D97706 100%)',
+      tag: isEn ? '🎃 Halloween Spooky Night Special' : '🎃 Halloween & Spookjes Special',
+      title: isEn ? 'Gothic Cuties, Spooky Skulls & Halloween Magic' : 'Gothic Cuties, Griezelige Schedels & Spookjes',
+      desc: isEn ? 'Witches, dark carnivals, cute pumpkins & haunted skull realms in instant A4 PDF!' : 'Heksen, donkere kermissen, pompoenen en magische schedels in A4 PDF!',
+      href: `/${lang}/gothic-spooky-cute/gothic-skulls`,
+      bg: 'linear-gradient(135deg, #1A072E 0%, #4C1D95 50%, #EA580C 100%)',
     };
   } else if (month === 11 || month === 0) {
     // December/January - Christmas & Winter
@@ -46,12 +46,12 @@ export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lan
   }
 
   const holidayPills = [
-    { name: isEn ? '🎃 Halloween' : '🎃 Halloween', href: `/${lang}/holidays-seasons/halloween-spooky-nights` },
-    { name: isEn ? '🎄 Christmas' : '🎄 Kerstmis', href: `/${lang}/holidays-seasons/christmas-winter-holidays` },
-    { name: isEn ? '🎁 Sinterklaas' : '🎁 Sinterklaas', href: `/${lang}/holidays-seasons/sinterklaas-pieten` },
-    { name: isEn ? '🐰 Easter' : '🐰 Pasen', href: `/${lang}/holidays-seasons/easter-spring-bloom` },
-    { name: isEn ? '🍂 Autumn' : '🍂 Herfst', href: `/${lang}/holidays-seasons/autumn-harvest-pumpkins` },
-    { name: isEn ? '🎒 School' : '🎒 School', href: `/${lang}/holidays-seasons/school-education` },
+    { name: isEn ? '🎃 Gothic & Halloween' : '🎃 Gothic & Halloween', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
+    { name: isEn ? '💀 Skull Realms' : '💀 Skull Realms', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
+    { name: isEn ? '🍂 Autumn & Cozy' : '🍂 Herfst & Gezellig', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+    { name: isEn ? '🦄 Fantasy Creatures' : '🦄 Fantasiedieren', href: `/${lang}/cute-animals-fantasy/fantasy-creatures` },
+    { name: isEn ? '🚛 Monster Trucks' : '🚛 Monster Trucks', href: `/${lang}/kids-adventures/monster-trucks` },
+    { name: isEn ? '🎁 Freebies' : '🎁 Gratis Platen', href: `/${lang}/freebies` },
   ];
 
   return (
