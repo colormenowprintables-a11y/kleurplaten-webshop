@@ -23,7 +23,8 @@ export default function SocialShareButtons({
  ?`Check out this free printable coloring page: ${title}`:`Bekijk deze gratis printbare kleurplaat: ${title}`;
 
  const whatsappUrl =`https://api.whatsapp.com/send?text=${encodeURIComponent(`${shareText} ${fullUrl}`)}`;
- const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(fullUrl)}&media=${encodeURIComponent(imageUrl)}&description=${encodeURIComponent(shareText)}`;
+ const absoluteImageUrl = imageUrl ? (imageUrl.startsWith('http') ? imageUrl : `https://colormenow.shop${imageUrl.startsWith('/') ? '' : '/'}${imageUrl}`) : '';
+ const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(fullUrl)}&media=${encodeURIComponent(absoluteImageUrl)}&description=${encodeURIComponent(shareText)}`;
  const facebookUrl =`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`;
 
  const handleCopyLink = async () => {

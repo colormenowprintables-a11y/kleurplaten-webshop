@@ -89,7 +89,8 @@ export default async function ColoringPageDetail({ params }: { params: Promise<{
     pageChunks.push(displayPages.slice(i, i + 12));
   }
 
-  const pinterestUrl =`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(page.image)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
+  const absoluteImage = page.image ? (page.image.startsWith('http') ? page.image : `https://colormenow.shop${page.image.startsWith('/') ? '' : '/'}${page.image}`) : '';
+  const pinterestUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://colormenow.shop/${lang}/${mainHubSlug}/${themeSlug}/${ageSlug}/${page.slug}`)}&media=${encodeURIComponent(absoluteImage)}&description=${encodeURIComponent(page.metaTitle || page.title)}`;
 
   return (
     <div className="container section"style={{ paddingBottom:'4rem'}}>

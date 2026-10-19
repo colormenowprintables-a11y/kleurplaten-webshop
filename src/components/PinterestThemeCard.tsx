@@ -19,6 +19,7 @@ export default function PinterestThemeCard({
   pageCount = 40,
 }: PinterestThemeCardProps) {
   const fullUrl = `https://colormenow.shop${url}`;
+  const absoluteImage = themeImage ? (themeImage.startsWith('http') ? themeImage : `https://colormenow.shop${themeImage.startsWith('/') ? '' : '/'}${themeImage}`) : '';
   const pinTitle = `${pageCount}+ Free Printable ${themeTitle} Coloring Pages (PDF Download) | ColorMeNow`;
   const pinDescription = isEn
     ? `Download and print ${pageCount}+ high-resolution ${themeTitle} printable coloring books! Perfect for toddlers, kids, and teachers. high-resolution A4/Letter PDF printables.`
@@ -26,7 +27,7 @@ export default function PinterestThemeCard({
 
   const pinShareUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(
     fullUrl
-  )}&media=${encodeURIComponent(themeImage)}&description=${encodeURIComponent(
+  )}&media=${encodeURIComponent(absoluteImage)}&description=${encodeURIComponent(
     `${pinTitle} - ${pinDescription}`
   )}`;
 
