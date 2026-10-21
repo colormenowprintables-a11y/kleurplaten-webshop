@@ -58,9 +58,6 @@ export async function GET(request: Request) {
     } else {
       validPages = validPages.filter((p: any) => ownHubs.includes(p.parentHub) || !p.parentHub);
     }
-    
-    // Select up to 200 items (Pinterest RSS supports up to 250 items) so all 198 books are included
-    const selectedPages = validPages.slice(0, 200);
 
     const escapeXml = (unsafe: string) => {
       if (!unsafe) return '';
@@ -80,52 +77,65 @@ export async function GET(request: Request) {
       } catch (e) {}
     }
 
-
     const baseDate = new Date('2026-09-01T12:00:00Z').toUTCString();
 
     // 1. GOODIES & PROMOS POOL
     const goodiesPool: any[] = [
       {
+        id: 'cmn-goodie-freebies',
         title: '🎁 100% Free Printable Coloring Freebies & Sample Packs (A4 PDF)',
         link: 'https://colormenow.shop/en/freebies',
         img: 'https://colormenow.shop/covers/50_cute_animals_cover.png',
         desc: 'Download 100% free printable coloring sample packs in A4 PDF format! Animals, mandalas, dinosaurs and cozy cottage life.',
+        price: '0.00 EUR',
       },
       {
+        id: 'cmn-goodie-100-mega-pack',
         title: '💥 100 Mega Pack Coloring Book Deal (Only €1.00 — 1 Cent Per Page!)',
         link: 'https://colormenow.shop/en/special-deals-promo-packs/promo-packs/all-ages/100-mega-pack',
         img: 'https://colormenow.shop/covers/100_mega_pack_cover.png',
         desc: 'Get our biggest 100-page mega coloring book collection for just €1.00 (that is only 1 cent per page)! 100 hours of relaxing creative coloring in print-ready A4 PDF.',
+        price: '1.00 EUR',
       },
       {
+        id: 'cmn-goodie-kdp',
         title: '📦 Amazon KDP Physical Paperback Coloring Books',
         link: 'https://colormenow.shop/en/kdp',
         img: 'https://colormenow.shop/covers/gothic_kawaii_carnival_cover.png',
         desc: 'Browse our official Amazon KDP physical paperback coloring books with high-quality printed paper delivered straight to your door!',
+        price: '6.99 EUR',
       },
       {
+        id: 'cmn-goodie-recommendations',
         title: '🎨 Top Recommended Coloring Markers, Pencils & Heavyweight 160g Paper',
         link: 'https://colormenow.shop/en/recommendations',
         img: 'https://colormenow.shop/affiliates/ohuhu-honolulu-markers.jpg',
         desc: 'Discover the best 160g paper, alcohol brush markers, Faber-Castell pencils, and craft kits for flawless coloring results.',
+        price: '19.99 EUR',
       },
       {
+        id: 'cmn-goodie-50-cozy-cottages',
         title: '🏡 50 Cozy Cottages Promo Pack (Only €0.50)',
         link: 'https://colormenow.shop/en/special-deals-promo-packs/promo-packs/all-ages/50-cozy-cottages',
         img: 'https://colormenow.shop/covers/50_cozy_cottages_cover.png',
         desc: 'Download 50 peaceful storybook cottage coloring pages for just €0.50! High resolution print-ready PDF.',
+        price: '0.50 EUR',
       },
       {
+        id: 'cmn-goodie-50-kawaii-sweets',
         title: '🍬 50 Kawaii Sweets & Desserts Promo Pack (€0.50)',
         link: 'https://colormenow.shop/en/special-deals-promo-packs/promo-packs/all-ages/50-kawaii-sweets',
         img: 'https://colormenow.shop/covers/50_kawaii_sweets_cover.png',
         desc: '50 adorable sweet treats, cupcakes, boba tea and donut characters ready to print and color.',
+        price: '0.50 EUR',
       },
       {
+        id: 'cmn-goodie-50-monster-trucks',
         title: '🚛 50 Monster Trucks Action Pack (€0.50)',
         link: 'https://colormenow.shop/en/special-deals-promo-packs/promo-packs/all-ages/50-monster-trucks',
         img: 'https://colormenow.shop/covers/50_monster_trucks_cover.png',
         desc: '50 giant monster trucks, arena stunts, and off-road racers for kids and toddlers.',
+        price: '0.50 EUR',
       }
     ];
 
@@ -149,14 +159,15 @@ export async function GET(request: Request) {
       const mappedColored = coloredSlugMap[slug]?.coloredImage;
       const mappedTitle = (coloredSlugMap[slug]?.title || '').toLowerCase();
       const currentSlugClean = slug.replace(/-/g, ' ');
-      // Only include colored inspiration if title/slug matches to prevent cross-theme mismatch
       if (mappedColored && mappedTitle && currentSlugClean.split(' ').slice(0, 2).some(word => mappedTitle.includes(word))) {
         const fullColored = mappedColored.startsWith('http') ? mappedColored : `https://colormenow.shop${mappedColored}`;
         coloredPool.push({
+          id: `cmn-color-${slug}`,
           title: `🎨 ${title} (Finished Color Inspiration)`,
           link: pageUrl,
           img: fullColored,
           desc: `Stunning colored inspiration artwork for ${title}! Download the printable PDF coloring book directly on ColorMeNow.shop.`,
+          price: '0.50 EUR',
         });
       }
 
@@ -164,10 +175,12 @@ export async function GET(request: Request) {
       if (page.image) {
         const fullCover = page.image.startsWith('http') ? page.image : `https://colormenow.shop${page.image}`;
         coversPool.push({
+          id: `cmn-book-${slug}`,
           title: `📖 ${title} - Complete Coloring Book (A4 PDF)`,
           link: pageUrl,
           img: fullCover,
           desc: `Full digital coloring book: ${title}. High-resolution 35-50 pages print-ready PDF book for home or classroom.`,
+          price: '0.50 EUR',
         });
       }
 
@@ -176,10 +189,12 @@ export async function GET(request: Request) {
       if (sample) {
         const fullBw = sample.startsWith('http') ? sample : `https://colormenow.shop${sample}`;
         bwPool.push({
+          id: `cmn-sample-${slug}`,
           title: `✏️ Printable ${title} (Black & White Line Art)`,
           link: pageUrl,
           img: fullBw,
           desc: `Clean, crisp black and white line art coloring page: ${title}. Free printable preview in crisp A4 format.`,
+          price: '0.50 EUR',
         });
       }
     });
@@ -187,34 +202,44 @@ export async function GET(request: Request) {
     // 5. SCHOOL WORKSHEETS POOL
     const schoolPool: any[] = [
       {
+        id: 'cmn-school-math-az',
         title: '🏫 Free Educational Math Counting & Numbers Worksheets (A-Z)',
         link: 'https://colormenow.shop/en/school',
         img: 'https://colormenow.shop/covers/50_cute_animals_cover.png',
         desc: 'Over 100+ free educational coloring worksheets for teachers, classrooms, preschool, and homeschooling! Math, letters, and handwriting.',
+        price: '0.00 EUR',
       },
       {
+        id: 'cmn-school-tracing-1-10',
         title: '🍎 Number 1 to 10 Tracing & Counting Worksheets for Kindergarten',
         link: 'https://colormenow.shop/en/school',
         img: 'https://colormenow.shop/covers/50_cozy_cottages_cover.png',
         desc: 'Free educational math worksheets with cute animal counting and number tracing practice in A4 PDF.',
+        price: '0.00 EUR',
       },
       {
+        id: 'cmn-school-alphabet-az',
         title: '✏️ Alphabet Letter Tracing A to Z Handwriting Practice Sheets',
         link: 'https://colormenow.shop/en/school',
         img: 'https://colormenow.shop/covers/50_relaxing_mandalas_cover.png',
         desc: 'Printable handwriting and letter tracing sheets for preschool, kindergarten and early elementary school.',
+        price: '0.00 EUR',
       },
       {
+        id: 'cmn-school-math-puzzles',
         title: '📐 Simple Visual Addition & Math Puzzles for Classroom Use',
         link: 'https://colormenow.shop/en/school',
         img: 'https://colormenow.shop/covers/100_mega_pack_cover.png',
         desc: 'Educational math addition worksheets with visual animals and fruits to color and count.',
+        price: '0.00 EUR',
       },
       {
+        id: 'cmn-school-animal-spelling',
         title: '🐶 Animal Vocabulary & Spelling Educational Coloring Sheets',
         link: 'https://colormenow.shop/en/school',
         img: 'https://colormenow.shop/covers/50_cute_gothic_cover.png',
         desc: 'Learn spelling and animal names with printable educational coloring worksheets for kids and teachers.',
+        price: '0.00 EUR',
       }
     ];
 
@@ -247,14 +272,28 @@ export async function GET(request: Request) {
       } else if (imgUrl.toLowerCase().endsWith('.webp')) {
         mimeType = 'image/webp';
       }
+      const itemId = item.id || `cmn-item-${idx}`;
+      const itemPrice = item.price || '0.50 EUR';
+      const cleanTitleText = item.title.replace(/[🎁💥📦🎨🏡🍬🚛🏫🍎✏️📐🐶📖]/g, '').trim();
+
       return `
     <item>
       <title>${escapeXml(item.title)}</title>
       <link>${escapeXml(item.link)}</link>
       <guid isPermaLink="false">${escapeXml(item.link)}#pin-${idx}</guid>
       <pubDate>${itemDate}</pubDate>
-      <description><![CDATA[<p>${item.desc}</p><img src="${imgUrl}" alt="${escapeXml(item.title)}" />]]></description>
+      <description><![CDATA[<p>${item.desc}</p>]]></description>
       <enclosure url="${escapeXml(imgUrl)}" type="${mimeType}" length="102400" />
+      <g:id>${escapeXml(itemId)}</g:id>
+      <g:title>${escapeXml(cleanTitleText)}</g:title>
+      <g:description>${escapeXml(item.desc)}</g:description>
+      <g:link>${escapeXml(item.link)}</g:link>
+      <g:image_link>${escapeXml(imgUrl)}</g:image_link>
+      <g:price>${escapeXml(itemPrice)}</g:price>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Color Me Now</g:brand>
+      <g:google_product_category>Arts &amp; Entertainment &gt; Hobbies &amp; Creative Arts &gt; Crafts &amp; Hobbies &gt; Papercrafts &gt; Coloring Books</g:google_product_category>
     </item>`;
     }).join('');
 
@@ -263,7 +302,7 @@ export async function GET(request: Request) {
       : 'ColorMeNow.shop - Printable Coloring Books & Art';
 
     const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>${escapeXml(channelTitle)}</title>
     <link>https://colormenow.shop</link>
