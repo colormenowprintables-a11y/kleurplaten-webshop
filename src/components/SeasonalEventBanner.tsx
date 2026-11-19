@@ -2,19 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 
 export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lang: string }) {
-  const month = new Date().getMonth(); // 0 = Jan, 8 = Sep, 9 = Oct, 11 = Dec
+  const month = new Date().getMonth(); // 0 = Jan, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
 
   let seasonalData = {
     emoji: '🍂',
     tag: isEn ? 'Autumn & Back to School' : 'Herfst & Terug naar School',
     title: isEn ? 'Cozy Autumn & Classroom Coloring Pages' : 'Gezellige Herfst- & Schoolkleurplaten',
     desc: isEn ? 'Explore leaves, pumpkins, and creative school themes!' : 'Ontdek vallende blaadjes, pompoenen en vrolijke schoolplaten!',
-    href: `/${lang}/holidays-seasons`,
+    href: `/${lang}/cozy-life-cottagecore/cozy-cottages`,
     bg: 'linear-gradient(135deg, #7C2D12 0%, #C2410C 100%)',
   };
 
-  if (month === 9 || month === 10) {
-    // October/November - Halloween
+  if (month === 10 || month === 11 || month === 0) {
+    // November/December/January - Winter, Christmas & Holiday Magic
+    seasonalData = {
+      emoji: '🎄',
+      tag: isEn ? '🎄 Holiday Season & Christmas Magic' : '🎄 Sinterklaas, Kerst & Feestdagen Special',
+      title: isEn ? 'Magical Christmas, Gingerbread Houses & Cozy Winter Coloring' : 'Magische Kerst, Peperkoekhuisjes & Gezellige Winter Kleurboeken',
+      desc: isEn ? 'Festive gingerbread cottages, cute snowy animals, sweet holiday treats & winter wonders in instant print-ready A4 PDF!' : 'Warme peperkoekhuisjes, schattige winterdieren, zoete feestdagen & gezelligheid in printklare A4 PDF!',
+      href: `/${lang}/cozy-life-cottagecore/cozy-cottages`,
+      bg: 'linear-gradient(135deg, #064E3B 0%, #065F46 30%, #991B1B 75%, #7F1D1D 100%)',
+    };
+  } else if (month === 9) {
+    // October - Halloween
     seasonalData = {
       emoji: '🎃',
       tag: isEn ? '🎃 Halloween Spooky Night Special' : '🎃 Halloween & Spookjes Special',
@@ -23,16 +33,6 @@ export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lan
       href: `/${lang}/gothic-spooky-cute/gothic-skulls`,
       bg: 'linear-gradient(135deg, #1A072E 0%, #4C1D95 50%, #EA580C 100%)',
     };
-  } else if (month === 11 || month === 0) {
-    // December/January - Christmas & Winter
-    seasonalData = {
-      emoji: '🎄',
-      tag: isEn ? 'Winter & Christmas Magic' : 'Sinterklaas, Kerst & Winter',
-      title: isEn ? 'Festive Holiday & Snowman Coloring Sheets' : 'Magische Kerst- & Sneeuwpop Kleurplaten',
-      desc: isEn ? 'Santa, reindeer, and cozy winter landscapes!' : 'De Kerstman, rendieren, sneeuwpoppen en warme wintertaferelen!',
-      href: `/${lang}/holidays-seasons/christmas-winter-holidays`,
-      bg: 'linear-gradient(135deg, #064E3B 0%, #047857 100%)',
-    };
   } else if (month >= 2 && month <= 4) {
     // Spring & Easter
     seasonalData = {
@@ -40,18 +40,19 @@ export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lan
       tag: isEn ? 'Easter & Spring Bloom' : 'Pasen & Lente',
       title: isEn ? 'Easter Bunnies & Colorful Spring Blooms' : 'Vrolijke Paashaas & Lente Kleurplaten',
       desc: isEn ? 'Cute bunnies, eggs, and blooming gardens!' : 'Lieve paashazen, eieren versieren en bloeiende bloemen!',
-      href: `/${lang}/holidays-seasons/easter-spring-bloom`,
+      href: `/${lang}/cute-animals-fantasy/cute-animals`,
       bg: 'linear-gradient(135deg, #047857 0%, #10B981 100%)',
     };
   }
 
   const holidayPills = [
-    { name: isEn ? '🎃 Gothic & Halloween' : '🎃 Gothic & Halloween', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
-    { name: isEn ? '💀 Skull Realms' : '💀 Skull Realms', href: `/${lang}/gothic-spooky-cute/gothic-skulls` },
-    { name: isEn ? '🍂 Autumn & Cozy' : '🍂 Herfst & Gezellig', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
-    { name: isEn ? '🦄 Fantasy Creatures' : '🦄 Fantasiedieren', href: `/${lang}/cute-animals-fantasy/fantasy-creatures` },
-    { name: isEn ? '🚛 Monster Trucks' : '🚛 Monster Trucks', href: `/${lang}/kids-adventures/monster-trucks` },
-    { name: isEn ? '🎁 Freebies' : '🎁 Gratis Platen', href: `/${lang}/freebies` },
+    { name: isEn ? '🎄 Gingerbread Houses' : '🎄 Peperkoekhuisjes', href: `/${lang}/cozy-life-cottagecore/cozy-cottages/all-ages/gingerbread-house-coloring-pages` },
+    { name: isEn ? '❄️ Cute Snowy Animals' : '❄️ Schattige Winterdieren', href: `/${lang}/cute-animals-fantasy/cute-animals/all-ages/cute-snowy-animals-coloring-pages` },
+    { name: isEn ? '💥 €1.00 Holiday Mega Pack' : '💥 €1.00 Feestdagen Mega Pack', href: `/${lang}/special-deals-promo-packs/promo-packs/all-ages/100-mega-pack` },
+    { name: isEn ? '🏡 Cozy Winter Cottages' : '🏡 Warme Winter Huisjes', href: `/${lang}/cozy-life-cottagecore/cozy-cottages` },
+    { name: isEn ? '🍬 50 Sweets & Treats (€0.50)' : '🍬 50 Zoete Lekkernijen (€0.50)', href: `/${lang}/special-deals-promo-packs/promo-packs/all-ages/50-kawaii-sweets` },
+    { name: isEn ? '🚛 Arctic Snow Trucks' : '🚛 Arctic Sneeuwtrucks', href: `/${lang}/kids-adventures/monster-trucks/all-ages/monster-trucks-arctic-snow-rigs-coloring-pages` },
+    { name: isEn ? '🎁 Free Sample Packs' : '🎁 Gratis Kleurplaten', href: `/${lang}/freebies` },
   ];
 
   return (
@@ -82,7 +83,8 @@ export default function SeasonalEventBanner({ isEn, lang }: { isEn: boolean; lan
           <div>
             <span
               style={{
-                background: 'rgba(255, 255, 255, 0.2)',
+                background: 'rgba(255, 255, 255, 0.22)',
+                border: '1px solid rgba(255, 255, 255, 0.35)',
                 borderRadius: '9999px',
                 padding: '0.25rem 0.85rem',
                 fontSize: '0.75rem',
