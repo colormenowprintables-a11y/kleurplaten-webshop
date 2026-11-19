@@ -111,6 +111,10 @@ const nextConfig: NextConfig = {
         destination: '/nl/inspiration',
       },
       {
+        source: '/pinterestproducts.xml',
+        destination: '/api/pinterest-feed',
+      },
+      {
         source: '/pinterest-feed.xml',
         destination: '/api/pinterest-feed',
       },
