@@ -69,6 +69,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
+    // Stories & Verhalen Hub
+    entries.push({
+      url: `https://colormenow.shop/${lang}/stories`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.8,
+    });
+    if (lang === 'nl') {
+      entries.push({
+        url: 'https://colormenow.shop/nl/verhalen',
+        lastModified: new Date(),
+        changeFrequency: 'daily',
+        priority: 0.8,
+      });
+    }
+
     // Featured coloring pages
     for (const page of featuredPages) {
       entries.push({
