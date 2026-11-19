@@ -3,10 +3,13 @@ import StoryReadingView from '@/components/StoryReadingView';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
+export const dynamicParams = true;
+export const revalidate = 60;
+
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
   for (const lang of ['en', 'nl', 'de', 'fr']) {
-    const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl;
+    const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
     for (const story of stories) {
       params.push({ lang, slug: story.slug });
     }
@@ -20,7 +23,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
   const { lang, slug } = await params;
-  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl;
+  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
   const story = stories.find(s => s.slug === slug);
 
   if (!story) {
@@ -29,9 +32,9 @@ export async function generateMetadata({
     };
   }
 
-  const shareImage = story.image.startsWith('http')
+  const shareImage = story.image && story.image.startsWith('http')
     ? story.image
-    : `https://colormenow.shop${story.image}`;
+    : `https://colormenow.shop${story.image || '/covers/100_mega_pack_cover.png'}`;
 
   return {
     title: `${story.title} | Colorful Stories`,
@@ -68,7 +71,7 @@ export default async function StoryDetailPage({
   params: Promise<{ lang: string; slug: string }>;
 }) {
   const { lang, slug } = await params;
-  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl;
+  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
   const story = stories.find(s => s.slug === slug);
 
   if (!story) {
@@ -83,7 +86,7 @@ export default async function StoryDetailPage({
     '@type': 'Article',
     headline: story.title,
     description: story.excerpt,
-    image: story.image.startsWith('http') ? story.image : `https://colormenow.shop${story.image}`,
+    image: story.image && story.image.startsWith('http') ? story.image : `https://colormenow.shop${story.image || '/covers/100_mega_pack_cover.png'}`,
     datePublished: story.date,
     author: {
       '@type': 'Organization',
