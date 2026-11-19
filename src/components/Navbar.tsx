@@ -186,6 +186,7 @@ export default function Navbar({ lang }: { lang: string }) {
     { label: t.freeSamples, icon: '🖼️', href: `/${lang}/free` },
     { label: t.school, icon: '🎓', href: `/${lang}/school` },
     { label: t.amazon, icon: '📦', href: `/${lang}/kdp` },
+        { label: lang === 'nl' ? 'Verhalen' : 'Stories', icon: '📖', href: `/${lang}/stories` },
     { label: t.blog, icon: '💡', href: `/${lang}/blog` },
     {
       label: t.about,
