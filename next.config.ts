@@ -97,40 +97,45 @@ const nextConfig: NextConfig = {
     ];
   },
   async rewrites() {
-    return [
-      {
-        source: '/:lang/sitemap.xml',
-        destination: '/sitemap.xml',
-      },
-      {
-        source: '/:lang/inspiratie',
-        destination: '/:lang/inspiration',
-      },
-      {
-        source: '/inspiratie',
-        destination: '/nl/inspiration',
-      },
-      {
-        source: '/pinterestproducts.xml',
-        destination: '/api/pinterest-feed',
-      },
-      {
-        source: '/pinterest-feed.xml',
-        destination: '/api/pinterest-feed',
-      },
-      {
-        source: '/pinterest.xml',
-        destination: '/api/pinterest-feed',
-      },
-      {
-        source: '/coloring-book/:slug',
-        destination: '/en/coloring-book/:slug',
-      },
-      {
-        source: '/cv-vault-8942',
-        destination: '/admin?secret=cv-vault-8942',
-      },
-    ];
+    return {
+      beforeFiles: [
+        {
+          source: '/pinterestproducts.xml',
+          destination: '/api/pinterest-feed',
+        },
+        {
+          source: '/pinterest-feed.xml',
+          destination: '/api/pinterest-feed',
+        },
+        {
+          source: '/pinterest.xml',
+          destination: '/api/pinterest-feed',
+        },
+      ],
+      afterFiles: [
+        {
+          source: '/:lang/sitemap.xml',
+          destination: '/sitemap.xml',
+        },
+        {
+          source: '/:lang/inspiratie',
+          destination: '/:lang/inspiration',
+        },
+        {
+          source: '/inspiratie',
+          destination: '/nl/inspiration',
+        },
+        {
+          source: '/coloring-book/:slug',
+          destination: '/en/coloring-book/:slug',
+        },
+        {
+          source: '/cv-vault-8942',
+          destination: '/admin?secret=cv-vault-8942',
+        },
+      ],
+      fallback: [],
+    };
   },
   async headers() {
     return [
