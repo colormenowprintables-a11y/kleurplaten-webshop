@@ -42,14 +42,62 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
   const isFr = lang === 'fr';
 
   const freeSamples = [
-    { title: isNl ? 'Schattige Bosdieren' : 'Cute Forest Friends', category: isNl ? 'Dieren' : 'Animals', img: '/covers/50_cute_animals_cover.png', slug: 'cute-animals-fantasy' },
-    { title: isNl ? 'Ontspannende Mandala' : 'Relaxing Mandala Pattern', category: isNl ? 'Mindfulness' : 'Mandalas', img: '/covers/50_relaxing_mandalas_cover.png', slug: 'mandalas-patterns' },
-    { title: isNl ? 'Dinosaurus Avontuur' : 'Jurassic Dinosaur World', category: isNl ? 'Dinos' : 'Dinosaurs', img: '/covers/dino_monster_trucks_cover.png', slug: 'kids-adventures' },
-    { title: isNl ? 'Ruimteschip & Planeten' : 'Cosmic Space Explorer', category: isNl ? 'Ruimte' : 'Space', img: '/covers/astro_adventure_cover.png', slug: 'kids-adventures' },
-    { title: isNl ? 'Sprookjes Eenhoorn' : 'Magical Fairytale Unicorn', category: isNl ? 'Sprookjes' : 'Fairytales', img: '/covers/celestial_dreams_cover.png', slug: 'fantasy-fairytales' },
-    { title: isNl ? 'Monster Truck & Snelle Wielen' : 'Monster Truck & Big Wheels', category: isNl ? 'Voertuigen' : 'Vehicles', img: '/covers/50_monster_trucks_cover.png', slug: 'kids-adventures' },
-    { title: isNl ? 'Gezellig Huisje & Tuin' : 'Cozy Cottage Retreat', category: isNl ? 'Gezellig' : 'Cozy Life', img: '/covers/50_cozy_cottages_cover.png', slug: 'cozy-life-cottagecore' },
-    { title: isNl ? 'Kawaii Snoepjes & Donut' : 'Kawaii Sweets & Treats', category: isNl ? 'Snoepjes' : 'Sweets', img: '/covers/50_kawaii_sweets_cover.png', slug: 'kawaii-food-sweets' },
+    {
+      title: isNl ? 'Schattige Sneeuwdieren' : 'Cute Snowy Forest Friends',
+      category: isNl ? 'Dieren' : 'Animals',
+      img: '/covers/50_cute_animals_cover.png',
+      bookUrl: 'cute-animals-fantasy/cute-animals/all-ages/cute-snowy-animals-coloring-pages',
+      price: '€ 1,99'
+    },
+    {
+      title: isNl ? '50 Ontspannende Mandala’s' : '50 Relaxing Mandalas',
+      category: isNl ? 'Mindfulness' : 'Mandalas',
+      img: '/covers/50_relaxing_mandalas_cover.png',
+      bookUrl: 'special-deals-promo-packs/promo-packs/all-ages/50-relaxing-mandalas',
+      price: '€ 0,50'
+    },
+    {
+      title: isNl ? 'Dinosaurus Avontuur' : 'Jurassic Dinosaur World',
+      category: isNl ? 'Dinos' : 'Dinosaurs',
+      img: '/covers/dino_monster_trucks_cover.png',
+      bookUrl: 'kids-adventures/monster-trucks/all-ages/dino-monster-trucks-coloring-pages',
+      price: '€ 1,99'
+    },
+    {
+      title: isNl ? 'Ruimteschip & Planeten' : 'Cosmic Space Explorer',
+      category: isNl ? 'Ruimte' : 'Space',
+      img: '/covers/astro_adventure_cover.png',
+      bookUrl: 'kids-adventures/space-adventures/all-ages/space-adventures-astro-adventure-coloring-pages',
+      price: '€ 1,99'
+    },
+    {
+      title: isNl ? 'Sprookjes & Hemeldraken' : 'Magical Fairytale Dragon',
+      category: isNl ? 'Sprookjes' : 'Fairytales',
+      img: '/covers/celestial_dreams_cover.png',
+      bookUrl: 'cute-animals-fantasy/fantasy-creatures/all-ages/celestial-dragon-coloring-pages',
+      price: '€ 1,99'
+    },
+    {
+      title: isNl ? 'Arctische Monster Trucks' : 'Arctic Monster Trucks',
+      category: isNl ? 'Voertuigen' : 'Vehicles',
+      img: '/covers/50_monster_trucks_cover.png',
+      bookUrl: 'kids-adventures/monster-trucks/all-ages/arctic-monster-trucks-coloring-pages',
+      price: '€ 1,99'
+    },
+    {
+      title: isNl ? '50 Gezellige Huisjes' : '50 Cozy Cottages',
+      category: isNl ? 'Gezellig' : 'Cozy Life',
+      img: '/covers/50_cozy_cottages_cover.png',
+      bookUrl: 'special-deals-promo-packs/promo-packs/all-ages/50-cozy-cottages',
+      price: '€ 0,50'
+    },
+    {
+      title: isNl ? '50 Kawaii Snoepjes & Donut' : '50 Kawaii Sweets & Treats',
+      category: isNl ? 'Snoepjes' : 'Sweets',
+      img: '/covers/50_kawaii_sweets_cover.png',
+      bookUrl: 'special-deals-promo-packs/promo-packs/all-ages/50-kawaii-sweets',
+      price: '€ 0,50'
+    },
   ];
 
   return (
@@ -157,7 +205,7 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
 
                 <div style={{ display: 'flex', gap: '0.5rem', flexDirection: 'column' }}>
                   <Link
-                    href={`/${lang}/${sample.slug}`}
+                    href={`/${lang}/freebies`}
                     className="btn-primary"
                     style={{ textAlign: 'center', width: '100%', padding: '0.65rem 1rem', fontSize: '0.88rem', fontWeight: 800 }}
                   >
@@ -184,7 +232,7 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
                         : '💡 Love this page?'}
                     </p>
                     <Link
-                      href={`/${lang}/${sample.slug}`}
+                      href={`/${lang}/${sample.bookUrl}`}
                       style={{
                         display: 'inline-flex',
                         alignItems: 'center',
@@ -204,12 +252,12 @@ export default async function FreeColoringPagesPage({ params }: { params: Promis
                     >
                       <span>
                         {isNl
-                          ? 'Klik hier voor het hele boek (€ 1,99) →'
+                          ? `Klik hier voor het hele boek (${sample.price}) →`
                           : isDe
-                          ? 'Klicke hier für das ganze Buch (€ 1,99) →'
+                          ? `Klicke hier für das ganze Buch (${sample.price}) →`
                           : isFr
-                          ? 'Cliquez ici pour le livre complet (1,99 €) →'
-                          : 'Click here for the full book (€1.99) →'}
+                          ? `Cliquez ici pour le livre complet (${sample.price}) →`
+                          : `Click here for the full book (${sample.price}) →`}
                       </span>
                     </Link>
                   </div>

@@ -61,6 +61,41 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  
+  async redirects() {
+    return [
+      {
+        source: '/:lang/kawaii-food-sweets',
+        destination: '/:lang/special-deals-promo-packs/promo-packs/all-ages/50-kawaii-sweets',
+        permanent: true,
+      },
+      {
+        source: '/kawaii-food-sweets',
+        destination: '/nl/special-deals-promo-packs/promo-packs/all-ages/50-kawaii-sweets',
+        permanent: true,
+      },
+      {
+        source: '/:lang/mandalas-patterns',
+        destination: '/:lang/special-deals-promo-packs/promo-packs/all-ages/50-relaxing-mandalas',
+        permanent: true,
+      },
+      {
+        source: '/mandalas-patterns',
+        destination: '/nl/special-deals-promo-packs/promo-packs/all-ages/50-relaxing-mandalas',
+        permanent: true,
+      },
+      {
+        source: '/:lang/fantasy-fairytales',
+        destination: '/:lang/cute-animals-fantasy',
+        permanent: true,
+      },
+      {
+        source: '/fantasy-fairytales',
+        destination: '/nl/cute-animals-fantasy',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {
