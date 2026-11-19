@@ -8,9 +8,9 @@ export const revalidate = 60;
 
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
+  const allStories = [...(publishedStories.nl || []), ...(publishedStories.en || [])];
   for (const lang of ['en', 'nl', 'de', 'fr']) {
-    const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
-    for (const story of stories) {
+    for (const story of allStories) {
       params.push({ lang, slug: story.slug });
     }
   }
@@ -23,7 +23,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
   const { lang, slug } = await params;
-  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
+  const stories = (publishedStories[lang === 'nl' ? 'nl' : 'en']?.length ? publishedStories[lang === 'nl' ? 'nl' : 'en'] : publishedStories.nl) || [];
   const story = stories.find(s => s.slug === slug);
 
   if (!story) {
@@ -71,7 +71,7 @@ export default async function StoryDetailPage({
   params: Promise<{ lang: string; slug: string }>;
 }) {
   const { lang, slug } = await params;
-  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl || [];
+  const stories = (publishedStories[lang === 'nl' ? 'nl' : 'en']?.length ? publishedStories[lang === 'nl' ? 'nl' : 'en'] : publishedStories.nl) || [];
   const story = stories.find(s => s.slug === slug);
 
   if (!story) {

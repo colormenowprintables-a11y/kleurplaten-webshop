@@ -42,7 +42,7 @@ export default async function StoriesPage({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const stories = publishedStories[lang === 'nl' ? 'nl' : 'en'] || publishedStories.nl;
+  const stories = (publishedStories[lang === 'nl' ? 'nl' : 'en']?.length ? publishedStories[lang === 'nl' ? 'nl' : 'en'] : publishedStories.nl) || [];
 
   return <StoriesOverviewView stories={stories} lang={lang} />;
 }
