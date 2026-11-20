@@ -281,6 +281,28 @@ export default function Navbar({ lang }: { lang: string }) {
 
         {/* Language Switcher, Bundle Basket & Mobile Controls */}
         <div className={styles.headerRight}>
+          {/* Direct Verhalen Knop (ook direct zichtbaar op mobiel) */}
+          <Link
+            href={`/${lang}/stories`}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.35rem',
+              background: 'linear-gradient(135deg, #BE185D 0%, #E11D48 100%)',
+              color: '#FFFFFF',
+              borderRadius: '9999px',
+              padding: '0.35rem 0.75rem',
+              fontSize: '0.82rem',
+              fontWeight: 800,
+              textDecoration: 'none',
+              boxShadow: '0 2px 8px rgba(190, 24, 93, 0.4)',
+              flexShrink: 0
+            }}
+            aria-label={isNl ? 'Verhalen' : 'Stories'}
+          >
+            <span>📖</span>
+            <span>{isNl ? 'Verhalen' : 'Stories'}</span>
+          </Link>
           {/* Quick Mobile Search Button */}
           <Link
             href={`/${lang}/search`}
@@ -387,6 +409,37 @@ export default function Navbar({ lang }: { lang: string }) {
             <HeaderSearchBar lang={lang} />
           </div>
 
+                    {/* Quick Action: Colorful Stories */}
+          <div style={{ padding: '0.5rem 1rem 0.25rem' }}>
+            <Link
+              href={`/${lang}/stories`}
+              onClick={() => setMobileOpen(false)}
+              style={{
+                width: '100%',
+                background: 'linear-gradient(135deg, #FFF1F2 0%, #FFE4E6 50%, #FEF3C7 100%)',
+                color: '#881337',
+                border: '1.5px solid #FECDD3',
+                borderRadius: '0.75rem',
+                padding: '0.75rem 1rem',
+                fontSize: '0.95rem',
+                fontWeight: 800,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                textDecoration: 'none',
+                boxShadow: '0 4px 14px rgba(225, 29, 72, 0.15)',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{ fontSize: '1.25rem' }}>📖</span>
+                <span>{isNl ? 'Colorful Stories (Verhalen)' : 'Colorful Stories'}</span>
+              </div>
+              <span style={{ fontSize: '0.75rem', background: '#BE185D', color: '#FFF', padding: '0.2rem 0.55rem', borderRadius: '9999px', fontWeight: 800 }}>
+                {isNl ? 'Gratis lezen' : 'Read free'}
+              </span>
+            </Link>
+          </div>
+
           {/* Quick Action: Kleurboek Maker */}
           <div style={{ padding: '0.5rem 1rem 0.75rem' }}>
             <button
@@ -452,6 +505,24 @@ export default function Navbar({ lang }: { lang: string }) {
               </div>
             ))}
           </nav>
+          {/* Mobile Language Switcher Row */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.75rem',
+            padding: '1rem 0',
+            borderTop: '1px solid #1E293B',
+            marginTop: '1rem'
+          }}>
+            <span style={{ fontSize: '0.85rem', color: '#94A3B8', fontWeight: 700 }}>Taal / Language:</span>
+            <div style={{ display: 'flex', gap: '0.4rem', background: '#1E293B', padding: '0.25rem 0.5rem', borderRadius: '9999px', border: '1px solid #334155' }}>
+              <Link href={getLangLink('en')} onClick={() => { setGoogleTranslateLang('en'); setActiveLang('en'); setMobileOpen(false); }} style={{ color: activeLang === 'en' ? '#FFF' : '#94A3B8', background: activeLang === 'en' ? '#4F46E5' : 'transparent', padding: '0.2rem 0.5rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 800, textDecoration: 'none' }}>EN</Link>
+              <Link href={getLangLink('nl')} onClick={() => { setGoogleTranslateLang('nl'); setActiveLang('nl'); setMobileOpen(false); }} style={{ color: activeLang === 'nl' ? '#FFF' : '#94A3B8', background: activeLang === 'nl' ? '#4F46E5' : 'transparent', padding: '0.2rem 0.5rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 800, textDecoration: 'none' }}>NL</Link>
+              <Link href={getLangLink('de')} onClick={() => { setGoogleTranslateLang('de'); setActiveLang('de'); setMobileOpen(false); }} style={{ color: activeLang === 'de' ? '#FFF' : '#94A3B8', background: activeLang === 'de' ? '#4F46E5' : 'transparent', padding: '0.2rem 0.5rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 800, textDecoration: 'none' }}>DE</Link>
+              <Link href={getLangLink('fr')} onClick={() => { setGoogleTranslateLang('fr'); setActiveLang('fr'); setMobileOpen(false); }} style={{ color: activeLang === 'fr' ? '#FFF' : '#94A3B8', background: activeLang === 'fr' ? '#4F46E5' : 'transparent', padding: '0.2rem 0.5rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 800, textDecoration: 'none' }}>FR</Link>
+            </div>
+          </div>
         </div>
       )}
     </header>

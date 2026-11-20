@@ -36,6 +36,7 @@ export default function Footer({ lang }: { lang: string }) {
             <div className={styles.linkColumn}>
               <span className={styles.linkColumnTitle}>{isEn ?'Quick Links':'Snelle Links'}</span>
               <Link href={`/${lang}`} className={styles.link}>{isEn ?'Home':'Home'}</Link>
+              <Link href={`/${lang}/stories`} className={styles.link} style={{ color: '#F43F5E', fontWeight: 700 }}>{isEn ? '📖 Real Life Stories' : '📖 Levensverhalen (Gratis)'}</Link>
               <Link href={`/${lang}/free`} className={styles.link}>{isEn ? '100% Free Samples' : '100% Gratis Kleurplaten'}</Link>
               <Link href={`/${lang}/search`} className={styles.link}>{isEn ?'Search All Pages':'Alle Kleurplaten Zoeken'}</Link>
               <Link href={`/${lang}/favorites`} className={styles.link}>{isEn ?'My Favorites':'Mijn Favorieten'}</Link>
