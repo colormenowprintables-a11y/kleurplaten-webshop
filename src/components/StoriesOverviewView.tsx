@@ -213,15 +213,27 @@ export default function StoriesOverviewView({ stories, lang }: StoriesOverviewVi
                     transition: 'transform 0.2s, box-shadow 0.2s'
                   }}
                 >
-                  {story.image && (
-                    <div style={{ height: '200px', position: 'relative', overflow: 'hidden' }}>
+                  {story.image && !story.image.startsWith('/covers/') ? (
+                    <div style={{ height: '180px', position: 'relative', overflow: 'hidden' }}>
                       <SafeImage
                         src={story.image}
                         alt={story.title}
                         width={400}
-                        height={200}
+                        height={180}
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       />
+                    </div>
+                  ) : (
+                    <div style={{
+                      height: '130px',
+                      background: 'linear-gradient(135deg, #FFF1F2 0%, #FFE4E6 60%, #FEF3C7 100%)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '3rem',
+                      borderBottom: '1px solid #FECDD3'
+                    }}>
+                      {catObj?.icon || '📖'}
                     </div>
                   )}
 

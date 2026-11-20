@@ -1,18 +1,21 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { getRotatingAffiliateProduct, AffiliateProduct } from '@/data/affiliateData';
 
 export default function StickyBottomAd({ lang = 'nl' }: { isEn?: boolean; lang?: string }) {
   const [dismissed, setDismissed] = useState(false);
   const [product, setProduct] = useState<AffiliateProduct | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     // Pick daily rotating affiliate product for sticky bar
     setProduct(getRotatingAffiliateProduct(7));
   }, []);
 
-  if (dismissed || !product) return null;
+  // No ad popups or sticky bars on stories or verhalen pages for 100% distraction-free reading
+  if (dismissed || !product || pathname?.includes('/stories') || pathname?.includes('/verhalen')) return null;
 
   const isNl = lang === 'nl';
   const title = product.title[lang as keyof typeof product.title] || product.title.en;

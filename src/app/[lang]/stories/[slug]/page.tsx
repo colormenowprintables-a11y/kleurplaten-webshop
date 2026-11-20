@@ -34,7 +34,7 @@ export async function generateMetadata({
 
   const shareImage = story.image && story.image.startsWith('http')
     ? story.image
-    : `https://colormenow.shop${story.image || '/covers/100_mega_pack_cover.png'}`;
+    : (story.image ? `https://colormenow.shop${story.image}` : 'https://colormenow.shop/images/banner.jpg');
 
   return {
     title: `${story.title} | Colorful Stories`,
@@ -86,7 +86,9 @@ export default async function StoryDetailPage({
     '@type': 'Article',
     headline: story.title,
     description: story.excerpt,
-    image: story.image && story.image.startsWith('http') ? story.image : `https://colormenow.shop${story.image || '/covers/100_mega_pack_cover.png'}`,
+    image: story.image && story.image.startsWith('http')
+      ? story.image
+      : (story.image ? `https://colormenow.shop${story.image}` : 'https://colormenow.shop/images/banner.jpg'),
     datePublished: story.date,
     author: {
       '@type': 'Organization',

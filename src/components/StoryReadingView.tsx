@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import SafeImage from '@/components/SafeImage';
 import { Story, StoryCategory, STORY_CATEGORIES } from '@/data/stories';
 
 interface StoryReadingViewProps {
@@ -208,30 +207,12 @@ export default function StoryReadingView({ story, relatedStories, lang }: StoryR
             lineHeight: 1.6,
             color: '#57534E',
             fontStyle: 'italic',
-            marginBottom: '2rem',
+            marginBottom: '2.5rem',
             borderLeft: '4px solid #E11D48',
             paddingLeft: '1rem'
           }}>
             {story.excerpt}
           </p>
-        )}
-
-        {/* Optionele sfeerafbeelding */}
-        {story.image && (
-          <div style={{
-            borderRadius: '16px',
-            overflow: 'hidden',
-            marginBottom: '2.5rem',
-            boxShadow: '0 4px 20px rgba(0,0,0,0.08)'
-          }}>
-            <SafeImage
-              src={story.image}
-              alt={story.title}
-              width={720}
-              height={420}
-              style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
-            />
-          </div>
         )}
 
         {/* Het volledige verhaal - Rustig, groot lettertype, ruime regelafstand */}
