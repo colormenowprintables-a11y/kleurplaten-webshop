@@ -351,7 +351,7 @@ export default function StoryReadingView({ story, relatedStories, lang }: StoryR
             <h2 style={{ fontSize: '1.35rem', fontWeight: 800, marginBottom: '1.25rem', color: '#1C1917' }}>
               {isNl ? 'Meer mooie verhalen om te lezen:' : 'More stories to read:'}
             </h2>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.25rem' }}>
               {relatedStories.map(rel => (
                 <Link
                   key={rel.slug}
@@ -359,22 +359,58 @@ export default function StoryReadingView({ story, relatedStories, lang }: StoryR
                   style={{
                     backgroundColor: '#FFFFFF',
                     border: '1px solid #E7E5E4',
-                    borderRadius: '14px',
-                    padding: '1.25rem',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
                     textDecoration: 'none',
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent: 'space-between',
-                    boxShadow: '0 2px 8px rgba(0,0,0,0.03)',
+                    boxShadow: '0 4px 14px rgba(0,0,0,0.04)',
                     transition: 'transform 0.2s, box-shadow 0.2s'
                   }}
                 >
-                  <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#1C1917', marginBottom: '0.5rem', lineHeight: 1.35 }}>
-                    {rel.title}
-                  </h4>
-                  <span style={{ fontSize: '0.8rem', color: '#BE185D', fontWeight: 600 }}>
-                    {isNl ? 'Lees verder →' : 'Read story →'}
-                  </span>
+                  {rel.image && !rel.image.startsWith('/covers/') ? (
+                    <div style={{ height: '140px', position: 'relative', overflow: 'hidden' }}>
+                      <img
+                        src={rel.image}
+                        alt={rel.title}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      />
+                    </div>
+                  ) : (
+                    <div style={{
+                      height: '100px',
+                      background: 'linear-gradient(135deg, #FFF1F2 0%, #FFE4E6 60%, #FEF3C7 100%)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '2.5rem'
+                    }}>
+                      📖
+                    </div>
+                  )}
+
+                  <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'space-between' }}>
+                    <div>
+                      <h4 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#1C1917', marginBottom: '0.4rem', lineHeight: 1.35 }}>
+                        {rel.title}
+                      </h4>
+                      <p style={{
+                        fontSize: '0.85rem',
+                        color: '#78716C',
+                        lineHeight: 1.5,
+                        marginBottom: '1rem',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical',
+                        overflow: 'hidden'
+                      }}>
+                        {rel.excerpt}
+                      </p>
+                    </div>
+                    <span style={{ fontSize: '0.85rem', color: '#BE185D', fontWeight: 700 }}>
+                      {isNl ? 'Lees dit verhaal →' : 'Read story →'}
+                    </span>
+                  </div>
                 </Link>
               ))}
             </div>
